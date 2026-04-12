@@ -5,115 +5,282 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <title>오공의 데일리 브리핑</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Noto+Serif+KR:wght@400;600;700&display=swap');
-  :root{--bg:#f5f5f0;--surface:#fff;--text:#1a1a1a;--text-sub:#666;--accent:#2d5016;--accent-light:#e8f0e2;--accent2:#b7410e;--accent2-light:#fdebd0;--border:#e0ddd6;--tag-blue:#1a5276;--tag-blue-bg:#d6eaf8;--tag-purple:#6c3483;--tag-purple-bg:#ebdef0;--tag-green:#1e8449;--tag-green-bg:#d5f5e3;--tag-red:#c0392b;--tag-red-bg:#fce4ec;--shadow:0 2px 8px rgba(0,0,0,0.06);--r:10px}
-  *{margin:0;padding:0;box-sizing:border-box}
-  body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;-webkit-font-smoothing:antialiased}
-  .header{background:linear-gradient(135deg,#1a3a0a,#2d5016,#3d6b1e);color:#fff;padding:32px 16px 28px;text-align:center}
-  .header h1{font-family:'Noto Serif KR',serif;font-size:1.5rem;font-weight:700;margin-bottom:4px}
-  .header .sub{font-size:.82rem;opacity:.8;font-weight:300}
-  .header .date-badge{display:inline-block;margin-top:10px;background:rgba(255,255,255,.15);padding:4px 14px;border-radius:16px;font-size:.78rem}
-  .tab-nav{display:flex;background:var(--surface);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto;-webkit-overflow-scrolling:touch}
-  .tab-nav button{flex:1;min-width:fit-content;padding:12px 16px;border:none;background:none;font-family:'Noto Sans KR',sans-serif;font-size:.82rem;font-weight:500;color:var(--text-sub);cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap;transition:all .2s}
-  .tab-nav button.active{color:var(--accent);border-bottom-color:var(--accent);font-weight:600}
-  .tab-nav button:nth-child(3).active{color:var(--accent2);border-bottom-color:var(--accent2)}
-  .tab-content{display:none}.tab-content.active{display:block}
-  .container{max-width:680px;margin:0 auto;padding:16px}
-  .sec-header{font-family:'Noto Serif KR',serif;font-size:1.1rem;font-weight:700;margin:20px 0 6px;padding-bottom:8px;border-bottom:2px solid var(--accent);display:flex;align-items:center;gap:8px}
-  .sec-header.ent{border-bottom-color:var(--accent2)}
-  .sec-desc{font-size:.8rem;color:var(--text-sub);margin-bottom:14px}
-  .news-card{background:var(--surface);border-radius:var(--r);padding:16px;margin-bottom:12px;box-shadow:var(--shadow);border-left:3px solid var(--accent)}
-  .news-card.editorial{border-left-color:var(--tag-purple)}
-  .news-card.reading{border-left-color:var(--tag-blue)}
-  .news-card h3{font-size:.95rem;font-weight:600;margin-bottom:6px;line-height:1.5}
-  .news-card h3 a{color:var(--text);text-decoration:none}
-  .news-card h3 a:hover{text-decoration:underline}
-  .news-card p{font-size:.84rem;color:var(--text-sub);line-height:1.65}
-  .news-card .source{font-size:.75rem;color:#999;margin-top:6px}
-  .tags{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:6px}
-  .tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:.68rem;font-weight:600}
-  .t-blue{background:var(--tag-blue-bg);color:var(--tag-blue)}
-  .t-purple{background:var(--tag-purple-bg);color:var(--tag-purple)}
-  .t-green{background:var(--tag-green-bg);color:var(--tag-green)}
-  .t-red{background:var(--tag-red-bg);color:var(--tag-red)}
-  .t-orange{background:var(--accent2-light);color:var(--accent2)}
-  .paper-card{background:var(--surface);border-radius:var(--r);padding:16px;margin-bottom:12px;box-shadow:var(--shadow);border-top:3px solid var(--accent2)}
-  .paper-card h3{font-size:.9rem;font-weight:600;margin-bottom:4px;line-height:1.5}
-  .paper-card h3 a{color:var(--text);text-decoration:none}
-  .paper-card h3 a:hover{text-decoration:underline}
-  .paper-card .abstract{font-size:.82rem;color:var(--text-sub);line-height:1.65;margin-top:6px}
-  .paper-card .meta{margin-top:8px;font-size:.73rem;color:#999;display:flex;justify-content:space-between}
-  .paper-card .journal{color:var(--accent2);font-weight:500}
-  details summary{cursor:pointer;font-size:.8rem;color:var(--accent2);font-weight:500;margin-top:6px}
-  details[open] summary{margin-bottom:6px}
-  .passage-box{background:#fafaf5;border:1px solid var(--border);border-radius:var(--r);padding:16px;margin:12px 0;font-size:.88rem;line-height:1.8}
-  .study-point{background:var(--accent-light);border-radius:var(--r);padding:14px;margin-top:12px;font-size:.82rem}
-  .study-point h4{font-size:.85rem;color:var(--accent);margin-bottom:6px}
-  .study-point ol{padding-left:18px;color:var(--text-sub);line-height:1.7}
-  .tip-box{background:linear-gradient(135deg,#fff9f0,#fff3e0);border:1px solid #f5cba7;border-radius:var(--r);padding:14px;margin-top:12px;font-size:.82rem;color:var(--text-sub)}
-  .tip-box strong{color:var(--accent2)}
-  .archive-item{display:block;padding:10px 16px;background:var(--surface);border-radius:var(--r);margin-bottom:6px;text-decoration:none;color:var(--text);font-size:.84rem;box-shadow:var(--shadow);transition:background .15s}
-  .archive-item:hover{background:var(--accent-light)}
-  .archive-item .date{color:var(--text-sub);font-size:.75rem}
-  .footer{text-align:center;padding:24px 16px;font-size:.73rem;color:#aaa;border-top:1px solid var(--border);max-width:680px;margin:16px auto 0}
-  .loading{text-align:center;padding:40px;color:var(--text-sub);font-size:.88rem}
-  @media(max-width:480px){.header h1{font-size:1.3rem}.container{padding:12px}.news-card,.paper-card{padding:14px}}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Noto+Serif+KR:wght@400;600;700&display=swap');
+:root{--bg:#f5f5f0;--surface:#fff;--text:#1a1a1a;--text-sub:#666;--accent:#2d5016;--accent-light:#e8f0e2;--accent2:#b7410e;--accent2-light:#fdebd0;--border:#e0ddd6;--tag-blue:#1a5276;--tag-blue-bg:#d6eaf8;--tag-purple:#6c3483;--tag-purple-bg:#ebdef0;--tag-green:#1e8449;--tag-green-bg:#d5f5e3;--tag-red:#c0392b;--tag-red-bg:#fce4ec;--shadow:0 2px 8px rgba(0,0,0,0.06);--r:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;-webkit-font-smoothing:antialiased}
+.header{background:linear-gradient(135deg,#1a3a0a,#2d5016,#3d6b1e);color:#fff;padding:32px 16px 28px;text-align:center}
+.header h1{font-family:'Noto Serif KR',serif;font-size:1.5rem;font-weight:700;margin-bottom:4px}
+.header .sub{font-size:.82rem;opacity:.8;font-weight:300}
+.header .date-badge{display:inline-block;margin-top:10px;background:rgba(255,255,255,.15);padding:4px 14px;border-radius:16px;font-size:.78rem}
+.tab-nav{display:flex;background:var(--surface);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.tab-nav button{flex:1;min-width:fit-content;padding:12px 16px;border:none;background:none;font-family:'Noto Sans KR',sans-serif;font-size:.82rem;font-weight:500;color:var(--text-sub);cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap;transition:all .2s}
+.tab-nav button.active{color:var(--accent);border-bottom-color:var(--accent);font-weight:600}
+.tab-nav button:nth-child(3).active{color:var(--accent2);border-bottom-color:var(--accent2)}
+.tab-content{display:none}.tab-content.active{display:block}
+.container{max-width:680px;margin:0 auto;padding:16px}
+.sec-header{font-family:'Noto Serif KR',serif;font-size:1.1rem;font-weight:700;margin:20px 0 6px;padding-bottom:8px;border-bottom:2px solid var(--accent);display:flex;align-items:center;gap:8px}
+.sec-header.ent{border-bottom-color:var(--accent2)}
+.sec-desc{font-size:.8rem;color:var(--text-sub);margin-bottom:14px}
+.news-card{background:var(--surface);border-radius:var(--r);padding:16px;margin-bottom:12px;box-shadow:var(--shadow);border-left:3px solid var(--accent)}
+.news-card.editorial{border-left-color:var(--tag-purple)}
+.news-card.reading{border-left:none;padding:0;overflow:hidden}
+.news-card h3{font-size:.95rem;font-weight:600;margin-bottom:6px;line-height:1.5}
+.news-card h3 a{color:var(--text);text-decoration:none}
+.news-card h3 a:hover{text-decoration:underline}
+.news-card p{font-size:.84rem;color:var(--text-sub);line-height:1.65}
+.news-card .source{font-size:.75rem;color:#999;margin-top:6px}
+.tags{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:6px}
+.tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:.68rem;font-weight:600}
+.t-blue{background:var(--tag-blue-bg);color:var(--tag-blue)}
+.t-purple{background:var(--tag-purple-bg);color:var(--tag-purple)}
+.t-green{background:var(--tag-green-bg);color:var(--tag-green)}
+.t-red{background:var(--tag-red-bg);color:var(--tag-red)}
+.t-orange{background:var(--accent2-light);color:var(--accent2)}
+.paper-card{background:var(--surface);border-radius:var(--r);padding:16px;margin-bottom:12px;box-shadow:var(--shadow);border-top:3px solid var(--accent2)}
+.paper-card h3{font-size:.9rem;font-weight:600;margin-bottom:4px;line-height:1.5}
+.paper-card h3 a{color:var(--text);text-decoration:none}
+.paper-card h3 a:hover{text-decoration:underline}
+.paper-card .abstract{font-size:.82rem;color:var(--text-sub);line-height:1.65;margin-top:6px}
+.paper-card .meta{margin-top:8px;font-size:.73rem;color:#999;display:flex;justify-content:space-between}
+.paper-card .journal{color:var(--accent2);font-weight:500}
+details summary{cursor:pointer;font-size:.8rem;color:var(--accent2);font-weight:500;margin-top:6px}
+details[open] summary{margin-bottom:6px}
+
+/* ── 수능 시험지 스타일 ── */
+.suneung-card{background:var(--surface);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);margin-bottom:12px}
+.suneung-card-header{background:#1a3a0a;color:#fff;padding:8px 16px;display:flex;justify-content:space-between;align-items:center}
+.suneung-card-header .exam-label{font-size:.72rem;opacity:.8;font-weight:400}
+.suneung-card-header .exam-title{font-size:.88rem;font-weight:700;font-family:'Noto Serif KR',serif}
+.suneung-card-header .subject{font-size:.72rem;background:rgba(255,255,255,.2);padding:2px 10px;border-radius:10px}
+.suneung-card-body{padding:16px}
+.suneung-instruction{font-size:.85rem;font-weight:700;color:#1a1a1a;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid #ccc}
+.suneung-passage-wrap{border:2px solid #222;border-radius:4px;padding:18px 20px;margin-bottom:14px;background:#fdfdf8;position:relative}
+.suneung-passage-wrap::before{content:'지 문';position:absolute;top:-12px;left:16px;background:#1a3a0a;color:#fff;font-size:.65rem;font-weight:700;padding:2px 10px;border-radius:3px;letter-spacing:3px}
+.suneung-passage{font-family:'Noto Serif KR',serif;font-size:.88rem;line-height:2.1;color:#111}
+.suneung-passage .para{margin-bottom:.8em;display:flex;gap:6px;align-items:flex-start}
+.suneung-passage .para:last-child{margin-bottom:0}
+.suneung-passage .para-num{flex-shrink:0;font-weight:700;color:#1a3a0a;font-size:.85rem;margin-top:2px;min-width:1.4em}
+.suneung-passage .para-text{flex:1}
+.suneung-points{background:#f0f5ec;border-radius:8px;padding:14px 16px;margin-bottom:10px}
+.suneung-points h4{font-size:.85rem;font-weight:700;color:var(--accent);margin-bottom:10px;display:flex;align-items:center;gap:6px}
+.suneung-points h4::before{content:'📝'}
+.suneung-points ol{padding-left:0;list-style:none;display:flex;flex-direction:column;gap:7px}
+.suneung-points ol li{font-size:.82rem;color:#333;line-height:1.6;display:flex;gap:8px}
+.suneung-points ol li .point-num{flex-shrink:0;background:var(--accent);color:#fff;border-radius:50%;width:18px;height:18px;display:flex;align-items:center;justify-content:center;font-size:.65rem;font-weight:700;margin-top:2px}
+.suneung-tip{background:linear-gradient(135deg,#fff9f0,#fff3e0);border:1px solid #f5cba7;border-radius:8px;padding:12px 14px;font-size:.81rem;color:var(--text-sub);line-height:1.65}
+.suneung-tip strong{color:var(--accent2)}
+/* ── 아카이브 스타일 ── */
+.archive-item{display:block;padding:10px 16px;background:var(--surface);border-radius:var(--r);margin-bottom:6px;text-decoration:none;color:var(--text);font-size:.84rem;box-shadow:var(--shadow);transition:background .15s;cursor:pointer;border:none;width:100%;text-align:left;font-family:'Noto Sans KR',sans-serif}
+.archive-item:hover{background:var(--accent-light)}
+.archive-item .date{color:var(--text-sub);font-size:.75rem}
+.archive-banner{background:linear-gradient(135deg,#e8f0e2,#d5e8c8);border:1px solid var(--accent);border-radius:var(--r);padding:10px 14px;margin-bottom:14px;font-size:.82rem;display:flex;justify-content:space-between;align-items:center}
+.archive-banner button{background:var(--accent);color:#fff;border:none;border-radius:6px;padding:4px 12px;font-size:.76rem;cursor:pointer;font-family:'Noto Sans KR',sans-serif}
+.footer{text-align:center;padding:24px 16px;font-size:.73rem;color:#aaa;border-top:1px solid var(--border);max-width:680px;margin:16px auto 0}
+.loading{text-align:center;padding:40px;color:var(--text-sub);font-size:.88rem}
+@media(max-width:480px){.header h1{font-size:1.3rem}.container{padding:12px}.news-card,.paper-card,.suneung-card{padding:14px}.suneung-card{padding:0}.suneung-card-body{padding:12px}.suneung-passage-wrap{padding:14px 12px}}
 </style>
 </head>
 <body>
 <div class="header">
-  <h1>오공의 데일리 브리핑</h1>
-  <p class="sub">수능 시사 브리핑 · 이비인후과 논문 리뷰</p>
-  <div class="date-badge" id="todayDate">2026년 4월 12일 일요일</div>
+<h1>오공의 데일리 브리핑</h1>
+<p class="sub">수능 시사 브리핑 · 이비인후과 논문 리뷰</p>
+<div class="date-badge" id="todayDate">로딩 중...</div>
 </div>
 <div class="tab-nav">
-  <button class="active" onclick="switchTab('suneung')">수능 브리핑</button>
-  <button onclick="switchTab('editorial')">사설·독해</button>
-  <button onclick="switchTab('ent')">이비인후과</button>
-  <button onclick="switchTab('archive')">지난 브리핑</button>
+<button class="active" onclick="switchTab('suneung')">수능 브리핑</button>
+<button onclick="switchTab('editorial')">사설�독해</button>
+<button onclick="switchTab('ent')">이비인후과</button>
+<button onclick="switchTab('archive')">지난 브리핑</button>
 </div>
 <div class="tab-content active" id="tab-suneung">
-  <div class="container">
-    <div class="sec-header">오늘의 수능 시사 뉴스 TOP 10</div>
-    <p class="sec-desc">수능 출제 가능성이 높은 시사 뉴스를 매일 엄선합니다</p>
-    <div id="news-list"><div class="loading">콘텐츠를 불러오는 중입니다...</div></div>
-  </div>
+<div class="container">
+<div id="archive-view-banner" style="display:none"></div>
+<div class="sec-header">오늘의 수능 시사 뉴스 TOP 10</div>
+<p class="sec-desc">수능 출제 가능성이 높은 시사 뉴스를 매일 엄선합니다</p>
+<div id="news-list"><div class="loading">콘텐츠를 불러오는 중입니다...</div></div>
+</div>
 </div>
 <div class="tab-content" id="tab-editorial">
-  <div class="container">
-    <div class="sec-header">오늘의 사설 3선</div>
-    <p class="sec-desc">수능 국어(비문학/논술) 대비 - 주요 일간지 사설 분석</p>
-    <div id="editorial-list"><div class="loading">콘텐츠를 불러오는 중입니다...</div></div>
-    <div class="sec-header" style="margin-top:28px;">비문학 독해 연습</div>
-    <p class="sec-desc">수능 스타일 비문학 지문 + 독해 포인트</p>
-    <div id="reading-section"><div class="loading">콘텐츠를 불러오는 중입니다...</div></div>
-  </div>
+<div class="container">
+<div class="sec-header">오늘의 사설 3선</div>
+<p class="sec-desc">수능 국어(비문학/논술) 대비 - 주요 일간지 사설 분석</p>
+<div id="editorial-list"><div class="loading">콘텐츠를 불러오는 중입니다...</div></div>
+<div class="sec-header" style="margin-top:28px;">비문학 독해 연습</div>
+<p class="sec-desc">수능 스타일 비문학 지문 + 핵심 독해 포인트</p>
+<div id="reading-section"><div class="loading">콘텐츠를 불러오는 중입니다...</div></div>
+</div>
 </div>
 <div class="tab-content" id="tab-ent">
-  <div class="container">
-    <div class="sec-header ent">이비인후과 최신 논문 브리핑</div>
-    <p class="sec-desc">Google Scholar 최신 논문 - 초록 한글 번역 포함</p>
-    <div id="ent-list"><div class="loading">콘텐츠를 불러오는 중입니다...</div></div>
-  </div>
+<div class="container">
+<div class="sec-header ent">이비인후과 최신 논문 브리핑</div>
+<p class="sec-desc">최신 논문 - 초록 한글 번역 포함</p>
+<div id="ent-list"><div class="loading">콘텐츠를 불러오는 중입니다...</div></div>
+</div>
 </div>
 <div class="tab-content" id="tab-archive">
-  <div class="container">
-    <div class="sec-header">지난 브리핑 아카이브</div>
-    <p class="sec-desc">이전 날짜의 브리핑을 열어볼 수 있습니다</p>
-    <div id="archive-list"><div class="loading">아카이브 데이터를 불러오는 중입니다...</div></div>
-  </div>
+<div class="container">
+<div class="sec-header">지난 브리핑 아카이브</div>
+<p class="sec-desc">이전 날짜의 브리핑을 클릭하면 해당 날짜 브리핑을 볼 수 있습니다</p>
+<div id="archive-list"><div class="loading">아카이브 데이터를 불러오는 중입니다...</div></div>
+</div>
 </div>
 <div class="footer">
-  <p>2026 오공의 데일리 브리핑</p>
-  <p>매일 밤 12시 자동 업데이트 · GitHub Pages</p>
+<p>2026 오공의 데일리 브리핑</p>
+<p>매일 밤 12시 자동 업데이트 · GitHub Pages</p>
 </div>
 <script>
-function switchTab(n){document.querySelectorAll('.tab-content').forEach(t=>t.classList.remove('active'));document.querySelectorAll('.tab-nav button').forEach(b=>b.classList.remove('active'));document.getElementById('tab-'+n).classList.add('active');var tabs=['suneung','editorial','ent','archive'];document.querySelectorAll('.tab-nav button')[tabs.indexOf(n)].classList.add('active')}
-async function loadData(){try{var r=await fetch('data/latest.json');if(!r.ok)throw 0;var d=await r.json();renderAll(d)}catch(e){console.log('No data yet')}}
-function renderAll(d){document.getElementById('todayDate').textContent=d.date||'';if(d.news&&d.news.length>0){document.getElementById('news-list').innerHTML=d.news.map((n,i)=>'<div class="news-card"><div class="tags">'+(n.tags||[]).map(t=>'<span class="tag '+tagClass(t)+'">'+t+'</span>').join('')+'</div><h3><a href="'+(n.url||'#')+'" target="_blank">'+(i+1)+'. '+n.title+'</a></h3><p>'+n.summary+'</p><div class="source">'+(n.source||'')+'</div></div>').join('')}if(d.editorials&&d.editorials.length>0){document.getElementById('editorial-list').innerHTML=d.editorials.map((e,i)=>'<div class="news-card editorial"><div class="tags"><span class="tag t-purple">사설 '+(i+1)+'</span></div><h3><a href="'+(e.url||'#')+'" target="_blank">'+e.title+'</a></h3><p><strong>'+(e.publisher||'')+'</strong></p><p>'+e.summary+'</p><div style="margin-top:8px;font-size:.82rem"><strong style="color:var(--tag-purple)">학습 포인트:</strong> '+(e.studyPoint||'')+'</div></div>').join('')}if(d.readingPassage){var r=d.readingPassage;document.getElementById('reading-section').innerHTML='<div class="news-card reading"><h3>'+(r.title||'비문학 독해 연습 지문')+'</h3><div class="passage-box">'+(r.passage||'')+'</div><div class="study-point"><h4>핵심 독해 포인트</h4><ol><li><strong>문단별 중심 내용:</strong> '+(r.point1||'')+'</li><li><strong>글의 전개 방식:</strong> '+(r.point2||'')+'</li><li><strong>핵심 개념 간 관계:</strong> '+(r.point3||'')+'</li></ol></div>'+(r.tip?'<div class="tip-box"><strong>오늘의 학습 팁:</strong> '+r.tip+'</div>':'')+'</div>'}if(d.papers&&d.papers.length>0){document.getElementById('ent-list').innerHTML=d.papers.map(p=>'<div class="paper-card"><div class="tags"><span class="tag t-orange">'+(p.category||'ENT')+'</span></div><h3><a href="'+(p.url||'#')+'" target="_blank">'+p.title+'</a></h3><details><summary>초록 보기 (한글 번역)</summary><div class="abstract">'+(p.abstractKo||'')+'</div></details><div class="meta"><span class="journal">'+(p.journal||'')+'</span><span>'+(p.date||'')+'</span></div></div>').join('')}}
-async function loadArchive(){try{var r=await fetch('data/archive-index.json');if(!r.ok)throw 0;var d=await r.json();document.getElementById('archive-list').innerHTML=d.map(x=>'<a class="archive-item" href="data/'+x.file+'"><div>'+x.label+'</div><div class="date">'+x.date+'</div></a>').join('')||'<p style="color:#999;font-size:.85rem">아직 아카이브 데이터가 없습니다.</p>'}catch(e){document.getElementById('archive-list').innerHTML='<p style="color:#999;font-size:.85rem">아직 아카이브 데이터가 없습니다. 내일부터 자동으로 쌓입니다.</p>'}}
-function tagClass(t){if(['국어','비문학','논술'].includes(t))return 't-purple';if(['사회탐구','정치','경제','사회','한국지리','세계지리','사회문화','윤리'].includes(t))return 't-blue';if(['과학탐구','과학','기술','생명과학','물리','화학','지구과학'].includes(t))return 't-green';if(['영어','국제'].includes(t))return 't-red';return 't-orange'}
-loadData();loadArchive();
+var _todayData = null;
+
+function switchTab(n){
+  document.querySelectorAll('.tab-content').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('.tab-nav button').forEach(b=>b.classList.remove('active'));
+  document.getElementById('tab-'+n).classList.add('active');
+  var tabs=['suneung','editorial','ent','archive'];
+  document.querySelectorAll('.tab-nav button')[tabs.indexOf(n)].classList.add('active');
+}
+
+async function loadData(){
+  try{
+    var r=await fetch('data/latest.json');
+    if(!r.ok)throw 0;
+    var d=await r.json();
+    _todayData=d;
+    renderAll(d, false);
+  }catch(e){console.log('No data yet')}
+}
+
+async function loadArchiveData(file, label){
+  try{
+    var r=await fetch(file);
+    if(!r.ok)throw 0;
+    var d=await r.json();
+    renderAll(d, true, label);
+    switchTab('suneung');
+    window.scrollTo(0,0);
+  }catch(e){
+    alert('브리핑 데이터를 불러올 수 없습니다.');
+  }
+}
+
+function backToToday(){
+  if(_todayData) renderAll(_todayData, false);
+  document.getElementById('archive-view-banner').style.display='none';
+}
+
+function renderAll(d, isArchive, archiveLabel){
+  // 날짜 배지
+  document.getElementById('todayDate').textContent = d.date||'';
+
+  // 아카이브 배너
+  var banner = document.getElementById('archive-view-banner');
+  if(isArchive){
+    banner.style.display='flex';
+    banner.innerHTML='<div class="archive-banner" style="width:100%">'+
+      '<span>📅 <strong>'+(archiveLabel||d.date)+'</strong> 브리핑을 보는 중입니다</span>'+
+      '<button onclick="backToToday()">오늘 브리핑으로 돌아가기</button></div>';
+  } else {
+    banner.style.display='none';
+  }
+
+  // 뉴스
+  if(d.news&&d.news.length>0){
+    document.getElementById('news-list').innerHTML=d.news.map((n,i)=>
+      '<div class="news-card"><div class="tags">'+(n.tags||[]).map(t=>'<span class="tag '+tagClass(t)+'">'+t+'</span>').join('')+
+      '</div><h3><a href="'+(n.url||'#')+'" target="_blank">'+(i+1)+'. '+n.title+'</a></h3>'+
+      '<p>'+n.summary+'</p><div class="source">'+(n.source||'')+'</div></div>'
+    ).join('');
+  }
+
+  // 사설
+  if(d.editorials&&d.editorials.length>0){
+    document.getElementById('editorial-list').innerHTML=d.editorials.map((e,i)=>
+      '<div class="news-card editorial"><div class="tags"><span class="tag t-purple">사설 '+(i+1)+'</span></div>'+
+      '<h3><a href="'+(e.url||'#')+'" target="_blank">'+e.title+'</a></h3>'+
+      '<p><strong>'+(e.publisher||'')+'</strong></p><p>'+e.summary+'</p>'+
+      '<div style="margin-top:8px;font-size:.82rem"><strong style="color:var(--tag-purple)">학습 포인트:</strong> '+(e.studyPoint||'')+'</div></div>'
+    ).join('');
+  }
+
+  // 비문학 지문 - 수능 스타일
+  if(d.readingPassage){
+    var rp=d.readingPassage;
+    var circleNums=['①','②','③','④','⑤','⑥','⑦','⑧','⑨','⑩'];
+    // 문단 분리: \n\n 또는 \n 기준
+    var rawPassage = (rp.passage||'').replace(/\\n/g,'\n');
+    var paras = rawPassage.split(/\n\n+/).filter(p=>p.trim().length>0);
+    if(paras.length<=1) paras = rawPassage.split(/\n/).filter(p=>p.trim().length>0);
+    var passageHTML = paras.map((p,i)=>
+      '<div class="para"><span class="para-num">'+(circleNums[i]||'●')+'</span>'+
+      '<span class="para-text">'+p.trim()+'</span></div>'
+    ).join('');
+
+    document.getElementById('reading-section').innerHTML=
+      '<div class="suneung-card">'+
+        '<div class="suneung-card-header">'+
+          '<span class="exam-label">2026학년도 수능 대비</span>'+
+          '<span class="exam-title">국어 영역</span>'+
+          '<span class="subject">비문학</span>'+
+        '</div>'+
+        '<div class="suneung-card-body">'+
+          '<div class="suneung-instruction">다음 글을 읽고 물음에 답하시오.</div>'+
+          '<div class="suneung-passage-wrap">'+
+            '<div class="suneung-passage">'+passageHTML+'</div>'+
+          '</div>'+
+          '<div class="suneung-points">'+
+            '<h4>핵심 독해 포인트</h4>'+
+            '<ol>'+
+              '<li><span class="point-num">1</span><span><strong>문단별 중심 내용:</strong> '+(rp.point1||'')+'</span></li>'+
+              '<li><span class="point-num">2</span><span><strong>글의 전개 방식:</strong> '+(rp.point2||'')+'</span></li>'+
+              '<li><span class="point-num">3</span><span><strong>핵심 개념 간 관계:</strong> '+(rp.point3||'')+'</span></li>'+
+            '</ol>'+
+          '</div>'+
+          (rp.tip?'<div class="suneung-tip"><strong>💡 오늘의 학습 팁:</strong> '+rp.tip+'</div>':'')+
+        '</div>'+
+      '</div>';
+  }
+
+  // 논문
+  if(d.papers&&d.papers.length>0){
+    document.getElementById('ent-list').innerHTML=d.papers.map(p=>
+      '<div class="paper-card"><div class="tags"><span class="tag t-orange">'+(p.category||'ENT')+'</span></div>'+
+      '<h3><a href="'+(p.url||'#')+'" target="_blank">'+p.title+'</a></h3>'+
+      '<details><summary>초록 보기 (한글 번역)</summary><div class="abstract">'+(p.abstractKo||'')+'</div></details>'+
+      '<div class="meta"><span class="journal">'+(p.journal||'')+'</span><span>'+(p.date||'')+'</span></div></div>'
+    ).join('');
+  }
+}
+
+async function loadArchive(){
+  try{
+    var r=await fetch('data/archive-index.json');
+    if(!r.ok)throw 0;
+    var d=await r.json();
+    if(!d||d.length===0){
+      document.getElementById('archive-list').innerHTML='<p style="color:#999;font-size:.85rem;padding:10px">아직 아카이브 데이터가 없습니다. 내일부터 자동으로 쌓입니다.</p>';
+      return;
+    }
+    document.getElementById('archive-list').innerHTML=d.map(x=>
+      '<button class="archive-item" onclick="loadArchiveData(\'data/'+x.file+'\',\''+x.label+'\')">'+
+        '<div>📄 '+x.label+'</div>'+
+        '<div class="date">'+x.date+'</div>'+
+      '</button>'
+    ).join('');
+  }catch(e){
+    document.getElementById('archive-list').innerHTML='<p style="color:#999;font-size:.85rem;padding:10px">아직 아카이브 데이터가 없습니다. 내일부터 자동으로 쌓입니다.</p>';
+  }
+}
+
+function tagClass(t){
+  if(['국어','비문학','논술'].includes(t))return 't-purple';
+  if(['사회탐구','정치','경제','사회','한국지리','세계지리','사회문화','윤리'].includes(t))return 't-blue';
+  if(['과학탐구','과학','기술','생명과학','물리','화학','지구과학'].includes(t))return 't-green';
+  if(['영어','국제'].includes(t))return 't-red';
+  return 't-orange';
+}
+
+loadData();
+loadArchive();
 </script>
 </body>
 </html>
