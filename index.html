@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>오공의 데일리 브리핑</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Noto+Serif+KR:wght@400;600;700&display=swap');
+
+  :root {
+    --bg: #faf9f7;
+    --surface: #ffffff;
+    --text: #1a1a1a;
+    --text-secondary: #555;
+    --accent: #2d5016;
+    --accent-light: #e8f0e2;
+    --accent-med: #4a7c28;
+    --border: #e5e2dc;
+    --tag-news: #1a5276;
+    --tag-news-bg: #d6eaf8;
+    --tag-editorial: #6c3483;
+    --tag-editorial-bg: #ebdef0;
+    --tag-paper: #b7410e;
+    --tag-paper-bg: #fdebd0;
+    --card-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    --radius: 12px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.75;
+    min-height: 100vh;
+  }
+
+  header {
+    background: linear-gradient(135deg, #1a3a0a 0%, #2d5016 50%, #3d6b1e 100%);
+    color: #fff;
+    padding: 48px 24px 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  header::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0; right: 0;
+    height: 40px;
+    background: var(--bg);
+    border-radius: 40px 40px 0 0;
+  }
+  header h1 {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 6px;
+  }
+  header p {
+    font-size: 0.95rem;
+    opacity: 0.85;
+    font-weight: 300;
+  }
+  .date-badge {
+    display: inline-block;
+    margin-top: 14px;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(4px);
+    padding: 6px 18px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 400;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 20px 24px 0;
+    flex-wrap: wrap;
+  }
+  nav a {
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 24px;
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: var(--accent);
+    background: var(--accent-light);
+    transition: all 0.2s;
+    border: 1.5px solid transparent;
+  }
+  nav a:hover, nav a.active {
+    background: var(--accent);
+    color: #fff;
+  }
+
+  main {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 28px 20px 60px;
+  }
+
+  .section-title {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin: 40px 0 6px;
+    padding-bottom: 10px;
+    border-bottom: 2.5px solid var(--accent);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .section-title .icon { font-size: 1.3rem; }
+  .section-subtitle {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+  }
+
+  .article-card {
+    background: var(--surface);
+    border-radius: var(--radius);
+    padding: 24px 26px;
+    margin-bottom: 16px;
+    box-shadow: var(--card-shadow);
+    border-left: 4px solid var(--accent);
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .article-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.09);
+  }
+  .article-card h3 {
+    font-size: 1.08rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+  .article-card p {
+    font-size: 0.92rem;
+    color: var(--text-secondary);
+    line-height: 1.75;
+  }
+  .tag {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 0.73rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    margin-right: 6px;
+  }
+  .tag-news { background: var(--tag-news-bg); color: var(--tag-news); }
+  .tag-editorial { background: var(--tag-editorial-bg); color: var(--tag-editorial); }
+  .tag-economy { background: #d5f5e3; color: #1e8449; }
+  .tag-tech { background: #fce4ec; color: #c0392b; }
+
+  .keywords {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .keywords span {
+    background: var(--bg);
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    border: 1px solid var(--border);
+  }
+
+  .paper-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  @media (min-width: 640px) {
+    .paper-grid { grid-template-columns: 1fr 1fr; }
+  }
+  .paper-card {
+    background: var(--surface);
+    border-radius: var(--radius);
+    padding: 22px 22px 18px;
+    box-shadow: var(--card-shadow);
+    border-top: 4px solid var(--tag-paper);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .paper-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.09);
+  }
+  .paper-card .tag { background: var(--tag-paper-bg); color: var(--tag-paper); }
+  .paper-card h3 {
+    font-size: 0.98rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+  .paper-card .summary {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    flex: 1;
+  }
+  .paper-card .meta {
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px solid var(--border);
+    font-size: 0.78rem;
+    color: #888;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .paper-card .journal {
+    font-weight: 500;
+    color: var(--tag-paper);
+  }
+
+  .trend-box {
+    background: linear-gradient(135deg, #fff9f0 0%, #fff3e0 100%);
+    border: 1.5px solid #f5cba7;
+    border-radius: var(--radius);
+    padding: 22px 24px;
+    margin-top: 24px;
+  }
+  .trend-box h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--tag-paper);
+    margin-bottom: 10px;
+  }
+  .trend-box ul {
+    list-style: none;
+    padding: 0;
+  }
+  .trend-box li {
+    padding: 6px 0;
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .trend-box li::before {
+    content: '>';
+    color: var(--tag-paper);
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  .tip-box {
+    background: var(--accent-light);
+    border-radius: var(--radius);
+    padding: 20px 24px;
+    margin-top: 32px;
+    border: 1.5px solid #c1dbb0;
+  }
+  .tip-box h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--accent);
+    margin-bottom: 8px;
+  }
+  .tip-box p {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+
+  footer {
+    text-align: center;
+    padding: 32px 20px;
+    font-size: 0.8rem;
+    color: #aaa;
+    border-top: 1px solid var(--border);
+    max-width: 860px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 600px) {
+    header h1 { font-size: 1.5rem; }
+    .section-title { font-size: 1.15rem; }
+    .article-card { padding: 18px 18px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>오공의 데일리 브리핑</h1>
+  <p>수능 시사 브리핑 &middot; 이비인후과 논문 리뷰</p>
+  <div class="date-badge">2026년 4월 12일 일요일</div>
+</header>
+
+<nav>
+  <a href="#news" class="active">시사 뉴스</a>
+  <a href="#editorial">사설 브리핑</a>
+  <a href="#papers">이비인후과 논문</a>
+  <a href="#trends">연구 동향</a>
+</nav>
+
+<main>
+
+<div class="section-title" id="news">
+  <span class="icon">&#128240;</span> 수능 대비 시사 뉴스 브리핑
+</div>
+<p class="section-subtitle">언어영역 비문학 &middot; 사회탐구 대비를 위한 이번 주 핵심 뉴스</p>
+
+<div class="article-card">
+  <span class="tag tag-news">국제정세</span>
+  <span class="tag tag-economy">경제</span>
+  <h3>호르무즈 해협 긴장 고조 &mdash; 미-이란 종전 협상 시작</h3>
+  <p>이란의 호르무즈 해협 유조선 통행 제한 선언으로 국제 유가가 급등하며 글로벌 에너지 안보 위기가 현실화되고 있다. 미국과 이란은 4월 11일 종전 협상을 시작했으며, 이스라엘과의 휴전 위반 공방이 이어지는 가운데 중동 지정학 질서의 재편이 가속화되고 있다.</p>
+  <div class="keywords">
+    <span>#호르무즈해협</span>
+    <span>#미이란협상</span>
+    <span>#에너지안보</span>
+    <span>#지정학리스크</span>
+    <span>#사회탐구</span>
+  </div>
+</div>
+
+<div class="article-card">
+  <span class="tag tag-economy">경제</span>
+  <h3>반도체 수출 월 300억 달러 돌파 &mdash; 사상 최대 기록 경신</h3>
+  <p>3월 반도체 수출이 전년 대비 151.4% 증가하며 월 수출액 300억 달러를 최초로 돌파했다. AI 반도체 수요 폭증과 글로벌 데이터센터 투자 확대가 주요 동인으로, 전체 수출액도 861.3억 달러로 역대 최대치를 경신했다.</p>
+  <div class="keywords">
+    <span>#반도체수출</span>
+    <span>#AI반도체</span>
+    <span>#HBM</span>
+    <span>#무역흑자</span>
+    <span>#경제지리</span>
+  </div>
+</div>
+
+<div class="article-card">
+  <span class="tag tag-news">정치</span>
+  <span class="tag tag-news">사회</span>
+  <h3>경제 위기 속 여야 초당적 협력 &mdash; 청와대 회동</h3>
+  <p>이재명 대통령이 여야 대표를 청와대로 초청해 중동 사태에 따른 경제 위기 대응 방안을 논의했다. 고유가, 고환율, 물가 상승이라는 삼중고 속에서 초당적 협력의 필요성이 강조되었으며, 에너지 수급 안정과 서민 물가 대책이 핵심 의제로 다뤄졌다.</p>
+  <div class="keywords">
+    <span>#초당적협력</span>
+    <span>#물가안정</span>
+    <span>#에너지정책</span>
+    <span>#정치과정</span>
+  </div>
+</div>
+
+<div class="article-card">
+  <span class="tag tag-tech">기술/사회</span>
+  <h3>AI 가상인물 표시 의무화 추진 &mdash; 디지털 윤리의 새 국면</h3>
+  <p>AI로 생성된 가상 인물 콘텐츠에 대한 표시 의무화가 추진되고 있다. 딥페이크 기술의 고도화로 실제 인물과 AI 생성물의 구분이 어려워지면서, 콘텐츠 신뢰성과 디지털 윤리 문제가 사회적 화두로 떠올랐다.</p>
+  <div class="keywords">
+    <span>#AI윤리</span>
+    <span>#딥페이크</span>
+    <span>#디지털리터러시</span>
+    <span>#생활과윤리</span>
+  </div>
+</div>
+
+<div class="section-title" id="editorial">
+  <span class="icon">&#128221;</span> 사설 브리핑
+</div>
+<p class="section-subtitle">주요 신문 사설의 핵심 논지를 수능 논술, 비문학 관점에서 정리</p>
+
+<div class="article-card" style="border-left-color: #6c3483;">
+  <span class="tag tag-editorial">사설 분석</span>
+  <h3>[논제 1] 정치 양극화와 민주주의의 위기</h3>
+  <p><strong>핵심 논지:</strong> 미국발 정치 양극화 현상이 글로벌 리더십의 신뢰를 흔들고 있다. 진영 논리에 갇힌 정치가 실질적인 정책 대안 마련을 가로막으며, 민주주의 제도 자체에 대한 회의론이 확산되고 있다.</p>
+  <p style="margin-top:8px;"><strong>수능 연계:</strong> 사회문화 - 정치 참여와 선거, 민주주의의 원리 / 생활과 윤리 - 공론장과 숙의 민주주의</p>
+</div>
+
+<div class="article-card" style="border-left-color: #6c3483;">
+  <span class="tag tag-editorial">사설 분석</span>
+  <h3>[논제 2] 의정 갈등 장기화와 공공의료 시스템의 과제</h3>
+  <p><strong>핵심 논지:</strong> 의료계와 정부 간 갈등이 장기화되면서 응급실, 중환자실 운영에 대한 국민 불안이 가중되고 있다. 의료 인력 부족과 수도권 쏠림 현상은 지역 의료 격차를 심화시키고 있다.</p>
+  <p style="margin-top:8px;"><strong>수능 연계:</strong> 사회문화 - 사회 불평등과 복지 / 한국지리 - 수도권 집중 문제</p>
+</div>
+
+<div class="article-card" style="border-left-color: #6c3483;">
+  <span class="tag tag-editorial">사설 분석</span>
+  <h3>[논제 3] 지정학 리스크 시대의 경제 안보 전략</h3>
+  <p><strong>핵심 논지:</strong> 중동 긴장, 고유가, 환율 1,500원 돌파라는 삼중고가 한국 경제를 압박하고 있다. 수출 의존도가 높은 한국 경제 구조에서 에너지, 원자재 공급망 다변화와 경제 안보 전략의 재정립이 시급하다.</p>
+  <p style="margin-top:8px;"><strong>수능 연계:</strong> 경제 - 무역과 국제수지 / 세계지리 - 에너지 자원의 분포와 소비</p>
+</div>
+
+<div class="section-title" id="papers">
+  <span class="icon">&#129514;</span> 이비인후과 최신 논문 요약
+</div>
+<p class="section-subtitle">2025-2026년 주요 저널 게재 논문 하이라이트</p>
+
+<div class="paper-grid">
+
+  <div class="paper-card">
+    <span class="tag">비침습 진단</span>
+    <h3>타액 기반 AI 진단 플랫폼으로 두경부암 98% 정확도 달성</h3>
+    <p class="summary">서울성모병원 연구팀이 나노코랄 그래핀 센서와 AI 모델을 결합하여 타액만으로 두경부암을 진단하는 플랫폼을 개발. 특이도 100%, 민감도 96%, AUC 0.999를 기록하며 혈액 기반 액체 생검의 한계를 극복할 가능성을 제시했다.</p>
+    <div class="meta">
+      <span class="journal">서울성모병원 공동연구</span>
+      <span>2026</span>
+    </div>
+  </div>
+
+  <div class="paper-card">
+    <span class="tag">AI 신약 탐색</span>
+    <h3>AI 스크리닝으로 항생제 유발 난청 억제 후보물질 발굴</h3>
+    <p class="summary">고려대 안산병원 이비인후과 연구팀이 AI 스크리닝 모델과 제브라피쉬 동물 실험을 결합해 아미노글리코사이드 항생제에 의한 난청 부작용을 억제할 수 있는 후보 약물을 발굴했다.</p>
+    <div class="meta">
+      <span class="journal">고려대 안산병원</span>
+      <span>2025-2026</span>
+    </div>
+  </div>
+
+  <div class="paper-card">
+    <span class="tag">신경공학</span>
+    <h3>ALS 환자 뇌-컴퓨터 인터페이스로 음성 복원 성공</h3>
+    <p class="summary">256개 미세전극을 운동피질에 이식한 ALS 환자에서 Transformer 기반 디코더가 신경 신호를 10ms 단위로 음향 특성으로 변환하여 자연스러운 음성을 복원하는 데 성공했다.</p>
+    <div class="meta">
+      <span class="journal">ENT Discovery</span>
+      <span>2025</span>
+    </div>
+  </div>
+
+  <div class="paper-card">
+    <span class="tag">원격의료</span>
+    <h3>Tele-ENT: 이비인후과 원격진료 플랫폼의 진단 정확도 평가</h3>
+    <p class="summary">AI 보조 영상 분석을 결합한 원격 진료 모델의 진단 정확도와 환자 만족도가 대면 진료와 동등한 수준에 도달했다는 연구 결과가 다수 보고되고 있다.</p>
+    <div class="meta">
+      <span class="journal">MDPI / Springer</span>
+      <span>2026</span>
+    </div>
+  </div>
+
+</div>
+
+<div class="section-title" id="trends">
+  <span class="icon">&#128200;</span> 2026 이비인후과 연구 트렌드
+</div>
+<p class="section-subtitle">올해 주목해야 할 5대 연구 키워드</p>
+
+<div class="trend-box">
+  <h3>Emerging Trends in Otorhinolaryngology 2026</h3>
+  <ul>
+    <li><strong>AI &amp; Digital Health</strong> - 딥러닝 기반 영상 진단, 음성 분석 AI가 이비인후과 진료의 표준으로 자리잡는 추세.</li>
+    <li><strong>Tele-ENT &amp; Remote Care</strong> - 원격 내시경, AI 보조 원격 판독 등 비대면 진료 모델이 지역 의료 격차 해소의 핵심 수단으로 부상.</li>
+    <li><strong>Hearing &amp; Balance Innovation</strong> - 유전자 치료, 줄기세포 기반 청각 재생 연구가 전임상 단계에서 성과를 내고 있다.</li>
+    <li><strong>Laryngology &amp; Voice Restoration</strong> - 뇌-컴퓨터 인터페이스(BCI)와 조직공학을 활용한 음성 복원 기술이 주목받고 있다.</li>
+    <li><strong>Head &amp; Neck Oncology</strong> - 면역항암제와 분자 표적 치료의 병행, 액체 생검 기반 조기 진단 기술이 두경부암 치료의 패러다임을 전환 중.</li>
+  </ul>
+</div>
+
+<div class="tip-box">
+  <h3>이번 주 수능 대비 Tip</h3>
+  <p>중동 지정학 갈등과 에너지 안보 이슈는 사회탐구 전 영역에 걸쳐 출제 가능성이 높은 주제입니다. 특히 <strong>호르무즈 해협의 전략적 중요성</strong>(세계지리), <strong>환율 변동과 무역수지</strong>(경제), <strong>국제 분쟁과 평화</strong>(정치와 법) 등 다각적으로 정리해 두세요.</p>
+</div>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 오공의 데일리 브리핑 - 수능 시사 + 이비인후과 논문 리뷰</p>
+  <p style="margin-top:4px;">콘텐츠는 최신 뉴스 및 학술 자료를 기반으로 정리되었습니다.</p>
+</footer>
+
+</body>
+</html>
