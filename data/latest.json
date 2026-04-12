@@ -2,6 +2,246 @@
   "date": "2026년 4월 12일 일요일",
   "news": [
     {
+      "title": "미-이란 종전 협상 결렬… 호르무즈 해협·핵 문제 의견 충돌",
+      "summary": "파키스탄 중재 하에 이슬라마바드에서 열린 미국-이란 고위급 직접 회담이 핵개발 포기 및 호르무즈 해협 통제권 문제에서 합의를 이루지 못하고 결렬됐다. 47년 만의 고위급 회담이었으나 양국 간 핵심 쟁점에서 입장 차이를 좁히지 못했다.",
+      "url": "https://www.insight.co.kr/news/549879",
+      "tags": [
+        "국제",
+        "사회탐구",
+        "경제"
+      ],
+      "source": "인사이트"
+    },
+    {
+      "title": "6.3 지방선거 대진표 윤곽… 현역 의원 줄출마 '미니 총선' 양상",
+      "summary": "오는 6월 3일 제9회 전국동시지방선거를 앞두고 16개 광역단체장 후보 중 5곳의 대진표가 확정됐다. 더불어민주당 현역 의원 5명이 광역단체장에 출마하면서 국회의원 재보궐선거도 동시에 치러질 예정이며, 여야 지지율 격차가 2018년 지방선거 때와 유사한 양상을 보이고 있다.",
+      "url": "https://biz.heraldcorp.com/article/10715316",
+      "tags": [
+        "정치",
+        "사회탐구"
+      ],
+      "source": "헤럴드경제"
+    },
+    {
+      "title": "삼성전자 1분기 영업이익 57조원 역대 최대 전망… AI 반도체 수요 폭증 견인",
+      "summary": "삼성전자가 2026년 1분기에 약 57조 원에 달하는 역대급 영업이익을 기록할 것으로 예상된다. AI 반도체 수요 폭증과 고대역폭 메모리(HBM) 출하량 증가가 실적 상승을 이끈 주된 요인으로 분석된다.",
+      "url": "https://www.cliktoday.com/2026/04/20260408-today-news.html",
+      "tags": [
+        "경제",
+        "과학기술",
+        "사회탐구"
+      ],
+      "source": "오늘의클릭"
+    },
+    {
+      "title": "삼성전자, 1나노급 반도체 공정 양산 로드맵 공개",
+      "summary": "삼성전자가 GAA(Gate-All-Around) 트랜지스터 구조를 적용한 1나노급 반도체 공정 양산 로드맵을 발표하며 차세대 AI 칩 시장 선점에 나섰다. 이 공정은 기존 3나노 공정 대비 전력 효율과 연산 성능을 대폭 향상시킬 것으로 기대된다.",
+      "url": "https://www.cliktoday.com/2026/04/20260411-today-news.html",
+      "tags": [
+        "과학기술",
+        "과학탐구",
+        "사회탐구"
+      ],
+      "source": "오늘의클릭"
+    },
+    {
+      "title": "그린피스 코리아, 4월 9일을 '한국 환경 부도의 날'로 선언",
+      "summary": "국제 환경 단체 그린피스 코리아가 4월 9일을 '대한민국 환경 부도의 날'로 공식 선언했다. 이날부터 한국은 올해 지구가 감당할 수 있는 자원을 모두 소진하고 미래 자원을 빌려 쓰는 상태에 진입했다는 의미로, 기후 위기 대응 정책 강화가 시급하다는 경고다.",
+      "url": "https://www.kjob.news/news/480492",
+      "tags": [
+        "환경",
+        "사회탐구",
+        "과학탐구"
+      ],
+      "source": "전국인력신문"
+    },
+    {
+      "title": "이재명 대통령, 주식양도세 필요성 공식 거론… 조세 형평성 논의 점화",
+      "summary": "이재명 대통령이 국민경제자문회의에서 거래세 구조의 문제를 지적하며 주식양도세 도입 필요성을 공개적으로 언급했다. 코스피가 5000포인트를 돌파한 가운데, 근로소득과 부동산 양도차익에는 과세하면서 주식 양도차익에는 세금이 없는 조세 형평성 문제가 논의의 핵심이다.",
+      "url": "https://v.daum.net/v/20260412180643648",
+      "tags": [
+        "경제",
+        "정치",
+        "사회탐구"
+      ],
+      "source": "한겨레"
+    },
+    {
+      "title": "이재명 대통령 이스라엘 '반인권' 발언… 양국 외교 갈등 고조",
+      "summary": "이재명 대통령이 이스라엘 방위군의 팔레스타인 아동 고문 영상을 공유하며 '전시살해'를 비판한 것에 대해 이스라엘이 공식 규탄 성명을 발표했다. 외교부가 주한 이스라엘 대사를 초치하는 등 양국 간 외교적 긴장이 고조되고 있다.",
+      "url": "https://v.daum.net/v/20260412181203743",
+      "tags": [
+        "국제",
+        "정치",
+        "사회탐구"
+      ],
+      "source": "경향신문"
+    },
+    {
+      "title": "'23개월 고용' 관행 개선 논의… 기간제법 개정 검토",
+      "summary": "이재명 대통령이 현행 기간제법이 사실상 '2년 이상 고용 금지법'이 됐다고 지적하면서, 정부가 기간제 고용 기간을 3~4년으로 연장하는 방안을 검토하고 있다. 노동계는 기간만 연장할 경우 비정규직 확산을 막지 못한다며 정규직 전환 원칙 강화를 요구하고 있다.",
+      "url": "https://v.daum.net/v/20260412193525869",
+      "tags": [
+        "사회",
+        "법",
+        "사회탐구"
+      ],
+      "source": "경향신문"
+    },
+    {
+      "title": "국민의힘 장동혁 대표, 6.3 지방선거 50여 일 앞두고 미국 방문 논란",
+      "summary": "장동혁 국민의힘 대표가 6.3 지방선거를 약 50일 앞둔 시점에 미국으로 출국했다. 야권은 선거 준비보다 해외 일정을 우선시한다며 비판했고, 국민의힘은 당무 협의 목적의 일정이라고 해명했다.",
+      "url": "https://news.sbs.co.kr/news/newsflash.do",
+      "tags": [
+        "정치"
+      ],
+      "source": "SBS뉴스"
+    },
+    {
+      "title": "국제유가 100달러 돌파·환율 1500원대… 스태그플레이션 우려 확산",
+      "summary": "호르무즈 해협 봉쇄 위기와 중동 불안이 지속되면서 국제유가가 배럴당 100달러를 돌파하고 원·달러 환율이 1500원대까지 치솟았다. 고유가·고환율의 이중 압박 속에 국내 물가 상승과 경기 침체가 동시에 진행되는 스태그플레이션 우려가 높아지고 있다.",
+      "url": "https://www.cliktoday.com/2026/04/2026-iran-war.html",
+      "tags": [
+        "경제",
+        "국제",
+        "사회탐구"
+      ],
+      "source": "오늘의클릭"
+    }
+  ],
+  "editorials": [
+    {
+      "title": "'23개월 고용' 없애려다 비정규직 봇물 여는 일 없어야",
+      "publisher": "경향신문",
+      "url": "https://v.daum.net/v/20260412193525869",
+      "summary": "정부가 기간제 고용 기간을 3~4년으로 연장하는 방안을 검토 중이나, 이는 '23개월 고용' 관행이 '3년 11개월 고용'으로 바뀌는 것에 불과하다고 비판한다. 진정한 해결책은 상시·지속 업무에 정규직 고용을 원칙으로 하고 예외적으로만 비정규직을 허용하는 제도 개선임을 주장한다.",
+      "studyPoint": "【논증 구조 분석】 문제 제기(기간제법의 역설적 효과) → 정책 대안 비판(기간 연장의 한계) → 근본 해결책 제시(정규직 원칙 강화) 순서의 '비판적 제안형' 논증 구조. 비교·대조를 통해 임시방편과 근본적 해결책을 구별하는 논리 전개에 주목할 것."
+    },
+    {
+      "title": "'협상 결렬' 선언한 미-이란, 전쟁 재개는 해법 아니다",
+      "publisher": "한겨레",
+      "url": "https://v.daum.net/v/20260412183630113",
+      "summary": "미-이란 종전 협상이 첫 회담에서 결렬된 것은 반세기 이상 쌓인 불신 때문으로, 합의 가능한 분야부터 단계적 성과를 내며 휴전 기간을 연장하는 '외교적 지혜'가 필요하다고 주장한다. 전쟁 재개는 절대적으로 해법이 될 수 없음을 강조한다.",
+      "studyPoint": "【논증 구조 분析】 현황 진단(협상 결렬 배경) → 원인 분析(역사적 불신 구조) → 대안 제시(단계적 외교 접근) 순서의 '진단-처방형' 논증 구조. 사설이 '당연한 결과'라는 현실 인정에서 출발해 미래 지향적 해결책을 제안하는 방식에 주목할 것."
+    },
+    {
+      "title": "'주식양도세 필요' 거론한 이 대통령, 본격 논의 시작을",
+      "publisher": "한겨레",
+      "url": "https://v.daum.net/v/20260412180643648",
+      "summary": "이재명 대통령의 주식양도세 필요성 발언을 계기로, 근로소득·부동산 양도차익과 달리 주식 양도차익에만 과세하지 않는 조세 불형평성을 지적한다. 코스피 5000 돌파 이후 더 이상 '시장 활성화' 명목으로 과세를 미룰 수 없다며 정부의 본격적인 세제 개편 논의를 촉구한다.",
+      "studyPoint": "【논증 구조 분析】 대통령 발언 인용(주제 도입) → 문제 진단(조세 형평성 결여) → 근거 제시(선진국 사례, 2024 금투세 폐지 경과) → 정책 촉구(세제 개편 착수) 순서의 '촉구형' 논증 구조."
+    }
+  ],
+  "readingPassage": {
+    "title": "AI 반도체 기술 혁신과 국가 경쟁력의 재편",
+    "passage": "인공지능(AI) 기술의 급속한 발전은 반도체 산업에 새로운 패러다임을 요구하고 있다. 기존의 범용 프로세서 중심 체계에서 벗어나, 대규모 데이터를 고속으로 병렬 처리할 수 있는 AI 특화 반도체가 디지털 경제의 핵심 인프라로 부상하였다. 그래픽 처리 장치(GPU)와 신경망 처리 장치(NPU)로 대표되는 AI 가속기는 자율주행, 초거대 언어모델, 의료 영상 분석 등 다양한 응용 분야에서 필수 부품으로 자리 잡았으며, 이로 인해 반도체 수요는 전례 없는 규모로 확대되고 있다.\n\nAI 반도체 수요 폭증의 배경에는 모델 복잡성의 기하급수적 증가가 자리한다. 초거대 언어모델의 경우 수천억 개에 달하는 파라미터를 학습시키기 위해 방대한 연산 자원이 요구되며, 이를 효율적으로 처리하려면 기존 공정보다 훨씬 정밀한 미세화 기술이 필요하다. 반도체 미세화는 트랜지스터 집적도를 높여 동일 면적에서 더 많은 연산을 수행할 수 있게 하지만, 3나노미터 이하 공정에서는 양자 터널링 효과에 의한 누설 전류 문제가 심화되어 기술적 한계에 봉착한다. 이를 극복하기 위해 반도체 기업들은 GAA(Gate-All-Around) 트랜지스터 구조와 3차원 적층 기술을 도입하며 물리적 한계를 돌파하고 있다.\n\n반도체 제조 공정의 혁신은 단순한 기술 경쟁을 넘어 국가 간 패권 경쟁의 양상을 띠게 되었다. 미국은 반도체 공급망의 자국 내 재편을 위해 반도체지원법(CHIPS Act)을 통해 막대한 보조금을 투입하고, 첨단 반도체 장비 및 기술의 중국 수출을 제한하는 규제를 강화하고 있다. 이에 맞서 한국, 일본, 네덜란드, 대만 등 반도체 강국들은 독자적인 공급망 안보 전략을 수립하면서도 동맹국 간 협력 체계를 구축하는 이중 전략을 추구한다. 반도체 산업이 경제 안보의 핵심 요소로 격상되면서, 국가별 산업 정책과 지정학적 이해관계가 복잡하게 얽히는 양상이 나타나고 있다.\n\n한국의 삼성전자는 2026년 1나노급 공정 로드맵을 공개하며 기술 선도국으로서의 위상을 강화하고 있다. AI 반도체 매출 증가는 분기 영업이익을 수십조 원대로 끌어올리는 성과로 이어졌으며, 메모리 시장에서의 고대역폭 메모리(HBM) 수요도 함께 폭증하고 있다. 반면, 네덜란드 ASML이 독점 공급하는 극자외선(EUV) 노광 장비 없이는 최첨단 공정 구현이 사실상 불가능하다는 점에서, 장비 및 소재 분야의 기술 의존성이 새로운 공급망 리스크로 부각된다. 미국의 대중 수출 규제로 인해 중국이 독자적인 반도체 생태계 구축에 박차를 가하는 상황은 글로벌 반도체 시장을 양분할 가능성을 내포한다.\n\nAI 반도체 기술의 혁신은 국가 경쟁력과 산업 구조를 근본적으로 재편하는 동력이 되고 있다. 한 나라의 반도체 기술 수준은 경제 성장력뿐만 아니라 외교·안보적 협상력과도 직결되는 시대가 도래하였다. 따라서 반도체 산업 정책은 단기적 경제 이익을 넘어 장기적 기술 주권 확보와 공급망 다변화를 목표로 설계되어야 하며, 기초 과학 연구 투자와 전문 인력 양성이 병행되어야 한다. 기술 혁신의 과실이 특정 기업이나 국가에만 집중되지 않도록, 국제적 협력과 공정한 기술 접근 기회 보장이라는 과제 역시 향후 글로벌 반도체 거버넌스의 핵심 의제로 부상하고 있다.",
+    "point1": "① AI 특화 반도체가 디지털 경제의 핵심 인프라로 부상하며 수요가 급증하고 있음 ② AI 모델 복잡성 증가가 반도체 미세화 기술 혁신을 촉진하지만 물리적 한계도 존재함 ③ 반도체 산업이 기술 경쟁을 넘어 국가 간 패권 경쟁의 장으로 변모하고 있음 ④ 삼성전자의 기술 도약과 함께 EUV 장비 의존성·대중 수출 규제 등 공급망 리스크가 공존함 ⑤ 반도체 기술 수준이 경제·외교·안보 전반에 영향을 미치므로 기술 주권과 국제 협력이 동시에 요구됨",
+    "point2": "현상 소개(AI 반도체 수요 급증) → 원인·배경 분석(모델 복잡성과 미세화 한계) → 핵심 논거 전개(반도체의 지정학적 패권 경쟁화) → 구체적 사례(삼성전자, EUV, 대중 규제) → 결론·정책 시사점(기술 주권과 국제 협력의 균형)",
+    "point3": "AI 기술 발전 → 반도체 수요 증가 → 미세화 혁신 요구 → 기술적 한계 → 새로운 공정(GAA·3D적층) 개발로 연결되는 '기술 진보의 연쇄 구조'. 동시에 반도체 기술 우위 → 경제 성장·외교 협상력 → 국가 경쟁력이라는 '기술-경제-안보의 상호 의존 관계'가 병존함.",
+    "tip": "【수능 비문학 학습 팁】 과학기술 지문에서는 전문 용어(GPU, GAA, EUV 등)의 정확한 의미보다 각 개념이 지문 내 논리 구조에서 어떤 역할을 하는지를 파악하는 것이 핵심이다. 특히 '기술 혁신의 원인→결과→사회적 파급'으로 이어지는 인과 관계와, '장점과 리스크가 공존한다'는 양면성 서술 구조에 주목하면 문제 풀이 속도를 높일 수 있다."
+  },
+  "papers": [
+    {
+      "title": "Prevalence of Somatosensory Tinnitus Among Patients Presenting with Tinnitus at a Tertiary Care Center: A Cross Sectional Study",
+      "abstractKo": "3차 의료기관에 이명 증상으로 내원한 환자들 중 체성감각성 이명의 유병률을 조사한 횡단면 연구이다. 체성감각성 이명은 경추나 측두하악관절의 이상으로 인한 체성 자극이 이명 발생 또는 악화에 관여하는 이명의 아형으로, 경추 압박 검사·턱 내밀기 동작 등 신체 조작에 의해 이명이 변조되는 것이 특징이다. 이 연구는 이명 환자 중 체성감각성 이명의 비율이 예상보다 높은 빈도로 존재함을 보고하며 임상적 진단 표준화에 기여하였다.",
+      "category": "Tinnitus",
+      "journal": "Indian Journal of Otolaryngology and Head & Neck Surgery",
+      "date": "2026",
+      "url": "https://link.springer.com/article/10.1007/s12070-026-06482-z"
+    },
+    {
+      "title": "Tinnitus outcomes after ginkgo biloba extract in sudden sensorineural hearing loss: a dose-comparative and prognostic study",
+      "abstractKo": "돌발성 감각신경성 난청(SSNHL)에 동반된 신규 이명 환자를 대상으로 은행잎 추출물(EGb 761)의 두 용량(120mg/일 vs 240mg/일)을 비교한 예후 연구이다. 더 높은 용량이 일부 환자군에서 이명 개선에 유의미한 효과를 보였으나, 초기 청력 손실 정도와 현기증 동반 여부가 예후를 결정하는 중요한 인자임을 확인하였다.",
+      "category": "Tinnitus",
+      "journal": "Acta Oto-Laryngologica",
+      "date": "2026",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/00016489.2026.2629608"
+    },
+    {
+      "title": "NAD+ Enhanced on Hearing Recovery in Sudden Sensorineural Hearing Loss: Randomized Controlled Trial",
+      "abstractKo": "NAD+(니코틴아마이드 아데닌 다이뉴클레오타이드) 보충이 돌발성 감각신경성 난청(SSNHL) 환자의 청력 회복에 미치는 효과를 평가한 2년간의 이중맹검 무작위대조시험이다. NAD+는 세포 에너지 대사와 미토콘드리아 기능 유지에 핵심적 역할을 하며, 내이 유모세포의 산화 스트레스 손상을 완화할 수 있다는 가설을 검증하였다. 결과적으로 NAD+ 투여군에서 대조군 대비 청력 회복률과 회복 속도가 유의미하게 개선되었다.",
+      "category": "Hearing Loss",
+      "journal": "The Laryngoscope",
+      "date": "2026",
+      "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/lary.70173"
+    },
+    {
+      "title": "Evaluation of effective methods in the treatment of residual dizziness after BPPV: a randomized comparative clinical study",
+      "abstractKo": "이석증(BPPV) 이석 정복술 성공 후 지속되는 잔류성 어지럼증 치료에 있어 전정 재활 운동(Cawthorne-Cooksey 운동, Brandt-Daroff 운동)과 세타 이진 비트(Theta Binaural Beats) 청각 자극의 효과를 비교한 무작위 임상 연구이다. Cawthorne-Cooksey 운동이 Brandt-Daroff 운동보다 효과적이었으며, 세타 이진 비트를 추가한 군에서 불안 감소 및 전정 회복이 더욱 촉진되어 다양한 재활 기법의 개인 맞춤형 적용 전략의 유효성을 지지하였다.",
+      "category": "Dizziness",
+      "journal": "European Archives of Oto-Rhino-Laryngology",
+      "date": "2025",
+      "url": "https://link.springer.com/article/10.1007/s00405-025-09780-4"
+    },
+    {
+      "title": "Development and validation of a nomogram to predict prolonged residual dizziness lasting at least 7 days after benign paroxysmal positional vertigo",
+      "abstractKo": "이석증(BPPV) 이석 정복술 후 7일 이상 지속되는 장기 잔류성 어지럼증을 예측하기 위한 노모그램 모델을 개발하고 검증한 연구이다. 연령, 당뇨병 유무, 우울증, 전정 재활 훈련 시행 여부 등을 독립 변수로 포함하여 임상적으로 활용 가능한 예측 도구를 제시하였다. 이 노모그램은 고위험군 환자를 조기에 식별해 집중 재활 치료를 제공하는 개인화 의료에 기여할 수 있다.",
+      "category": "Dizziness",
+      "journal": "European Archives of Oto-Rhino-Laryngology",
+      "date": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41652203/"
+    },
+    {
+      "title": "Developing a Diagnostic Algorithm for Identifying Vestibular Neuronitis in Acute Dizziness: An Overview of Epidemiology, Pathogenesis, and Evidence-Based Guidelines",
+      "abstractKo": "급성 어지럼증 환자에서 전정신경염을 진단하기 위한 체계적 알고리즘 개발을 다룬 종합 검토 논문이다. 전정신경염의 역학, 발병 기전(헤르페스 바이러스 잠복 감염 재활성화설 등)을 정리하고, HINTS 검사법(Head Impulse, Nystagmus, Test of Skew)을 중심으로 한 증거 기반 진단 지침을 제시하였다. 특히 중추성 어지럼증(뇌졸중)과의 감별 진단에서 임상적 정확도 향상에 기여하였다.",
+      "category": "Dizziness",
+      "journal": "Journal of Clinical Medicine / PMC",
+      "date": "2025",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11866987/"
+    },
+    {
+      "title": "Advance in biologics for chronic rhinosinusitis with nasal polyps",
+      "abstractKo": "비용종을 동반한 만성 비부비동염(CRSwNP) 치료에 사용되는 생물학적 제제의 최신 발전 동향을 정리한 종합 리뷰이다. 현재 승인된 두필루맙(dupilumab), 오말리주맙(omalizumab), 메폴리주맙(mepolizumab)의 임상 근거를 비교 분석하고, 테제펠루맙(tezepelumab) 등 개발 중인 신약 후보들의 임상 시험 결과를 검토하였다. 생물학적 제제가 비용종 크기 감소, 코막힘 개선, 수술 필요성 감소에서 우수한 효과를 보임을 확인하였다.",
+      "category": "Rhinitis/Sinusitis",
+      "journal": "Frontiers in Allergy",
+      "date": "2026",
+      "url": "https://www.frontiersin.org/journals/allergy/articles/10.3389/falgy.2026.1759649/full"
+    },
+    {
+      "title": "Long-term effects of dupilumab on chronic rhinosinusitis with nasal polyps: A step towards clinical remission",
+      "abstractKo": "비용종을 동반한 만성 비부비동염 환자에서 두필루맙(dupilumab) 96주 장기 투여의 실제 임상 효과를 평가한 실세계 연구이다. 주요 임상 지표 개선은 투여 첫 24주 내에 이루어졌으며 이후 전체 추적 기간 동안 효과가 유지되었다. 장기 투여가 임상적 관해(remission)에 도달하는 첫걸음이 될 수 있으나, 치료 중단 후 재발 여부에 대한 추가 연구가 필요하다고 결론지었다.",
+      "category": "Rhinitis/Sinusitis",
+      "journal": "World Allergy Organization Journal",
+      "date": "2024",
+      "url": "https://www.worldallergyorganizationjournal.org/article/S1939-4551(24)00156-X/fulltext"
+    },
+    {
+      "title": "Reversible sensorineural hearing loss linked to chronic allergic rhinitis",
+      "abstractKo": "만성 알레르기성 비염이 가역적 감각신경성 난청을 유발할 수 있다는 사례 및 기전을 분석한 연구이다. 알레르기성 비염에 의한 이관 기능 장애가 중이 압력 불균형을 초래하고 내이 항상성에 영향을 주어 일시적 청력 저하를 일으킬 수 있음을 제시하였다. 스테로이드 비강 스프레이, 경구 스테로이드, 항히스타민제 치료 후 청력이 회복됨을 순음청력검사로 확인하여, 알레르기 비염이 이비인후과 전체 진료에 미치는 영향을 재조명하였다.",
+      "category": "Rhinitis/Sinusitis",
+      "journal": "PMC / Otolaryngology",
+      "date": "2025",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12681714/"
+    },
+    {
+      "title": "Changes in Otitis Media During COVID-19",
+      "abstractKo": "코로나19 팬데믹 전후 중이염 양상의 변화를 분석한 후향적 연구이다. 팬데믹 기간 동안 마스크 착용·사회적 거리두기·학교 폐쇄 등의 방역 조치로 급성 중이염과 삼출성 중이염 발생률이 현저히 감소하였다. 이러한 발생률 감소는 호흡기 바이러스(인플루엔자, RSV 등) 전파 차단과 밀접한 관련이 있으며, 바이러스 감염 예방이 중이염 예방에도 효과적임을 시사한다.",
+      "category": "URI/Infection",
+      "journal": "Annals of Otology, Rhinology & Laryngology",
+      "date": "2024",
+      "url": "https://journals.sagepub.com/doi/10.1177/00034894241241889"
+    },
+    {
+      "title": "Analysis of the Reasons for Poor Prognosis in Severe to Profound Sudden Sensorineural Hearing Loss: A Systematic Review and Meta-Analysis",
+      "abstractKo": "중증 내지 고도 돌발성 감각신경성 난청에서 예후 불량의 원인을 분석한 체계적 문헌 고찰 및 메타분석이다. 현기증 동반, 치료 지연(72시간 초과), 고령, 당뇨병 등의 전신 질환이 청력 회복에 부정적 영향을 미친다는 것을 확인하였다. 중증 이상의 난청에서는 전체 회복률이 낮으므로 초기 집중 치료와 고압 산소 치료 병행이 예후 개선에 도움이 될 수 있음을 제안하였다.",
+      "category": "Hearing Loss",
+      "journal": "Diagnostics (MDPI)",
+      "date": "2025",
+      "url": "https://www.mdpi.com/2075-4418/15/21/2770"
+    },
+    {
+      "title": "SUDDEN SENSORINEURAL HEARING LOSS IN THE POST-COVID-19 ERA: A SYSTEMATIC REVIEW OF ETIOLOGY, DIAGNOSIS AND MANAGEMENT",
+      "abstractKo": "포스트 코로나19 시대의 돌발성 감각신경성 난청(SSNHL)의 병인, 진단 및 치료에 관한 체계적 문헌 고찰이다. SARS-CoV-2 감염이 내이 혈관 손상, 신경 염증 등을 통해 SSNHL을 유발할 수 있다는 가설을 검토하고, 코로나19 이후 SSNHL 발생률 변화와 임상적 특성을 분석하였다. 코로나19 연관 SSNHL은 전형적인 특발성 SSNHL과 일부 임상 양상이 다를 수 있으며, 조기 스테로이드 치료의 중요성을 강조하였다.",
+      "category": "Hearing Loss",
+      "journal": "International Journal of Innovative Technologies in Social Science",
+      "date": "2025",
+      "url": "https://rspublisher.org/index.php/ijitss/article/view/4686"
+    }
+  ]
+}{
+  "date": "2026년 4월 12일 일요일",
+  "news": [
+    {
       "title": "미-이란 종전 협상 결렬…산업계, 고유가·물류대란 '장기전' 돌입",
       "summary": "파키스탄 이슬라마바드에서 진행된 미국-이란 종전 협상이 이란이 핵 포기 요구를 거부하면서 최종 결렬됐다. 중동 긴장이 재고조되며 글로벌 에너지 공급망과 해운 물류에 지속적인 타격이 예상된다.",
       "url": "https://www.fnnews.com/news/202604121538345561",
