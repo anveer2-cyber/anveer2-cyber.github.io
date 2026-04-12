@@ -2,474 +2,118 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <title>오공의 데일리 브리핑</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Noto+Serif+KR:wght@400;600;700&display=swap');
-
-  :root {
-    --bg: #faf9f7;
-    --surface: #ffffff;
-    --text: #1a1a1a;
-    --text-secondary: #555;
-    --accent: #2d5016;
-    --accent-light: #e8f0e2;
-    --accent-med: #4a7c28;
-    --border: #e5e2dc;
-    --tag-news: #1a5276;
-    --tag-news-bg: #d6eaf8;
-    --tag-editorial: #6c3483;
-    --tag-editorial-bg: #ebdef0;
-    --tag-paper: #b7410e;
-    --tag-paper-bg: #fdebd0;
-    --card-shadow: 0 2px 12px rgba(0,0,0,0.06);
-    --radius: 12px;
-  }
-
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-
-  body {
-    font-family: 'Noto Sans KR', sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.75;
-    min-height: 100vh;
-  }
-
-  header {
-    background: linear-gradient(135deg, #1a3a0a 0%, #2d5016 50%, #3d6b1e 100%);
-    color: #fff;
-    padding: 48px 24px 40px;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-  }
-  header::after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 0; right: 0;
-    height: 40px;
-    background: var(--bg);
-    border-radius: 40px 40px 0 0;
-  }
-  header h1 {
-    font-family: 'Noto Serif KR', serif;
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: -0.5px;
-    margin-bottom: 6px;
-  }
-  header p {
-    font-size: 0.95rem;
-    opacity: 0.85;
-    font-weight: 300;
-  }
-  .date-badge {
-    display: inline-block;
-    margin-top: 14px;
-    background: rgba(255,255,255,0.15);
-    backdrop-filter: blur(4px);
-    padding: 6px 18px;
-    border-radius: 20px;
-    font-size: 0.85rem;
-    font-weight: 400;
-  }
-
-  nav {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    padding: 20px 24px 0;
-    flex-wrap: wrap;
-  }
-  nav a {
-    text-decoration: none;
-    padding: 8px 20px;
-    border-radius: 24px;
-    font-size: 0.88rem;
-    font-weight: 500;
-    color: var(--accent);
-    background: var(--accent-light);
-    transition: all 0.2s;
-    border: 1.5px solid transparent;
-  }
-  nav a:hover, nav a.active {
-    background: var(--accent);
-    color: #fff;
-  }
-
-  main {
-    max-width: 860px;
-    margin: 0 auto;
-    padding: 28px 20px 60px;
-  }
-
-  .section-title {
-    font-family: 'Noto Serif KR', serif;
-    font-size: 1.35rem;
-    font-weight: 700;
-    margin: 40px 0 6px;
-    padding-bottom: 10px;
-    border-bottom: 2.5px solid var(--accent);
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  .section-title .icon { font-size: 1.3rem; }
-  .section-subtitle {
-    font-size: 0.88rem;
-    color: var(--text-secondary);
-    margin-bottom: 20px;
-  }
-
-  .article-card {
-    background: var(--surface);
-    border-radius: var(--radius);
-    padding: 24px 26px;
-    margin-bottom: 16px;
-    box-shadow: var(--card-shadow);
-    border-left: 4px solid var(--accent);
-    transition: transform 0.15s, box-shadow 0.15s;
-  }
-  .article-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.09);
-  }
-  .article-card h3 {
-    font-size: 1.08rem;
-    font-weight: 600;
-    margin-bottom: 8px;
-    line-height: 1.5;
-  }
-  .article-card p {
-    font-size: 0.92rem;
-    color: var(--text-secondary);
-    line-height: 1.75;
-  }
-  .tag {
-    display: inline-block;
-    padding: 2px 10px;
-    border-radius: 12px;
-    font-size: 0.73rem;
-    font-weight: 600;
-    margin-bottom: 8px;
-    margin-right: 6px;
-  }
-  .tag-news { background: var(--tag-news-bg); color: var(--tag-news); }
-  .tag-editorial { background: var(--tag-editorial-bg); color: var(--tag-editorial); }
-  .tag-economy { background: #d5f5e3; color: #1e8449; }
-  .tag-tech { background: #fce4ec; color: #c0392b; }
-
-  .keywords {
-    margin-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-  }
-  .keywords span {
-    background: var(--bg);
-    padding: 3px 10px;
-    border-radius: 10px;
-    font-size: 0.75rem;
-    color: var(--text-secondary);
-    border: 1px solid var(--border);
-  }
-
-  .paper-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 16px;
-  }
-  @media (min-width: 640px) {
-    .paper-grid { grid-template-columns: 1fr 1fr; }
-  }
-  .paper-card {
-    background: var(--surface);
-    border-radius: var(--radius);
-    padding: 22px 22px 18px;
-    box-shadow: var(--card-shadow);
-    border-top: 4px solid var(--tag-paper);
-    display: flex;
-    flex-direction: column;
-    transition: transform 0.15s, box-shadow 0.15s;
-  }
-  .paper-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.09);
-  }
-  .paper-card .tag { background: var(--tag-paper-bg); color: var(--tag-paper); }
-  .paper-card h3 {
-    font-size: 0.98rem;
-    font-weight: 600;
-    margin-bottom: 8px;
-    line-height: 1.5;
-  }
-  .paper-card .summary {
-    font-size: 0.85rem;
-    color: var(--text-secondary);
-    line-height: 1.7;
-    flex: 1;
-  }
-  .paper-card .meta {
-    margin-top: 12px;
-    padding-top: 10px;
-    border-top: 1px solid var(--border);
-    font-size: 0.78rem;
-    color: #888;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .paper-card .journal {
-    font-weight: 500;
-    color: var(--tag-paper);
-  }
-
-  .trend-box {
-    background: linear-gradient(135deg, #fff9f0 0%, #fff3e0 100%);
-    border: 1.5px solid #f5cba7;
-    border-radius: var(--radius);
-    padding: 22px 24px;
-    margin-top: 24px;
-  }
-  .trend-box h3 {
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--tag-paper);
-    margin-bottom: 10px;
-  }
-  .trend-box ul {
-    list-style: none;
-    padding: 0;
-  }
-  .trend-box li {
-    padding: 6px 0;
-    font-size: 0.88rem;
-    color: var(--text-secondary);
-    display: flex;
-    align-items: flex-start;
-    gap: 8px;
-  }
-  .trend-box li::before {
-    content: '>';
-    color: var(--tag-paper);
-    font-weight: 700;
-    flex-shrink: 0;
-  }
-
-  .tip-box {
-    background: var(--accent-light);
-    border-radius: var(--radius);
-    padding: 20px 24px;
-    margin-top: 32px;
-    border: 1.5px solid #c1dbb0;
-  }
-  .tip-box h3 {
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--accent);
-    margin-bottom: 8px;
-  }
-  .tip-box p {
-    font-size: 0.88rem;
-    color: var(--text-secondary);
-    line-height: 1.7;
-  }
-
-  footer {
-    text-align: center;
-    padding: 32px 20px;
-    font-size: 0.8rem;
-    color: #aaa;
-    border-top: 1px solid var(--border);
-    max-width: 860px;
-    margin: 0 auto;
-  }
-
-  @media (max-width: 600px) {
-    header h1 { font-size: 1.5rem; }
-    .section-title { font-size: 1.15rem; }
-    .article-card { padding: 18px 18px; }
-  }
+  :root{--bg:#f5f5f0;--surface:#fff;--text:#1a1a1a;--text-sub:#666;--accent:#2d5016;--accent-light:#e8f0e2;--accent2:#b7410e;--accent2-light:#fdebd0;--border:#e0ddd6;--tag-blue:#1a5276;--tag-blue-bg:#d6eaf8;--tag-purple:#6c3483;--tag-purple-bg:#ebdef0;--tag-green:#1e8449;--tag-green-bg:#d5f5e3;--tag-red:#c0392b;--tag-red-bg:#fce4ec;--shadow:0 2px 8px rgba(0,0,0,0.06);--r:10px}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;-webkit-font-smoothing:antialiased}
+  .header{background:linear-gradient(135deg,#1a3a0a,#2d5016,#3d6b1e);color:#fff;padding:32px 16px 28px;text-align:center}
+  .header h1{font-family:'Noto Serif KR',serif;font-size:1.5rem;font-weight:700;margin-bottom:4px}
+  .header .sub{font-size:.82rem;opacity:.8;font-weight:300}
+  .header .date-badge{display:inline-block;margin-top:10px;background:rgba(255,255,255,.15);padding:4px 14px;border-radius:16px;font-size:.78rem}
+  .tab-nav{display:flex;background:var(--surface);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .tab-nav button{flex:1;min-width:fit-content;padding:12px 16px;border:none;background:none;font-family:'Noto Sans KR',sans-serif;font-size:.82rem;font-weight:500;color:var(--text-sub);cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap;transition:all .2s}
+  .tab-nav button.active{color:var(--accent);border-bottom-color:var(--accent);font-weight:600}
+  .tab-nav button:nth-child(3).active{color:var(--accent2);border-bottom-color:var(--accent2)}
+  .tab-content{display:none}.tab-content.active{display:block}
+  .container{max-width:680px;margin:0 auto;padding:16px}
+  .sec-header{font-family:'Noto Serif KR',serif;font-size:1.1rem;font-weight:700;margin:20px 0 6px;padding-bottom:8px;border-bottom:2px solid var(--accent);display:flex;align-items:center;gap:8px}
+  .sec-header.ent{border-bottom-color:var(--accent2)}
+  .sec-desc{font-size:.8rem;color:var(--text-sub);margin-bottom:14px}
+  .news-card{background:var(--surface);border-radius:var(--r);padding:16px;margin-bottom:12px;box-shadow:var(--shadow);border-left:3px solid var(--accent)}
+  .news-card.editorial{border-left-color:var(--tag-purple)}
+  .news-card.reading{border-left-color:var(--tag-blue)}
+  .news-card h3{font-size:.95rem;font-weight:600;margin-bottom:6px;line-height:1.5}
+  .news-card h3 a{color:var(--text);text-decoration:none}
+  .news-card h3 a:hover{text-decoration:underline}
+  .news-card p{font-size:.84rem;color:var(--text-sub);line-height:1.65}
+  .news-card .source{font-size:.75rem;color:#999;margin-top:6px}
+  .tags{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:6px}
+  .tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:.68rem;font-weight:600}
+  .t-blue{background:var(--tag-blue-bg);color:var(--tag-blue)}
+  .t-purple{background:var(--tag-purple-bg);color:var(--tag-purple)}
+  .t-green{background:var(--tag-green-bg);color:var(--tag-green)}
+  .t-red{background:var(--tag-red-bg);color:var(--tag-red)}
+  .t-orange{background:var(--accent2-light);color:var(--accent2)}
+  .paper-card{background:var(--surface);border-radius:var(--r);padding:16px;margin-bottom:12px;box-shadow:var(--shadow);border-top:3px solid var(--accent2)}
+  .paper-card h3{font-size:.9rem;font-weight:600;margin-bottom:4px;line-height:1.5}
+  .paper-card h3 a{color:var(--text);text-decoration:none}
+  .paper-card h3 a:hover{text-decoration:underline}
+  .paper-card .abstract{font-size:.82rem;color:var(--text-sub);line-height:1.65;margin-top:6px}
+  .paper-card .meta{margin-top:8px;font-size:.73rem;color:#999;display:flex;justify-content:space-between}
+  .paper-card .journal{color:var(--accent2);font-weight:500}
+  details summary{cursor:pointer;font-size:.8rem;color:var(--accent2);font-weight:500;margin-top:6px}
+  details[open] summary{margin-bottom:6px}
+  .passage-box{background:#fafaf5;border:1px solid var(--border);border-radius:var(--r);padding:16px;margin:12px 0;font-size:.88rem;line-height:1.8}
+  .study-point{background:var(--accent-light);border-radius:var(--r);padding:14px;margin-top:12px;font-size:.82rem}
+  .study-point h4{font-size:.85rem;color:var(--accent);margin-bottom:6px}
+  .study-point ol{padding-left:18px;color:var(--text-sub);line-height:1.7}
+  .tip-box{background:linear-gradient(135deg,#fff9f0,#fff3e0);border:1px solid #f5cba7;border-radius:var(--r);padding:14px;margin-top:12px;font-size:.82rem;color:var(--text-sub)}
+  .tip-box strong{color:var(--accent2)}
+  .archive-item{display:block;padding:10px 16px;background:var(--surface);border-radius:var(--r);margin-bottom:6px;text-decoration:none;color:var(--text);font-size:.84rem;box-shadow:var(--shadow);transition:background .15s}
+  .archive-item:hover{background:var(--accent-light)}
+  .archive-item .date{color:var(--text-sub);font-size:.75rem}
+  .footer{text-align:center;padding:24px 16px;font-size:.73rem;color:#aaa;border-top:1px solid var(--border);max-width:680px;margin:16px auto 0}
+  .loading{text-align:center;padding:40px;color:var(--text-sub);font-size:.88rem}
+  @media(max-width:480px){.header h1{font-size:1.3rem}.container{padding:12px}.news-card,.paper-card{padding:14px}}
 </style>
 </head>
 <body>
-
-<header>
+<div class="header">
   <h1>오공의 데일리 브리핑</h1>
-  <p>수능 시사 브리핑 &middot; 이비인후과 논문 리뷰</p>
-  <div class="date-badge">2026년 4월 12일 일요일</div>
-</header>
-
-<nav>
-  <a href="#news" class="active">시사 뉴스</a>
-  <a href="#editorial">사설 브리핑</a>
-  <a href="#papers">이비인후과 논문</a>
-  <a href="#trends">연구 동향</a>
-</nav>
-
-<main>
-
-<div class="section-title" id="news">
-  <span class="icon">&#128240;</span> 수능 대비 시사 뉴스 브리핑
+  <p class="sub">수능 시사 브리핑 · 이비인후과 논문 리뷰</p>
+  <div class="date-badge" id="todayDate">2026년 4월 12일 일요일</div>
 </div>
-<p class="section-subtitle">언어영역 비문학 &middot; 사회탐구 대비를 위한 이번 주 핵심 뉴스</p>
-
-<div class="article-card">
-  <span class="tag tag-news">국제정세</span>
-  <span class="tag tag-economy">경제</span>
-  <h3>호르무즈 해협 긴장 고조 &mdash; 미-이란 종전 협상 시작</h3>
-  <p>이란의 호르무즈 해협 유조선 통행 제한 선언으로 국제 유가가 급등하며 글로벌 에너지 안보 위기가 현실화되고 있다. 미국과 이란은 4월 11일 종전 협상을 시작했으며, 이스라엘과의 휴전 위반 공방이 이어지는 가운데 중동 지정학 질서의 재편이 가속화되고 있다.</p>
-  <div class="keywords">
-    <span>#호르무즈해협</span>
-    <span>#미이란협상</span>
-    <span>#에너지안보</span>
-    <span>#지정학리스크</span>
-    <span>#사회탐구</span>
+<div class="tab-nav">
+  <button class="active" onclick="switchTab('suneung')">수능 브리핑</button>
+  <button onclick="switchTab('editorial')">사설·독해</button>
+  <button onclick="switchTab('ent')">이비인후과</button>
+  <button onclick="switchTab('archive')">지난 브리핑</button>
+</div>
+<div class="tab-content active" id="tab-suneung">
+  <div class="container">
+    <div class="sec-header">오늘의 수능 시사 뉴스 TOP 10</div>
+    <p class="sec-desc">수능 출제 가능성이 높은 시사 뉴스를 매일 엄선합니다</p>
+    <div id="news-list"><div class="loading">콘텐츠를 불러오는 중입니다...</div></div>
   </div>
 </div>
-
-<div class="article-card">
-  <span class="tag tag-economy">경제</span>
-  <h3>반도체 수출 월 300억 달러 돌파 &mdash; 사상 최대 기록 경신</h3>
-  <p>3월 반도체 수출이 전년 대비 151.4% 증가하며 월 수출액 300억 달러를 최초로 돌파했다. AI 반도체 수요 폭증과 글로벌 데이터센터 투자 확대가 주요 동인으로, 전체 수출액도 861.3억 달러로 역대 최대치를 경신했다.</p>
-  <div class="keywords">
-    <span>#반도체수출</span>
-    <span>#AI반도체</span>
-    <span>#HBM</span>
-    <span>#무역흑자</span>
-    <span>#경제지리</span>
+<div class="tab-content" id="tab-editorial">
+  <div class="container">
+    <div class="sec-header">오늘의 사설 3선</div>
+    <p class="sec-desc">수능 국어(비문학/논술) 대비 - 주요 일간지 사설 분석</p>
+    <div id="editorial-list"><div class="loading">콘텐츠를 불러오는 중입니다...</div></div>
+    <div class="sec-header" style="margin-top:28px;">비문학 독해 연습</div>
+    <p class="sec-desc">수능 스타일 비문학 지문 + 독해 포인트</p>
+    <div id="reading-section"><div class="loading">콘텐츠를 불러오는 중입니다...</div></div>
   </div>
 </div>
-
-<div class="article-card">
-  <span class="tag tag-news">정치</span>
-  <span class="tag tag-news">사회</span>
-  <h3>경제 위기 속 여야 초당적 협력 &mdash; 청와대 회동</h3>
-  <p>이재명 대통령이 여야 대표를 청와대로 초청해 중동 사태에 따른 경제 위기 대응 방안을 논의했다. 고유가, 고환율, 물가 상승이라는 삼중고 속에서 초당적 협력의 필요성이 강조되었으며, 에너지 수급 안정과 서민 물가 대책이 핵심 의제로 다뤄졌다.</p>
-  <div class="keywords">
-    <span>#초당적협력</span>
-    <span>#물가안정</span>
-    <span>#에너지정책</span>
-    <span>#정치과정</span>
+<div class="tab-content" id="tab-ent">
+  <div class="container">
+    <div class="sec-header ent">이비인후과 최신 논문 브리핑</div>
+    <p class="sec-desc">Google Scholar 최신 논문 - 초록 한글 번역 포함</p>
+    <div id="ent-list"><div class="loading">콘텐츠를 불러오는 중입니다...</div></div>
   </div>
 </div>
-
-<div class="article-card">
-  <span class="tag tag-tech">기술/사회</span>
-  <h3>AI 가상인물 표시 의무화 추진 &mdash; 디지털 윤리의 새 국면</h3>
-  <p>AI로 생성된 가상 인물 콘텐츠에 대한 표시 의무화가 추진되고 있다. 딥페이크 기술의 고도화로 실제 인물과 AI 생성물의 구분이 어려워지면서, 콘텐츠 신뢰성과 디지털 윤리 문제가 사회적 화두로 떠올랐다.</p>
-  <div class="keywords">
-    <span>#AI윤리</span>
-    <span>#딥페이크</span>
-    <span>#디지털리터러시</span>
-    <span>#생활과윤리</span>
+<div class="tab-content" id="tab-archive">
+  <div class="container">
+    <div class="sec-header">지난 브리핑 아카이브</div>
+    <p class="sec-desc">이전 날짜의 브리핑을 열어볼 수 있습니다</p>
+    <div id="archive-list"><div class="loading">아카이브 데이터를 불러오는 중입니다...</div></div>
   </div>
 </div>
-
-<div class="section-title" id="editorial">
-  <span class="icon">&#128221;</span> 사설 브리핑
+<div class="footer">
+  <p>2026 오공의 데일리 브리핑</p>
+  <p>매일 밤 12시 자동 업데이트 · GitHub Pages</p>
 </div>
-<p class="section-subtitle">주요 신문 사설의 핵심 논지를 수능 논술, 비문학 관점에서 정리</p>
-
-<div class="article-card" style="border-left-color: #6c3483;">
-  <span class="tag tag-editorial">사설 분석</span>
-  <h3>[논제 1] 정치 양극화와 민주주의의 위기</h3>
-  <p><strong>핵심 논지:</strong> 미국발 정치 양극화 현상이 글로벌 리더십의 신뢰를 흔들고 있다. 진영 논리에 갇힌 정치가 실질적인 정책 대안 마련을 가로막으며, 민주주의 제도 자체에 대한 회의론이 확산되고 있다.</p>
-  <p style="margin-top:8px;"><strong>수능 연계:</strong> 사회문화 - 정치 참여와 선거, 민주주의의 원리 / 생활과 윤리 - 공론장과 숙의 민주주의</p>
-</div>
-
-<div class="article-card" style="border-left-color: #6c3483;">
-  <span class="tag tag-editorial">사설 분석</span>
-  <h3>[논제 2] 의정 갈등 장기화와 공공의료 시스템의 과제</h3>
-  <p><strong>핵심 논지:</strong> 의료계와 정부 간 갈등이 장기화되면서 응급실, 중환자실 운영에 대한 국민 불안이 가중되고 있다. 의료 인력 부족과 수도권 쏠림 현상은 지역 의료 격차를 심화시키고 있다.</p>
-  <p style="margin-top:8px;"><strong>수능 연계:</strong> 사회문화 - 사회 불평등과 복지 / 한국지리 - 수도권 집중 문제</p>
-</div>
-
-<div class="article-card" style="border-left-color: #6c3483;">
-  <span class="tag tag-editorial">사설 분석</span>
-  <h3>[논제 3] 지정학 리스크 시대의 경제 안보 전략</h3>
-  <p><strong>핵심 논지:</strong> 중동 긴장, 고유가, 환율 1,500원 돌파라는 삼중고가 한국 경제를 압박하고 있다. 수출 의존도가 높은 한국 경제 구조에서 에너지, 원자재 공급망 다변화와 경제 안보 전략의 재정립이 시급하다.</p>
-  <p style="margin-top:8px;"><strong>수능 연계:</strong> 경제 - 무역과 국제수지 / 세계지리 - 에너지 자원의 분포와 소비</p>
-</div>
-
-<div class="section-title" id="papers">
-  <span class="icon">&#129514;</span> 이비인후과 최신 논문 요약
-</div>
-<p class="section-subtitle">2025-2026년 주요 저널 게재 논문 하이라이트</p>
-
-<div class="paper-grid">
-
-  <div class="paper-card">
-    <span class="tag">비침습 진단</span>
-    <h3>타액 기반 AI 진단 플랫폼으로 두경부암 98% 정확도 달성</h3>
-    <p class="summary">서울성모병원 연구팀이 나노코랄 그래핀 센서와 AI 모델을 결합하여 타액만으로 두경부암을 진단하는 플랫폼을 개발. 특이도 100%, 민감도 96%, AUC 0.999를 기록하며 혈액 기반 액체 생검의 한계를 극복할 가능성을 제시했다.</p>
-    <div class="meta">
-      <span class="journal">서울성모병원 공동연구</span>
-      <span>2026</span>
-    </div>
-  </div>
-
-  <div class="paper-card">
-    <span class="tag">AI 신약 탐색</span>
-    <h3>AI 스크리닝으로 항생제 유발 난청 억제 후보물질 발굴</h3>
-    <p class="summary">고려대 안산병원 이비인후과 연구팀이 AI 스크리닝 모델과 제브라피쉬 동물 실험을 결합해 아미노글리코사이드 항생제에 의한 난청 부작용을 억제할 수 있는 후보 약물을 발굴했다.</p>
-    <div class="meta">
-      <span class="journal">고려대 안산병원</span>
-      <span>2025-2026</span>
-    </div>
-  </div>
-
-  <div class="paper-card">
-    <span class="tag">신경공학</span>
-    <h3>ALS 환자 뇌-컴퓨터 인터페이스로 음성 복원 성공</h3>
-    <p class="summary">256개 미세전극을 운동피질에 이식한 ALS 환자에서 Transformer 기반 디코더가 신경 신호를 10ms 단위로 음향 특성으로 변환하여 자연스러운 음성을 복원하는 데 성공했다.</p>
-    <div class="meta">
-      <span class="journal">ENT Discovery</span>
-      <span>2025</span>
-    </div>
-  </div>
-
-  <div class="paper-card">
-    <span class="tag">원격의료</span>
-    <h3>Tele-ENT: 이비인후과 원격진료 플랫폼의 진단 정확도 평가</h3>
-    <p class="summary">AI 보조 영상 분석을 결합한 원격 진료 모델의 진단 정확도와 환자 만족도가 대면 진료와 동등한 수준에 도달했다는 연구 결과가 다수 보고되고 있다.</p>
-    <div class="meta">
-      <span class="journal">MDPI / Springer</span>
-      <span>2026</span>
-    </div>
-  </div>
-
-</div>
-
-<div class="section-title" id="trends">
-  <span class="icon">&#128200;</span> 2026 이비인후과 연구 트렌드
-</div>
-<p class="section-subtitle">올해 주목해야 할 5대 연구 키워드</p>
-
-<div class="trend-box">
-  <h3>Emerging Trends in Otorhinolaryngology 2026</h3>
-  <ul>
-    <li><strong>AI &amp; Digital Health</strong> - 딥러닝 기반 영상 진단, 음성 분석 AI가 이비인후과 진료의 표준으로 자리잡는 추세.</li>
-    <li><strong>Tele-ENT &amp; Remote Care</strong> - 원격 내시경, AI 보조 원격 판독 등 비대면 진료 모델이 지역 의료 격차 해소의 핵심 수단으로 부상.</li>
-    <li><strong>Hearing &amp; Balance Innovation</strong> - 유전자 치료, 줄기세포 기반 청각 재생 연구가 전임상 단계에서 성과를 내고 있다.</li>
-    <li><strong>Laryngology &amp; Voice Restoration</strong> - 뇌-컴퓨터 인터페이스(BCI)와 조직공학을 활용한 음성 복원 기술이 주목받고 있다.</li>
-    <li><strong>Head &amp; Neck Oncology</strong> - 면역항암제와 분자 표적 치료의 병행, 액체 생검 기반 조기 진단 기술이 두경부암 치료의 패러다임을 전환 중.</li>
-  </ul>
-</div>
-
-<div class="tip-box">
-  <h3>이번 주 수능 대비 Tip</h3>
-  <p>중동 지정학 갈등과 에너지 안보 이슈는 사회탐구 전 영역에 걸쳐 출제 가능성이 높은 주제입니다. 특히 <strong>호르무즈 해협의 전략적 중요성</strong>(세계지리), <strong>환율 변동과 무역수지</strong>(경제), <strong>국제 분쟁과 평화</strong>(정치와 법) 등 다각적으로 정리해 두세요.</p>
-</div>
-
-</main>
-
-<footer>
-  <p>&copy; 2026 오공의 데일리 브리핑 - 수능 시사 + 이비인후과 논문 리뷰</p>
-  <p style="margin-top:4px;">콘텐츠는 최신 뉴스 및 학술 자료를 기반으로 정리되었습니다.</p>
-</footer>
-
+<script>
+function switchTab(n){document.querySelectorAll('.tab-content').forEach(t=>t.classList.remove('active'));document.querySelectorAll('.tab-nav button').forEach(b=>b.classList.remove('active'));document.getElementById('tab-'+n).classList.add('active');var tabs=['suneung','editorial','ent','archive'];document.querySelectorAll('.tab-nav button')[tabs.indexOf(n)].classList.add('active')}
+async function loadData(){try{var r=await fetch('data/latest.json');if(!r.ok)throw 0;var d=await r.json();renderAll(d)}catch(e){console.log('No data yet')}}
+function renderAll(d){document.getElementById('todayDate').textContent=d.date||'';if(d.news&&d.news.length>0){document.getElementById('news-list').innerHTML=d.news.map((n,i)=>'<div class="news-card"><div class="tags">'+(n.tags||[]).map(t=>'<span class="tag '+tagClass(t)+'">'+t+'</span>').join('')+'</div><h3><a href="'+(n.url||'#')+'" target="_blank">'+(i+1)+'. '+n.title+'</a></h3><p>'+n.summary+'</p><div class="source">'+(n.source||'')+'</div></div>').join('')}if(d.editorials&&d.editorials.length>0){document.getElementById('editorial-list').innerHTML=d.editorials.map((e,i)=>'<div class="news-card editorial"><div class="tags"><span class="tag t-purple">사설 '+(i+1)+'</span></div><h3><a href="'+(e.url||'#')+'" target="_blank">'+e.title+'</a></h3><p><strong>'+(e.publisher||'')+'</strong></p><p>'+e.summary+'</p><div style="margin-top:8px;font-size:.82rem"><strong style="color:var(--tag-purple)">학습 포인트:</strong> '+(e.studyPoint||'')+'</div></div>').join('')}if(d.readingPassage){var r=d.readingPassage;document.getElementById('reading-section').innerHTML='<div class="news-card reading"><h3>'+(r.title||'비문학 독해 연습 지문')+'</h3><div class="passage-box">'+(r.passage||'')+'</div><div class="study-point"><h4>핵심 독해 포인트</h4><ol><li><strong>문단별 중심 내용:</strong> '+(r.point1||'')+'</li><li><strong>글의 전개 방식:</strong> '+(r.point2||'')+'</li><li><strong>핵심 개념 간 관계:</strong> '+(r.point3||'')+'</li></ol></div>'+(r.tip?'<div class="tip-box"><strong>오늘의 학습 팁:</strong> '+r.tip+'</div>':'')+'</div>'}if(d.papers&&d.papers.length>0){document.getElementById('ent-list').innerHTML=d.papers.map(p=>'<div class="paper-card"><div class="tags"><span class="tag t-orange">'+(p.category||'ENT')+'</span></div><h3><a href="'+(p.url||'#')+'" target="_blank">'+p.title+'</a></h3><details><summary>초록 보기 (한글 번역)</summary><div class="abstract">'+(p.abstractKo||'')+'</div></details><div class="meta"><span class="journal">'+(p.journal||'')+'</span><span>'+(p.date||'')+'</span></div></div>').join('')}}
+async function loadArchive(){try{var r=await fetch('data/archive-index.json');if(!r.ok)throw 0;var d=await r.json();document.getElementById('archive-list').innerHTML=d.map(x=>'<a class="archive-item" href="data/'+x.file+'"><div>'+x.label+'</div><div class="date">'+x.date+'</div></a>').join('')||'<p style="color:#999;font-size:.85rem">아직 아카이브 데이터가 없습니다.</p>'}catch(e){document.getElementById('archive-list').innerHTML='<p style="color:#999;font-size:.85rem">아직 아카이브 데이터가 없습니다. 내일부터 자동으로 쌓입니다.</p>'}}
+function tagClass(t){if(['국어','비문학','논술'].includes(t))return 't-purple';if(['사회탐구','정치','경제','사회','한국지리','세계지리','사회문화','윤리'].includes(t))return 't-blue';if(['과학탐구','과학','기술','생명과학','물리','화학','지구과학'].includes(t))return 't-green';if(['영어','국제'].includes(t))return 't-red';return 't-orange'}
+loadData();loadArchive();
+</script>
 </body>
 </html>
