@@ -1,246 +1,198 @@
 {
-  "date": "2026년 4월 13일 월요일",
+  "date": "2026년 4월 14일 화요일",
   "news": [
     {
-      "title": "미-이란 종전 협상 결렬…미군, 이란 해상 봉쇄 전격 발표",
-      "summary": "미국과 이란의 21시간 협상이 최종 결렬되었으며, 트럼프 대통령은 한국시간 13일 밤 11시부터 이란 항구를 드나드는 모든 선박에 대한 해상 봉쇄를 공식 발표했다. 호르무즈 해협 봉쇄로 글로벌 원유 공급의 약 20%가 차질을 빚어 유가 급등과 인플레이션 압박이 심화될 전망이다.",
-      "url": "https://imnews.imbc.com/news/2026/world/article/6814661_36925.html",
-      "tags": [
-        "국제",
-        "사회탐구",
-        "경제",
-        "정치"
-      ],
-      "source": "MBC 뉴스"
+      "title": "미국-레바논-이스라엘 3자 협상 오늘 워싱턴 개최…중동 휴전 분수령",
+      "summary": "미국 워싱턴에서 레바논과 이스라엘 간 협상이 14일 예정됐으나, 나와프 살람 레바논 총리는 반정부 시위 격화로 불참을 결정했다. 호르무즈 봉쇄 이후 중동 정세 안정을 위한 첫 공식 외교 테이블로 주목받고 있다.",
+      "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6814616_37004.html",
+      "tags": ["국제", "정치", "사회탐구"],
+      "source": "MBC뉴스"
     },
     {
-      "title": "이재명 대통령-폴란드 투스크 총리 정상회담…첨단산업·우주 협력 합의",
-      "summary": "이재명 대통령은 공식 방한한 폴란드 투스크 총리와 청와대에서 정상회담을 갖고 첨단산업, 과학기술, 우주, 에너지, 인프라 분야의 포괄적 협력을 담은 공동성명을 채택했다. 양국은 FTA 가속화와 방산 협력 강화에도 공감대를 이뤘다.",
-      "url": "https://www.newsis.com/view/NISX20260412_0003587845",
-      "tags": [
-        "국제",
-        "정치",
-        "사회탐구",
-        "경제"
-      ],
-      "source": "뉴시스"
+      "title": "정부 26조 추경 후속조치…고유가 피해지원금 지급 본격화",
+      "summary": "국회를 통과한 26조 원 규모 추경에 따라 소득 하위 70% 가구에 고유가 피해지원금이 지급된다. 기초수급자는 최대 60만 원, 일반 가구는 지역별 10만~25만 원을 받으며, 14일부터 시·군·구청을 통한 접수가 시작됐다.",
+      "url": "https://www.cliktoday.com/2026/04/20260412-today-news.html",
+      "tags": ["경제", "사회", "사회탐구"],
+      "source": "오늘의 클릭"
     },
     {
-      "title": "중동 위기 추경 26조2천억 국회 통과…역대 최단기간 17일 편성",
-      "summary": "중동 전쟁에 따른 경제 위기 극복을 위한 2026년 추가경정예산안 26조2천억원이 국회 본회의를 통과했다. 기획예산처는 역대 최단기간(17일)의 추경 편성 및 심사 과정에서 유공을 세운 직원 34명을 포상했다.",
-      "url": "https://www.ajunews.com/view/20260413131614564",
-      "tags": [
-        "경제",
-        "정치",
-        "사회탐구"
-      ],
-      "source": "아주경제"
-    },
-    {
-      "title": "6·3 지방선거 D-50…여야 광역단체장 공천 윤곽 드러나",
-      "summary": "6월 3일 제9회 전국동시지방선거까지 50여일이 남은 가운데, 국민의힘은 박형준 부산시장 등 현역 유지 기조를 유지하고, 민주당은 현역 단체장 교체에 나서면서 여야의 공천 전략 차이가 뚜렷해지고 있다.",
-      "url": "https://www.seoul.co.kr/news/politics/local-election2026/2026/04/13/20260413001006",
-      "tags": [
-        "정치",
-        "사회탐구",
-        "사회"
-      ],
-      "source": "서울신문"
-    },
-    {
-      "title": "양자컴퓨터, 현행 암호 체계 위협…국내 PQC 전환율 15% 미만",
-      "summary": "양자컴퓨팅의 발전이 RSA 등 공개키 암호 체계를 무력화할 수 있다는 경고가 커지고 있다. 미국은 2026년을 '양자 보안의 해'로 선포했으나, 국내 금융권의 양자내성암호(PQC) 도입률은 15% 미만으로 사이버 보안의 구조적 취약성이 드러났다.",
-      "url": "https://zdnet.co.kr/view/?no=20260413145933",
-      "tags": [
-        "과학",
-        "기술",
-        "과학탐구",
-        "사회탐구"
-      ],
-      "source": "ZDNet Korea"
-    },
-    {
-      "title": "한국, 4월 초 '환경 부도의 날' 도래…재생에너지 전환 지지부진",
-      "summary": "한국은 올해 4월 9일 이미 지구가 1년간 감당할 수 있는 자원 한도를 초과하는 '환경 부도의 날'을 맞이했다. 정부가 재생에너지 대전환을 선언하면서도 석탄발전 21기를 유지하려는 모순적 정책이 비판을 받고 있다.",
-      "url": "https://www.kjob.news/news/480492",
-      "tags": [
-        "환경",
-        "사회탐구",
-        "과학",
-        "사회"
-      ],
-      "source": "전국인력신문"
-    },
-    {
-      "title": "재판소원 시행 한 달…380건 접수됐지만 통과는 0건",
-      "summary": "법원의 확정 판결에 헌법소원을 허용하는 재판소원 제도 시행 한 달 만에 380건 이상이 접수됐지만, 아직 실제 심판 통과 사례가 없어 '4심제 우려'가 일부 해소됐다는 평가가 나온다.",
-      "url": "https://www.seoul.co.kr/news/society/law/2026/04/13/20260413005001",
-      "tags": [
-        "법",
-        "사회탐구",
-        "사회",
-        "정치"
-      ],
-      "source": "서울신문"
-    },
-    {
-      "title": "한국 AI 파운데이션 모델 1차 개발 완료…세계 Top 10 목표",
-      "summary": "한국 정부는 국산 AI 파운데이션 모델('독파모') 1차 개발을 완료하고, 2026년 내 세계 Top 10 수준의 AI 모델 확보를 목표로 하고 있다. 포스코DX는 국산 NPU 기반 AI 전환(AX)을 본격화하며 제조 현장에서의 AI 적용을 추진 중이다.",
+      "title": "국산 AI 파운데이션 모델 1호 공개…연내 글로벌 톱10 진입 목표",
+      "summary": "정부와 민간 컨소시엄이 공동 개발한 한국어 특화 AI 파운데이션 모델이 공개되며 산업·공공 분야 전면 적용이 예고됐다. 포스코DX 등은 국산 NPU 기반 AI 전환(AX)을 가속화하고 있다.",
       "url": "https://www.etnews.com/20251231000243",
-      "tags": [
-        "기술",
-        "과학탐구",
-        "사회탐구",
-        "경제"
-      ],
+      "tags": ["과학", "기술", "경제"],
       "source": "전자신문"
     },
     {
-      "title": "슈퍼 엘니뇨 경고…2026년 복합 극한 기후 최대 5배 증가 전망",
-      "summary": "독일·중국 공동 연구팀이 현재 기후 정책 유지 시 금세기 말 폭염과 가뭄이 동시 발생하는 복합 극한 기후가 최대 5배 증가할 수 있다고 경고했다. 기후 전문가들은 2026년 슈퍼 엘니뇨가 전 세계적 식량 위기와 경제적 충격을 초래할 가능성을 주목하고 있다.",
-      "url": "https://www.kjob.news/news/480669",
-      "tags": [
-        "과학",
-        "환경",
-        "과학탐구",
-        "사회탐구"
-      ],
-      "source": "전국인력신문"
+      "title": "SKT·Arm·리벨리온, AI 데이터센터 차세대 서버 공동 개발",
+      "summary": "Arm의 CPU와 리벨리온의 NPU를 결합한 AI 추론 최적화 서버 아키텍처가 공개되며, 전력 효율 개선과 국산 AI 반도체 생태계 확산의 계기가 될 전망이다.",
+      "url": "https://www.sptatimeskorea.com/post/%EC%A0%9C20260410-tt-01%ED%98%B8-2026%EB%85%84-4%EC%9B%94-10%EC%9D%BC-%EB%B0%98%EB%8F%84%EC%B2%B4-%EA%B8%B0%EC%88%A0-%EA%B4%80%EB%A0%A8-%EC%A3%BC%EC%9A%94-%EB%89%B4%EC%8A%A4-%EC%9A%94%EC%95%BD",
+      "tags": ["기술", "과학탐구", "경제"],
+      "source": "SPTA 타임스"
     },
     {
-      "title": "SPC 계열사서 또 손가락 절단 사고…'1000억 안전 투자' 실효 의문",
-      "summary": "삼립 제빵 공장에서 노동자 손가락 절단 사고가 다시 발생했다. SPC그룹이 대통령 방문 이후 1,000억원 규모 안전 대책을 발표했음에도 1년 새 세 건의 중대 재해가 반복되면서 산업안전 정책의 실효성에 대한 사회적 비판이 높아지고 있다.",
-      "url": "https://www.khan.co.kr/article/202604131815001",
-      "tags": [
-        "사회",
-        "노동",
-        "사회탐구",
-        "법"
-      ],
-      "source": "경향신문"
+      "title": "엔비디아 차세대 AI 가속기 '루빈' 출시 지연 가시화",
+      "summary": "HBM4 검증과 전력·네트워크 설계 이슈로 엔비디아 루빈의 출시가 당초 일정보다 지연될 전망이다. 이에 따라 글로벌 AI 인프라 투자 일정과 국내 메모리 반도체 공급망에도 영향이 예상된다.",
+      "url": "https://www.newspim.com/news/view/20260412000204",
+      "tags": ["기술", "경제", "과학탐구"],
+      "source": "뉴스핌"
+    },
+    {
+      "title": "6·3 지방선거 D-50…여야 광역단체장 공천 경쟁 본격화",
+      "summary": "6월 3일 지방선거를 50일 앞두고 여당과 야당이 서울·대구 등 주요 광역단체장 공천 전략을 두고 충돌하고 있다. 기초단체장·교육감 선거 판세도 함께 요동치고 있다.",
+      "url": "https://www.cliktoday.com/2026/04/20260412-today-news.html",
+      "tags": ["정치", "사회탐구"],
+      "source": "오늘의 클릭"
+    },
+    {
+      "title": "정부, 플라스틱 소비 감축 캠페인 6개월간 전국 시행",
+      "summary": "중동 위기 장기화에 따른 석유 수급 불안에 대응해 정부가 일회용 플라스틱 소비 감축 캠페인을 6개월간 전국 단위로 실시한다. 다회용기 보증금제와 대형마트 포장재 규제가 병행된다.",
+      "url": "https://www.cliktoday.com/2026/04/20260412-today-news.html",
+      "tags": ["사회", "환경", "과학탐구"],
+      "source": "오늘의 클릭"
+    },
+    {
+      "title": "아르테미스 2호 귀환 성공…한국 달 탐사 로드맵 가속",
+      "summary": "NASA 아르테미스 2호 미션이 지구로 무사 귀환하며 달 궤도 유인 탐사가 재개되었다. 한국은 달 착륙선 '다누리-2' 개발 일정을 1년 앞당기는 로드맵 수정안을 발푘했다.",
+      "url": "https://www.cliktoday.com/2026/04/20260412-today-news.html",
+      "tags": ["과학", "과학탐구", "기술"],
+      "source": "오늘의 클릭"
+    },
+    {
+      "title": "양자컴퓨팅 보안 위협…금융권 양자내성암호 도입률 15% 불과",
+      "summary": "RSA 암호의 무력화 가능성이 커지는 가운데 국내 금융 시스템의 양자내성암호(PQC) 전환율이 15% 수준에 머물러 대응 지연이 우려된다. 금융위원회는 연내 의무 전환 로드맵을 발표할 계획이다.",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156742576",
+      "tags": ["과학", "기술", "사회"],
+      "source": "대한민국 정책브리핑"
+    },
+    {
+      "title": "2026학년도 6월 모의평가 출제 범위 확정…EBS 연계율 50% 유지",
+      "summary": "한국교육과정평가원이 6월 모의평가 출제 범위와 EBS 연계율(50% 간접 연계)을 확정·공지했다. 국어·수학 선택과목 조정 및 심화 탐구 문항 비중 확대가 예고되었다.",
+      "url": "https://www.ebsi.co.kr/ebs/xip/xipa/retrieveExmSchedRngNext.ebs?targetCd=D300",
+      "tags": ["교육", "수능", "국어", "수학"],
+      "source": "EBSi"
     }
   ],
   "editorials": [
     {
-      "title": "50일 앞으로 다가온 지방선거, 자치 쇄신 전기 되길",
-      "publisher": "경향신문",
-      "url": "https://www.khan.co.kr/article/202604131810001",
-      "summary": "6·3 지방선거가 50일 앞으로 다가온 가운데, 이번 선거가 1991년 이후 35년간 고착된 지방자치 구조를 근본적으로 혁신하는 계기가 되어야 한다고 주장한다. 현 정부의 첫 전국 단위 선거인 만큼, 정당 차원을 넘어 지역 민주주의의 질적 향상을 이끌어야 한다는 논점을 제시한다.",
-      "studyPoint": "주장→근거→촉구의 3단계 논증 구조. 역사적 배경(35년) 제시 후 현재 문제 진단, 당위적 결론으로 이어지는 귀납적 전개 방식. '자치 쇄신'이라는 핵심어의 정의와 범주 설정 방식에 주목할 것."
-    },
-    {
       "title": "시민이 택한 기후 해법, 국회는 지체없이 입법해야",
-      "publisher": "경향신문",
-      "url": "https://www.khan.co.kr/article/202604131812001",
-      "summary": "시민 숙의 과정에서 온실가스를 '빠르고 강하게' 감축해야 한다는 결론이 도출됐음에도 국회의 입법이 뒤따르지 않는 현실을 비판한다. 민주적 숙의의 결과를 법제화하는 것이 의회의 책무임을 역설하며, 기후 위기 대응을 위한 즉각적 탄소 감축 목표 상향 입법을 촉구한다.",
-      "studyPoint": "대조 구조(시민의 의지 ↔ 국회의 지체)를 활용한 비판적 논증. 민주주의 원리에서 당위성을 도출하는 연역적 논증 방식. 인과 관계(기후 위기→탄소 감축 필요→입법 촉구) 연결 고리 분석이 핵심."
+      "publisher": "한겨레",
+      "url": "https://www.hani.co.kr/arti/opinion/editorial/",
+      "summary": "시민의회 숙의 과정에서 도출된 기후·에너지 전환 정책이 국회 입법 지연으로 표류하고 있음을 지적하며, 탄소중립기본법 개정과 재생에너지 확대 관련 후속 입법의 시급성을 강조했다.",
+      "studyPoint": "논증 구조: '현상 제시 → 원인 분석(정치적 지연) → 당위적 결론(입법 촉구)' 방식. 시민참여 민주주의 가치와 기후정의 개념을 결합한 가치논증이 핵심이며, 반대 논거(경제적 부담)를 선제 반박하는 구성에 주목해 독해한다."
     },
     {
-      "title": "SPC에서 또 절단사고, 1000억대 안전대책 하긴 한건가",
-      "publisher": "경향신문",
-      "url": "https://www.khan.co.kr/article/202604131815001",
-      "summary": "SPC 계열 공장에서 반복되는 중대 재해를 통해 기업의 안전 투자 선언과 실제 이행 간의 괴리를 날카롭게 비판한다. 1,000억원 규모의 안전 대책 발표에도 불구하고 재발한 사고를 근거로, 형식적 안전 관리가 아닌 실질적 노동 환경 개선이 필요하다는 논지를 전개한다.",
-      "studyPoint": "사실 제시→의문 제기→비판으로 이어지는 반증 구조. 수치(1000억)와 사실(1년 3건 사고)의 대비를 통한 논거 강화 방식 분석. 제목의 수사의문문이 논지를 압축하는 표현 전략에 주목할 것."
+      "title": "호르무즈 봉쇄 장기화, 에너지 안보 패러다임 전환이 필요하다",
+      "publisher": "중앙일보",
+      "url": "https://www.joongang.co.kr/opinion/editorial",
+      "summary": "미국의 이란 해상봉쇄로 호르무즈 해협 원유 수송이 차질을 빚는 상황에서, 비축유 방출·에너지 믹스 다변화·중장기 재생에너지 투자 확대를 동시에 추진할 것을 주문했다.",
+      "studyPoint": "논증 구조: '사실 진단 → 단기·중기·장기 대응의 3단 해법 제시' 방식. 전제-근거-주장을 구분하고, 정책 트레이드오프(비축유 방출 비용 vs 가격안정 편익)에 대한 가정 검토를 연습한다."
+    },
+    {
+      "title": "국산 AI 파운데이션 모델, 독자 생태계로 가야 지속 가능하다",
+      "publisher": "매일경제",
+      "url": "https://www.mk.co.kr/opinion/editorial/",
+      "summary": "공개된 국산 AI 파운데이션 모델이 해외 모델 의존도를 낮추는 전환점이 될 수 있다고 평가하면서, 데이터 주권·반도체·응용 서비스가 결합된 수직적 생태계 구축의 필요성을 주장했다.",
+      "studyPoint": "논증 구조: '현상 → 기회/위기 양면 분석 → 정책 제언'. 기술-산업-안보가 교차하는 다층 논증이므로, 각 문단의 핵심어(주권·생태계·경쟁력)와 문단 간 논리적 연결고리를 도식화하며 읽으메 비문학 문제 해결에 유리한다."
     }
   ],
   "readingPassage": {
-    "title": "비문학 독해 연습: 양자컴퓨팅과 암호 보안의 패러다임 전환",
-    "passage": "현대 정보 사회는 방대한 양의 디지털 데이터를 처리하고 전송하는 과정에서 암호화 기술에 깊이 의존하고 있다. 금융 거래, 개인정보 보호, 국가 기밀 문서의 전달에 이르기까지, 사회 전반의 신뢰 체계는 수학적으로 풀기 어려운 문제에 기반한 공개키 암호화 방식 위에 구축되어 있다. 그런데 최근 양자컴퓨팅 기술의 급속한 발전은 이러한 암호 체계의 근간을 흔들 수 있는 심각한 위협으로 부상하고 있어, 학계와 산업계, 각국 정부의 주목을 받고 있다.\n\n현행 공개키 암호화 방식의 대표인 RSA 암호는 매우 큰 수를 두 소수(素數)의 곱으로 인수분해하는 것이 계산적으로 극히 어렵다는 수학적 원리에 근거한다. 현재의 고전 컴퓨터로 2,048비트 길이의 RSA 키를 해독하려면 수억 년이 걸릴 것으로 추산되며, 바로 이 현실적 계산 불가능성이 수십 년간 금융, 통신, 정부 시스템의 표준 보안 수단으로 작동해 왔다. 이처럼 현행 암호 체계의 안전성은 기술적 비밀이 아니라 '시간'이라는 비대칭적 자원에 의존하고 있는 셈이다.\n\n그러나 양자컴퓨팅은 이 전제를 근본적으로 뒤집는 연산 패러다임을 제시한다. 고전 컴퓨터가 정보를 0 또는 1로 표현하는 비트를 기본 단위로 삼는 데 반해, 양자컴퓨터는 0과 1이 동시에 중첩될 수 있는 큐비트(qubit)를 사용하여 기하급수적으로 많은 계산을 병렬 처리한다. 1994년 피터 쇼어가 고안한 쇼어 알고리즘은 이 양자 중첩 원리를 활용해 소인수분해 문제를 다항식 시간 내에 해결할 수 있음을 이론적으로 증명하였으며, 충분한 큐비트를 갖춘 양자컴퓨터가 실현된다면 현행 RSA 암호는 단 수 시간 만에 무력화될 수 있다.\n\n이에 따라 각국은 '양자 이후 시대(post-quantum era)'에 대비한 암호 전환 작업을 서두르고 있다. 미국 국립표준기술연구소(NIST)는 2024년 양자내성암호(PQC) 알고리즘의 국제 표준화를 완료하였고, 미국은 2026년을 '양자 보안의 해'로 선포하며 금융·안보 인프라의 전환을 촉구하고 있다. 그러나 한국의 경우 금융권 PQC 도입률이 15% 미만에 머물러 있어, 기술적 해킹보다 조직의 '전환 지연'이 더 큰 리스크가 될 수 있다는 우려가 제기된다.\n\n양자컴퓨팅이 초래하는 암호 체계의 붕괴는 단순한 기술적 문제를 넘어 국가 안보와 사회 질서 전반에 영향을 미치는 구조적 위기이다. 정보 보안의 신뢰 기반이 무너지면 전자 금융, 의료 정보, 군사 통신망 등 사회 핵심 인프라가 동시에 위험에 노출될 수 있다. 따라서 양자내성암호로의 전환은 단순한 기술 업그레이드가 아니라, 디지털 사회의 신뢰를 재건하는 문명사적 과제로서 정부·기업·학계의 긴밀한 협력과 국제적 표준화 논의에 대한 적극적 참여가 요구된다.",
-    "point1": "① 현대 정보 사회의 암호화 기술 의존성과 양자컴퓨팅의 위협 등장 / ② RSA 공개키 암호화 방식의 원리와 현행 보안 체계의 '시간 의존성' / ③ 양자컴퓨팅의 큐비트·쇼어 알고리즘 원리와 암호 무력화 가능성 / ④ 각국의 양자내성암호 전환 현황과 한국의 대응 지체 문제 / ⑤ 양자 보안 위기의 사회적 함의와 구조적·협력적 대응의 필요성",
-    "point2": "현상 도입(암호화 의존 사회) → 원리 설명(RSA의 수학적 근거) → 위협 메커니즘 전개(양자 알고리즘) → 현황 분석(국내외 전환 대응) → 당위적 결론(문명사적 과제 제시)의 순서로 전개되는 '문제 제기 → 원인 분석 → 해결 방향 제시' 구조",
-    "point3": "핵심 개념 간 관계: [현행 암호 체계의 안전성]은 [고전 컴퓨터의 연산 한계]에 의존하나, [양자컴퓨터의 큐비트·쇼어 알고리즘]이 이 한계를 제거함으로써 [암호 무력화]로 이어진다. 이에 대한 대응이 [양자내성암호(PQC)]이며, [전환 지연]이 [사회 인프라 취약성]을 심화시키는 인과 연쇄 관계를 형성한다.",
-    "tip": "수능 비문학 과학·기술 지문에서는 '원리 설명 → 문제 제기 → 대안 제시'의 3단 구조가 자주 출제됩니다. 각 문단의 핵심 개념(RSA, 큐비트, PQC)을 정의한 후, 개념 간의 인과 관계를 화살표로 도식화해 보세요. 또한 '그러나', '이에 따라', '따라서' 등의 접속어가 논리 전환점을 표시하므로 밑줄을 치며 읽으면 문단 관계 파악에 유리합니다."
+    "title": "양자컴퓨팅과 포스트 양자 암호 전환",
+    "passage": "정보사회의 신뢰는 상당 부분 공개키 암호 체계에 의존한다. 그 가운데 RSA 암호는 거대한 합성수의 소인수분해가 고전 컴퓨터로는 사실상 불가능에 가깝다는 계산 복잡성을 안전성의 근거로 삼아 왔다. 은행 거래와 국가 간 통신, 개인 인증에 이르기까지 현대 사회의 디지털 기반이 이 가정 위에 서 있는 셈이다.\n\n그러나 양자컴퓨팅의 등장으로 이 가정은 뿌리에서부터 흔들리고 있다. 양자 비트는 중첩과 얽힘을 통해 병렬 연산을 수행하며, 쇼어 알고리즘은 충분한 규모의 양자컴퓨터에서 소인수분해 문제를 다항 시간 안에 해결한다고 알려져 있다. 즉 지금까지 수십 년이 걸린다고 여겨졌던 암호 해독이 수 시간 단위로 단축될 수 있다는 것이다. 이는 암호의 안전성이 계산 능력의 한계라는 경험적 조건에 묶여 있었음을 새삼 드러낸다.\n\n이에 국제 표준화 기구와 각국 정부는 양자 공격에 견디는 ‘포스트 양자 암호(PQC)’로의 전환을 서두르고 있다. PQC는 격자 기반, 부호 기반, 다변수 다항식 기반과 같이 양자 알고리즘으로도 효율적 해법이 알려지지 않은 수학 문제들을 토대로 설계된다. 핵심은 단일 알고리즘의 교체가 아니라 인증·서명·키 교환 전반의 규격을 재정비하고, 수십 년 단위로 보존해야 할 데이터까지 소급 보호하는 체계적 이행에 있다.\n\n구체적 사례로 금융 분야를 들 수 있다. 오늘날 수집되는 암호문은 먼 미래 양자컴퓨터가 완성된 뒤 복호화될 수 있는 ‘저장 후 해독(harvest now, decrypt later)’ 위협에 노출된다. 따라서 당장 해독이 불가능하더라도 장기 비밀 보존 가치가 큰 금융·의료·국방 데이터는 즉시 PQC로 보호할 필요가 있다. 국내 금융권의 PQC 적용률이 아직 낮은 수준에 머무른다는 최근 지적은 이러한 위험 관리의 시급성을 환기한다.\n\n결국 양자컴퓨팅은 단순한 연산 속도의 증가가 아니라 디지털 신뢰 구조의 기�4�를 재설계하도록 강젙하는 사건이다. 기술의 진보가 기존 규범을 낡은 것으로 만들 때, 사회는 새로운 수학적 가정과 제도적 장치를 함께 마련해야 한다. PQC 전환은 암호학자만의 과제가 아니라 국가·기업·시민이 공동으로 감당해야 할 장기 인프라 전환 과제인 것이다.\n\n다만 이 전환에는 반론도 존재한다. PQC 알고리즘 역시 충분히 오랜 기간 검증되지 않았고, 키 길이 증가에 따른 성능 저하와 호환성 문제는 현실적 도입 장벽이다. 그러나 검증된 암호만을 고집하는 태도는 더 큰 위험을 방치하는 결과를 낳을 수 있다. 위험의 비대칭성을 고려한 점진적·중층적 이행 전략이 현시점의 합리적 선택이다.",
+    "point1": "①문단: 공개키 암호 체계가 현대 디지털 사회의 신뢰 기반임을 제시. ②문단: 양자컴퓨팅과 쇼어 알고리즘이 기존 암호의 전제를 무너뜨림을 설명. ③문단: 대안으로서 PQC의 원리와 체계적 전환의 필요성. ④문단: ‘저장 후 해독’ 위협과 금융 분야 적용 지체 사례. ⑤문단: 양자컴퓨팅의 문명사적 의미와 공동 대응 과제로서의 성격. ⑥문단: PQC 전환에 대한 반론과 이에 대한 재반박.",
+    "point2": "글의 전개 방식: ‘현상 제시 → 원인(기술 변화) 분석 → 대안 개념 정의 → 구체적 사례 제시 → 결론적 시사점 → 대조·심화(반론과 재반박)’로 이어지는 정의·분석·사례·결론·대조의 복합 구조.",
+    "point3": "핵심 개념 간 관계: ‘RSA(현재의 안전성)’와 ‘쇼어 알고리즘(안전성의 붕괴 요인)’은 대립 관계에 있고, ‘PQC’는 이 대립을 해소하는 상위 개념으로 제시된다. ‘저장 후 해독’ 개념은 PQC 도입의 긴급성을 뒷받침하는 근거이며, 마지막 문단의 ‘반론’과 ‘위험 비대칭성’은 PQC 전환의 정당성을 보강하는 재반박 장치로 기능한다.",
+    "tip": "비문학 과학·기술 지문은 ‘기존 전제 → 전제의 붕괴 → 대안 → 사례 → 반론/재반박’ 같은 추상적 구조가 반복된다. 읽을 때 각 문단 첨 문장에서 ‘개념 정의’인지 ‘인과 분석’인지 ‘예시’인지 꼬리표를 붙이고, 지시어(‘이’, ‘그’, ‘이러한’)가 가리키는 대상을 반드시 위 문장에서 찾아 밑줄 치는 습관을 들이메 선지 일치 여부를 빠르게 판별할 수 있다."
   },
   "papers": [
     {
+      "title": "Post-traumatic benign paroxysmal positional vertigo: mechanisms, clinical phenotypes, and a structured clinical pathway for management",
+      "titleKo": "외상 후 양성 발작성 체위성 현훈: 기전, 임상 표현형 및 구조화된 치료 경로",
+      "abstractKo": "외상 후 BPPV는 외상성 뇌손상이나 경추 손상 후 발생하는 흔하지만 과소 진단되는 어지럼 원인이다. 특발성 BPPV와 달리 여러 반고리관이 동시에 침범되는 경우가 많고, 반복 치료가 필요하며 광범위한 전정기능 이샑과 동반되는 경향이 있다. 본 종설은 기전·표현형·진단을 정리하고 표준화된 임상 경로를 제시한다.",
+      "category": "Dizziness",
+      "journal": "Frontiers in Neurology",
+      "date": "2026",
+      "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1784282/full"
+    },
+    {
       "title": "Evaluation of effective methods in the treatment of residual dizziness after BPPV: a randomized comparative clinical study",
-      "titleKo": "BPPV 후 잔류 어지럼증 치료의 효과적인 방법 평가: 무작위 비교 임상 연구",
-      "abstractKo": "이석증(BPPV)의 이석 정복술 성공 후에도 지속되는 잔류 어지럼증 환자 56명을 대상으로 카우쏜-쿡시 운동(CCE), 브란트-다로프 운동(BDE), CCE와 세타 바이노럴 비트(T-BB) 병합 요법의 효과를 비교한 무작위 대조 임상연구이다. 세 군 모두 SOT 전정 및 종합 점수에서 유의한 호전을 보였으나, T-BB 병합 요법이 불안 감소와 전정 기능 회복에서 가장 뛰어난 효과를 나타내어 개인 맞춤형 다중 재활 접근의 가치를 지지한다.",
-      "category": "Dizziness/BPPV",
-      "journal": "European Archives of Otorhinolaryngology",
-      "date": "2026-03",
+      "titleKo": "BPPV 치료 후 잔여 어지럼에 대한 효과적 치료법 비교: 무작위 대조 임상연구",
+      "abstractKo": "후반고리관 BPPV의 이석정복술 후 20일 이상 지속되는 잔여 어지럼 환자 56명을 대상으로 코트니-쿡시 운동, 브란트-다로프 운동, 그리고 세타 양이 박동음 병합요법의 효과를 비교했다. 병합요법군에서 어지럼과 불안 지표가 가장 큰 폭으로 호전되어 전정재활 프로그램에 청각 자극을 추가하는 접근의 임상적 유용성이 시사됐다.",
+      "category": "Dizziness",
+      "journal": "Eur Arch Otorhinolaryngol",
+      "date": "2025-2026",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41188630/"
     },
     {
-      "title": "Development and validation of a nomogram to predict prolonged residual dizziness lasting at least 7 days after benign paroxysmal positional vertigo",
-      "titleKo": "BPPV 후 7일 이상 지속되는 잔류 어지럼증을 예측하는 노모그램 개발 및 검증",
-      "abstractKo": "이석증 환자에서 잔류 어지럼증이 7일 이상 지속될 위험을 예측하는 노모그램을 개발하고 검증한 연구이다. 독립적 위험 요인으로 고령, 당뇨병, 우울증이 확인되었으며, 전정 재활 훈련은 보호 인자로 작용하였다. 이 노모그램은 임상에서 잔류 어지럼증 고위험군을 조기에 식별하고 맞춤형 재활 계획을 수립하는 데 활용될 수 있다.",
-      "category": "Dizziness/BPPV",
-      "journal": "European Archives of Otorhinolaryngology",
+      "title": "Clinical features and outcome predictors in benign paroxysmal positional vertigo and its variant: a primary care neurology perspective",
+      "titleKo": "BPPV와 그 변형(경첩성 쿠풀라)의 임상 특징 및 예후 예측 인자: 일차의료 신경과적 관점",
+      "abstractKo": "일차의료 신경과 클리닉에서 어지럼을 주소로 내원한 1,126명을 분석한 결과 27.4%가 BPPV 또는 그 변형으로 진단됐다. 후반고리관형 59.4%, 지향성 수평반고리관형 23.7%, 반지향성 수평반고리관형 14.0%였으며 고령, 여성, 편두통력이 재발·치료 실패의 독립 예측인자로 확인됐다.",
+      "category": "Dizziness",
+      "journal": "Journal of Vestibular Research",
       "date": "2026",
-      "url": "https://link.springer.com/article/10.1007/s00405-026-10032-2"
+      "url": "https://journals.sagepub.com/doi/10.1177/09574271251347261"
     },
     {
-      "title": "Enhancing patient care in BPPV-related residual dizziness: introducing the CLEAR algorithm",
-      "titleKo": "BPPV 관련 잔류 어지럼증 환자 케어 향상: CLEAR 알고리즘 도입",
-      "abstractKo": "BPPV 관련 잔류 어지럼증(BPPV-RD)의 유병률은 23~70%로 보고되며, 임상 현장에서 체계적 인식과 추적 관리가 부족한 실정이다. 본 연구는 BPPV-RD의 인식과 추적 관리를 지원하는 CLEAR 알고리즘을 소개하여 임상의들이 잔류 어지럼증을 조기에 식별하고 적절한 후속 치료 전략을 선택할 수 있도록 돕는 것을 목적으로 한다.",
-      "category": "Dizziness/BPPV",
-      "journal": "Frontiers in Neurology",
-      "date": "2025-2026",
-      "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2025.1689617/full"
+      "title": "NAD+ Enhanced Hearing Recovery in Sudden Sensorineural Hearing Loss: Randomized Controlled Trial",
+      "titleKo": "돌발성 감각신경성 난청에서 NAD+ 보충이 청력 회복에 미치는 영향: 무작위 대조 시험",
+      "abstractKo": "단일기관 이중맹검 무작위 대조 시험에서 표준 스테로이드 요법에 NAD+를 추가한 군과 대조군을 2년간 비교했다. NAD+ 병합군에서 평귰 순음청력역치 개선폭과 완전회복률이 유의하게 높았으며, 특히 �4�기 중증 난청 환자에서 효과가 뚜렷했다. 미토콘드리아 기능 회복을 겨냥한 병합요법의 근거를 제시한다.",
+      "category": "Hearing Loss",
+      "journal": "The Laryngoscope",
+      "date": "2026",
+      "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/lary.70173"
     },
     {
-      "title": "Combination of Electroacupuncture and Medication for Patients With Tinnitus Associated With Idiopathic Sudden Sensorineural Hearing Loss: Protocol for a Prospective Randomized Controlled Trial",
-      "titleKo": "특발성 돌발성 감각신경성 난청 연관 이명 환자에 대한 전침과 약물 병합 치료: 무작위 대조 임상시험 프로토콜",
-      "abstractKo": "돌발성 난청에 동반된 이명 환자 60명을 대상으로 전침 치료와 표준 약물 치료를 병합하는 이중 기관 무작위 대조 임상시험 프로토콜이다. 순음청력검사, 이명 매칭, 이명장애지수(THI)가 1차 평가 지표이며, 불안 수준과 삶의 질이 2차 지표이다. 결과는 2026년 발표될 예정으로 이명과 청력 손실을 동시에 다루는 통합적 치료법 개발에 기여할 것으로 기대된다.",
-      "category": "Tinnitus/Hearing Loss",
-      "journal": "JMIR Research Protocols",
-      "date": "2025-05",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40367511/"
-    },
-    {
-      "title": "A Nationwide Population-Based Study for Audio-Vestibular Disorders following COVID-19 Infection",
-      "titleKo": "COVID-19 감염 후 청각·전정 장애에 관한 전국 인구 기반 연구",
-      "abstractKo": "COVID-19 감염 후 청각 및 전정 기능 장애 발생 위험을 분석한 전국 단위 인구 기반 연구이다. COVID-19 환자에서 BPPV, 돌발성 난청, 전정신경염, 이명의 발생 위험이 증가하는 것으로 나타났다. 이 연구는 코로나19의 이비인후과적 합병증에 대한 체계적 추적 관리의 필요성을 강조한다.",
-      "category": "URI/Infection",
-      "journal": "Journal of Infectious Diseases",
-      "date": "2024-2025",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39733771/"
-    },
-    {
-      "title": "Prevalence and prognosis of tinnitus in post-COVID-19 patients: a cross-sectional survey",
-      "titleKo": "코로나19 후유증 환자에서 이명의 유병률 및 예후: 횡단면 조사 연구",
-      "abstractKo": "코로나19 감염 후 환자 1,331명을 대상으로 한 횡단면 조사에서 27.9%가 이명을 경험한 것으로 나타났다. 이명 중증도가 높을수록 자연 회복 가능성이 낮아지며, 중증 이명은 장기 난청, 불안, 정서 장애와 강하게 연관되었다. 중증 이명 또는 이명 병력이 있는 환자는 조기에 적극적인 치료를 받아야 한다.",
-      "category": "Tinnitus/URI",
-      "journal": "European Archives of Otorhinolaryngology",
-      "date": "2024-11",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39512084/"
-    },
-    {
-      "title": "Artificial Intelligence in Audiology: A Scoping Review of Current Applications and Future Directions",
-      "titleKo": "청각학에서의 인공지능: 현재 응용과 미래 방향에 관한 범위 검토",
-      "abstractKo": "1990년부터 2024년까지의 문헌을 대상으로 청각학 분야 AI 적용을 체계적으로 검토한 논문이다. 총 104편의 연구를 분석한 결과, AI는 자동 청력검사, 방사선 영상 분석, 진단 보고서 자동 생성 등에 활발히 활용되고 있으며, 딥러닝 기반 음성 강화 기술은 소음 환경에서 보청기 사용자의 언어 이해도를 정상 청력자 수준으로 향상시킨다.",
-      "category": "Hearing Aids",
-      "journal": "PMC",
-      "date": "2024",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11598364/"
-    },
-    {
-      "title": "Recent Studies and Prospects of Biologics in Allergic Rhinitis Treatment",
-      "titleKo": "알레르기 비염 치료에서의 생물학적 제제 최근 연구 및 전망",
-      "abstractKo": "전 세계 약 4억 명이 앓고 있는 알레르기 비염에 대한 생물학적 제제 치료를 종합한 리뷰 논문이다. 항-IgE(오말리주맙), 항-IL-4/IL-13(듀피루맙, CM310) 등 접근법을 분석하며, 혈청 IgE 수준·질환 표현형·동반 질환을 통합하는 다차원 맞춤 치료 전략을 제안한다. 중증 알레르기 비염에서 생물학적 제제가 증상 완화, 구제 약물 감소, 삶의 질 향상에 기여함을 보고한다.",
-      "category": "Rhinitis/Sinusitis",
-      "journal": "International Journal of Molecular Sciences",
-      "date": "2025-05",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12111765/"
-    },
-    {
-      "title": "Reversible sensorineural hearing loss linked to chronic allergic rhinitis",
-      "titleKo": "만성 알레르기 비염과 연관된 가역적 감각신경성 난청",
-      "abstractKo": "치료받지 않은 만성 알레르기 비염으로 인한 양측 감각신경성 난청(SNHL) 사례를 보고한 연구이다. 비강 코르티코스테로이드, 경구 프레드니솔론, 항히스타민제 치료 후 난청이 거의 정상에 가깝게 회복되었다. 만성 알레르기 비염이 유스타키오관 기능 장애 및 면역 매개 달팽이관 효과를 통해 가역적 SNHL을 유발할 수 있음을 시사한다.",
-      "category": "Rhinitis/Sinusitis",
-      "journal": "ScienceDirect",
+      "title": "Analysis of the Reasons for Poor Prognosis in Severe to Profound Sudden Sensorineural Hearing Loss: Systematic Review and Meta-Analysis",
+      "titleKo": "중등도~심도 돌발성 난청의 불량 예후 요인 분석: 체계적 문헌고찰 및 메타분석",
+      "abstractKo": "중등도~심도 돌발성 감각신경성 난청 환자에서 불량 예후와 관련된 요인을 체계적으로 정리했다. 고도 이상의 �4�기 청력 손실, 60세 이상 고령, 이명 동반, 치료 지연(7일 초과)이 독립적 예측인자로 확인됐으며 조기 진단과 신속한 개입의 임상적 중요성을 뒷받침한다.",
+      "category": "Hearing Loss",
+      "journal": "Diagnostics (MDPI)",
       "date": "2025",
-      "url": "https://www.sciencedirect.com/science/article/pii/S277282932500178X"
+      "url": "https://www.mdpi.com/2075-4418/15/21/2770"
     },
     {
-      "title": "Optimizing Biologic Treatment Selection in Chronic Rhinosinusitis with Nasal Polyps: A Network Meta-Analysis of Efficacy and Safety Across 22 RCTs",
-      "titleKo": "비용종을 동반한 만성 비부비동염에서 생물학적 제제 선택 최적화: 22개 무작위 대조 시험에 대한 네트워크 메타분석",
-      "abstractKo": "비용종을 동반한 만성 비부비동염(CRSwNP) 성인 환자를 대상으로 22개 무작위 대조 시험에서 생물학적 치료법의 효능과 안전성을 체계적으로 평가한 네트워크 메타분석이다. 듀피루맙, 메폴리주맙, 베나리주맙, 오말리주맙 등을 비교하였으며, 비용종 크기 감소, 비 폐색 개선, 삶의 질 향상 측면에서 각 약제의 상대적 효과를 분석하여 임상적 맞춤 치료 결정에 근거를 제공한다.",
+      "title": "Single versus combination treatment in tinnitus: an international, multicentre, parallel-arm, superiority, randomised controlled trial",
+      "titleKo": "이명에서 단일 치료와 병합 치료 비교: 국제 다기관 평행군 우월성 무작위 대조 시험",
+      "abstractKo": "여러 국가의 이명 환자를 대상으로 단일 치료(인지행동치료, 소리치료 등)와 복수 치료 병합의 효과를 비교한 우월성 시험이다. 12주 시점에서 병합치료군의 이명 기능지수(TFI) 개선폭이 유의하게 컸고 삶의 질 지표도 유리했다. 단일 치료 실패 환자에서 조기 다중 모달리티 접근의 근거를 제공한다.",
+      "category": "Tinnitus",
+      "journal": "Nature Communications",
+      "date": "2025-2026",
+      "url": "https://www.nature.com/articles/s41467-025-66165-1"
+    },
+    {
+      "title": "Real-world bimodal neuromodulation for chronic tinnitus: retrospective chart review",
+      "titleKo": "만성 이명에 대한 실제 진료 환경의 양측성 신경조절(혀 전기자극+소리치료) 효과: 후향 차트 리뷰",
+      "abstractKo": "FDA 승인 Lenire 기기를 사용한 220명 환자의 실제 임상 자료를 분석한 결과 12주 시점 반응률 91.5%, 이명 중증도 지수 평균 27.8점 감소를 보였다. 중대한 기기 관련 이상반응은 없었으며 임상 현장에서 양측성 신경조절 치료의 안전성과 유효성을 뒷받침한다.",
+      "category": "Tinnitus",
+      "journal": "Communications Medicine",
+      "date": "2025",
+      "url": "https://www.nature.com/articles/s43856-025-00837-3"
+    },
+    {
+      "title": "Hearing aid use and dementia risk in older adults: Australian ASPREE trial analysis",
+      "titleKo": "고령자에서 보청기 사용과 치매 위험: 호주 ASPREE 임상자료 분석",
+      "abstractKo": "ASPREE 연구 자료를 활용한 목표 시험 모방(target trial emulation) 분석에서 보청기 처방 집단의 7년 치매 위험은 5.0%, 비처방 집단은 7.5%로 추정됐다. 전체 인지기능 평균은 큰 차이가 없었으나 치매 발생 위험은 낮아져 고위험군에서 보청기 중재 가치를 재조명한다.",
+      "category": "Hearing Aids",
+      "journal": "Neurology",
+      "date": "2026",
+      "url": "https://www.neurology.org/doi/10.1212/WNL.0000000000214572"
+    },
+    {
+      "title": "Dupilumab versus omalizumab in patients with CRSwNP and coexisting asthma (EVEREST): multicentre randomised double-blind phase 4 trial",
+      "titleKo": "만성 비부비동염(비용종 동반)과 동반 천식 환자에서 두필루맙 vs 오말리주맙 비교(EVEREST): 다기관 이중맹검 4상 무작위 시험",
+      "abstractKo": "중등도~중증 비용종 동반 만성 비부비동염과 조절되지 않는 천십을 동시에 가진 성인을 대상으로 두필루맙 + 중용량 흡입스테로이드 병합요법이 오말리주맙 + 고용량 ICS 병합요법 대비 24주 시점 비용종 점수, 기관지확장제 투여 전 FEV1, 천식 조절 지표(ACQ-7) 개선에서 우월함을 보였다. 제2형 염증 경로 차단의 임상적 우월성을 입증한 최초의 직접 비교 연구다.",
       "category": "Rhinitis/Sinusitis",
-      "journal": "Pharmaceuticals (MDPI)",
-      "date": "2025-10",
-      "url": "https://www.mdpi.com/1424-8247/18/10/1455"
+      "journal": "The Lancet Respiratory Medicine",
+      "date": "2025",
+      "url": "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(25)00287-5/abstract"
+    },
+    {
+      "title": "Audiovestibular Dysfunction Related to Long COVID-19 Syndrome: A Systematic Review",
+      "titleKo": "롱 코비드 증후군과 관련된 청각-전정 기능 이상: 체계적 문헌고찰",
+      "abstractKo": "롱 코비드 환자의 약 14.8%가 이명, 7.6%가 청력 저하, 7.2%가 현훈을 보고했다. 병태생리로는 내이 직접 감염, 자가면역 반응, 미세혈전에 의한 달팽이관·반고리관 혈류 저하가 제시됐다. 본 종설은 진단(순음청력검사, VNG, v-HIT)과 관리(전절재활, 조기 스테로이드) 전략을 단계적으로 제안한다.",
+      "category": "URI/Infection",
+      "journal": "International Journal of Molecular Sciences",
+      "date": "2026",
+      "url": "https://www.mdpi.com/1422-0067/27/3/1417"
     }
   ]
 }
