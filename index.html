@@ -245,6 +245,7 @@ function renderAll(d, isArchive, archiveLabel){
     document.getElementById('ent-list').innerHTML=d.papers.map(p=>
       '<div class="paper-card"><div class="tags"><span class="tag t-orange">'+(p.category||'ENT')+'</span></div>'+
       '<h3><a href="'+(p.url||'#')+'" target="_blank">'+p.title+'</a></h3>'+
+      (p.titleKo?'<p style="font-size:.85rem;color:#555;margin:-2px 0 6px;font-style:italic;">'+p.titleKo+'</p>':'')+
       '<details><summary>초록 보기 (한글 번역)</summary><div class="abstract">'+(p.abstractKo||'')+'</div></details>'+
       '<div class="meta"><span class="journal">'+(p.journal||'')+'</span><span>'+(p.date||'')+'</span></div></div>'
     ).join('');
