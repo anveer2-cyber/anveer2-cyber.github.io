@@ -1,0 +1,228 @@
+{
+  "date": "2026년 4월 20일 월요일",
+  "news": [
+    {
+      "title": "윤석열 전 대통령 '2차 계엄' 시도 정황 포착…철저한 수사 촉구",
+      "summary": "계엄 해제 결의 이후 군 지휘부가 추가 병력 배치를 검토한 정황이 드러나며 2차 계엄 모의 의혹이 제기됐다. 국회 결의(오전 1시 3분)부터 해제 선언(오전 4시 26분)까지 3시간의 공백도 주목받고 있다.",
+      "url": "https://www.khan.co.kr/article/202604200600141",
+      "tags": [
+        "생활과 윤리",
+        "정치와 법"
+      ],
+      "source": "경향신문"
+    },
+    {
+      "title": "국내 휘발유 평균 가격 2,000원 돌파…중동 정세 불안 장기화",
+      "summary": "4월 18일 기준 전국 휘발유 평균 가격이 리터당 2,000원을 넘어섰다. 미국-이란 종전 협상이 불투명한 가운데 호르무즈 해협 봉쇄 우려가 지속되며 고유가 상황이 이어지고 있다.",
+      "url": "https://v.daum.net/v/20260419191459399",
+      "tags": [
+        "경제",
+        "국제 정치"
+      ],
+      "source": "경향신문"
+    },
+    {
+      "title": "코스피 6,000선 탈환…AI·반도체 업종 주도로 증시 반등",
+      "summary": "코스피가 6,000선을 돌파하며 강세를 이어갔다. SK하이닉스 사상 최대 실적 기대와 글로벌 AI 수요 급증이 반도체 업종 주가를 끌어올린 주요 원인으로 분석된다.",
+      "url": "https://www.cliktoday.com/2026/04/20260416-today-news.html",
+      "tags": [
+        "경제",
+        "과학"
+      ],
+      "source": "오늘의클릭"
+    },
+    {
+      "title": "6·3 지방선거 D-44…오세훈 서울시장 후보 확정, 5선 도전",
+      "summary": "오세훈 현 서울시장이 국민의힘 서울시장 후보로 공식 확정되며 6월 3일 지방선거에서 3연임(총 5선) 도전에 나선다. 지방선거를 앞두고 여야 각 당의 후보 공천이 막바지에 접어들었다.",
+      "url": "https://issue.daum.net/election/2026",
+      "tags": [
+        "정치와 법",
+        "사회·문화"
+      ],
+      "source": "다음뉴스"
+    },
+    {
+      "title": "이재명 대통령, 양도세 장기보유특별공제 폐지 논란 정면 반박",
+      "summary": "이재명 대통령이 부동산 양도소득세 장기보유특별공제 폐지 방침에 대해 세금폭탄은 명백한 거짓선동이라며 강하게 반박했다. 다주택자 투기 억제와 주거 안정을 위한 조치라는 입장을 재확인했다.",
+      "url": "https://news.daum.net/politics",
+      "tags": [
+        "경제",
+        "정치와 법"
+      ],
+      "source": "다음뉴스"
+    },
+    {
+      "title": "IMF, 한국 국가 부채 비율 급등 경고…5년간 연 3.0% 증가 전망",
+      "summary": "국제통화기금(IMF)이 한국의 일반정부 부채 비율이 올해 54.4%에서 내년 56.6%로 높아질 것으로 전망하며 재정 건전성에 경고를 발했다. 비기축통화 선진국 11개국 중 홍콩에 이어 두 번째로 빠른 증가 속도다.",
+      "url": "https://v.daum.net/v/20260420050236017",
+      "tags": [
+        "경제",
+        "국제 정치"
+      ],
+      "source": "이데일리"
+    },
+    {
+      "title": "우주 안보 컨트롤타워 신설 논의…북한 위성 전파 공격 대응",
+      "summary": "북한의 위성 대상 전파 교란 공격 사례가 확인된 가운데, 국방부와 과기정통부를 아우르는 우주 안보 컨트롤타워 신설 방안이 국회 정책토론회에서 논의됐다. 우주자산 보호를 위한 입법 방향도 함께 검토되고 있다.",
+      "url": "https://www.cliktoday.com/2026/04/20260418-today-news.html",
+      "tags": [
+        "과학",
+        "정치와 법"
+      ],
+      "source": "오늘의클릭"
+    },
+    {
+      "title": "미국-이란 2차 핵협상 진행…중동 종전 기대감과 불안감 교차",
+      "summary": "미국과 이란이 2차 핵협상을 진행하며 중동 정세 완화에 대한 기대가 높아지고 있다. 그러나 호르무즈 해협 긴장이 여전히 지속되는 가운데 협상 결과는 유가와 공급망에 직접적 영향을 미칠 전망이다.",
+      "url": "https://news.daum.net/politics",
+      "tags": [
+        "국제 정치",
+        "경제"
+      ],
+      "source": "다음뉴스"
+    },
+    {
+      "title": "2026 수능 6대 주요 변경 사항 발표…디지털 전환·어학 자격 개편",
+      "summary": "교육부가 2026학년도 대학수학능력시험 주요 변경 사항을 발표했다. CD 우편 발송 방식을 디지털로 전환하고 VEPT·J.TEST 등 새로운 어학 자격증을 외어 영역 인정 목록에 추가하는 내용이 포함됐다.",
+      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=102938&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
+      "tags": [
+        "교육",
+        "사회·문화"
+      ],
+      "source": "교육부"
+    },
+    {
+      "title": "AI 반도체 수요 급증…TSMC 사상 최대 순이익, 국내 증권사도 수혜",
+      "summary": "글로벌 AI 투자 확대로 TSMC가 분기 사상 최대 순이익을 기록하며 국내 반도체 관련주 강세를 이끌었다. 국내 주요 증권사들도 증시 호황에 힘입어 올해 순이익 1조 원 돌파가 예상된다.",
+      "url": "https://www.cliktoday.com/2026/04/20260417-today-news.html",
+      "tags": [
+        "경제",
+        "과학"
+      ],
+      "source": "오늘의클릭"
+    }
+  ],
+  "editorials": [
+    {
+      "title": "정황 포착된 윤석열의 '2차 계엄' 시도, 철저히 파헤쳐야",
+      "publisher": "경향신문",
+      "url": "https://www.khan.co.kr/article/202604200600141",
+      "summary": "계엄 해제 결의 이후 군이 추가 병력 배치를 검토했다는 정황, 결의부터 해제 선언까지 3시간의 공백, 윤 전 대통령의 '계엄을 2~3차례 반복할 수 있다'는 발언 등을 근거로 2차 계엄 모의 의혹을 철저히 수사해야 한다고 주장한다.",
+      "studyPoint": "①문제 제기(정황 증거 나열) → ②인과 추론(공백 3시간의 의미 해석) → ③권위에 의한 논거(전 대통령 발언 직접 인용) → ④결론(철저한 수사 촉구)의 4단계 논증 구조. 핵심 전제는 정황 증거의 누적이 고의성을 입증한다는 귀납적 추론이며, 반박 예상 논거를 선제적으로 차단하는 방식을 사용한다."
+    },
+    {
+      "title": "IMF도 경고한 국가 부채, 재정 건전화 장치 서둘러야",
+      "publisher": "이데일리",
+      "url": "https://v.daum.net/v/20260420050236017",
+      "summary": "한국의 국가 부채 비율이 IMF 경고 수준에 이른 것은 선거를 의식한 복지 지출 확대와 세수 기반 미확충이 복합적으로 작용한 결과다. 사설은 GDP 대비 부채 및 적자 한도를 법제화하는 재정 준칙 도입을 시급한 과제로 제시한다.",
+      "studyPoint": "①통계 근거(IMF 전망치 제시) → ②원인 분석(구조적 재정 불균형 규명) → ③비교 논거(선진국 중 2위 증가 속도) → ④해결책 제시(재정 준칙 입법)의 복합 논증 구조. 외부 권위(IMF)를 활용해 주장의 객관성을 확보하고, 구체적 수치로 논거의 설득력을 높이는 전략에 주목할 것."
+    },
+    {
+      "title": "유가 2000원, 종전은 안갯속, 경각심 풀 때 아니다",
+      "publisher": "경향신문",
+      "url": "https://v.daum.net/v/20260419191459399",
+      "summary": "정부의 유가 안정 보조금(4조 2천억 원)은 일시적 처방에 불과하며, 중동 원유 70% 의존이라는 구조적 취약성을 해소하지 못한다. 사설은 대중교통 지원·에너지 절약 캠페인 등 수요 측 대응을 함께 강화해야 한다고 역설한다.",
+      "studyPoint": "①현상 기술(휘발유 2000원 돌파) → ②정부 대응 비판(단기 처방의 한계 지적) → ③구조적 원인 진단(중동 의존도 70%) → ④대안 제시(수요 측 에너지 절약)의 문제-원인-해결 3단 논증 구조. 서울 교통량 1.2% 감소라는 통계를 활용해 소비자 경각심 부재를 논증하는 귀납적 방식도 파악하자."
+    }
+  ],
+  "readingPassage": {
+    "title": "비문학 독해 연습",
+    "passage": "현대 사회에서 에너지 안보는 단순한 자원 확보의 문제를 넘어 국가 경제 전반의 안정성과 직결되는 핵심 과제로 부상하였다. 에너지 안보란 국가가 적정한 가격으로 필요한 에너지를 안정적으로 공급받을 수 있는 능력을 의미하며, 이는 공급의 안정성, 가격의 합리성, 환경적 지속 가능성의 세 축으로 구성된다.\n\n석유는 현재까지도 전 세계 1차 에너지 소비의 약 30%를 차지하는 지배적인 에너지원이다. 특히 한국은 에너지 자원의 대부분을 수입에 의존하는 구조로, 원유 수입의 약 70%가 중동 지역에서 조달된다. 이러한 높은 지역 편중은 중동 내 지정학적 불안정이 발생할 때마다 국내 에너지 가격의 급격한 변동성을 초래하는 원인이 된다. 호르무즈 해협은 전 세계 원유 해상 운송량의 약 20%가 통과하는 전략적 요충지로, 이 항로가 차단될 경우 국제 유가는 단기간에 두 배 이상 상승한 사례도 있다.\n\n에너지 안보의 취약성을 극복하기 위한 전략은 크게 공급원 다변화와 수요 관리 두 방향으로 나뉜다. 공급원 다변화는 특정 지역에 대한 의존도를 낮추고 캐나다, 미국, 호주 등 정치적으로 안정된 국가에서의 수입 비중을 높이는 방식이다. 반면 수요 관리는 에너지 효율 향상, 신재생에너지 전환, 수요 반응 프로그램 도입을 통해 에너지 소비 자체를 줄이거나 화석연료에 대한 의존을 낮추는 접근법이다. 두 전략은 상호 보완적으로 추진될 때 최대의 효과를 발휘할 수 있다.\n\n신재생에너지는 에너지 안보 강화의 핵심 수단으로 주목받고 있다. 태양광, 풍력 등의 재생에너지는 무한한 공급이 가능하고 수입 의존도를 원천적으로 낮출 수 있다는 장점이 있다. 그러나 간헐성의 문제, 즉 날씨와 시간에 따라 발전량이 불규칙하게 변한다는 기술적 한계가 존재한다. 이를 해결하기 위해 에너지 저장 시스템(ESS)과 스마트 그리드 기술의 고도화가 병행되어야 하며, 전력망의 유연성을 확보하는 것이 급선무로 지적된다.\n\n에너지 전환 과정에서 간과해서는 안 될 또 하나의 요소는 정의로운 전환의 문제다. 화석연료 산업에 종사하는 노동자와 관련 지역 사회는 탈탄소화 과정에서 고용 상실과 경제적 침체라는 타격을 입을 수 있다. 따라서 에너지 정책은 단순히 기술적·경제적 효율성만을 추구하는 것이 아니라, 사회적 형평성과 취약 계층 보호를 동시에 고려하는 통합적 관점에서 설계되어야 한다. 에너지 안보와 탄소중립, 그리고 사회적 공정성이라는 세 가지 목표를 조화롭게 달성하는 것이 현대 에너지 정책의 궁극적 지향점이다.",
+    "point1": "1문단: 에너지 안보 개념과 세 가지 구성 요소(공급 안정성·가격 합리성·지속 가능성) 정의 / 2문단: 한국의 중동 원유 의존 구조와 호르무즈 해협의 전략적 중요성 / 3문단: 에너지 안보 전략의 두 축인 공급원 다변화와 수요 관리 비교 / 4문단: 신재생에너지의 가능성과 간헐성 문제 및 ESS·스마트그리드의 필요성 / 5문단: 에너지 전환 과정에서 정의로운 전환의 중요성과 통합적 정책 설계의 필요",
+    "point2": "화제 도입 → 현황·문제 제시(통계 근거) → 대안 비교(공급 vs 수요) → 핵심 기술 심화 분석 → 사회적 맥락 확장의 점층적 구조. 각 문단이 전 문단의 논의를 심화하거나 새로운 시각을 추가하며, 일반에서 구체로 다시 확장으로 전개하는 방식을 취한다.",
+    "point3": "에너지 안보 대 지정학적 리스크(호르무즈): 원인-결과 관계 / 공급 다변화 대 수요 관리: 상호 보완 관계 / 신재생에너지 대 간헐성: 가능성-한계 관계 / 탄소중립 대 정의로운 전환: 목표-수단의 긴장 관계. 개념 쌍들이 긴장과 보완의 구도로 연결되며 글 전체의 논리 구조를 형성한다.",
+    "tip": "수능 비문학에서 개념 정의, 사례, 비교, 심화, 시사점 흐름을 빠르게 파악하는 연습이 핵심이다. 특히 두 가지 대립 개념(공급 vs 수요, 효율 vs 형평)을 도식으로 정리하면 선지 판단 속도가 크게 향상된다. 통계 수치(70%, 20%, 두 배)는 선지의 과도한 일반화·특수화 오류를 거르는 기준으로 적극 활용하자."
+  },
+  "papers": [
+    {
+      "title": "Comparative Effectiveness of Initial Systemic Versus Intratympanic Corticosteroid Therapy for Sudden Sensorineural Hearing Loss: A Retrospective Cohort Study with Doubly Robust Analysis",
+      "titleKo": "돌발성 감각신경성 난청에서 전신 스테로이드와 고실 내 스테로이드의 초기 치료 효과 비교: 이중 강건 분석을 적용한 후향적 코호트 연구",
+      "abstractKo": "284명의 특발성 돌발성 감각신경성 난청 환자를 대상으로 전신 스테로이드와 고실 내 주입 스테로이드의 치료 성과를 비교한 연구다. 성향 점수 매칭 및 이중 강건 추정법을 적용한 결과, 전신 투여군에서 약 10.1 dB의 추가 청력 개선과 17% 높은 완전 회복률이 확인됐다. 전신 투여가 가능한 경우 1차 치료로 전신 스테로이드를 우선 고려하되, 전신 투여 금기 환자에서는 고실 내 주입이 여전히 유효한 대안임을 강조했다.",
+      "category": "돌발성 난청",
+      "journal": "Frontiers in Neurology",
+      "date": "2026-04-15",
+      "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1752868/full"
+    },
+    {
+      "title": "Benign Paroxysmal Positional Vertigo: A Systematic Review of the Effects of Comorbidities",
+      "titleKo": "양성 돌발성 체위성 현훈(BPPV)과 동반 질환의 영향: 체계적 문헌고찰",
+      "abstractKo": "50개 연구를 분석한 체계적 문헌고찰로, BPPV 발생 및 치료 실패와 관련된 25가지 위험 인자를 규명했다. 두부 외상이 이석 정복술 시행 횟수를 최대 18회까지 요구하는 최악의 예후 인자로 확인됐으며, 비타민 D 결핍·골다공증·편두통·이내 질환도 유의미한 위험 요인으로 나타났다. 임상적으로는 수정 가능한 위험 인자(특히 비타민 D 결핍)를 체계적으로 평가하고 관리하는 것이 치료 성공률을 높이는 데 중요하다고 결론지었다.",
+      "category": "어지럼증/BPPV",
+      "journal": "Frontiers in Neurology",
+      "date": "2025-05-23",
+      "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2025.1595693/full"
+    },
+    {
+      "title": "World-Wide Survey on the Treatment of Peripheral Vestibular Disorders",
+      "titleKo": "말초 전정 장애 치료에 관한 전 세계 설문 조사",
+      "abstractKo": "188개 센터 234명의 전문의를 대상으로 실시한 국제 설문 조사로, 6가지 주요 전정 질환의 치료 관행을 분석했다. 후반고리관 BPPV에서는 Epley 법이 91%로 압도적으로 사용됐으나, 메니에르병은 약물 치료(85%, 주로 베타히스틴)와 다른 방식이 혼용되는 등 치료 이질성이 두드러졌다. 많은 약제가 근거 수준이 낮거나 매우 낮음에도 광범위하게 사용되고 있다며, 표준화된 임상 시험의 시급한 필요성을 강조했다.",
+      "category": "어지럼증/전정 장애",
+      "journal": "Frontiers in Neurology",
+      "date": "2025-02-04",
+      "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2025.1540443/full"
+    },
+    {
+      "title": "Comparison of the Rates of Emergent Otologic Adverse Events Following mRNA COVID-19 Versus Influenza Vaccination: A Matched Cohort Analysis",
+      "titleKo": "mRNA COVID-19 백신 대 인플루엔자 백신 접종 후 이과적 이상 반응 발생률 비교: 매칭 코호트 분석",
+      "abstractKo": "스탠퍼드대학 연구팀이 2만여 명의 성인을 대상으로 두 백신군에서 이과적 이상 반응을 비교한 후향적 코호트 연구다. 청력 손실, 이명 등 대부분의 이과적 합병증은 양 군 모두 2% 미만으로 매우 드물게 나타났다. 유일한 통계적 차이는 COVID-19 백신 접종군에서 귀 충만감이 다소 높았으나 발생률은 0.22% 미만으로 임상적 의의는 제한적이며, 두 백신의 이과적 안전성 프로파일은 유사하다고 결론지었다.",
+      "category": "COVID-19/감염병",
+      "journal": "Frontiers in Neurology",
+      "date": "2025-08-07",
+      "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2025.1637870/full"
+    },
+    {
+      "title": "Next-Generation Neuromodulation in Tinnitus: Multimodal Approaches and Deep Targets",
+      "titleKo": "이명의 차세대 신경 조절 치료: 다중 양식 접근법과 심부 표적",
+      "abstractKo": "이명 신경 조절 치료의 최신 동향을 정리한 리뷰 논문으로, 2026년 1월에 발표됐다. 기존의 반복적 경두개 자기 자극(rTMS)이나 경두개 전기 자극은 단기적·소폭의 효과에 그치는 반면, 이중 양식 청각-체감각 자극(Lenire 기기)은 53~65%의 환자에서 임상적으로 유의미한 개선을 보였다. 연구진은 경두개 집속 초음파와 광생물 조절 등 심부 뇌 구조에 비침습적으로 접근하는 기술을 차세대 이명 치료의 핵심으로 제시했다.",
+      "category": "이명",
+      "journal": "Frontiers in Audiology and Otology",
+      "date": "2026-01-30",
+      "url": "https://www.frontiersin.org/journals/audiology-and-otology/articles/10.3389/fauot.2025.1730278/full"
+    },
+    {
+      "title": "Efficacy of Allergen-Specific Immunotherapy for Allergic Rhinitis: A Meta-Analysis",
+      "titleKo": "알레르기 비염에 대한 알레르겐 특이 면역 치료의 효능: 메타분석",
+      "abstractKo": "피하 면역 치료(SCIT)와 설하 면역 치료(SLIT)를 비교한 6개 무작위 대조 시험을 분석한 메타분석으로, 2026년 3월에 게재됐다. 두 방법 간 치료 중단율에는 유의미한 차이가 없어 환자 순응도가 유사했으나, SCIT에서 이상 반응 발생률이 유의하게 높았다. 임상에서 치료법 선택 시 효능 차이보다는 환자의 편의성과 안전성 선호도를 더 중시해야 한다고 권고했다.",
+      "category": "비염/알레르기",
+      "journal": "Frontiers in Medicine",
+      "date": "2026-03-24",
+      "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1759079/full"
+    },
+    {
+      "title": "Gadolinium-Enhanced MRI Improves Accuracy for Meniere Disease and Delayed Endolymphatic Hydrops",
+      "titleKo": "가돌리늄 조영 MRI가 메니에르병 및 지연성 내림프 수종 진단 정확도를 향상시킨다",
+      "abstractKo": "164명의 메니에르병 환자와 27명의 지연성 내림프 수종 환자를 대상으로 가돌리늄 조영 내이 MRI의 진단 효과를 분석한 후향 연구다. 확진 메니에르병에서 96.1%, 지연성 내림프 수종에서 85.2%의 내림프 수종 검출률을 보였으나, 의심 단계 메니에르병에서는 28.6%에 그쳤다. 내림프 수종 중증도는 청력 손실 및 질병 진행과 양의 상관관계를 보였으며, 대규모 전향 연구의 필요성을 제언했다.",
+      "category": "메니에르병",
+      "journal": "Science Progress",
+      "date": "2025-10-07",
+      "url": "https://medicalxpress.com/news/2025-11-gadolinium-mri-accuracy-meniere-disease.html"
+    },
+    {
+      "title": "Steroid-Sparing Effects of Biologics in Chronic Rhinosinusitis with Nasal Polyps: Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+      "titleKo": "비용종을 동반한 만성 비부비동염에서 생물학적 제제의 스테로이드 절약 효과: 무작위 대조 시험 체계적 문헌고찰 및 메타분석",
+      "abstractKo": "비용종을 동반한 만성 비부비동염(CRSwNP) 환자를 대상으로 생물학적 제제(dupilumab 등)의 스테로이드 절약 효과를 분석한 메타분석이다. 생물학적 제제 투여군은 위약 대비 비강 내 폴립 크기 감소, 증상 개선, 전신 스테로이드 및 수술 필요성 감소에서 유의미한 우월성을 보였다. 제2형 염증을 표적으로 하는 생물학적 제제가 난치성 비부비동염 환자에서 수술 대안으로 자리매김하고 있음을 시사한다.",
+      "category": "비부비동염",
+      "journal": "Otolaryngology-Head and Neck Surgery",
+      "date": "2026-01-01",
+      "url": "https://journals.sagepub.com/doi/10.1177/19458924251414922"
+    },
+    {
+      "title": "Effectiveness of Deep Neural Networks in Hearing Aids for Improving Signal-to-Noise Ratio, Speech Recognition, and Listener Preference in Background Noise",
+      "titleKo": "배경 소음 환경에서 신호 대 잡음비, 어음 인지, 청취자 선호도 향상을 위한 보청기 내 심층 신경망의 효과",
+      "abstractKo": "보청기에 탑재된 심층 신경망(DNN) 기술이 소음 환경에서의 신호 대 잡음비 개선, 어음 인지, 사용자 선호도에 미치는 효과를 분석한 2025년 연구다. DNN 기반 보청기는 기존 디지털 신호 처리 방식 대비 소음 억제 성능이 유의하게 향상됐으며, 어음 인지 점수와 청취 편안함도 개선됐다. AI 기술이 보청기의 맞춤형 피팅과 소음 환경 적응력을 혁신적으로 향상시킬 잠재력을 지닌다고 결론지었다.",
+      "category": "보청기/청각재활",
+      "journal": "Frontiers in Audiology and Otology",
+      "date": "2025-09-01",
+      "url": "https://www.frontiersin.org/journals/audiology-and-otology/articles/10.3389/fauot.2025.1677482/full"
+    },
+    {
+      "title": "Evaluation of Effective Methods in the Treatment of Residual Dizziness After BPPV: A Randomized Comparative Clinical Study",
+      "titleKo": "BPPV 이석 정복 후 잔류 어지럼증 치료에 효과적인 방법 평가: 무작위 비교 임상 연구",
+      "abstractKo": "이석 정복술 성공 후에도 지속되는 잔류 어지럼증의 치료 효과를 비교한 무작위 임상 연구로, 전정 재활 치료(VRT)와 세타 이중음파 자극(T-BB)을 비교했다. 두 방법 모두 잔류 어지럼증과 불안 증상을 유의미하게 감소시켰으나, VRT와 T-BB 병용군에서 더 빠른 증상 소실이 관찰됐다. 이석 정복술 이후 잔류 어지럼증의 적극적인 추가 치료가 환자의 삶의 질 개선에 중요하다는 임상적 함의를 제시한다.",
+      "category": "어지럼증/BPPV",
+      "journal": "European Archives of Oto-Rhino-Laryngology",
+      "date": "2025-11-01",
+      "url": "https://link.springer.com/article/10.1007/s00405-025-09780-4"
+    }
+  ]
+}
