@@ -85,6 +85,26 @@ details[open] summary{margin-bottom:6px}
 .verse-body{font-family:'Noto Serif KR',serif;font-size:1rem;line-height:2;color:#2a2a2a;font-weight:500;padding:0 4px;margin-bottom:14px;word-break:keep-all}
 .verse-ref{font-family:'Noto Serif KR',serif;font-size:.82rem;color:var(--accent2);font-weight:600;letter-spacing:.08em;padding-top:10px;border-top:1px dashed rgba(45,80,22,.2);display:inline-block;padding-left:16px;padding-right:16px}
 @media(max-width:480px){.verse-card{padding:18px 16px 16px}.verse-body{font-size:.92rem;line-height:1.9}}
+/* ── D-day 카드 ── */
+.dday-card{background:linear-gradient(135deg,#1a3a0a 0%,#2d5016 55%,#3d6b1e 100%);color:#fff;border-radius:var(--r);padding:20px 22px 18px;margin-bottom:20px;box-shadow:0 4px 18px rgba(45,80,22,0.25);position:relative;overflow:hidden}
+.dday-card::after{content:'';position:absolute;top:-40px;right:-40px;width:140px;height:140px;background:radial-gradient(circle,rgba(255,255,255,.08) 0%,transparent 70%);pointer-events:none}
+.dday-label{font-family:'Noto Serif KR',serif;font-size:.72rem;letter-spacing:.28em;opacity:.75;margin-bottom:8px;text-align:center;font-weight:500}
+.dday-main{text-align:center;margin-bottom:10px}
+.dday-big{font-family:'Noto Serif KR',serif;font-size:2.4rem;font-weight:700;letter-spacing:.02em;line-height:1.1;color:#fff}
+.dday-big .prefix{font-size:1.5rem;font-weight:500;opacity:.85;margin-right:4px;vertical-align:3px}
+.dday-target{font-size:.75rem;opacity:.7;margin-top:4px;letter-spacing:.05em}
+.dday-breakdown{display:flex;justify-content:center;gap:14px;padding:10px 0;border-top:1px solid rgba(255,255,255,.12);border-bottom:1px solid rgba(255,255,255,.12);margin:0 -4px}
+.dday-breakdown .item{text-align:center;flex:1}
+.dday-breakdown .n{font-family:'Noto Serif KR',serif;font-size:1.15rem;font-weight:700;display:block;line-height:1.1}
+.dday-breakdown .u{font-size:.68rem;opacity:.7;letter-spacing:.1em;margin-top:2px}
+.dday-events{margin-top:12px}
+.dday-events .ev{display:flex;justify-content:space-between;align-items:center;padding:6px 2px;font-size:.8rem}
+.dday-events .ev + .ev{border-top:1px dashed rgba(255,255,255,.12)}
+.dday-events .ev .name{opacity:.9;font-weight:500}
+.dday-events .ev .date{opacity:.55;font-size:.72rem;margin-left:8px}
+.dday-events .ev .cnt{font-family:'Noto Serif KR',serif;font-weight:600;color:#ffd885;font-size:.88rem;letter-spacing:.02em;white-space:nowrap}
+.dday-events .ev.today .cnt{color:#ffb077}
+@media(max-width:480px){.dday-big{font-size:2.05rem}.dday-big .prefix{font-size:1.25rem}.dday-breakdown .n{font-size:1rem}}
 .footer{text-align:center;padding:24px 16px;font-size:.73rem;color:#aaa;border-top:1px solid var(--border);max-width:680px;margin:16px auto 0}
 .loading{text-align:center;padding:40px;color:var(--text-sub);font-size:.88rem}
 @media(max-width:480px){.header h1{font-size:1.3rem}.container{padding:12px}.news-card,.paper-card,.suneung-card{padding:14px}.suneung-card{padding:0}.suneung-card-body{padding:12px}.suneung-passage-wrap{padding:14px 12px}}
@@ -106,6 +126,7 @@ details[open] summary{margin-bottom:6px}
 <div class="tab-content active" id="tab-suneung">
 <div class="container">
 <div id="archive-view-banner" style="display:none"></div>
+<div class="dday-card" id="ddayCard"></div>
 <div class="verse-card">
 <div class="verse-label">오늘의 말씀</div>
 <p class="verse-body">여호와께서 그들 앞에서 가시며 낮에는 구름기둥으로 그들의 길을 인도하시고 밤에는 불기둥을 그들에게 비추사 낮이나 밤이나 진행하게 하시니</p>
@@ -146,6 +167,76 @@ details[open] summary{margin-bottom:6px}
 </div>
 <script>
 var _todayData = null;
+
+// ── D-day 설정 (날짜 바뀌면 여기만 수정) ──
+var SUNEUNG_DATE = '2026-11-19';     // 2027학년도 수능
+var DDAY_EVENTS = [
+  {name:'6월 모의평가', date:'2026-06-04'},
+  {name:'9월 모의평가', date:'2026-09-03'},
+  {name:'수능',        date:SUNEUNG_DATE}
+];
+
+function diffDays(isoTarget){
+  var t = new Date(isoTarget + 'T00:00:00');
+  var n = new Date();
+  n.setHours(0,0,0,0);
+  return Math.round((t - n) / 86400000);
+}
+
+function renderDday(){
+  var el = document.getElementById('ddayCard');
+  if(!el) return;
+  var d = diffDays(SUNEUNG_DATE);
+  var suneungDateStr = SUNEUNG_DATE.replace(/-/g,'.');
+  var months = Math.floor(d / 30);
+  var remAfterM = d - months*30;
+  var weeks = Math.floor(d / 7);
+  var daysAfterW = d - weeks*7;
+  var suneungHTML;
+  if(d > 0){
+    suneungHTML =
+      '<div class="dday-main">'+
+        '<div class="dday-big"><span class="prefix">D-</span>'+d+'</div>'+
+        '<div class="dday-target">2027학년도 수능 · '+suneungDateStr+' (목)</div>'+
+      '</div>'+
+      '<div class="dday-breakdown">'+
+        '<div class="item"><span class="n">'+months+'</span><span class="u">MONTHS</span></div>'+
+        '<div class="item"><span class="n">'+weeks+'</span><span class="u">WEEKS</span></div>'+
+        '<div class="item"><span class="n">'+d+'</span><span class="u">DAYS</span></div>'+
+      '</div>';
+  } else if(d === 0){
+    suneungHTML =
+      '<div class="dday-main">'+
+        '<div class="dday-big">D-DAY</div>'+
+        '<div class="dday-target">오늘이 수능일입니다 · '+suneungDateStr+'</div>'+
+      '</div>';
+  } else {
+    suneungHTML =
+      '<div class="dday-main">'+
+        '<div class="dday-big" style="font-size:1.5rem">수능 종료</div>'+
+        '<div class="dday-target">'+suneungDateStr+' · 수고하셨습니다</div>'+
+      '</div>';
+  }
+
+  // 다가오는 이벤트 (지난 일정은 제외, 수능 자체는 상단에 표시되므로 제외)
+  var evs = DDAY_EVENTS
+    .filter(function(e){ return e.date !== SUNEUNG_DATE; })
+    .map(function(e){ return {name:e.name, date:e.date, d:diffDays(e.date)}; })
+    .filter(function(e){ return e.d >= 0; })
+    .sort(function(a,b){ return a.d - b.d; });
+
+  var evHTML = '';
+  if(evs.length){
+    evHTML = '<div class="dday-events">' + evs.map(function(e){
+      var cls = e.d === 0 ? 'ev today' : 'ev';
+      var cnt = e.d === 0 ? 'D-DAY' : ('D-'+e.d);
+      var dateStr = e.date.replace(/-/g,'.');
+      return '<div class="'+cls+'"><span><span class="name">'+e.name+'</span><span class="date">'+dateStr+'</span></span><span class="cnt">'+cnt+'</span></div>';
+    }).join('') + '</div>';
+  }
+
+  el.innerHTML = '<div class="dday-label">수능 카운트다운</div>' + suneungHTML + evHTML;
+}
 
 function switchTab(n){
   document.querySelectorAll('.tab-content').forEach(t=>t.classList.remove('active'));
@@ -295,6 +386,7 @@ function tagClass(t){
   return 't-orange';
 }
 
+renderDday();
 loadData();
 loadArchive();
 </script>
