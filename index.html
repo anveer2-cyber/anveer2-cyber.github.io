@@ -77,6 +77,14 @@ details[open] summary{margin-bottom:6px}
 .archive-item .date{color:var(--text-sub);font-size:.75rem}
 .archive-banner{background:linear-gradient(135deg,#e8f0e2,#d5e8c8);border:1px solid var(--accent);border-radius:var(--r);padding:10px 14px;margin-bottom:14px;font-size:.82rem;display:flex;justify-content:space-between;align-items:center}
 .archive-banner button{background:var(--accent);color:#fff;border:none;border-radius:6px;padding:4px 12px;font-size:.76rem;cursor:pointer;font-family:'Noto Sans KR',sans-serif}
+/* ── 말씀 카드 ── */
+.verse-card{background:linear-gradient(135deg,#fdfcf5 0%,#f7f2e0 100%);border:1px solid #e0d8b8;border-radius:var(--r);padding:22px 22px 18px;margin-bottom:20px;box-shadow:0 3px 14px rgba(45,80,22,0.08);position:relative;overflow:hidden;text-align:center}
+.verse-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#2d5016 0%,#b7410e 50%,#2d5016 100%)}
+.verse-label{font-family:'Noto Serif KR',serif;font-size:.72rem;letter-spacing:.3em;color:var(--accent);font-weight:600;margin-bottom:14px;display:flex;align-items:center;justify-content:center;gap:12px}
+.verse-label::before,.verse-label::after{content:'';flex:0 0 28px;height:1px;background:linear-gradient(90deg,transparent,var(--accent),transparent)}
+.verse-body{font-family:'Noto Serif KR',serif;font-size:1rem;line-height:2;color:#2a2a2a;font-weight:500;padding:0 4px;margin-bottom:14px;word-break:keep-all}
+.verse-ref{font-family:'Noto Serif KR',serif;font-size:.82rem;color:var(--accent2);font-weight:600;letter-spacing:.08em;padding-top:10px;border-top:1px dashed rgba(45,80,22,.2);display:inline-block;padding-left:16px;padding-right:16px}
+@media(max-width:480px){.verse-card{padding:18px 16px 16px}.verse-body{font-size:.92rem;line-height:1.9}}
 .footer{text-align:center;padding:24px 16px;font-size:.73rem;color:#aaa;border-top:1px solid var(--border);max-width:680px;margin:16px auto 0}
 .loading{text-align:center;padding:40px;color:var(--text-sub);font-size:.88rem}
 @media(max-width:480px){.header h1{font-size:1.3rem}.container{padding:12px}.news-card,.paper-card,.suneung-card{padding:14px}.suneung-card{padding:0}.suneung-card-body{padding:12px}.suneung-passage-wrap{padding:14px 12px}}
@@ -98,6 +106,11 @@ details[open] summary{margin-bottom:6px}
 <div class="tab-content active" id="tab-suneung">
 <div class="container">
 <div id="archive-view-banner" style="display:none"></div>
+<div class="verse-card">
+<div class="verse-label">오늘의 말씀</div>
+<p class="verse-body">여호와께서 그들 앞에서 가시며 낮에는 구름기둥으로 그들의 길을 인도하시고 밤에는 불기둥을 그들에게 비추사 낮이나 밤이나 진행하게 하시니</p>
+<p class="verse-ref">출애굽기 13:21</p>
+</div>
 <div class="sec-header">오늘의 수능 시사 뉴스 TOP 10</div>
 <p class="sec-desc">수능 출제 가능성이 높은 시사 뉴스를 매일 엄선합니다</p>
 <div id="news-list"><div class="loading">콘텐츠를 불러오는 중입니다...</div></div>
