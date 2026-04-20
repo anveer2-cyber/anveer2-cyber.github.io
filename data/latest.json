@@ -112,83 +112,93 @@
   "papers": [
     {
       "title": "STARFISH trial: STeroid Administration Routes For Idiopathic Sudden sensorineural Hearing loss — protocol for a multicentre randomised controlled trial",
-      "authors": "STARFISH Trial Group",
+      "titleKo": "STARFISH 연구: 특발성 돌발성 난청에서 스테로이드 투여 경로 비교를 위한 다기관 무작위 대조 시험 프로토콜",
+      "abstractKo": "특발성 돌발성 난청(ISSNHL)의 1차 치료로서 전신 스테로이드, 고실내 스테로이드 단독, 전신+고실내 병용 세 가지 투여 경로의 임상적·비용효과적 우수성을 비교하는 다기관 평가자 맹검 3군 우월성 RCT의 프로토콜이다. 영국 NIHR 지원으로 설계된 실용적(pragmatic) 시험으로, 청력 회복 수준·삶의 질·부작용·비용을 1·3·6개월 시점에서 평가한다. 기존 근거의 불일치를 해소하고 최적 경로를 확정하는 것이 목표다.",
+      "category": "돌발성 난청",
       "journal": "BMJ Open / PubMed 38422002",
-      "year": "2024-2026 ongoing",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38422002/",
-      "summary": "ISSNHL의 1차 치료로서 전신·고실내·복합 스테로이드 투여 경로의 임상적·비용효과적 우수성을 비교하는 다기관 평가자 맹검 3군 우월성 RCT. 영국 NIHR 지원의 실용적(pragmatic) 시험 디자인이 특징."
+      "date": "2024-2026 ongoing",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38422002/"
     },
     {
       "title": "Efficacy of methylprednisolone acetate nanogel in treating patients with sudden sensorineural hearing loss",
-      "authors": "et al.",
+      "titleKo": "돌발성 감각신경성 난청 치료에서 메틸프레드니솔론 아세테이트 나노겔의 효과",
+      "abstractKo": "고실내 투여되는 메틸프레드니솔론 아세테이트 나노겔 제형이 기존 수성 제형 대비 중이강 체류 시간과 약물 노출 농도를 증가시켜 더 높은 완전 반응률을 나타냈다. 전신 스테로이드와 나노겔 또는 기존 제형의 병용이 단독 투여보다 치료 효과가 강화되었으며, 나노겔 군에서 약간 더 높은 효능이 관찰됐다. 약물 전달 기술의 개선이 난청 회복률을 끌어올릴 수 있음을 시사한다.",
+      "category": "돌발성 난청",
       "journal": "Scientific Reports",
-      "year": "2025",
-      "url": "https://www.nature.com/articles/s41598-025-97145-6",
-      "summary": "고실내 메틸프레드니솔론 나노겔 제형이 기존 수성 제형 대비 더 높은 완전 반응률을 보였으며, 전신 스테로이드와의 병용 시 치료 효과가 강화됨을 보고한 비교 임상 연구."
+      "date": "2025",
+      "url": "https://www.nature.com/articles/s41598-025-97145-6"
     },
     {
       "title": "Current role of the nonsteroid treatment of idiopathic sudden sensorineural hearing loss (ISSNHL): a narrative review",
-      "authors": "et al.",
+      "titleKo": "특발성 돌발성 난청의 비스테로이드 치료의 현재 역할: 서술적 리뷰",
+      "abstractKo": "1979년부터 2025년 1월까지 출간된 ISSNHL 비스테로이드 치료 근거를 종합한 서술적 리뷰. 혈류개선제, 항바이러스제, 고압산소요법, 항산화제 등의 단독 또는 보조 치료 효과를 비교 분석했다. 스테로이드 단독 치료의 일관되지 않은 효능을 보완하기 위한 다면적 접근의 필요성을 강조하며, 특히 고압산소요법이 일부 하위 집단에서 보조 치료로 유의한 효과를 보임을 보고했다.",
+      "category": "돌발성 난청",
       "journal": "Journal of Clinical Medicine",
-      "year": "2025-04",
-      "url": "https://www.mdpi.com/2077-0383/14/8/2811",
-      "summary": "1979년부터 2025년 1월까지의 ISSNHL 비스테로이드 치료(혈류개선제·항바이러스제·고압산소요법·항산화제) 근거를 종합한 서술적 리뷰. 스테로이드 단독 한계의 보완 전략을 정리."
+      "date": "2025-04",
+      "url": "https://www.mdpi.com/2077-0383/14/8/2811"
     },
     {
       "title": "Systematic review and meta-analysis of intratympanic steroid injection in SSNHL as initial, combined, or salvage treatment",
-      "authors": "et al.",
+      "titleKo": "돌발성 난청에서 고실내 스테로이드 주사의 초기·병용·구제 치료로서의 효과: 체계적 문헌고찰 및 메타분석",
+      "abstractKo": "고실내 스테로이드 주사를 단독·전신 병용·구제 요법으로 사용한 임상 연구들을 통합한 메타분석. 전신 스테로이드 단독 치료 대비 병용 요법에서 청력 회복률이 유의하게 높았고, 특히 전신 스테로이드 실패 후의 구제 요법으로서의 효용이 일관되게 확인됐다. 초기 치료로서의 우월성은 연구 간 이질성이 있으나, 구제 요법으로는 표준 치료로 권고할 근거를 제시한다.",
+      "category": "돌발성 난청",
       "journal": "Journal of Otology (JOTO)",
-      "year": "2025",
-      "url": "https://www.sciopen.com/article/10.26599/JOTO.2025.9540008",
-      "summary": "고실내 스테로이드 단독·병용·구제요법을 전신 스테로이드 단독과 비교한 체계적 문헌고찰 및 메타분석. 구제요법으로서의 효용을 일관되게 지지하는 근거를 제시."
+      "date": "2025",
+      "url": "https://www.sciopen.com/article/10.26599/JOTO.2025.9540008"
     },
     {
       "title": "Deep transfer learning for spoken language outcomes after pediatric cochlear implantation",
-      "authors": "Northwestern Medicine et al.",
+      "titleKo": "소아 인공와우 이식 후 구어 발달 예측을 위한 심층 전이학습 모델",
+      "abstractKo": "Northwestern Medicine 주도의 국제 다기관 연구로, 심층 전이학습(deep transfer learning) 알고리즘이 인공와우 이식 아동의 언어 발달 예후를 기존 머신러닝 대비 더 정확하게 예측했다. 정확도 92.4%, 민감도 91.2%, 특이도 93.6%로, 언어 발달 지연 위험 아동을 조기에 식별할 수 있음을 입증했다. 단일 AI 모델의 전 세계 임상 적용 가능성을 제시한 이정표적 연구다.",
+      "category": "인공와우·AI",
       "journal": "JAMA Otolaryngology – Head and Neck Surgery",
-      "year": "2026",
-      "url": "https://news.feinberg.northwestern.edu/2026/03/02/ai-model-predicts-language-development-in-children-with-hearing-loss/",
-      "summary": "심층 전이학습 알고리즘이 인공와우 이식 아동의 언어 발달 예후를 정확도 92.4%, 민감도 91.2%, 특이도 93.6%로 예측. 단일 AI 모델의 전 세계 임상 적용 가능성을 입증."
+      "date": "2026",
+      "url": "https://news.feinberg.northwestern.edu/2026/03/02/ai-model-predicts-language-development-in-children-with-hearing-loss/"
     },
     {
       "title": "A systematic review of machine learning approaches in cochlear implant outcomes",
-      "authors": "et al.",
+      "titleKo": "인공와우 결과 예측에서 머신러닝 접근법에 대한 체계적 문헌고찰",
+      "abstractKo": "16개 연구·5,058명의 소아 및 성인 인공와우 이용자를 대상으로 결과 예측에 활용된 머신러닝 기법을 체계적으로 분석했다. 소리 생성 5편, 소리 지각 12편, 언어 2편의 이질적 결과 변수가 포함됐다. 영상 기반 연구에서 예측 정확도가 가장 높았으나, 모델 복잡도의 증가가 예측 정확도 향상으로 이어지지는 않는 수확 체감의 한계를 보고했다. 표준화된 레지스트리의 필요성을 강조한다.",
+      "category": "인공와우·AI",
       "journal": "npj Digital Medicine",
-      "year": "2025",
-      "url": "https://www.nature.com/articles/s41746-025-01733-9",
-      "summary": "16개 연구·5,058명 대상으로 인공와우 결과 예측에 사용된 머신러닝 접근법을 체계적으로 분석. 영상 기반 예측 정확도가 높은 반면, 모델 복잡도 증가가 예측 정확도 향상으로 이어지지는 않는 한계를 보고."
+      "date": "2025",
+      "url": "https://www.nature.com/articles/s41746-025-01733-9"
     },
     {
       "title": "Tympanic membrane regeneration therapy for pediatric tympanic membrane perforation",
-      "authors": "et al.",
+      "titleKo": "소아 고막 천공에 대한 고막 재생 치료(TMRT)",
+      "abstractKo": "소아 고막 천공 환자에게 b-FGF(염기성 섬유아세포 성장인자) 함침 젤라틴 스폰지와 피브린 글루를 이용한 재생 요법을 적용한 결과, 최종 폐쇄율 90.5%를 달성했고 청력은 평균 24.9 dB에서 13.8 dB로 개선됐다. 천공 변연을 기계적으로 자극한 뒤 중이강 내외로 b-FGF 스폰지를 배치하고 피브린 글루로 고정하는 비침습적 방식으로, 기존 고실성형술의 수술 침습성을 크게 낮춘 새로운 표준 치료 후보로 평가된다.",
+      "category": "소아 중이염·고막",
       "journal": "Otology & Neurotology",
-      "year": "2024",
-      "url": "https://journals.lww.com/otology-neurotology/fulltext/2024/10000/tympanic_membrane_regeneration_therapy_for.14.aspx",
-      "summary": "소아 고막 천공에 대해 b-FGF 함침 젤라틴 스폰지와 피브린 글루를 이용한 재생요법 적용 결과 90.5% 폐쇄율과 평균 11.1 dB 청력 개선을 보고. 수술 침습성을 낮춘 새로운 표준 치료 후보로 평가."
+      "date": "2024",
+      "url": "https://journals.lww.com/otology-neurotology/fulltext/2024/10000/tympanic_membrane_regeneration_therapy_for.14.aspx"
     },
     {
       "title": "Optical coherence tomography in decision making for children with acute otitis media: a clinical trial",
-      "authors": "et al.",
+      "titleKo": "소아 급성 중이염의 진단·치료 결정에서 광간섭단층촬영(OCT)의 활용: 임상시험",
+      "abstractKo": "광간섭단층촬영(OCT)이 소아 급성 중이염(AOM) 진단 및 치료 결정에 미치는 영향을 평가한 전향적 임상시험. 전체 환자의 15.3%에서 진단 또는 치료 계획이 변경됐으며, 특히 급성 중이염 없는 중이 삼출(OME) 군에서 변경률이 가장 높았다. 비침습적 실시간 영상 기반 진단의 임상 도입 가능성을 시사하며, 항생제 처방의 정확성 향상에 기여할 수 있다.",
+      "category": "소아 중이염·고막",
       "journal": "PubMed 41547297",
-      "year": "2026",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41547297/",
-      "summary": "광간섭단층촬영(OCT)이 소아 급성 중이염 진단 및 치료 결정에 미치는 영향을 평가한 임상시험. 중이 삼출만 있는 군에서 진단·치료 변경률이 가장 높아(15.3%) 비침습 영상 진단의 임상 활용 가능성을 시사."
+      "date": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41547297/"
     },
     {
       "title": "Effectiveness of platelet-rich plasma combined with cartilage tympanoplasty type 1 for tympanic membrane perforations: a systematic review and meta-analysis",
-      "authors": "et al.",
+      "titleKo": "고막 천공에 대한 PRP 병용 1형 연골 고실성형술의 효과: 체계적 문헌고찰 및 메타분석",
+      "abstractKo": "만성 중이염에 의한 고막 천공 환자에게 혈소판 풍부 혈장(PRP)을 병용한 1형 연골 고실성형술의 효과와 안전성을 평가한 메타분석. 전통적 고실성형술 단독군 대비 PRP 병용군에서 고막 폐쇄율과 순음 청력 개선 모두에서 유의한 우월성을 보였다. 다만 포함된 연구들 사이의 표본 크기·PRP 제조법·추적 기간의 이질성이 한계로 지적됐으며, 대규모 RCT 근거가 추가로 요구된다.",
+      "category": "고실성형술",
       "journal": "European Archives of Oto-Rhino-Laryngology",
-      "year": "2025",
-      "url": "https://link.springer.com/article/10.1007/s00405-025-09928-2",
-      "summary": "만성 중이염에 의한 고막 천공에 PRP를 병용한 1형 연골 고실성형술의 효과·안전성을 메타분석. 폐쇄율과 청력 개선에서 PRP 병용군의 우월성을 시사하나 표본 이질성 한계도 함께 보고."
+      "date": "2025",
+      "url": "https://link.springer.com/article/10.1007/s00405-025-09928-2"
     },
     {
       "title": "Reviews in neuro-otology: highlighting recent advances in neuro-otology",
-      "authors": "Frontiers Editorial Team",
+      "titleKo": "신경이과학 최신 동향 리뷰: 최근 진전의 조명",
+      "abstractKo": "Frontiers in Neurology에 게재된 신경이과학 최신 리뷰 8편(청각 5편·전정 3편)을 종합한 사설. 인공와우 이식, 신경염증성 내이 질환, 만성 중이염 수술 후 삶의 질, 전정 질환의 비특이적 지각 증상 평가 등 최신 임상 연구의 경향을 정리했다. 어지럼증이 모두 회전감으로 나타나지는 않는다는 점을 강조하며, 전정 지각(vestibular perception) 평가의 중요성을 재조명한다.",
+      "category": "신경이과·전정",
       "journal": "Frontiers in Neurology",
-      "year": "2025",
-      "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2025.1595204/full",
-      "summary": "신경이과학 최신 리뷰 8편(청각 5편·전정 3편)을 종합한 사설. 인공와우, 신경염증성 질환, 만성 중이염 후 삶의 질, 어지럼의 비특이적 지각 증상 평가 등 임상 연구의 최신 동향을 정리."
+      "date": "2025",
+      "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2025.1595204/full"
     }
   ]
 }
