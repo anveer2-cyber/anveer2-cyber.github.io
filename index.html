@@ -169,10 +169,10 @@ details[open] summary{margin-bottom:6px}
 var _todayData = null;
 
 // ── D-day 설정 (날짜 바뀌면 여기만 수정) ──
-var SUNEUNG_DATE = '2026-11-19';     // 2027학년도 수능
+var SUNEUNG_DATE = '2026-11-19';     // 2027학년도 수능 (확정)
 var DDAY_EVENTS = [
-  {name:'6월 모의평가', date:'2026-06-04'},
-  {name:'9월 모의평가', date:'2026-09-03'},
+  {name:'6월 모의평가', date:'2026-06-04'},    // 평가원 확정
+  {name:'9월 모의평가', date:'2026-09-03'},    // 잠정 (첫째 목요일 관례) — 확정 발표 시 수정
   {name:'수능',        date:SUNEUNG_DATE}
 ];
 
@@ -189,9 +189,7 @@ function renderDday(){
   var d = diffDays(SUNEUNG_DATE);
   var suneungDateStr = SUNEUNG_DATE.replace(/-/g,'.');
   var months = Math.floor(d / 30);
-  var remAfterM = d - months*30;
   var weeks = Math.floor(d / 7);
-  var daysAfterW = d - weeks*7;
   var suneungHTML;
   if(d > 0){
     suneungHTML =
@@ -237,6 +235,21 @@ function renderDday(){
 
   el.innerHTML = '<div class="dday-label">수능 카운트다운</div>' + suneungHTML + evHTML;
 }
+
+// 자정에 맞춰 카운트다운 자동 갱신. 탭을 켜 둔 채로 날짜가 바뀌어도
+// D-day가 안 밀리게 하고, 백그라운드로 밀렸다 돌아와도 즉시 재계산.
+function scheduleDdayRefresh(){
+  var now = new Date();
+  var nextMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate()+1, 0, 0, 5);
+  var ms = nextMidnight - now;
+  setTimeout(function tick(){
+    renderDday();
+    setTimeout(tick, 24*60*60*1000);
+  }, ms);
+}
+document.addEventListener('visibilitychange', function(){
+  if(document.visibilityState === 'visible') renderDday();
+});
 
 function switchTab(n){
   document.querySelectorAll('.tab-content').forEach(t=>t.classList.remove('active'));
@@ -387,6 +400,7 @@ function tagClass(t){
 }
 
 renderDday();
+scheduleDdayRefresh();
 loadData();
 loadArchive();
 </script>
