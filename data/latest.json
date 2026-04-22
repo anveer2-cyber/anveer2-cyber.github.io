@@ -1,238 +1,198 @@
 {
-  "date": "2026년 4월 22일 수요일",
+  "date": "2026년 4월 23일 목요일",
   "news": [
     {
-      "title": "방시혁 하이브 의장, 사기적 부정거래 혐의로 구속영장 신청…1900억 부당이득",
-      "summary": "경찰이 자본시장법 위반 혐의로 방시혁 하이브 의장에 대해 구속영장을 신청했다. 2019년 하이브 IPO 과정에서 투자자를 기망해 1900억 원 규모의 부당이득을 취한 혐의로, 자본시장의 공정성과 기업 지배구조 문제에 대한 사회적 논의가 촉발되고 있다.",
-      "url": "https://www.fnnews.com/news/202604211348323546",
-      "tags": [
-        "사회",
-        "법",
-        "경제"
-      ],
+      "title": "이재명 대통령, 베트남 또럼 서기장과 정상회담…2030년 교역 1500억달러 목표",
+      "summary": "이재명 대통령이 베트남을 국빈 방문해 또럼 국가주석과 정상회담을 갖고 2030년까지 양국 교역액 1500억달러 달성을 목표로 설정했다. 원전·신도시·도시철도 등 핵심 인프라 분야 협력도 대폭 강화하기로 합의했다.",
+      "url": "https://www.fnnews.com/news/202604221625160052",
+      "tags": ["세계·외교", "정치"],
       "source": "파이낸셜뉴스"
     },
     {
-      "title": "이재명 대통령, 베트남 국빈 방문…5대 은행장 동행해 공급망·AI 세일즈 외교",
-      "summary": "이재명 대통령이 베트남 하노이를 국빈 방문해 한-베트남 정상회담을 통해 공급망 협력과 AI 분야 투자 유치를 논의했다. 5대 시중은행장이 동행하고, 2025년 양국 교역액 895억 달러를 기반으로 경제 협력 심화를 추진했다.",
-      "url": "https://www.newspim.com/news/view/20260422000254",
-      "tags": [
-        "정치",
-        "경제",
-        "국제"
-      ],
-      "source": "뉴스핌"
+      "title": "미 공화당 의원 54명 '쿠팡 등 美기업 차별 중단하라' 한국에 서한",
+      "summary": "미국 공화당 연구위원회 소속 하원의원 54명이 한국에서 운영 중인 미국 기업을 겨냥한 차별적 규제를 즉시 중단하라고 촉구하는 서한을 주미대사에 전달했다. 쿠팡 수사 등이 외교 이슈화되면서 한국 정부의 부담이 커지고 있다.",
+      "url": "https://www.mt.co.kr/world/2026/04/22/2026042222284181152",
+      "tags": ["정치", "경제", "법과 사회"],
+      "source": "머니투데이"
     },
     {
-      "title": "반도체 수출 역대 최대…코스피 사상 최고치 6,380선 마감",
-      "summary": "삼성전자·SK하이닉스 강세와 반도체 수출 역대 최대 기록에 힘입어 코스피가 사상 최고치인 6,380선에 마감했다. AI 수요 확대에 따른 반도체 호황이 한국 증시를 견인하고 있다.",
-      "url": "https://www.cliktoday.com/2026/04/20260421-today-news.html",
-      "tags": [
-        "경제",
-        "과학기술"
-      ],
-      "source": "오늘의클릭"
+      "title": "방시혁 출국금지에 미 대사관 '해제 요청' 서한…경찰 구속영장 신청",
+      "summary": "주한 미국대사관이 방시혁 하이브 의장의 출국금지 해제를 경찰청에 공식 요청하는 이례적인 서한을 보냈으나, 경찰은 구속영장 신청을 강행했다. 자본시장법 위반 혐의를 받는 방 의장 수사에 미국이 직접 개입한 것으로 사법 주권 논란이 일고 있다.",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008528347",
+      "tags": ["법과 사회", "사회·문화"],
+      "source": "SBS 뉴스"
     },
     {
-      "title": "올해 전기차 신규 10만대 달성·누적 100만대 돌파…3개월 빠른 속도",
-      "summary": "기후에너지환경부는 4월 셋째 주에 국내 전기차 신규 등록대수가 10만대를 달성했다고 밝혔다. 전년 대비 약 3개월 빠른 속도이며, 누적 전기차 등록대수도 사상 최초로 100만대를 돌파하는 이정표를 세웠다.",
-      "url": "https://www.newspim.com/news/view/20260421001031",
-      "tags": [
-        "환경",
-        "과학기술",
-        "경제"
-      ],
-      "source": "뉴스핌"
+      "title": "HD현대중공업, 스웨덴 해사청과 5154억 원 쇄빙전용선 건조 계약 체결",
+      "summary": "HD현대중공업이 스웨덴 해사청과 약 5,154억 원 규모의 쇄빙전용선 1척 건조 계약을 체결했다. 북극 항로 개척 수요 증가로 한국 조선업계의 특수선 수주가 이어지고 있다.",
+      "url": "https://www.hankyung.com/all-news",
+      "tags": ["경제", "과학·기술"],
+      "source": "한국경제"
     },
     {
-      "title": "이란, 호르무즈 해협서 선박 3척 공격…미-이란 충돌 격화에 에너지 공급망 불안",
-      "summary": "이란이 호르무즈 해협에서 선박 3척을 공격해 국제 긴장이 고조됐다. 미-이란 전쟁 장기화 속에서 원유 수송의 핵심 통로가 위협받으면서 국제유가 상승 압력과 에너지 공급망 불안이 커지고 있다.",
-      "url": "https://humblefactory.co.kr/11161/",
-      "tags": [
-        "국제",
-        "경제",
-        "사회"
-      ],
-      "source": "겸손은힘들다뉴스공장"
+      "title": "과기정통부 '과학·정보통신의 날' 기념식…'AI로 대한민국 대도약' 선포",
+      "summary": "과학기술정보통신부가 '2026년 과학·정보통신의 날' 기념식을 열고 유공자 164명에게 포상을 수여했다. 이번 기념식은 '과학기술·AI로 여는 대한민국 대도약'을 주제로 인공지능 강국 도약 의지를 다지는 자리로 마련됐다.",
+      "url": "https://www.sciencetimes.co.kr/nscvrg/view/menu/255?searchCategory=226&nscvrgSn=261752",
+      "tags": ["과학·기술"],
+      "source": "사이언스타임즈"
     },
     {
-      "title": "행정수도 세종 명시 특별법, 국토위 소위 또 무산…여야 이견 지속",
-      "summary": "행정수도를 세종시로 명시하는 행정수도 특별법 제정안 5건이 국회 국토교통위원회 법안심사소위원회에서 결론을 내리지 못했다. 여야 간 이견이 좁혀지지 않아 국가 균형 발전을 위한 입법 과제가 다시 한번 지연됐다.",
-      "url": "https://news.nate.com/view/20260422n01298",
-      "tags": [
-        "정치",
-        "사회",
-        "법"
-      ],
-      "source": "뉴시스"
+      "title": "KAIST, DNA 기반 바이오 트랜지스터 개발…연산·정보저장 동시 구현",
+      "summary": "KAIST 최영재 교수 연구팀이 DNA 분자를 활용해 계산과 정보 저장을 분자 수준에서 동시에 수행하는 '바이오 트랜지스터'를 개발했다. 연구 결과는 국제학술지 '사이언스 어드밴시스'에 게재됐으며, 차세대 생체 정보처리 기술의 가능성을 열었다고 평가된다.",
+      "url": "https://www.ibric.org/bric/trend/bio-news.do",
+      "tags": ["과학·기술"],
+      "source": "BRIC"
     },
     {
-      "title": "HD현대중공업, 스웨덴 해사청과 쇄빙전용선 수주…국내 조선소 해외 쇄빙선 첫 계약",
-      "summary": "HD현대중공업이 스웨덴 해사청과 3억4890만달러 규모의 쇄빙전용선 1척 건조 계약을 체결했다. 국내 조선소가 해외 발주 쇄빙전용선을 수주한 것은 이번이 처음으로, 북극 항로 개발에 따른 수요 증가에 대응한 성과다.",
-      "url": "https://www.sisunnews.co.kr/news/articleView.html?idxno=237272",
-      "tags": [
-        "경제",
-        "과학기술",
-        "국제"
-      ],
-      "source": "시선뉴스"
+      "title": "SK하이닉스 미국 인디애나 공장 항타 작업 시작…AI 메모리 패키징 거점 구축",
+      "summary": "SK하이닉스가 미국 인디애나 주에 건설 중인 AI 메모리 반도체 공장에서 본격적인 항타 작업을 시작했다. 이 공장은 AI용 첨단 패키징 생산 거점으로 활용될 계획으로, AI 반도체 수요 폭증에 대응하는 글로벌 공급망 확충 전략의 일환이다.",
+      "url": "https://www.hankyung.com/all-news",
+      "tags": ["경제", "과학·기술"],
+      "source": "한국경제"
     },
     {
-      "title": "미국, 쿠팡·하이브 수사에 외교 압박…사법 주권 침해 논란 확산",
-      "summary": "미국 국무부가 쿠팡 CEO와 하이브 방시혁 의장 관련 수사에 개입해 한국 정부에 압박을 가하는 것으로 알려졌다. 외교·안보 협의와 기업 수사를 연계하는 방식이 한국의 사법 주권을 침해한다는 비판이 거세지고 있다.",
-      "url": "https://www.khan.co.kr/article/202604221822001",
-      "tags": [
-        "정치",
-        "국제",
-        "법"
-      ],
-      "source": "경향신문"
+      "title": "국무총리, 차량용 요소 비축분 방출·석유 최고가격제 시행 지시",
+      "summary": "국무총리가 차량용 요소 비축분 방출과 석유 최고가격제 시행 등 수급 안정 대책을 지시했다. 글로벌 원자재 가격 불안정과 물가 상승 압력에 대응하는 선제적 조치로, 생계형 소비자를 중심으로 지원이 집중될 전망이다.",
+      "url": "https://www.ytn.co.kr",
+      "tags": ["경제", "사회·문화"],
+      "source": "YTN"
     },
     {
-      "title": "한-인도 정상회담 결실…CEPA 협상 재개·디지털 브릿지 프레임워크 체결",
-      "summary": "이재명 대통령과 모디 인도 총리가 정상회담을 갖고 CEPA 개선 협상 재개를 선언했다. 2030년까지 교역액 500억 달러 목표를 설정하고, AI·반도체·양자컴퓨팅 협력을 위한 디지털 브릿지 프레임워크를 체결했다.",
-      "url": "https://www.newspim.com/news/view/20260420000994",
-      "tags": [
-        "정치",
-        "경제",
-        "국제",
-        "과학기술"
-      ],
-      "source": "뉴스핌"
+      "title": "미국-이란 종전 협상 교착…중동 긴장 재고조에 한국 에너지 수급 우려",
+      "summary": "미국과 이란의 종전 협상이 교착 상태에 빠지면서 중동 정세 불안이 다시 고조되고 있다. 중동 원유 수입 의존도가 약 68%에 달하는 한국은 에너지 안보 차원에서 예의주시하고 있으며, 정부는 원유 수급 안정을 위한 방안을 검토 중이다.",
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=435001",
+      "tags": ["세계·외교", "경제"],
+      "source": "비즈니스포스트"
     },
     {
-      "title": "한국 AI 기본법 전면 시행…세계 최초 AI 전면 법규 가동 국가",
-      "summary": "인공지능 기본법이 전면 시행되며 한국이 세계 최초로 AI 법규를 전면 가동하는 국가가 됐다. 고위험 AI 시스템 안전성 평가, 투명성 공시 의무 등이 핵심 내용으로, AI 시대 규범 정립에 선도적 역할을 하게 됐다.",
-      "url": "https://kspnews.com/2632558",
-      "tags": [
-        "과학기술",
-        "법",
-        "사회"
-      ],
-      "source": "케이에스피뉴스"
+      "title": "2026학년도 대입, 학교폭력 의무 반영 첫 시행…전체 모집인원 345,179명",
+      "summary": "올해부터 학교폭력 조치사항을 대입전형에 의무적으로 반영하는 제도가 처음 시행된다. 2026학년도 전체 모집인원은 345,179명으로 전년보다 4,245명 증가했으며, 수시 비율도 높아졌다.",
+      "url": "https://www.edujin.co.kr/news/articleView.html?idxno=48356",
+      "tags": ["수능", "대학입시", "교육정책"],
+      "source": "에듀진"
     }
   ],
   "editorials": [
     {
-      "title": "미국의 쿠팡·하이브 내정간섭, 정부 분명히 선그어야",
+      "title": "미국의 '쿠팡·하이브' 내정간섭, 정부 분명히 선그어야",
       "publisher": "경향신문",
-      "url": "https://www.khan.co.kr/article/202604221822001",
-      "summary": "미국 국무부가 쿠팡 CEO와 하이브 방시혁 의장 관련 한국 수사에 개입해 압박을 가하고 있다. 기업 국적과 무관하게 한국 법률을 동등 적용해야 하며, 외교 협의와 사법 절차를 연계하는 방식은 주권 침해로서 정부가 단호히 거부해야 한다.",
-      "studyPoint": "① 문제 제기(미국의 압박 사실 제시) → ② 현상 분석(외교-사법 채널 혼용의 위험성) → ③ 원칙 논거(사법 주권의 불가침성) → ④ 결론(정부의 단호한 대응 촉구)의 4단계 논증. 동맹 중요성을 인정하면서도 주권 침해는 별개라는 양보-반박형 논증이 핵심으로, 근거 제시 후 주장 도출의 귀납적 서술 방식을 파악해야 한다."
+      "url": "https://www.khan.co.kr/opinion/editorial",
+      "summary": "미국 공화당 의원들이 쿠팡 수사를 외교 문제화하고 주한 미국대사관이 방시혁 의장의 출국금지 해제를 요청하는 등 한국 사법 절차에 대한 미국의 개입이 노골화되고 있다. 이는 명백한 내정간섭에 해당하며, 정부는 사법 주권을 수호하는 원칙적 입장을 분명히 밝혀야 한다고 주장한다.",
+      "studyPoint": "사설의 논증 구조는 ①현황 제시(미국의 이례적 개입 사례 나열) → ②문제 규정('내정간섭' 개념으로 규범화) → ③당위 주장(정부의 원칙적 대응 촉구)의 3단 구성이다. '내정간섭'이라는 핵심 용어를 통해 미국의 행위를 규범적으로 비판하는 논증 방식에 주목할 것. 수능 사설 독해 시 필자의 관점이 어떤 전제 위에서 주장을 전개하는지 파악하는 훈련이 필요하다."
     },
     {
-      "title": "학생 줄어도 늘어나는 교육교부금, 손볼 때 됐다",
-      "publisher": "경향신문",
-      "url": "https://www.khan.co.kr/article/202604221803001",
-      "summary": "학생 수는 14.8% 감소(2016~2025)했지만 교육교부금은 62.8% 증가한 역설적 현실을 비판한다. 국세의 20.79%를 자동 배분하는 1971년식 제도가 시대 변화를 반영하지 못하므로, 배분 비율 조정과 재정 효율화가 필요하다고 주장한다.",
-      "studyPoint": "① 통계 대비(학생 감소 vs 예산 급증)로 역설 제시 → ② 제도적 원인 분석(자동 증액 구조) → ③ 반론 고려(교육 질 저하 우려) → ④ 절충안 제시(비율 조정+교육 경쟁력 병행)의 귀납적 논증. 수치 근거를 통한 설득 방식과 반론 수용 후 주장 재강화 구조가 수능 논지 파악 연습에 유용하다."
+      "title": "한미·한중 소통 난맥상… 불확실성 헤쳐 갈 외교력 절실",
+      "publisher": "서울신문",
+      "url": "https://www.seoul.co.kr/news/opinion/editorial",
+      "summary": "한미 간에는 쿠팡·하이브 수사 외교화, 한중 간에는 무역 마찰 등 소통의 난맥상이 이어지고 있다. 트럼프 관세와 미국-이란 분쟁 등 글로벌 불확실성이 고조되는 상황에서 한국 외교가 세련된 전략적 대응으로 위기를 극복해야 한다고 촉구한다.",
+      "studyPoint": "이 사설은 '문제 진단 → 원인 분석 → 해결책 제안'의 3단 논증 구조를 채택한다. 양자 외교 현안을 구체적 사례로 제시하고 거시적 외교 방향을 촉구하는 방식으로, 사실(현황) → 가치판단(문제) → 당위(대응)의 흐름을 분석하면 필자의 주장 구조를 명확히 파악할 수 있다."
     },
     {
-      "title": "데이터센터 전력수요 5배 급증…원전 2기로 충분한가",
-      "publisher": "매일경제",
-      "url": "https://www.mk.co.kr/opinion/editorial/",
-      "summary": "AI 확산으로 데이터센터 전력 수요가 5배 급증했으나 정부의 원전 2기 추가 계획이 실제 수요를 충당할 수 있는지 의문을 제기한다. 에너지 안보와 탄소중립이라는 두 목표를 동시에 달성하기 위해 보다 적극적인 에너지 믹스 전략이 필요하다고 주장한다.",
-      "studyPoint": "① 현상 포착(수치 근거: 전력수요 5배 급증) → ② 정책 비판(원전 2기 계획의 충분성 의문) → ③ 대안 제시(에너지 믹스 다양화) → ④ 결론(AI 시대 에너지 정책 재설계 촉구)의 문제-해결형 논증. 구체적 수치로 정책 타당성을 비판하는 방식이 핵심으로, 근거-주장 관계 분석 연습에 적합하다."
+      "title": "살상무기 수출 허용 日… 더 치열해질 방산 경쟁 대비해야",
+      "publisher": "서울신문",
+      "url": "https://www.seoul.co.kr/news/opinion/editorial",
+      "summary": "일본이 방위산업 규제를 완화해 살상 능력을 갖춘 무기 수출을 허용하는 방향으로 전환함으로써 글로벌 방산 경쟁이 더욱 심화될 전망이다. 한국도 방산 경쟁력을 강화하고 수출 시장 다변화에 선제적으로 대응해야 한다고 주장한다.",
+      "studyPoint": "국제정치적 변화(일본의 방산 정책 전환)를 배경으로 삼아 한국에 대한 시사점을 도출하는 비교·유추형 논증을 사용한다. '원인(일본 정책 변화) → 예상 결과(방산 경쟁 심화) → 대응 촉구'의 인과 구조를 파악하는 것이 핵심이며, 국제 관계에서의 안보 딜레마 개념과 연결 지어 이해하면 수능 사회·문화 영역 학습에도 도움이 된다."
     }
   ],
   "readingPassage": {
     "title": "비문학 독해 연습",
-    "passage": "공기나 바다, 공원처럼 누구나 이용할 수 있지만 소유권이 명확하지 않은 자원을 공유자원이라 한다. 공유자원은 배제성이 낮아 누구나 자유롭게 이용할 수 있지만, 경합성이 있어 한 사람이 더 많이 사용하면 다른 사람이 사용할 수 있는 양이 줄어든다. 이러한 공유자원의 이용을 둘러싼 인간의 행동과 그 결과를 이해하는 것은 오늘날 환경 문제를 해결하는 데 핵심적인 출발점이 된다.\n\n공유자원 문제의 본질을 설명하는 유명한 개념이 바로 공유지의 비극이다. 생물학자 개릿 하딘이 1968년 제안한 이 개념은, 공동 목초지에서 각 목동이 자신의 이익을 극대화하기 위해 가축을 늘리다가 결국 목초지가 황폐해지는 시나리오를 묘사한다. 각 목동에게 가축 한 마리를 더 키우는 편익은 오롯이 자신에게 돌아오지만, 그로 인한 목초지 훼손이라는 비용은 모두가 나누어 감당한다. 이처럼 개인의 합리적 선택이 집단 전체에는 비합리적 결과를 초래하는 구조가 공유자원을 둘러싼 딜레마의 핵심이다.\n\n공유지의 비극을 해결하기 위한 전통적 접근법은 크게 두 가지로 나뉜다. 첫 번째는 국가가 개입해 이용 규제와 처벌 체계를 도입하는 외부적 규제 방식이다. 어업 쿼터제나 탄소 배출권 거래제처럼 정부가 이용량에 상한선을 설정하거나 부담금을 부과해 외부 비용을 가격에 반영하는 이른바 피구세 방식이 이에 해당한다. 두 번째는 공유자원을 사유화하여 소유자가 자원을 지속 가능하게 관리할 유인을 갖도록 하는 시장 해결책이다. 그러나 어느 쪽도 완전하지 않다. 규제는 관료주의적 비효율과 집행 비용 문제를 낳고, 사유화는 경제적 능력이 없는 이들을 배제하는 형평성 문제를 안고 있다.\n\n경제학자 엘리노어 오스트롬은 이 이분법적 해법의 한계를 넘어서는 사례들을 세계 각지에서 발굴했다. 일본 농촌의 공동 산림, 스페인 농민들의 관개 조합, 스위스 알프스의 고산 공동 목초지 등은 수백 년 동안 외부의 개입 없이 지역 공동체 스스로 규칙을 만들고 집행하며 공유자원을 지속 가능하게 유지해 왔다. 오스트롬은 이러한 성공 사례에서 공통적으로 나타나는 여덟 가지 설계 원칙을 도출했는데, 여기에는 명확한 경계 설정, 이용자의 규칙 결정 참여, 분쟁 해결 메커니즘, 외부 당국의 자치 인정 등이 포함된다. 이 연구로 오스트롬은 2009년 노벨경제학상을 수상했다.\n\n오스트롬의 연구가 주는 가장 중요한 교훈은, 공유자원 관리에는 국가 규제와 시장 사유화 이외에도 지역 공동체의 자율적 협력이라는 제3의 길이 존재한다는 것이다. 오늘날 기후 변화, 해양 오염, 지하수 고갈처럼 전 지구적 규모의 공유자원 문제가 심각해지는 가운데, 이 교훈의 적용 범위도 점차 확장되고 있다. 국가 간 협약이나 다자 기구를 통한 글로벌 공유자원 거버넌스 구축은, 작은 공동체에서 발견된 자치 원리를 국제 수준으로 확장하려는 시도로 해석할 수 있다. 인간이 공유자원의 딜레마를 지혜롭게 극복하기 위해서는 제도 설계의 유연성과 함께 구성원 간의 신뢰와 협력이 전제되어야 한다.",
-    "point1": "① 공유자원의 개념과 특성(배제성 낮음, 경합성 있음) ② 공유지의 비극: 개인 합리성이 집단 비합리성을 초래하는 메커니즘 ③ 전통적 해결책의 한계: 국가 규제(피구세·쿼터)와 시장 사유화의 문제점 ④ 오스트롬의 공동체 자율 관리 사례와 8가지 설계 원칙 ⑤ 제3의 길(공동체 자치)의 현대적·국제적 함의",
-    "point2": "문제 제기 후 기존 해결책 검토, 그 한계 인식, 새로운 대안 제시, 확장 적용의 순서로 전개되는 문제-기존해법의 한계-대안-시사점 구조. 구체적 사례(목초지, 관개 조합)를 통한 귀납적 논증과 개념 정의에서 출발하는 연역적 서술이 결합된 복합 구조다.",
-    "point3": "공유자원(배제성↓, 경합성↑) → 공유지의 비극(개인합리성과 집단합리성의 불일치) → 해결책의 스펙트럼(국가규제-공동체자치-시장사유화) → 오스트롬의 8원칙(자치의 성공 조건) → 글로벌 거버넌스(원리의 확장 적용) 순서의 개념 위계 관계.",
-    "tip": "이 지문은 경제학·사회과학의 핵심 개념인 공유지의 비극과 외부효과를 다룬다. 수능 비문학에서 자주 출제되는 유형으로, 배제성·경합성이라는 재화 분류 기준, 피구세의 작동 원리, 오스트롬의 공동체 자치 개념을 명확히 이해해야 한다. 각 문단의 중심 주장과 근거 관계를 도식화하고, 3문단의 두 해결책 병렬 비교 구조와 4문단의 사례 제시 방식을 파악하는 연습이 독해 속도를 높인다."
+    "passage": "인류는 오랫동안 정보를 처리하고 저장하는 방식을 끊임없이 혁신해 왔다. 20세기 중반 이후 실리콘 기반 반도체가 정보통신 기술의 근간을 이루어 왔으나, 집적 회로의 물리적 한계가 가시화되면서 새로운 패러다임의 필요성이 대두되고 있다. 트랜지스터의 크기가 원자 수준에 근접하면서 열 방출과 누설 전류 문제가 심화되자, 과학계는 전혀 다른 원리에 기반한 대안을 모색하기 시작했다. 그 대안으로 주목받고 있는 것이 바로 DNA를 기반으로 한 바이오컴퓨팅이다.\n\nDNA는 아데닌(A), 구아닌(G), 시토신(C), 티민(T)의 네 가지 염기로 구성된 고분자 물질이다. 이 염기들이 상보적으로 결합하는 특성, 즉 A는 T와, G는 C와 쌍을 이루는 성질은 0과 1이라는 이진법적 논리 연산과 구조적으로 유사하다. 따라서 DNA 분자를 일종의 정보 처리 매체로 활용할 수 있다. 더욱이 DNA는 1그램당 약 215 페타바이트에 달하는 정보를 저장할 수 있어, 기존 저장 매체와는 비교할 수 없는 초고밀도 저장 능력을 지닌다.\n\n기존 바이오컴퓨팅 연구는 대부분 DNA를 정보 저장 매체로만 활용하거나, 별도의 논리 회로를 통해 연산을 수행하는 방식을 택해 왔다. 그러나 이러한 방식은 연산과 저장 사이의 데이터 이동 과정에서 병목 현상이 발생한다는 구조적 한계를 지닌다. 이를 극복하기 위해 최근에는 연산과 저장을 분자 수준에서 동시에 수행하는 'DNA 바이오 트랜지스터'에 관한 연구가 활발히 이루어지고 있다.\n\nDNA 바이오 트랜지스터는 특정 입력 분자의 존재 여부에 따라 출력 신호를 조절하면서 그 결과를 DNA 서열에 직접 기록하는 방식으로 작동한다. 이는 반도체 트랜지스터가 전압 신호를 조절하는 원리와 유사하되, 매체가 전자 소자가 아닌 생체 분자라는 점에서 근본적인 차이를 지닌다. 이러한 시스템은 독소 감지, 질병 조기 진단, 체내 약물 전달 제어 등 의생명 공학 분야에서 즉각적인 응용이 가능하다는 점에서 특히 주목받고 있다.\n\nDNA 바이오컴퓨팅의 발전은 정보기술과 생명과학의 경계를 허무는 융합 패러다임의 상징이다. 그러나 복제 오류 문제, 기계적 처리 속도의 한계, 생체 내 안정성 확보 등 아직 해결해야 할 기술적 과제도 남아 있다. 이 분야의 지속적인 발전은 단순한 연산 속도의 향상을 넘어, 생명 현상 자체를 컴퓨팅 자원으로 활용하는 미래 사회의 기반을 마련할 것으로 기대된다.",
+    "point1": "①DNA 기반 바이오컴퓨팅이 주목받게 된 배경(반도체 한계) ②DNA의 구조적 특성과 정보 저장·처리 가능성 ③기존 바이오컴퓨팅의 병목 문제와 한계 ④DNA 바이오 트랜지스터의 작동 원리 및 응용 가능성 ⑤기술적 가능성과 남은 과제",
+    "point2": "화제 도입 → 원리 설명 → 문제 제기 → 해결책 제시 → 결론·시사점의 5단 구성이다. 비교·대조(DNA vs 반도체 트랜지스터), 예시(의생명 공학 응용), 인과 관계(병목 문제 → 바이오 트랜지스터 개발)가 유기적으로 결합되어 있다.",
+    "point3": "DNA 염기 상보성 ↔ 이진 논리 연산의 유비 관계; 연산과 저장의 분리 → 병목 현상 → 동시 수행 기술 필요; 반도체 트랜지스터(전압) ↔ 바이오 트랜지스터(분자)의 구조적 대응 관계를 파악하는 것이 핵심이다.",
+    "tip": "수능 비문학 과학 기술 지문에서는 '기존 기술의 한계 → 새로운 기술의 원리 → 응용 및 전망'의 흐름을 파악하는 것이 핵심이다. 각 문단의 핵심 개념어(상보성, 병목 현상, 트랜지스터)와 이들 사이의 관계를 도식화해 두면 선지 판단 속도가 크게 향상된다."
   },
   "papers": [
     {
-      "title": "Effect of benign paroxysmal positional vertigo course on residual symptoms after successful canalith repositioning procedures",
-      "titleKo": "양성돌발성체위성현훈 경과가 이석정복술 성공 후 잔여 증상에 미치는 영향",
-      "abstractKo": "BPPV 환자에서 이석정복술(CRP) 성공 후 잔여 증상과 질환 경과 기간의 관계를 전향적 대조 연구로 분석했다. 어지럼증 장애 척도(DHI), 불안·우울 척도, 수면의 질 점수가 이석정복술 전후로 유의하게 감소했으며, 이들 점수와 증상 지속 기간이 잔여 증상의 독립적 위험인자임을 확인했다. 이석정복술 후 조기 심리·수면 개입이 예후 향상에 도움이 될 수 있음을 시사한다.",
-      "category": "어지럼증/BPPV",
-      "journal": "Science Progress (SAGE)",
-      "date": "2025",
-      "url": "https://journals.sagepub.com/doi/10.1177/00368504241308959"
+      "title": "Vestibular Neuritis Associated With COVID-19 Infection: A Case Report and Literature Review on the Time Course and Recovery",
+      "titleKo": "COVID-19 감염 관련 전정신경염: 경과 및 회복에 대한 증례 보고 및 문헌 고찰",
+      "abstractKo": "57세 남성 COVID-19 감염 환자에서 회전성 어지럼과 경부 회전 시 악화되는 현기증이 발생하였다. 7개월 추적 관찰에서 vHIT 및 oVEMP 소견이 전정신경염의 전형적인 회복 양상과 일치하였으나, 지속적인 기립성 불안정과 기립성 저혈압은 자율신경 기능장애를 시사하였다. COVID-19 관련 전정신경염에서 자율신경 기능 장애를 동반할 수 있음을 임상의는 유념해야 한다.",
+      "category": "어지럼/전정신경염",
+      "journal": "Cureus",
+      "date": "2025-05",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12166099/"
     },
     {
-      "title": "Benign paroxysmal positional vertigo: a systematic review of the effects of comorbidities",
-      "titleKo": "양성돌발성체위성현훈과 동반 질환의 영향: 체계적 문헌 고찰",
-      "abstractKo": "BPPV 환자에서 당뇨, 고혈압, 골다공증, 비타민 D 결핍, 불안·우울 등 동반 질환이 재발률·치료 반응·잔여 증상에 미치는 영향을 체계적으로 검토했다. 비타민 D 결핍과 골다공증이 재발 위험을 유의하게 높이며, 비타민 D 보충 요법이 재발 감소에 효과적임을 확인했다. 외래 진료 시 동반 질환 적극 관리가 BPPV 예후 향상에 중요하다.",
-      "category": "어지럼증/BPPV",
-      "journal": "Frontiers in Neurology",
-      "date": "2025",
-      "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2025.1595693/full"
+      "title": "Clinical features and outcome predictors in benign paroxysmal positional vertigo and its variant: Perspective in a primary care neurology clinic",
+      "titleKo": "양성발작성두위현기증 및 변이형의 임상 양상과 예후 예측 인자: 1차 신경과 외래에서의 관점",
+      "abstractKo": "1차 진료 신경과 외래 환경에서 BPPV 및 변이형 환자의 임상 양상과 예후 인자를 분석하였다. 후반고리관형이 가장 흔하였으며, 이석정복술의 성공률과 재발 예측 인자에 대한 임상적 지침을 제시하였다. 반고리관의 유형에 따라 이석정복술 성공률이 다르므로 정확한 아형 진단이 중요하다.",
+      "category": "어지럼/BPPV",
+      "journal": "Cephalalgia",
+      "date": "2026-01",
+      "url": "https://journals.sagepub.com/doi/10.1177/09574271251347261"
     },
     {
-      "title": "Systematic review and meta-analysis of intratympanic steroid injection in sudden sensorineural hearing loss as initial, combined, or salvage treatment",
-      "titleKo": "돌발성 난청에서 고실내 스테로이드 주입의 체계적 고찰 및 메타분석: 초기·병합·구제 치료 비교",
-      "abstractKo": "2015~2024년 문헌을 대상으로 돌발성 감각신경성 난청에서 고실내 스테로이드 주입(ITS)을 전신 스테로이드 단독과 비교한 메타분석이다. ITS는 구제 치료로서 근거가 가장 강하고 초기·병합 치료로도 이점이 있었다. 중증 돌발성 난청에서 고농도 스테로이드를 외림프로 전달하는 고실내 투여 방식이 청력 회복에 유리함을 확인했다.",
-      "category": "돌발성 난청",
-      "journal": "Journal of Otolaryngology (JOTO)",
-      "date": "2025",
-      "url": "https://www.sciopen.com/article/10.26599/JOTO.2025.9540008"
-    },
-    {
-      "title": "The efficacy of methylprednisolone acetate nanogel in treating patients with sudden sensorineural hearing loss",
-      "titleKo": "메틸프레드니솔론 아세테이트 나노겔의 돌발성 감각신경성 난청 치료 효능",
-      "abstractKo": "신규 제형인 메틸프레드니솔론 아세테이트 나노겔을 고실내 투여한 결과, 전통적 고실내 스테로이드 주입보다 약물 방출 지속 기간이 길고 청력 회복률이 소폭 높았다. 전신 스테로이드와의 병합 요법에서도 나노겔 제형이 기존 제형 대비 우월한 효과를 보였으며, 내이 약물 전달 시스템의 새로운 방향을 제시한다.",
-      "category": "돌발성 난청",
-      "journal": "Scientific Reports (Nature)",
-      "date": "2025",
-      "url": "https://www.nature.com/articles/s41598-025-97145-6"
-    },
-    {
-      "title": "Continuous Improvement of Chronic Tinnitus Through a 9-Month Smartphone-Based Cognitive Behavioral Therapy: Randomized Controlled Trial",
-      "titleKo": "9개월 스마트폰 기반 인지행동치료의 만성 이명 지속 개선 효과: 무작위 대조 임상시험",
-      "abstractKo": "스마트폰 앱 기반 인지행동치료(CBT)를 9개월간 시행한 무작위 대조시험에서 만성 이명 환자의 이명 관련 고통 및 불안이 통계적으로 유의하고 임상적으로 의미 있게 지속 개선됨을 확인했다. 앱 기반 CBT는 의료 접근성이 낮은 환자에게 비용 효율적으로 제공 가능하며, 그룹 기반 및 인터넷 기반 CBT와 동등한 효과를 보였다.",
+      "title": "Single versus combination treatment in tinnitus: an international, multicentre, parallel-arm, superiority, randomised controlled trial",
+      "titleKo": "이명의 단독 치료 대 병합 치료: 국제 다기관 무작위배정 대조시험",
+      "abstractKo": "인지행동치료, 보청기 상담, 음향 치료를 단독 또는 병합하여 이명 환자에게 적용한 다기관 무작위배정 대조시험을 시행하였다. 병합 치료가 단독 치료보다 이명 점수를 더 유의미하게 개선하였으나, 상승 효과보다는 보완적 효과에 의한 것으로 분석되었다. 이명 치료 시 다학제적 접근이 임상적으로 유리함을 시사한다.",
       "category": "이명",
-      "journal": "Journal of Medical Internet Research (JMIR)",
-      "date": "2025",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11888023/"
+      "journal": "Nature Communications",
+      "date": "2025-10",
+      "url": "https://www.nature.com/articles/s41467-025-66165-1"
     },
     {
-      "title": "Next-generation neuromodulation in tinnitus: multimodal approaches and deep targets",
-      "titleKo": "이명의 차세대 신경조절 치료: 다중 모달 접근법과 심부 표적",
-      "abstractKo": "이명 치료에서 단일 양식 피질 자극의 한계를 넘어 다중 양식·회로 기반·심부 표적 신경조절로의 전환 필요성을 검토한 리뷰다. 이충이중 감각자극(bimodal), tDCS, TMS 등 복합 자극 방식이 이명 점수를 더욱 개선하는 것으로 나타났으며, AI 기반 폐쇄형 루프 신경조절이 유망한 미래 방향으로 제시됐다.",
+      "title": "Analysis of Clinical Efficacy and Influencing Factors of Nerve Growth Factor (NGF) Treatment for Sudden Sensorineural Hearing Loss",
+      "titleKo": "돌발성 감각신경성 난청에 대한 신경성장인자(NGF) 치료의 임상 효능 및 영향 인자 분석",
+      "abstractKo": "돌발성 감각신경성 난청 환자에서 NGF 치료의 임상적 효능을 분석하고, NGF 투여 여부, 고혈압 유무, 발병 후 치료까지의 기간이 치료 효과의 독립적 예측 인자임을 확인하였다. 조기 치료와 병용 요법이 청력 회복에 유리하며, 고위험군에서의 예후 인자 파악이 중요하다.",
+      "category": "돌발성 난청",
+      "journal": "Annals of Otology, Rhinology and Laryngology",
+      "date": "2026-01",
+      "url": "https://journals.sagepub.com/doi/10.1177/01455613231181711"
+    },
+    {
+      "title": "Influencing Factors for Residual Symptoms Following Canalith Repositioning Maneuver in Patients with Benign Paroxysmal Positional Vertigo",
+      "titleKo": "양성발작성두위현기증 환자에서 이석정복술 후 잔존 증상의 영향 인자",
+      "abstractKo": "이석정복술 성공 후에도 지속되는 잔존 어지럼·불안정감의 영향 인자를 분석하였다. 유병 기간이 잔존 증상 발생의 유의한 예측 인자임이 확인되었으나, 정복술 성공률 자체에는 영향이 없었다. 이는 BPPV의 조기 진단 및 치료가 잔존 증상 감소에 중요함을 시사한다.",
+      "category": "어지럼/BPPV",
+      "journal": "Annals of Otology, Rhinology and Laryngology",
+      "date": "2025-12",
+      "url": "https://journals.sagepub.com/doi/10.1177/01455613241304913"
+    },
+    {
+      "title": "Effect of benign paroxysmal positional vertigo course on residual symptoms after successful canalith repositioning procedures: A prospective controlled trial",
+      "titleKo": "이석정복술 성공 후 양성발작성두위현기증 유병 기간이 잔존 증상에 미치는 영향: 전향적 대조 연구",
+      "abstractKo": "이석정복술 성공 이후 BPPV 유병 기간이 잔존 증상(어지럼·불안정감 지속)과 유의한 상관관계를 보임을 전향적 대조 연구로 확인하였다. 유병 기간이 길수록 잔존 증상 빈도가 높았으며, 이는 조기 치료의 임상적 중요성을 뒷받침한다.",
+      "category": "어지럼/BPPV",
+      "journal": "Science Progress",
+      "date": "2025-11",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39930938/"
+    },
+    {
+      "title": "Eustachian Tube Dysfunction in Hearing Loss: Mechanistic Pathways to Targeted Interventions",
+      "titleKo": "난청에서 이관 기능 이상: 기전적 경로와 표적 중재법",
+      "abstractKo": "이관 기능 이상(ETD)이 난청을 유발하는 병태생리학적 기전을 체계적으로 검토하였다. 이관 카테터화술이 전생애에 걸친 청력 보존, 전정 증상 완화, ETD 관리 재정의에 기여하는 정밀 이비인후과의 핵심 전략으로 부상하고 있음을 제안하며, 향후 임상 적용 확대 가능성을 논하였다.",
+      "category": "이관/중이",
+      "journal": "Biomedicines (MDPI)",
+      "date": "2025-11",
+      "url": "https://www.mdpi.com/2227-9059/13/11/2686"
+    },
+    {
+      "title": "Beyond amplification: how artificial intelligence is redefining hearing",
+      "titleKo": "증폭을 넘어서: 인공지능이 청력 재활을 재정의하는 방법",
+      "abstractKo": "인공지능(AI)이 보청기 피팅, 실시간 음성 강화, 소음 환경 적응에 혁신을 가져오고 있음을 포괄적으로 검토하였다. 딥러닝 기반 처리가 배경 소음 속 말소리 인지 향상과 청취 피로 감소에 유의미한 효과를 보이며, AI 보청기 피팅 보조 시스템 시장이 연평균 23%의 급속한 성장을 이어가고 있다.",
+      "category": "보청기/재활",
+      "journal": "Egyptian Journal of Otolaryngology (Springer Nature)",
+      "date": "2025-12",
+      "url": "https://link.springer.com/article/10.1186/s43163-025-00965-6"
+    },
+    {
+      "title": "Association of Tinnitus with Benign Paroxysmal Positional Vertigo",
+      "titleKo": "이명과 양성발작성두위현기증의 연관성",
+      "abstractKo": "이명과 BPPV 사이의 양방향 연관성을 분석하였다. 청력 손실이 더 심한 귀에서 이석 이탈이 우선적으로 발생하는 경향이 있으며, 이는 와우와 전정 구조물을 공유하는 혈관 또는 퇴행성 변화에 의한 것으로 추정된다. 두 질환의 통합적 평가와 관리 필요성이 강조된다.",
+      "category": "이명/어지럼",
+      "journal": "Journal of Clinical Medicine (MDPI)",
+      "date": "2025-04",
+      "url": "https://www.mdpi.com/2077-0383/14/7/2473"
+    },
+    {
+      "title": "Pharmacotherapy options for the management of subjective tinnitus: a systematic review and network meta-analysis",
+      "titleKo": "주관적 이명 관리를 위한 약물 치료 옵션: 체계적 문헌고찰 및 네트워크 메타분석",
+      "abstractKo": "21개국에서 수행된 60건의 무작위배정 대조시험을 대상으로 이명 약물 치료의 효능을 네트워크 메타분석으로 비교하였다. 은행잎(Ginkgo biloba) 병합 비타민, 아캄프로세이트, 플루옥세틴이 위약 대비 상위 순위의 치료 효과를 보였으며, 전반적인 근거 수준은 여전히 낮아 추가 연구가 필요하다.",
       "category": "이명",
-      "journal": "Frontiers in Audiology and Otology",
+      "journal": "European Archives of Oto-Rhino-Laryngology",
       "date": "2025",
-      "url": "https://www.frontiersin.org/journals/audiology-and-otology/articles/10.3389/fauot.2025.1730278/full"
-    },
-    {
-      "title": "A Nationwide Population-Based Study for Audio-Vestibular Disorders following COVID-19 Infection",
-      "titleKo": "COVID-19 감염 후 청각·전정 질환 발생에 관한 전국 인구 기반 연구",
-      "abstractKo": "대규모 전국 인구 기반 코호트 연구를 통해 COVID-19 감염 후 BPPV, 돌발성 난청, 메니에르병, 전정신경염, 이명의 발생 위험이 대조군 대비 유의하게 증가함을 확인했다. SARS-CoV-2가 내이 모세포 및 전정 슈반세포를 직접 감염시키는 기전과 전신 염증 반응이 청각·전정계에 복합적으로 영향을 미치는 것으로 분석됐다.",
-      "category": "COVID-19/이비인후과",
-      "journal": "Otology and Neurotology",
-      "date": "2025",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39733771/"
-    },
-    {
-      "title": "Evolving trends in dupilumab use for chronic rhinosinusitis with nasal polyps: a 4-year cohort analysis",
-      "titleKo": "비용종을 동반한 만성 비부비동염에서 듀필루맙 사용 추이: 4년 코호트 분석",
-      "abstractKo": "듀필루맙 치료를 받은 비용종 동반 만성 비부비동염 환자를 4년간 추적 분석했다. 비용종 점수(NPS), SNOT-22, 후각 검사 모두 유의하게 개선됐으며 36개월 이상에서도 효과가 유지됐다. 과거 3회 이상 부비동 수술 환자 비율이 2019년 28.3%에서 2023년 13.0%로 감소해 생물학적 제제의 조기 도입 추세가 확인됐다.",
-      "category": "비과/만성비부비동염",
-      "journal": "Scientific Reports (Nature)",
-      "date": "2025",
-      "url": "https://www.nature.com/articles/s41598-025-17787-4"
-    },
-    {
-      "title": "Effectiveness of deep neural networks in hearing aids for improving signal-to-noise ratio, speech recognition, and listener preference in background noise",
-      "titleKo": "보청기에서 심층신경망이 신호대잡음비·어음인지·청취 선호도에 미치는 효과",
-      "abstractKo": "심층신경망(DNN) 기반 알고리즘을 탑재한 보청기가 배경 소음 환경에서 신호대잡음비, 어음인지도, 청취 선호도를 유의하게 개선함을 분석했다. 고령 사용자에서 인지 부하 감소에 효과적이었으며, AI 보청기 피팅 개인화가 난청 노인의 인지기능 저하 예방에도 기여할 수 있음을 시사한다.",
-      "category": "보청기/청각재활",
-      "journal": "Frontiers in Audiology and Otology",
-      "date": "2025",
-      "url": "https://www.frontiersin.org/journals/audiology-and-otology/articles/10.3389/fauot.2025.1677482/full"
-    },
-    {
-      "title": "Efficacy of different allergen-specific immunotherapies for the treatment of allergic rhinitis in children and adults: an umbrella review",
-      "titleKo": "소아 및 성인 알레르기 비염에 대한 알레르겐 특이 면역요법 효능: 우산 체계적 고찰",
-      "abstractKo": "피하 면역요법(SCIT), 설하 면역요법(SLIT) 등 다양한 알레르겐 특이 면역요법의 알레르기 비염 치료 효능을 우산 체계적 고찰로 분석했다. 전 연령에서 증상 점수 및 약물 사용량이 유의하게 감소했으며, 소아에서 설하 면역요법 조기 시작 시 증상 점수 개선이 더 컸다. 모든 제형에서 부작용이 경미하고 드물어 장기 치료에서의 안전성이 확인됐다.",
-      "category": "비과/알레르기비염",
-      "journal": "Frontiers in Immunology",
-      "date": "2025",
-      "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2025.1658826/full"
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12121590/"
     }
   ]
 }
