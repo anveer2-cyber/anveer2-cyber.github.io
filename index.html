@@ -365,7 +365,7 @@ function renderAll(d, isArchive, archiveLabel){
             sp+
             '</div>';
         }).join('');
-        var openAttr = (idx === 0) ? ' open' : '';
+        var openAttr = ' open'; // 모든 카테고리 펼침 (스크롤로 전체 열람)
         return '<details class="cat-group"'+openAttr+'>'+
           '<summary class="cat-summary">'+
             '<span class="cat-name">'+catLabel[c]+'</span>'+
