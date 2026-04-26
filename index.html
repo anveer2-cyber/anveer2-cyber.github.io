@@ -101,6 +101,19 @@ details[open] summary{margin-bottom:6px}
 .archive-item .date{color:var(--text-sub);font-size:.75rem}
 .archive-banner{background:linear-gradient(135deg,#e8f0e2,#d5e8c8);border:1px solid var(--accent);border-radius:var(--r);padding:10px 14px;margin-bottom:14px;font-size:.82rem;display:flex;justify-content:space-between;align-items:center}
 .archive-banner button{background:var(--accent);color:#fff;border:none;border-radius:6px;padding:4px 12px;font-size:.76rem;cursor:pointer;font-family:'Noto Sans KR',sans-serif}
+/* ── 카테고리 그룹 (뉴스) ── */
+.cat-group{background:var(--surface);border-radius:var(--r);margin-bottom:10px;box-shadow:var(--shadow);overflow:hidden;border-left:3px solid var(--accent)}
+.cat-summary{cursor:pointer;padding:13px 16px;font-family:'Noto Serif KR',serif;font-size:.98rem;font-weight:700;color:var(--accent);display:flex;align-items:center;gap:8px;list-style:none;user-select:none}
+.cat-summary::-webkit-details-marker{display:none}
+.cat-summary::after{content:'▾';margin-left:auto;font-size:.85rem;color:var(--text-sub);transition:transform .2s}
+.cat-group[open] .cat-summary::after{transform:rotate(180deg)}
+.cat-name{flex:0 0 auto}
+.cat-count{background:var(--accent-light);color:var(--accent);padding:2px 9px;border-radius:10px;font-size:.7rem;font-weight:600}
+.cat-body{padding:6px 12px 12px;background:#fafaf7;border-top:1px solid var(--border)}
+.cat-body .news-card{margin-bottom:8px;box-shadow:none;border:1px solid var(--border);border-left:3px solid var(--accent)}
+.cat-body .news-card:last-child{margin-bottom:0}
+.cat-body .news-card .study{margin-top:8px;font-size:.78rem;color:#555;background:#f0f5ec;padding:6px 9px;border-radius:6px;line-height:1.55}
+.cat-body .news-card .study strong{color:var(--accent)}
 /* ── 말씀 카드 ── */
 .verse-card{background:linear-gradient(135deg,#fdfcf5 0%,#f7f2e0 100%);border:1px solid #e0d8b8;border-radius:var(--r);padding:22px 22px 18px;margin-bottom:20px;box-shadow:0 3px 14px rgba(45,80,22,0.08);position:relative;overflow:hidden;text-align:center}
 .verse-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#2d5016 0%,#b7410e 50%,#2d5016 100%)}
@@ -156,8 +169,8 @@ details[open] summary{margin-bottom:6px}
 <p class="verse-body">여호와께서 그들 앞에서 가시며 낮에는 구름기둥으로 그들의 길을 인도하시고 밤에는 불기둥을 그들에게 비추사 낮이나 밤이나 진행하게 하시니</p>
 <p class="verse-ref">출애굽기 13:21</p>
 </div>
-<div class="sec-header">오늘의 수능 시사 뉴스 TOP 10</div>
-<p class="sec-desc">수능 출제 가능성이 높은 시사 뉴스를 매일 엄선합니다</p>
+<div class="sec-header">오늘의 수능 시사 뉴스</div>
+<p class="sec-desc">7개 카테고리(정치·경제·사회·국제·과학기술·문화·기타)로 매일 엄선합니다</p>
 <div id="news-list"><div class="loading">콘텐츠를 불러오는 중입니다...</div></div>
 </div>
 </div>
@@ -326,13 +339,49 @@ function renderAll(d, isArchive, archiveLabel){
     banner.style.display='none';
   }
 
-  // 뉴스
+  // 뉴스 — category 필드가 있으면 카테고리 아코디언, 없으면 평면 리스트(구버전 호환)
   if(d.news&&d.news.length>0){
-    document.getElementById('news-list').innerHTML=d.news.map((n,i)=>
-      '<div class="news-card"><div class="tags">'+(n.tags||[]).map(t=>'<span class="tag '+tagClass(t)+'">'+t+'</span>').join('')+
-      '</div><h3><a href="'+(n.url||'#')+'" target="_blank">'+(i+1)+'. '+n.title+'</a></h3>'+
-      '<p>'+n.summary+'</p><div class="source">'+(n.source||'')+'</div></div>'
-    ).join('');
+    var hasCategories = d.news.some(function(n){ return n && n.category; });
+    if(hasCategories){
+      var catOrder = ['politics','economy','society','international','science_tech','culture','etc'];
+      var catLabel = {
+        'politics':'정치','economy':'경제','society':'사회','international':'국제',
+        'science_tech':'과학·기술','culture':'문화','etc':'기타'
+      };
+      var grouped = {};
+      d.news.forEach(function(n){
+        var c = (n.category && catLabel[n.category]) ? n.category : 'etc';
+        if(!grouped[c]) grouped[c] = [];
+        grouped[c].push(n);
+      });
+      var visible = catOrder.filter(function(c){ return grouped[c] && grouped[c].length; });
+      document.getElementById('news-list').innerHTML = visible.map(function(c, idx){
+        var items = grouped[c].map(function(n){
+          var sp = n.studyPoint ? '<div class="study"><strong>학습 포인트:</strong> '+n.studyPoint+'</div>' : '';
+          return '<div class="news-card">'+
+            '<h3><a href="'+(n.url||'#')+'" target="_blank">'+n.title+'</a></h3>'+
+            '<p>'+(n.summary||'')+'</p>'+
+            '<div class="source">'+(n.source||'')+'</div>'+
+            sp+
+            '</div>';
+        }).join('');
+        var openAttr = (idx === 0) ? ' open' : '';
+        return '<details class="cat-group"'+openAttr+'>'+
+          '<summary class="cat-summary">'+
+            '<span class="cat-name">'+catLabel[c]+'</span>'+
+            '<span class="cat-count">'+grouped[c].length+'</span>'+
+          '</summary>'+
+          '<div class="cat-body">'+items+'</div>'+
+          '</details>';
+      }).join('');
+    } else {
+      // 구포맷 (category 필드 없음): 기존 평면 렌더 유지
+      document.getElementById('news-list').innerHTML=d.news.map(function(n,i){
+        return '<div class="news-card"><div class="tags">'+(n.tags||[]).map(function(t){return '<span class="tag '+tagClass(t)+'">'+t+'</span>';}).join('')+
+          '</div><h3><a href="'+(n.url||'#')+'" target="_blank">'+(i+1)+'. '+n.title+'</a></h3>'+
+          '<p>'+n.summary+'</p><div class="source">'+(n.source||'')+'</div></div>';
+      }).join('');
+    }
   }
 
   // 사설
