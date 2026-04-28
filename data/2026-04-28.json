@@ -1,0 +1,294 @@
+{
+  "date": "2026년 4월 28일 화요일",
+  "news": [
+    {
+      "title": "영남권·서울 무당층 30%대…지방선거 승패 가를 '변수'",
+      "source": "한겨레",
+      "url": "https://v.daum.net/v/20260428050714451",
+      "summary": "영남권과 서울에서 무당층 비율이 30%대를 형성하면서 6·3 지방선거 결과를 좌우할 핵심 변수로 떠올랐다. 양극화된 정당 지지 구도 속에서 중도층 표심 향방이 광역단체장 승패를 가를 가능성이 크다는 분석이다.",
+      "studyPoint": "정당정렬·무당층·중도결정자 개념을 통해 한국 선거 지형의 양극화와 그 한계를 묻는 정치 사례.",
+      "category": "politics"
+    },
+    {
+      "title": "임명 열 달도 안 된 AI수석을 '2년용' 선거 차출, 與서도 \"생뚱맞다\"",
+      "source": "동아일보",
+      "url": "https://v.daum.net/v/20260428043333960",
+      "summary": "이재명 정부의 AI미래기획수석이 임명 10개월 만에 사의를 표하고 부산 북갑 보궐선거 출마를 선언하자 여당 내에서도 정책 연속성 훼손이라는 비판이 나오고 있다.",
+      "studyPoint": "정무직·전문직의 경계, 정책 거버넌스 안정성과 선거 동원의 충돌을 묻는 정치·행정 사례.",
+      "category": "politics"
+    },
+    {
+      "title": "특검, 박성재 前 장관 징역 20년 구형…내란범죄 가담 등 혐의",
+      "source": "한국경제",
+      "url": "https://www.hankyung.com/article/2026042706211",
+      "summary": "내란 종합특검이 박성재 전 법무부 장관에게 내란범죄 가담 등 혐의로 징역 20년을 구형했다. 비상계엄 사후 처리 과정에서의 책임론이 사법 절차로 확정되는 단계에 들어섰다.",
+      "studyPoint": "고위 공직자 형사 책임의 사법화 과정과 헌정질서 회복의 절차적 의미를 묻는 정치·법 통합 사례.",
+      "category": "politics"
+    },
+    {
+      "title": "코스피 6600 고지 넘었다…SK하이닉스, 장중 130만 원 돌파",
+      "source": "한국경제",
+      "url": "https://www.hankyung.com/article/2026042797126",
+      "summary": "반도체 중심 랠리로 코스피가 사상 처음 6600선을 돌파하고 SK하이닉스가 장중 130만 원대에 진입했다. AI 인프라 투자 확대와 외국인 매수가 동반 작용했다.",
+      "studyPoint": "산업 사이클·자본흐름·지수 가중 효과의 복합 작용을 묻는 거시·자본시장 사례.",
+      "category": "economy"
+    },
+    {
+      "title": "김정관 \"삼성전자 이익, 내부 구성원만의 결실 아냐\"…파업 사태에 일침",
+      "source": "경향신문",
+      "url": "https://www.khan.co.kr/article/202604271732001",
+      "summary": "김정관 경제부총리가 삼성전자 노조 파업과 관련해 \"기업 이익은 내부 구성원만의 결실이 아니라 산업 생태계 전반의 결과\"라며 협력업체와 사회적 책임을 강조했다.",
+      "studyPoint": "기업 이익의 사회적 성격, 낙수효과 vs 분수효과 논쟁의 현재적 양상을 묻는 경제·사회 통합 사례.",
+      "category": "economy"
+    },
+    {
+      "title": "주담대까지 흔들린다…1분기 은행 연체율 곳곳서 역대 최고",
+      "source": "한국경제",
+      "url": "https://www.hankyung.com/article/2026042807827",
+      "summary": "1분기 시중은행 주택담보대출 연체율이 사상 최고치를 기록하는 등 가계부채 부실 신호가 본격화하고 있다. 고금리·고환율 장기화의 누적 효과가 안전자산까지 확산되는 양상이다.",
+      "studyPoint": "통화정책 전달경로와 가계부채의 외부효과를 묻는 거시건전성 사례.",
+      "category": "economy"
+    },
+    {
+      "title": "장비는 손수레 하나뿐, 트럭은 사비로…환경미화원들 \"아프거나 다치는 게 일상\"",
+      "source": "경향신문",
+      "url": "https://www.khan.co.kr/article/202604280600031",
+      "summary": "전국 환경미화원의 작업 장비와 안전 조건이 여전히 열악한 것으로 드러났다. 트럭을 사비로 운용하거나 보호 장구가 부족한 사례가 반복되며 산업재해율이 평균을 크게 웃돈다.",
+      "studyPoint": "공공 위탁 노동의 안전 사각지대와 산업재해 책임 분담 구조를 묻는 사회·노동 사례.",
+      "category": "society"
+    },
+    {
+      "title": "비만약 실손 조작 등 '비윤리 의사' 징계 착수…의사회 \"엄정 대응\"",
+      "source": "한국경제",
+      "url": "https://www.hankyung.com/article/2026042798297",
+      "summary": "비만약 실손보험 청구 조작과 부적절 처방 등에 가담한 의사들에 대한 징계 절차가 본격화됐다. 의사회는 \"자율 규제로 신뢰를 회복하겠다\"며 강경 대응을 천명했다.",
+      "studyPoint": "전문직 자율규제와 외부 규제의 보완 관계, 도덕적 해이의 사례를 묻는 의료·사회 통합 사례.",
+      "category": "society"
+    },
+    {
+      "title": "김건희 '주가조작 방조 혐의' 인정될까…오늘 2심 선고 생중계",
+      "source": "한국경제",
+      "url": "https://www.hankyung.com/article/2026042807717",
+      "summary": "김건희 씨의 도이치모터스 주가조작 방조 혐의 항소심 선고가 28일 생중계로 진행된다. 1심 무죄 판단이 유지될지, 일부 혐의에 대한 유죄 전환이 이뤄질지가 쟁점이다.",
+      "studyPoint": "공인 가족 형사재판의 공개주의·국민의 알권리·피의사실 공표 사이의 긴장을 묻는 사법 사례.",
+      "category": "society"
+    },
+    {
+      "title": "푸틴, 이란 외무장관 만나…최고지도자 메시지 전달",
+      "source": "경향신문",
+      "url": "https://www.khan.co.kr/article/202604272252001",
+      "summary": "블라디미르 푸틴 러시아 대통령이 이란 외무장관을 만나 종전 협상 관련 입장을 조율했다. 이란 최고지도자가 푸틴에게 보낸 친서를 통해 미·이란 협상 국면의 카드가 새로 던져졌다.",
+      "studyPoint": "강대국 사이 중간 행위자의 외교 자원 활용 방식과 안보 딜레마의 작동을 묻는 국제관계 사례.",
+      "category": "international"
+    },
+    {
+      "title": "계속되는 포성…'휴지조각' 된 이스라엘·헤즈볼라 휴전",
+      "source": "경향신문",
+      "url": "https://www.khan.co.kr/article/202604272045005",
+      "summary": "이스라엘과 헤즈볼라 간 휴전 합의가 양측의 보복성 공격으로 사실상 무력화됐다. 휴전 감시 체계의 부재와 정치적 동기 부족이 협정의 지속 가능성을 떨어뜨렸다는 분석이다.",
+      "studyPoint": "휴전·평화협정 이행의 제도적 장치(검증·중재) 부재가 가져오는 결과를 묻는 국제 분쟁 사례.",
+      "category": "international"
+    },
+    {
+      "title": "백악관 총격범, '대통령 암살미수 혐의' 기소…\"트럼프 정책 불만\"",
+      "source": "한국경제",
+      "url": "https://www.hankyung.com/article/2026042807247",
+      "summary": "백악관 출입기자단 만찬에서 발생한 총격 사건의 용의자가 대통령 암살미수 혐의로 기소됐다. 정책 불만을 동기로 진술하면서 정치적 폭력의 위험이 다시 부각됐다.",
+      "studyPoint": "정치적 폭력의 동기 분석과 민주주의 안전(political security) 개념을 묻는 국제·정치 사례.",
+      "category": "international"
+    },
+    {
+      "title": "10년 만에 한국 찾은 알파고의 아버지…AI 캠퍼스 설립·정부와 'K-문샷' 협력",
+      "source": "경향신문",
+      "url": "https://www.khan.co.kr/article/202604271617001",
+      "summary": "구글 딥마인드 데미스 허사비스 CEO가 10년 만에 한국을 찾아 AI 캠퍼스 설립과 정부의 'K-문샷' 프로젝트 고도화 협력을 위한 양해각서를 체결했다.",
+      "studyPoint": "기초연구·산업화·국가전략의 결합형 R&D 모델(문샷 정책)을 묻는 과학기술 정책 사례.",
+      "category": "science_tech"
+    },
+    {
+      "title": "항암 방사선 치료 후 나타난 구강건조증…'이 치료법' 쓰니 죽은 침샘 되살아났다",
+      "source": "경향신문",
+      "url": "https://www.khan.co.kr/article/202604271227001",
+      "summary": "서울대병원 연구팀이 줄기세포와 생체재료를 이용해 방사선 치료 후 손상된 침샘을 재생하는 신치료법을 개발했다. 임상시험에서 분비량 회복과 점막 보존 효과가 확인됐다.",
+      "studyPoint": "조직공학·재생의학의 임상 적용 가능성과 한계를 묻는 생명과학·의료 통합 사례.",
+      "category": "science_tech"
+    },
+    {
+      "title": "공장을 데이터센터로…전력전쟁 뛰어든 조·석·철",
+      "source": "한국경제",
+      "url": "https://www.hankyung.com/article/2026042702031",
+      "summary": "AI 전력 수요 폭증으로 조선·석유·철강 등 전통 중후장대 산업이 자사 부지를 데이터센터로 전환하며 전력 확보 경쟁에 뛰어들었다. 산업의 정의 자체가 재편되는 흐름이다.",
+      "studyPoint": "기술 패러다임 전환이 산업 분류와 자원 배분 구조에 미치는 영향을 묻는 산업·과학기술 통합 사례.",
+      "category": "science_tech"
+    },
+    {
+      "title": "슈퍼 마리오, 헤일메리 제치고 '1조 흥행 돌풍'…마리오 형제 박스오피스 1위",
+      "source": "경향신문",
+      "url": "https://www.khan.co.kr/article/202604271637001",
+      "summary": "영화 '슈퍼 마리오 형제: 갤럭시'가 전 세계 박스오피스에서 헤일메리를 제치고 1조 원 흥행에 진입했다. 게임 IP의 영상화 전략이 또 한 번 성공한 사례로 평가된다.",
+      "studyPoint": "IP 비즈니스의 매체 전이(transmedia) 전략과 글로벌 콘텐츠 산업의 수직 결합을 묻는 문화산업 사례.",
+      "category": "culture"
+    },
+    {
+      "title": "국가유산청, 지드래곤 '저스피스재단'과 세계유산위 업무협약",
+      "source": "경향신문",
+      "url": "https://www.khan.co.kr/article/202604271059001",
+      "summary": "국가유산청이 7월 부산에서 열리는 유네스코 세계유산위원회 성공 개최를 위해 지드래곤이 설립한 저스피스재단과 업무협약을 체결했다. 민간 문화 자원과 공공 유산 행정의 협력 모델로 주목된다.",
+      "studyPoint": "공공 문화행정과 민간 셀럽 자본의 결합이 갖는 가능성과 거버넌스 위험을 묻는 문화·정책 사례.",
+      "category": "culture"
+    },
+    {
+      "title": "제지사 담합 과징금 3383억…출판계 \"출판 산업 재원으로 활용해야\"",
+      "source": "한국경제",
+      "url": "https://www.hankyung.com/article/2026042705357",
+      "summary": "공정거래위원회가 제지사 담합에 3383억 원 과징금을 부과한 가운데 출판계는 \"피해 산업인 출판문화에 환원해야 한다\"며 과징금의 산업 재원화를 촉구했다.",
+      "studyPoint": "공정거래 과징금의 귀속 원칙(국고 vs 피해 산업)을 둘러싼 분배 정의 논쟁을 묻는 문화·법 통합 사례.",
+      "category": "culture"
+    },
+    {
+      "title": "할머니 교통카드 쓴 20대…지하철 부정승차 3년간 16만 건 육박",
+      "source": "경향신문",
+      "url": "https://www.khan.co.kr/article/202604271025011",
+      "summary": "최근 3년간 서울 지하철 부정승차가 16만 건에 육박하고 부가금 징수액이 76억 원대에 달한 것으로 집계됐다. 우대용 카드 부정 사용이 두드러진다.",
+      "studyPoint": "공공복리 제도 악용과 행정 모니터링 비용의 trade-off를 보여주는 사회·생활 사례.",
+      "category": "etc"
+    },
+    {
+      "title": "\"저 집 시댁은 3000만원\"…출산 축하금 '시세' 물은 며느리에 갑론을박",
+      "source": "한국경제",
+      "url": "https://www.hankyung.com/article/2026042705647",
+      "summary": "출산 축하금의 적정 수준을 놓고 온라인에서 갑론을박이 벌어지고 있다. 가족 간 비공식 이전이 사회적 비교 문화와 결합해 새로운 갈등 양상을 만들어내는 모습이다.",
+      "studyPoint": "비공식 가족 경제와 사회적 비교(social comparison) 심리가 결합된 생활 단면 사례.",
+      "category": "etc"
+    }
+  ],
+  "editorials": [
+    {
+      "title": "임원보수와 기업성과 연계 공시, '묻지마 돈잔치' 끝낼 계기",
+      "publisher": "경향신문",
+      "url": "https://www.khan.co.kr/article/202604271854001",
+      "summary": "임원보수를 기업 성과 지표와 함께 공시하는 제도는 실적과 무관한 고액 보수 관행을 감시할 수 있는 장치라는 점에서 늦었지만 바람직한 조치라고 평가하는 사설. 형식적 공시에 그치지 않도록 구체 평가지표와 위반 시 제재가 함께 마련되어야 함을 강조한다.",
+      "studyPoint": "현황 진단(임원보수 격차 확대) → 문제 제기(성과와의 괴리) → 해법(연계 공시 의무화) → 보완책(지표 구체화·제재) 순의 정책 옹호형 사설 구조. 주장의 근거가 사실(데이터)과 가치(주주 민주주의)에 동시 의존하는 점에 주목."
+    },
+    {
+      "title": "단기 비정규직에 추가수당, 일자리 줄어들 수도",
+      "publisher": "한국경제",
+      "url": "https://www.hankyung.com/article/2026042701901",
+      "summary": "고용 불안정성이 높은 노동자에게 더 많은 수당을 지급하는 '공정수당'이 도입되면 기업이 비용 부담으로 단기 비정규직 채용 자체를 줄일 수 있다고 경고하는 사설. 정책의 의도와 결과의 괴리를 지적하며, 노동시장 유연성 보완책이 동반되어야 한다고 주장한다.",
+      "studyPoint": "정책 의도 → 예상되는 부작용(고용 위축) → 대안 제시의 보수형 정책 비평 구조. 같은 사안(공정수당)에 대한 진보·보수 사설을 함께 읽으면 입론 방식과 가치 전제의 차이를 비교 분석할 수 있다."
+    },
+    {
+      "title": "콘텐츠 정당 지불 문화 정착돼야",
+      "publisher": "전자신문",
+      "url": "https://v.daum.net/v/20260427160403069",
+      "summary": "웹툰·웹드라마 등 K-콘텐츠의 불법 스트리밍과 복제물 게시가 창작자 피해를 가중시키는 현실을 짚으며, 정당한 대가를 지불하는 문화의 정착이 산업의 지속 가능성과 직결된다고 강조하는 사설. 단속 강화만으로 해결되지 않으며 이용자·플랫폼·창작자가 함께 만드는 규범의 중요성을 제기한다.",
+      "studyPoint": "현상(불법 유통) → 원인(가치 인식 부재) → 해법(법·시장·문화 다층 접근) 구조. 산업 정책 사설이지만 '문화적 규범'을 결정 변수로 끌어들인다는 점에서 비문학·통합 영역의 좋은 분석 대상."
+    }
+  ],
+  "readingPassage": {
+    "title": "디지털 콘텐츠의 경제적 특성과 창작 인센티브",
+    "passage": "문화 콘텐츠는 책·음악·영화·게임처럼 문자, 소리, 영상의 형식으로 만들어진 정신적 산물이다. 이러한 콘텐츠는 한 사람이 향유한다고 해서 다른 사람의 향유 가능성이 줄어들지 않는 비경합성과, 일단 공개되면 추가 비용 없이 누구든 복제·재이용할 수 있는 비배제성을 동시에 갖는다. 경제학에서 이 두 성질을 모두 갖춘 재화를 공공재라 부르며, 공공재는 시장에서 적정한 수준으로 공급되기 어렵다는 이론적 결론으로 이어진다.\n\n콘텐츠 시장의 시장실패는 창작 비용의 비대칭에서 출발한다. 한 편의 영화나 한 곡의 음원은 초기 제작에 막대한 시간과 자본이 투입되지만, 일단 디지털 파일로 만들어진 이후 추가 복제의 한계비용은 사실상 영(0)에 가깝다. 시장이 제작 단계의 고정비용을 회수할 수 있을 만큼의 가격을 보장하지 못하면, 창작자는 다음 작품을 만들 인센티브를 잃게 된다. 결국 사회 전체적으로 양질의 콘텐츠 공급이 줄어드는 결과가 발생한다.\n\n지적재산권 제도는 이러한 시장실패를 보완하기 위한 사회적 장치다. 국가가 일정 기간 창작자에게 배타적 이용 권한을 부여함으로써 인공적인 배제성을 부여하고, 이를 통해 가격 신호가 작동할 수 있는 환경을 조성한다. 그러나 이 장치는 기술 환경에 의해 끊임없이 도전받는다. 디지털 복제·전송 기술의 발달은 비배제성의 자연적 한계를 다시 드러내며, 불법 스트리밍과 복제물 유통은 권리 보호 비용을 급격히 끌어올린다.\n\n이 문제는 단순한 법 집행의 강화만으로는 해결되지 않는다. 소비자 측면에서는 정당한 대가를 지불하는 행위 자체가 창작 생태계의 유지에 기여한다는 사회적 인식이 자리 잡아야 하며, 이는 교육과 공론장의 영향을 받는 문화적 규범의 문제다. 사업자 측면에서는 합리적 가격, 접근 편의, 지속 가능한 분배 비율을 통해 합법 이용의 비용을 정당화해야 한다.\n\n결국 문화 콘텐츠 산업의 지속 가능성은 법률, 시장 구조, 사회적 규범이라는 세 층위의 정합성 위에서 성립한다. 어느 한 층위만의 강화로는 비배제성에서 비롯되는 무임승차 문제를 충분히 차단할 수 없으며, 세 층위의 균형 속에서만 창작 활동의 지속과 향유의 확대가 동시에 가능해진다.",
+    "point1": "①도입: 콘텐츠의 정의와 비경합성·비배제성 ②시장실패의 원인(고정비용 vs 한계비용 영) ③지적재산권의 보완 기능과 한계 ④사회 규범과 사업자 합리화의 필요성 ⑤결론: 법·시장·규범 세 층위의 정합성",
+    "point2": "정의 → 메커니즘 분석 → 제도적 보완 → 한계 진단 → 다층적 결론으로 이어지는 '개념 → 인과 → 처방' 구조. 경제 이론(공공재·시장실패)과 문화 산업의 현실을 잇는 응용 비문학.",
+    "point3": "'비경합성·비배제성'(콘텐츠 속성) → '시장실패'(고정비/한계비 비대칭) → '지적재산권'(인공적 배제) → '문화적 규범·플랫폼 가격'(보완 장치)으로 이어지는 다단계 인과 사슬. 각 단계가 다음 단계의 필요조건이지만 충분조건은 아니라는 점에 유의.",
+    "tip": "공공재 이론을 응용한 비문학에서는 '비경합성·비배제성'이 정의 → 시장실패 → 보완 장치(IP·세금·보조금)로 이어지는 표준 전개를 따른다. 글의 논점이 '하나의 보완 장치만으로는 부족하다'는 다층 결합형이라면 각 층위의 역할과 한계를 표로 정리하며 읽는 것이 효율적이다.",
+    "category": "culture",
+    "sourceEditorial": {
+      "title": "콘텐츠 정당 지불 문화 정착돼야",
+      "paper": "전자신문",
+      "url": "https://v.daum.net/v/20260427160403069"
+    }
+  },
+  "papers": [
+    {
+      "title": "Justification for Renaming Benign Paroxysmal Positional Vertigo to Peripheral Paroxysmal Positional Vertigo",
+      "titleKo": "양성 발작성 체위변환성 현훈(BPPV) 명칭 변경 제언: 말초성 발작성 체위변환성 현훈(PPPV)으로",
+      "abstractKo": "Neurology 2026년 4월호에 발표된 본 논문은 BPPV의 '양성(benign)'이라는 용어가 환자 삶의 질에 실제 미치는 영향을 충분히 반영하지 못한다고 지적한다. 저자들은 발생 부위가 말초 전정계라는 사실을 명확히 드러내는 '말초성 발작성 체위변환성 현훈(PPPV, 또는 3PV)'으로의 명칭 변경을 제안하며, 이는 임상 인식과 치료 우선순위 설정에 영향을 미칠 수 있다고 주장한다.",
+      "category": "어지럼·BPPV",
+      "journal": "Neurology",
+      "date": "2026-04",
+      "url": "https://www.neurology.org/doi/10.1212/WNL.0000000000214861"
+    },
+    {
+      "title": "Clinical features and outcome predictors in benign paroxysmal positional vertigo and its variant: Perspective in a primary care neurology clinic",
+      "titleKo": "1차 신경과 외래에서 BPPV 및 변형 BPPV의 임상 특성과 치료 결과 예측 인자",
+      "abstractKo": "1,126명의 어지럼증 환자 중 BPPV로 진단된 308명(평균 59.9세, 여성 72.7%)을 분석한 연구다. 체위 안진 지속시간이 이석 정복술(CRP) 결과를 예측하는 유일한 유의 변수로 확인됐으며, 안진이 지속되는 환자에서 CRP 반복 시행의 효용은 제한적이고 보존적 관리도 합리적 선택이 될 수 있다는 임상적 시사점을 제시한다.",
+      "category": "어지럼·BPPV",
+      "journal": "Journal of Vestibular Research",
+      "date": "2026",
+      "url": "https://journals.sagepub.com/doi/10.1177/09574271251347261"
+    },
+    {
+      "title": "Single versus combination treatment in tinnitus: an international, multicentre, parallel-arm, superiority, randomised controlled trial",
+      "titleKo": "이명에서 단일 치료 대 복합 치료: 국제 다기관 평행군 우월성 무작위 대조 시험",
+      "abstractKo": "Nature Communications에 발표된 다국가 다기관 RCT로, 인지행동치료·소리치료·청능재활 등 단일 치료에 비해 복합 치료가 이명 부담 척도(THI)와 삶의 질 지표를 더 크게 개선함을 입증했다. 다만 복합 효과는 시너지보다는 보완적 양상에 가까웠으며, 환자 표현형(phenotype)에 따른 정밀 매칭의 필요성을 강조한다.",
+      "category": "이명",
+      "journal": "Nature Communications",
+      "date": "2026",
+      "url": "https://www.nature.com/articles/s41467-025-66165-1"
+    },
+    {
+      "title": "Hearing Aids: What Works Well and What Can Be Improved",
+      "titleKo": "보청기: 무엇이 잘 작동하고 무엇이 개선되어야 하는가",
+      "abstractKo": "Brian C. J. Moore가 JARO 2026년에 발표한 종설로, 현행 디지털 보청기의 임상 성능과 한계를 종합한다. 음향 결합·주파수 응답·잡음 환경 인지에서 진보가 있었으나, 다중 화자 환경 표적 음성 분리와 자연스러운 음악 청취 영역에서는 여전히 임상적 미충족 요구가 크다고 결론짓는다.",
+      "category": "보청기·청각재활",
+      "journal": "JARO (J Assoc Res Otolaryngol)",
+      "date": "2026",
+      "url": "https://link.springer.com/article/10.1007/s10162-026-01031-5"
+    },
+    {
+      "title": "Response to Oral Steroids for Sudden Sensorineural Hearing Loss: Considerations of Age, Time to Treatment, and Degree of Hearing Loss",
+      "titleKo": "돌발성 난청에 대한 경구 스테로이드 반응: 연령·치료 시점·청력 손실 정도의 영향",
+      "abstractKo": "돌발성 감각신경성 난청(SSNHL) 환자에서 연령, 발병 후 치료까지의 시간, 초기 청력 손실 정도가 경구 스테로이드 반응에 미치는 영향을 후향적으로 분석했다. 발병 후 5개월 이내 치료군이 5개월 이후 군보다 평균 SRT 회복이 우수했고, 고령일수록 반응 폭이 감소하는 경향이 관찰돼 외래 1차 진료에서 즉시 의뢰의 필요성을 시사한다.",
+      "category": "돌발성 난청",
+      "journal": "Otology & Neurotology",
+      "date": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40435991/"
+    },
+    {
+      "title": "Steroid-Sparing Effects of Biologics in Chronic Rhinosinusitis with Nasal Polyps: Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+      "titleKo": "비용종 동반 만성비부비동염에서 생물학적 제제의 스테로이드 절감 효과: RCT 체계적 고찰 및 메타분석",
+      "abstractKo": "두필루맙·메폴리주맙·오말리주맙·테제펠루맙 등 4종 생물학적 제제를 평가한 RCT 메타분석으로, 전신 스테로이드 사용량과 수술 전환율을 유의하게 감소시킴을 입증했다. 비용종 부담 감소와 후각·삶의 질 개선이 동반됐으며, 비용효과성 평가가 향후 임상 도입 우선순위 결정의 핵심 변수로 제시된다.",
+      "category": "만성 부비동염·생물학적 제제",
+      "journal": "American Journal of Rhinology & Allergy",
+      "date": "2026-01",
+      "url": "https://journals.sagepub.com/doi/10.1177/19458924251414922"
+    },
+    {
+      "title": "Allergic Rhinitis and Its Impact on Asthma (ARIA)–EAACI Guidelines—2024–2025 Revision: Part I—Guidelines on Intranasal Treatments",
+      "titleKo": "알레르기 비염과 천식에 대한 영향(ARIA)-EAACI 가이드라인 2024–2025 개정: 1부 비강 내 치료 지침",
+      "abstractKo": "ARIA-EAACI 컨소시엄이 발표한 알레르기 비염 비강 내 치료 지침 개정판으로, 비강 스테로이드의 1차 치료 위치를 재확인하고 비강 항히스타민제 병용 등 신규 옵션의 권고 등급을 갱신했다. 환자 표현형 기반 단계적 치료 알고리듬과 디지털 치료 보조도구의 활용 권고가 새로 포함됐다.",
+      "category": "알레르기 비염",
+      "journal": "Allergy (EAACI)",
+      "date": "2026-04",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/all.70131"
+    },
+    {
+      "title": "Efficacy of Pharmacological and Non-pharmacological Interventions in Vestibular Neuritis: A Systematic Review and Network Meta-analysis",
+      "titleKo": "전정신경염에 대한 약물 및 비약물 중재의 효과: 체계적 고찰과 네트워크 메타분석",
+      "abstractKo": "전정신경염 환자에 대한 코르티코스테로이드, 항바이러스제, 전정재활치료의 단독 및 병용 효과를 네트워크 메타분석으로 비교했다. 발병 72시간 이내 코르티코스테로이드 투여가 1개월 시점 관 마비(canal paresis) 회복에 가장 유의했고, 전정재활치료의 조기 병행이 기능적 호전을 가속화함을 보고한다.",
+      "category": "어지럼·전정신경염",
+      "journal": "Neurology",
+      "date": "2026",
+      "url": "https://www.neurology.org/doi/10.1212/WNL.0000000000211810"
+    },
+    {
+      "title": "Individualized Treatment Effects of CPAP on Secondary Cardiovascular Outcomes in Non-sleepy Obstructive Sleep Apnea Patients",
+      "titleKo": "주간 졸림이 없는 폐쇄성 수면무호흡 환자에서 CPAP의 이차 심혈관 결과에 대한 개별화 치료 효과",
+      "abstractKo": "Communications Medicine에 게재된 본 연구는 머신러닝 모델로 CPAP 치료의 심혈관 위험 감소 효과를 환자별로 추정했다. 일부 하위군에서는 통상적 평균 효과보다 훨씬 큰 위험 감소가 관찰됐으며, 비졸림형 OSA 환자에 대한 정밀의료 기반 치료 의사결정의 가능성을 제시한다.",
+      "category": "수면무호흡",
+      "journal": "Communications Medicine",
+      "date": "2026-03",
+      "url": "https://www.nature.com/articles/s43856-026-01457-1"
+    },
+    {
+      "title": "Updated Evidence for Covid-19, RSV, and Influenza Vaccines for 2025–2026",
+      "titleKo": "2025–2026 시즌 COVID-19·RSV·인플루엔자 백신에 대한 갱신 근거",
+      "abstractKo": "다가오는 2025–2026 호흡기 바이러스 시즌을 대비해 COVID-19, RSV, 인플루엔자 백신에 관한 1만 7천여 편의 논문을 체계적으로 검토하고 511편을 분석한 종합 평가다. COVID-19와 인플루엔자 백신 동시 접종은 순차 접종과 유사한 면역원성·안전성을 보였고, 65세 이상에서 RSV와 인플루엔자 백신 동시 투여 임상도 동등한 결과를 보고했다.",
+      "category": "호흡기 감염·백신",
+      "journal": "New England Journal of Medicine",
+      "date": "2025",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMsa2514268"
+    }
+  ]
+}
