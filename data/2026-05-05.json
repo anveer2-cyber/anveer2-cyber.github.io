@@ -1,0 +1,286 @@
+{
+  "date": "2026-05-05",
+  "news": [
+    {
+      "title": "[르포] '그래도 대구는 보수'…접전지 대구에 '공소취소발' 샤이보수 결집",
+      "source": "경향신문",
+      "url": "https://www.khan.co.kr/article/202605050601001",
+      "summary": "김부겸 전 국무총리의 대구시장 출마로 접전지로 전망됐던 대구에서 민주당이 발의한 '조작기소 특검법'과 공소취소 권한 부여가 위기의식을 자극해 보수 결집의 계기로 작용했다. 현장 르포는 잠재적 보수 표심이 '샤이보수' 형태로 결집되는 양상을 전한다.",
+      "studyPoint": "정당 전략의 의도와 결과 사이의 괴리는 정치학에서 '역효과(backfire effect)' 또는 '의도하지 않은 결과의 법칙'으로 분석된다. 의제 설정과 프레임 전쟁이 유권자의 정체성 결집을 어떤 메커니즘으로 자극하는지 살펴볼 수 있는 사례다.",
+      "category": "politics"
+    },
+    {
+      "title": "정청래, '오빠 발언' 논란에 연이틀 공개 사과",
+      "source": "동아일보",
+      "url": "https://www.donga.com/news/Politics/article/all/20260504/133861337/2",
+      "summary": "정청래 민주당 대표가 부산 북갑 보궐선거 지원 유세 중 초등학교 저학년 여학생에게 '오빠 호칭'을 유도한 영상이 확산되자 연이틀 공개 사과했다. 야권은 거센 비판을 이어가고 있다.",
+      "studyPoint": "디지털 시대 정치 커뮤니케이션의 위험은 단편 영상의 즉시성에 있다. 미디어 정치의 작동 원리와 위기관리 커뮤니케이션 모델(situational crisis communication theory)의 사례로 검토할 수 있다.",
+      "category": "politics"
+    },
+    {
+      "title": "김태년 '의전 아닌 일하는 의장…친명 유리? 대통령께 결례'",
+      "source": "중앙일보",
+      "url": "https://www.joongang.co.kr/article/25425780",
+      "summary": "22대 후반기 국회의장 후보로 거론되는 김태년 민주당 의원이 인터뷰에서 '일하는 의장' 모델과 1년 내 신속 개헌 추진, 임기단축·결선투표제 도입 의지를 밝혔다. '친명 유리' 평가에는 거리를 두는 모습이다.",
+      "studyPoint": "국회의장의 정치적 중립 의무와 다수당 의원으로서의 정체성 사이에는 구조적 긴장이 있다. 의회주의 비교사에서 의장 모델(영국형 중립 의장 vs 미국형 다수당 리더 의장)의 차이를 학습할 수 있다.",
+      "category": "politics"
+    },
+    {
+      "title": "한국 성장률 전망 '쑥'…경기과열 조짐에 고개드는 금리 인상론",
+      "source": "매일경제",
+      "url": "https://www.mk.co.kr/article/12035772",
+      "summary": "JP모건·DBS·뱅크오브아메리카 등 해외 IB가 한국 성장률 전망치를 잇달아 상향했다. 반도체 수출 호조와 외국인 자금 유입으로 코스피가 6900선을 돌파했지만, 물가 상승률 전망치도 0.8~1.0%포인트 상향돼 한은 부총재가 '금리 인상 고민할 때'를 언급했다.",
+      "studyPoint": "통화정책에서 성장 모멘텀 유지와 물가 안정은 트레이드오프 관계다. 통화정책 전달경로(transmission channel)와 자산가격·환율·기대인플레이션의 연쇄를 통합적으로 이해해야 한다.",
+      "category": "economy"
+    },
+    {
+      "title": "반도체 성과급 논쟁 너머: 수출 슈퍼스타 기업을 누가 통제할 것인가",
+      "source": "한겨레",
+      "url": "https://www.hani.co.kr/arti/economy/economy_general/1257188.html",
+      "summary": "반도체가 한국 수출의 약 4분의 1을 차지하고 그 안에서 삼성전자·SK하이닉스가 시가총액·영업이익·R&D 투자 비중을 통해 한국 경제의 양대 축으로 군림한다. 노조 성과급 협상 이면의 본질은 '슈퍼스타 기업'에 대한 사회적 견제 장치 부재라는 분석이다.",
+      "studyPoint": "산업조직론에서 슈퍼스타 기업(superstar firms)은 노동소득 분배율 하락의 주요 원인으로 지목된다. 시장 지배력의 정당성과 경쟁정책·세제·거버넌스를 통한 사회적 통제의 정당성 논쟁을 학습할 수 있다.",
+      "category": "economy"
+    },
+    {
+      "title": "'韓 주식 직접 투자한다'… 외국인 3조 폭풍 매수 '칠천피' 가시권",
+      "source": "조선일보",
+      "url": "https://biz.chosun.com/stock/stock_general/2026/05/05/U45VSB63AFBEHNXI4V3ZFJ4CIY/",
+      "summary": "코스피가 4일 6936.99로 마감, 7000선이 가시권에 들어섰다. 글로벌 유동성 확대, AI·반도체·원전 모멘텀, 외국인 3조 매수, WGBI 편입 효과가 동력이다. 다만 밸류에이션 정상화 구간에서의 변동성 확대 우려도 동시에 제기된다.",
+      "studyPoint": "자본 유입의 동력과 위험은 동시에 작용한다. 신흥국 자본시장이 글로벌 유동성 조건에 어떻게 반응하는지, '리스크온/리스크오프' 사이클과 환율·금리의 동조성을 함께 봐야 한다.",
+      "category": "economy"
+    },
+    {
+      "title": "어른·사회 향한 학대 아동들의 분노 '피해자 자격이 따로 있나요?'",
+      "source": "한겨레",
+      "url": "https://www.hani.co.kr/arti/society/society_general/1257187.html",
+      "summary": "국내 최대 아동양육시설 출신 청년들이 보육사 6명과 마리아수녀회를 상대로 학대 손해배상 소송을 제기했다. '학대 피해 아동'으로서의 정체성과 사회적 인정을 요구하는 외침이 이어진다.",
+      "studyPoint": "시설 보호 아동의 트라우마와 사회적 인정(recognition) 정치는 회복적 정의(restorative justice)의 핵심 주제다. 사법적 처벌만이 아닌 인정·복권·재발 방지의 다층적 정의 모델을 검토할 수 있다.",
+      "category": "society"
+    },
+    {
+      "title": "산후조리원 비용 급증에 산모들 부담… 강남선 1년 만에 1000만원 올린 곳도",
+      "source": "조선일보",
+      "url": "https://www.chosun.com/national/welfare-medical/2026/05/05/LZMLIB7V5FE47PXQNCK4KQHEMQ/",
+      "summary": "전국 산후조리원 일반실 평균 요금이 2주 기준 373만원으로 집계됐다. 같은 기간 소비자물가 상승률 23%의 약 3배에 달하는 가격 상승. 강남권 일부 시설은 1년 새 1000만원이 오른 사례도 있다.",
+      "studyPoint": "비탄력적 수요 시장에서 가격이 어떻게 결정되는지를 보여주는 사례다. 출산·돌봄 등 필수 서비스의 시장화 정도와 공공 개입의 적정 수준을 둘러싼 정책 논쟁을 학습할 수 있다.",
+      "category": "society"
+    },
+    {
+      "title": "'가정의 달'엔 더 외롭고 힘든 이주노동자들…'가족동반입국' 절실",
+      "source": "경향신문",
+      "url": "https://www.khan.co.kr/article/202605050600081",
+      "summary": "어린이날과 가정의 달을 맞아 본국에 가족을 두고 한국에 홀로 와 있는 이주노동자들의 고립감이 부각된다. 가족동반입국 비자 확대와 결혼이주가족 통합정책의 미비가 지적된다.",
+      "studyPoint": "노동이주는 송출국·수용국 모두에 노동력 분배의 효율과 가족 분리의 사회적 비용을 동시에 발생시킨다. 인구정책과 이민·통합정책의 통합 설계가 왜 필요한지를 보여주는 사례다.",
+      "category": "society"
+    },
+    {
+      "title": "'한국, 합류할 때 됐다'…트럼프, 이란 공격에 韓 파병 재촉구",
+      "source": "매일경제",
+      "url": "https://www.mk.co.kr/article/12035809",
+      "summary": "호르무즈 해협 HMM '나무호' 폭발을 트럼프 대통령이 '이란 공격'으로 단정하며 한국에 '프로젝트 프리덤' 작전 합류를 공개 압박했다. 자동차 관세 인상과 주둔 미군 감축으로 유럽을 압박하듯 한국에도 같은 카드를 시사했다.",
+      "studyPoint": "동맹 관리에서 강대국의 압박 외교(coercive diplomacy)와 부담 분담(burden sharing) 요구는 표리관계다. 동맹의 자율성-안보 트레이드오프 모델을 통해 한국 외교의 선택지를 평가할 수 있다.",
+      "category": "international"
+    },
+    {
+      "title": "러 '전승절 8∼9일 휴전…우크라 방해시 키이우에 미사일'",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260505005500108?input=1195m",
+      "summary": "푸틴 대통령이 5월 9일 전승절을 맞아 8~9일 이틀간 우크라이나에서 일방적으로 휴전을 선언했다. 젤렌스키 대통령은 '6일부터 휴전한다'고 응수하며 러시아의 일방주의에 끌려가지 않겠다는 입장을 밝혔다.",
+      "studyPoint": "전시 외교에서 일방적 휴전 선언은 단순 인도적 조치가 아니라 정치적 메시지다. 신뢰 구축 조치(CBM)와 선전(propaganda) 효과의 이중적 기능이 같은 사건에서 동시에 작동한다.",
+      "category": "international"
+    },
+    {
+      "title": "우크라, 러 최대 석유항구 대규모 공습…'중동전 반사이익' 차단",
+      "source": "한겨레",
+      "url": "https://www.hani.co.kr/arti/international/europe/1257139.html",
+      "summary": "우크라이나가 러시아 최대 석유 수출 항구를 대규모로 공습했다. 중동전쟁 장기화로 유가가 오르자 러시아가 거두는 반사이익을 차단하려는 전략적 타격이라는 분석이다.",
+      "studyPoint": "전쟁의 경제적 파급력과 비대칭 공격의 전략적 가치는 글로벌 에너지 시장과 직결된다. 자원 지정학과 군사 전략이 어떻게 한 쌍으로 작동하는지 보여주는 사례다.",
+      "category": "international"
+    },
+    {
+      "title": "차세대중형위성 2호, 지상교신 성공",
+      "source": "한국경제",
+      "url": "https://www.hankyung.com/article/2026050454101",
+      "summary": "우주항공청과 국토교통부는 지구관측위성인 차세대중형위성 2호가 발사 6시간 18분 만에 첫 지상 교신에 성공했다고 발표했다. 본체와 일부 핵심 탑재체의 국내 개발로 한국 우주기술의 자립성을 높였다는 평가다.",
+      "studyPoint": "우주 기술 자립은 발사체·위성·지상국·운용까지 전체 생태계의 단계적 성취다. 자립과 국제 협력 사이의 비용 효율성 트레이드오프를 산업 정책 관점에서 살펴볼 수 있다.",
+      "category": "science_tech"
+    },
+    {
+      "title": "한화에어로 'KAI 경영참여'… 지분 5% 돌파",
+      "source": "동아일보",
+      "url": "https://www.donga.com/news/Economy/article/all/20260504/133861084/2",
+      "summary": "한화에어로스페이스가 한국항공우주산업(KAI) 지분 5%를 돌파하고 보유 목적을 '경영 참여'로 변경했다. 항공·우주·방산의 수직 통합 시너지를 노린 행보지만 적대적 M&A 가능성도 배제하기 어려운 상황이다.",
+      "studyPoint": "방위산업의 수직 통합은 R&D·조달의 효율을 높이지만 시장 경쟁을 위축시킨다. 방산의 특수성과 일반 M&A 거버넌스 규범의 충돌, 산업정책 결정자의 딜레마를 분석할 수 있다.",
+      "category": "science_tech"
+    },
+    {
+      "title": "알파폴드 이후, '과학을 위한 AI' 어디까지 왔나",
+      "source": "조선일보",
+      "url": "https://it.chosun.com/news/articleView.html?idxno=2023092161503",
+      "summary": "단백질 폴딩 난제를 푼 알파폴드 이후 AI는 가설 생성·코드 작성·실험 수행·논문 집필까지 연구의 전 과정을 자동화하는 'The AI Scientist'(Sakana AI) 단계로 진입했다. 과학 연구 패러다임의 전환이 본격화하고 있다.",
+      "studyPoint": "AI for Science는 발견의 자동화를 넘어 인식론의 전환을 시사한다. 가설 검증의 주체·재현성·인과 추론의 책임이 누구에게 귀속되는지 과학철학적 관점에서 검토할 수 있다.",
+      "category": "science_tech"
+    },
+    {
+      "title": "韓 시장 파고드는 J팝… 한국어 노래 등 K팝 성공전략 따라",
+      "source": "동아일보",
+      "url": "https://www.donga.com/news/Culture/article/all/20260504/133860791/2",
+      "summary": "일본 J팝 아티스트들이 한국어 곡 발매와 한국 활동 확대 등 K팝의 성공 전략을 모방하며 한국 시장 진출을 가속화하고 있다. 한일 음악산업의 교차 흐름이 본격화하는 양상이다.",
+      "studyPoint": "문화 산업의 모방·재해석은 일방향이 아니라 순환적 흐름을 만든다. K-콘텐츠 보편화 이후 역진(reverse) 흐름이 어떻게 새로운 문화 생태계를 형성하는지 검토할 수 있다.",
+      "category": "culture"
+    },
+    {
+      "title": "지드래곤 공연 의상 '흑인 비하' 문구 논란",
+      "source": "동아일보",
+      "url": "https://www.donga.com/news/Culture/article/all/20260504/133861109/2",
+      "summary": "마카오에서 열린 'K 스파크' 행사에서 지드래곤 공연 의상에 흑인 비하 맥락의 문구가 포함돼 갤럭시코퍼레이션이 공식 사과했다. K-콘텐츠의 글로벌화 과정에서 문화 감수성 검수 시스템의 필요성이 다시 부각됐다.",
+      "studyPoint": "글로벌 문화 산업에서 표현 검수 시스템의 부재는 단순 실수가 아닌 구조적 위험이다. 문화 다양성 시대의 콘텐츠 게이트키퍼 책임과 PR·법무 통합 거버넌스를 살펴볼 수 있다.",
+      "category": "culture"
+    },
+    {
+      "title": "로마 한국문화원, 나폴리 코믹콘서 K팝 댄스 워크숍",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260505001700109?input=1195m",
+      "summary": "주이탈리아 한국문화원이 1998년 시작된 이탈리아 대표 만화·게임 행사 나폴리 코믹콘과 협력해 K팝 댄스 워크숍과 커버댄스대회를 개최했다. 한국 대중문화의 유럽 정착이 미시 채널을 통해 확산되고 있다.",
+      "studyPoint": "공공 문화 외교의 본질은 메시지 송출이 아니라 자율적 수용자 공동체 형성이다. 거시 외교 자원과 미시 문화 채널의 결합이 어떻게 장기적 영향력을 만드는지 학습할 수 있다.",
+      "category": "culture"
+    },
+    {
+      "title": "'함께'서 '나 혼자 논다'…폰게임에 밀린 PC방",
+      "source": "한국경제",
+      "url": "https://www.hankyung.com/article/2026050453731",
+      "summary": "PC방이 모바일 게임·뽑기방·인테리어 부담 등에 밀려 쇠퇴 중이다. 3월 컴퓨터 소비자물가지수가 전년 대비 12.4% 상승하면서 운영 부담도 가중됐다. 무인 운영 뽑기방으로 청소년 여가 트렌드가 옮겨가고 있다.",
+      "studyPoint": "여가 산업의 디지털 전환은 공간 경제의 재구성과 맞물린다. 세대별 여가 패턴의 분기와 도시 상가 임대 시장의 구조 변화를 함께 보면 사회·경제 변동의 연결고리를 읽을 수 있다.",
+      "category": "etc"
+    }
+  ],
+  "editorials": [
+    {
+      "title": "[사설] 국힘 '개헌 반대' 당론 풀고 의원들 소신에 맡겨야",
+      "publisher": "한겨레",
+      "url": "https://www.hani.co.kr/arti/opinion/editorial/1257144.html",
+      "summary": "5월 7일 본회의 표결을 앞두고 국민의힘이 '개헌 반대' 당론을 유지 중인 가운데, 39년 만에 찾아온 개헌 기회를 의원 개인의 소신 투표로 열어야 한다고 주장한다. 6·3 지방선거와 동시 국민투표를 위한 처리 시한은 5월 10일이다.",
+      "studyPoint": "당론과 의원 개인의 자유 투표 사이에는 구조적 긴장이 존재한다. 정당정치의 책임 단위(정당 vs 의원)와 헌정사적 결단(개헌 같은 헌법적 의제)에서 책임 귀속의 문제를 학습할 수 있다."
+    },
+    {
+      "title": "[사설] 반도체 초호황에 가려진 산업 양극화",
+      "publisher": "한국경제",
+      "url": "https://www.hankyung.com/article/2026050453471",
+      "summary": "1분기 GDP 1.7% 성장과 4월 수출 800억달러 돌파라는 '깜짝 성장' 지표 이면에는 반도체 외 분야의 부진과 산업 양극화 심화가 있다. 자동차·석유화학·철강 등 전통 주력 산업의 마이너스 성장이 동시에 진행되고 있다.",
+      "studyPoint": "'편중 성장(skewed growth)'은 거시지표의 평균이 미시 영역의 분산을 가리는 통계 환상의 전형이다. 산업 다변화와 낙수효과의 임계점을 정책 설계 변수로 다루는 산업정책론을 살펴볼 수 있다."
+    },
+    {
+      "title": "[사설] '청주→부산 뺑뺑이' 태아 사망, 특단의 대책 필요하다",
+      "publisher": "한겨레",
+      "url": "https://www.hani.co.kr/arti/opinion/editorial/1256985.html",
+      "summary": "산모 응급 이송 중 태아 사망 사례가 또다시 발생했다. 권역별 응급의료 이송 체계의 실시간 정보 공유 시스템 부재가 핵심 원인으로 지적된다. 인천 '아이넷', 호남 맞춤형 이송 체계의 성공 사례가 대안으로 거론된다.",
+      "studyPoint": "응급의료의 효력은 개별 병원 역량이 아니라 시스템 전반의 시간·공간 효율성으로 결정된다. 골든아워(golden hour) 개념과 임계거리, 통합 이송 네트워크의 의의를 의료체계론 관점에서 정리해 두자."
+    }
+  ],
+  "readingPassage": {
+    "title": "응급의료의 시간 임계: 골든아워와 의료자원의 임계거리",
+    "passage": "응급의학에서 '골든아워(golden hour)'는 외상이나 급성 심혈관·뇌혈관 사건이 발생한 직후 일정 시간 안에 결정적 치료가 이루어져야 환자의 생존율과 후유증이 결정된다는 임상적 경험칙을 가리킨다. 이 개념은 단순한 신속함의 미덕이 아니라, 시간이 흐름에 따라 비가역적으로 진행되는 병태생리학적 손상을 정량적으로 다루는 시간생물학(chronobiology)적 모델에 기반한다. 예컨대 허혈성 뇌졸중에서는 발병 후 매 분당 약 190만 개의 신경세포가 사멸한다는 연구가 보고되어 있고, 산모와 태아의 응급 분만에서는 자궁 내 저산소증이 일정 시간 이상 지속될 때 신생아 뇌손상이 급격히 증가한다.\n\n골든아워의 임상적 효력은 환자 개인의 생리적 회복력에만 의존하지 않는다. 그것은 응급의료체계라는 사회적 시스템의 시간적 효율성에 의해 매개된다. 환자 발견에서 119 신고, 출동·이송, 수용 병원 결정, 시술 시작에 이르는 일련의 과정은 단계마다 고유한 지연 함수(delay function)를 갖는다. 따라서 골든아워의 실효성은 단일 병원의 역량보다 권역 내 응급의료기관의 공간적 분포, 통신·이송 자원의 가용성, 의료진의 실시간 의사결정 구조에 의해 결정된다.\n\n여기서 '임계거리(critical distance)' 개념이 중요하다. 동일한 의료 자원이라도 환자로부터의 이송 시간이 일정 임계를 초과하면 그 효용은 급격히 감소한다. 도시와 의료취약지 사이의 임계거리 격차는 응급의료의 형평성 문제로 이어지며, 단순히 병상 수나 의사 수의 양적 분포가 아니라 '시간거리'의 분포가 의료자원 배분의 핵심 지표가 된다. 같은 권역 안에서도 응급실 수용 가능 여부, 전문 시술 인력의 당직 여부, 실시간 정보 공유 시스템의 작동 여부에 따라 환자가 도달하는 실효 임계거리는 크게 달라진다.\n\n최근 응급의료체계 연구는 분권화된 단일 병원 모델에서 권역 단위 통합 이송 네트워크 모델로 패러다임이 옮겨가고 있다. 소방·응급의료기관·전문의가 실시간으로 환자 정보를 공유하며 수용 병원을 사전 결정하는 시스템은 이송 중 다단계 거절로 표현되는 '뺑뺑이'를 줄이고, 통계적으로 골든아워 안에 결정적 시술에 도달하는 비율을 유의하게 높인다. 결국 응급의료의 질은 개별 의료진의 헌신이 아니라 시간 임계와 공간 임계를 동시에 압축하는 시스템 설계의 함수로 평가된다. 한 권역의 응급의료 수준은 곧 그 사회가 시간을 어떻게 자원으로 다루는가를 보여주는 거울이라 할 수 있다.",
+    "point1": "골든아워는 단순히 '빠르면 좋다'는 직관이 아니라, 시간이 흐름에 따라 비가역적으로 손상이 진행되는 병태생리학적 모델에 근거한 정량 개념이다.",
+    "point2": "골든아워의 효력은 환자 개인의 회복력보다 응급의료체계라는 사회적 시스템의 시간적 효율성에 의해 매개되며, 발견·이송·수용·시술 각 단계의 지연 함수가 누적된다.",
+    "point3": "'임계거리' 개념은 단순한 거리 분포가 아니라 시간거리의 분포를 의료자원 배분의 핵심 지표로 본다는 점에서, 응급의료의 형평성 문제를 새롭게 정의한다.",
+    "tip": "지문은 '시간 자원의 사회적 분배'라는 비유로 읽으면 핵심이 잡힌다. 골든아워(시간), 임계거리(공간), 통합 네트워크(시스템)의 3축이 어떻게 한 묶음으로 작동하는지 도식화해 두면 응용 문항에 대비할 수 있다.",
+    "category": "science",
+    "sourceEditorial": {
+      "title": "[사설] '청주→부산 뺑뺑이' 태아 사망, 특단의 대책 필요하다",
+      "paper": "한겨레",
+      "url": "https://www.hani.co.kr/arti/opinion/editorial/1256985.html"
+    }
+  },
+  "papers": [
+    {
+      "title": "Clinical Outcomes of Platelet-Rich Plasma in Otology: A Systematic Review of Tympanoplasty, Myringoplasty, and Hearing Loss Management",
+      "titleKo": "이과 영역에서 혈소판풍부혈장(PRP)의 임상 효과: 고막성형술·이형성술·난청 치료에 관한 체계적 고찰",
+      "abstractKo": "고막 천공 봉합과 감각신경성 난청 치료에서 혈소판풍부혈장(PRP)의 효과를 평가한 체계적 문헌 고찰이다. 고막성형술과 이형성술에 PRP를 보조적으로 사용한 군에서 그래프트 생착률과 청력 개선 정도가 대조군 대비 일관되게 유의하게 높았다. 돌발성 난청이나 노인성 난청에 대한 단독 적용은 근거가 제한적이나 보조 요법으로서의 잠재적 가치를 시사한다. 저자들은 표준화된 PRP 제조·투여 프로토콜의 부재가 가장 큰 임상 적용 장벽이라고 지적했다.",
+      "category": "이과·고막 재생",
+      "journal": "Cureus",
+      "date": "2026-02",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41883890/"
+    },
+    {
+      "title": "Artificial intelligence and hearing health: a global evidence review of biases and equity implications for Africa",
+      "titleKo": "인공지능과 청각 건강: 편향과 형평성에 관한 글로벌 근거 검토—아프리카 지역 함의",
+      "abstractKo": "전 세계 청각검사·보청기 적합·이명 평가 등에 도입된 AI 모델의 편향(bias)과 형평성 이슈를 체계적으로 검토했다. 대부분의 학습 데이터가 고소득 국가의 인구 표본에 치우쳐 있어 아프리카 등 저자원 환경에서 진단 정확도가 일관되게 떨어지는 것으로 확인됐다. 저자들은 다양한 인구 데이터의 확보, 모델 검증의 지역화, 임상 의사결정 지원 시스템의 투명성을 청각 AI의 글로벌 형평성 확보를 위한 핵심 과제로 제시했다.",
+      "category": "청각·의료 AI 형평성",
+      "journal": "Glob Health Action",
+      "date": "2026-12",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41885802/"
+    },
+    {
+      "title": "Evaluating Tinnitus in Children: A Comprehensive Review of Diagnostic Methods and Treatment Strategies",
+      "titleKo": "소아 이명 평가: 진단 기법과 치료 전략의 종합적 고찰",
+      "abstractKo": "성인과 달리 임상적 관심이 부족했던 소아 이명의 진단·치료 전략을 종합적으로 정리한 리뷰 논문이다. 소아 이명은 유병률이 학령기에서 13~37%로 보고되며, 표준화된 자가보고 척도의 부재가 평가의 핵심 장애물이다. 저자들은 표준화된 소아용 이명 핸디캡 척도 적용, 소음 노출·수면 문제·정서 동반 질환의 통합 평가, 인지행동치료와 사운드 테라피의 단계적 적용을 권고했다.",
+      "category": "소아 이명",
+      "journal": "Cureus",
+      "date": "2026-03",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41994736/"
+    },
+    {
+      "title": "Pro-inflammatory and counter-regulatory modulators of interleukin-5-driven eosinophil programs: a framework for precision medicine in eosinophilic diseases",
+      "titleKo": "인터루킨-5 매개 호산구 프로그램의 염증·항염증 조절인자: 호산구성 질환 정밀의료를 위한 프레임워크",
+      "abstractKo": "호산구성 만성 비부비동염, 비용종, 호산구성 천식 등에서 IL-5 축의 분자생물학적 기전과 조절 인자를 정리한 종설이다. 메폴리주맙·벤랄리주맙 등 항IL-5 생물학적 제제의 임상 효과 차이를 환자별 호산구 표현형으로 설명할 수 있다는 정밀의료 프레임워크를 제시했다. 코 폴립을 동반한 만성 비부비동염 치료의 표적 선정 전략에 직접적으로 응용 가능한 모델이다.",
+      "category": "비부비동염·생물학적 제제",
+      "journal": "Frontiers in Immunology",
+      "date": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42058205/"
+    },
+    {
+      "title": "Analysis of clinical efficacy of repetitive transcranial magnetic stimulation in the treatment of residual dizziness after reduction of benign paroxysmal positional vertigo",
+      "titleKo": "양성돌발성체위변환성어지럼증(BPPV) 정복술 후 잔여 어지럼에 대한 반복 경두개 자기자극(rTMS) 치료의 임상 효과 분석",
+      "abstractKo": "BPPV 환자가 이석 정복술 이후에도 호소하는 잔여 어지럼에 대해 반복 경두개 자기자극(rTMS)의 효과를 평가한 임상 연구다. rTMS군은 대조군에 비해 어지럼 핸디캡 척도(DHI)와 균형 검사 점수가 4주·12주 시점에서 유의하게 개선됐다. 저자들은 rTMS가 잔여 어지럼의 핵심 기전인 중추 적응 지연을 가속해 전정 재활을 보완할 수 있다고 결론지었다.",
+      "category": "전정·어지럼 재활",
+      "journal": "European Archives of Oto-Rhino-Laryngology",
+      "date": "2026-04",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42062570/"
+    },
+    {
+      "title": "Inverse Relation Between Responses to Pembrolizumab Plus Chemotherapy and Subsequent Cetuximab Plus Paclitaxel in Head and Neck Cancer: Role of the JAK-STAT Signaling Pathway",
+      "titleKo": "두경부암에서 펨브롤리주맙·화학요법 반응성과 후속 세툭시맙·파클리탁셀 반응성의 역관계: JAK-STAT 신호 전달의 역할",
+      "abstractKo": "재발·전이 두경부 편평상피세포암에서 1차 펨브롤리주맙+화학요법에 잘 반응한 환자가 2차 세툭시맙+파클리탁셀에는 오히려 반응이 떨어지는 역관계를 보고했다. 저자들은 종양·면역 미세환경에서 JAK-STAT 신호 활성화 정도가 두 요법의 효과를 분리시키는 핵심 요인임을 다중 오믹스 분석으로 입증했다. 임상 의사결정에서 순차 치료 선택의 새로운 분자 지표 가능성을 제시한다.",
+      "category": "두경부암 면역·표적치료",
+      "journal": "JCO Precision Oncology",
+      "date": "2026-04",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42024838/"
+    },
+    {
+      "title": "Baseline DISE Anatomy Predicts Jaw-Thrust Responsiveness in Obstructive Sleep Apnea",
+      "titleKo": "수면유도 내시경(DISE) 기저 해부학적 소견이 폐쇄성 수면무호흡증의 턱 전방 추진 반응성을 예측",
+      "abstractKo": "폐쇄성 수면무호흡 환자에서 수면유도 약물 내시경(DISE) 시 관찰된 상기도 폐쇄 양상이 하악 전방 추진(jaw-thrust) 조작에 대한 반응성을 예측한다는 것을 보여준 연구다. 혀뿌리·후두덮개 기반 폐쇄형은 반응성이 가장 높았으며, 측벽·다층 폐쇄형은 반응성이 낮았다. 이 결과는 구강 내 장치(MAD) 적응증 선정과 외과적 치료 계획 수립에 직접적 임상 가치를 갖는다.",
+      "category": "수면무호흡 진단·구강 장치",
+      "journal": "Life",
+      "date": "2026-03-11",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41900974/"
+    },
+    {
+      "title": "Multi-Target Mechanisms of Chinese Herbal Medicine in the Treatment of Allergic Rhinitis",
+      "titleKo": "알레르기 비염 치료에서 한약제의 다중 표적 작용 기전",
+      "abstractKo": "알레르기 비염 치료에 사용되는 한약제 11종의 활성 성분과 분자 표적을 네트워크 약리학으로 분석한 연구다. Th2 면역반응 억제, 비만세포 탈과립 차단, 점액 분비 조절 등 서로 다른 경로에 동시에 작용하는 다중 표적성이 확인됐다. 저자들은 단일 표적 약물의 한계를 극복할 보완 요법으로서 표준화된 한약 처방의 임상 시험 설계를 제안했다.",
+      "category": "알레르기 비염·보완의학",
+      "journal": "Journal of Ethnopharmacology",
+      "date": "2026-04-28",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42061564/"
+    },
+    {
+      "title": "Artificial Intelligence at the Service of the ENT: A New Perspective on Tympanic Membrane Perforations",
+      "titleKo": "이비인후과 영역에서의 인공지능 활용: 고막 천공의 새로운 관점",
+      "abstractKo": "고막 천공의 진단·분류에 합성곱 신경망(CNN) 기반 영상 AI를 적용한 다기관 연구다. AI 모델은 단순 천공 여부 판별에서 95% 이상의 정확도를 보였으며, 천공의 크기·위치·만성 변화 동반 여부를 자동 분류해 임상 의사결정에 정량적 정보를 제공했다. 저자들은 일차 의료기관에서 이비인후과 전문의 부족 문제를 보완할 보조 진단 시스템으로서의 가능성을 강조했다.",
+      "category": "이과·AI 진단",
+      "journal": "Journal of Imaging Informatics in Medicine",
+      "date": "2026-04-29",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42056619/"
+    },
+    {
+      "title": "Transoral laser microsurgery and open partial laryngectomy for limited-stage glottic cancer: a review of indications, oncologic and functional outcome, and prognosis",
+      "titleKo": "초기 성문암에 대한 경구 레이저 미세수술과 개방형 부분 후두절제술: 적응증·종양학적 결과·기능적 결과·예후 비교 고찰",
+      "abstractKo": "T1·T2 성문암에서 경구 레이저 미세수술(TLM)과 개방형 부분 후두절제술의 종양학적 효과와 음성·연하 기능 결과를 비교한 종설이다. 종양학적 통제율은 두 방법 모두 5년 국소 통제율 90% 이상으로 유사했으나, TLM이 입원 기간 단축과 음성의 질 보존 측면에서 우수했다. 다만 전연합부 침범이나 깊은 종양은 개방형 수술이 여전히 유리할 수 있다는 점이 강조됐다.",
+      "category": "후두암·음성 보존",
+      "journal": "American Journal of Translational Research",
+      "date": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42007098/"
+    }
+  ]
+}
