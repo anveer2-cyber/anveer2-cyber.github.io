@@ -1,0 +1,286 @@
+{
+  "date": "2026년 5월 23일 토요일",
+  "news": [
+    {
+      "title": "CEO 출신 동갑내기… 조문관·나동연 '낙동강 매치'",
+      "source": "조선일보",
+      "url": "https://www.chosun.com/politics/election2026/2026/05/22/RTKCJLP4EVCUBPD3SX5HBQX4T4/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "summary": "6·3 지방선거 양산시장 선거에서 더불어민주당 조문관 후보와 국민의힘 나동연 시장이 'CEO 출신 동갑내기' 구도로 맞붙으면서 낙동강 벨트의 대표 격전지로 부상했다. 박완수 경남지사 후보는 양산을 의료·바이오 중심으로 키우자는 공약을 함께 제시했다.",
+      "studyPoint": "지방선거에서 후보 개인의 경력·연령 등 비정책 변수가 정당 일체감에 더해지는 '낙동강 벨트'의 균열적 정렬은 한국 정당체제의 지역주의가 약화되는 경계 사례로 자주 인용된다.",
+      "category": "politics"
+    },
+    {
+      "title": "평택을 후보들, 토론회서 '계엄·과거전력' 놓고 날 선 공방",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260522147700061?input=1195m",
+      "summary": "평택을 국회의원 재선거 후보 토론회에서 황교안 후보가 '이번 선거도 부정선거 우려'라는 발언을 내놓자 조정훈·유의동 후보가 즉각 반박하며 격돌했다. 토론은 부정선거 음모론, 12·3 비상계엄, 후보들의 과거 전력을 놓고 공방으로 흘렀다.",
+      "studyPoint": "선거 부정 의혹의 정치화는 패배 인정 거부(loser's consent 결여)와 결합해 민주주의의 절차적 정당성을 침식한다는 점에서 비교정치학의 주요 연구 주제다.",
+      "category": "politics"
+    },
+    {
+      "title": "'우리가 스타벅스다' 극우의 반작용…불붙은 스타벅스 5·18 논란",
+      "source": "경향신문",
+      "url": "https://www.khan.co.kr/article/202605221635001",
+      "summary": "스타벅스의 '5·18 탱크데이' 마케팅을 둘러싼 극우 진영의 불매·맞불 운동이 확산되면서 5·18 광주민주화운동의 역사적 위상을 둘러싼 사회 논쟁이 재점화됐다. 한강 작가의 '소년이 온다'가 인용되며 인간 본성을 묻는 문학적 질문으로 확장됐다.",
+      "studyPoint": "역사적 사건의 공적 기억이 소비 시장의 상징 투쟁장으로 옮겨오는 현상은 '기억 정치(politics of memory)'의 현대적 양상이며, 시장이 정치적 정체성의 매개체가 되는 상품화된 시민성 논의로 이어진다.",
+      "category": "politics"
+    },
+    {
+      "title": "전·월세 불안에…수도권 매입임대 9만가구 푼다",
+      "source": "중앙일보",
+      "url": "https://www.joongang.co.kr/article/25430734",
+      "summary": "정부가 2027년까지 수도권에 비아파트 매입임대 9만가구를 공급하기로 했다. 서울 등 규제지역은 '무제한 매입'을 허용해 전세사기 여파로 위축된 비아파트 임대 시장을 공공이 떠받치는 구조다. 서울 아파트 전셋값이 10년 6개월 만에 최고 상승률을 기록한 점이 배경이다.",
+      "studyPoint": "전세사기 트라우마로 비아파트 공급이 끊긴 시장에 공공이 마중물로 들어가는 정책은 정보 비대칭에서 비롯된 시장 실패(레몬 문제)를 공공이 보증해 해소하는 사례로 해석된다.",
+      "category": "economy"
+    },
+    {
+      "title": "'황금연휴' 해외여행 간줄 알았는데…'반전' 일어났다",
+      "source": "한국경제",
+      "url": "https://www.hankyung.com/article/2026052247981",
+      "summary": "신한카드 빅데이터연구소에 따르면 황금연휴 기간 해외 카드 결제는 줄고 국내 소비가 늘어난 '반전'이 확인됐다. 1517원대까지 치솟은 원·달러 환율과 항공료 부담으로 가계가 해외여행을 자제한 결과로 분석됐다.",
+      "studyPoint": "환율은 가계의 명목 가격뿐 아니라 '국내 vs 해외 소비'라는 상대가격을 바꿔 국제 관광 수지에 즉각 반영된다는 점에서 국제경제학의 지출 전환(expenditure switching) 효과를 잘 보여준다.",
+      "category": "economy"
+    },
+    {
+      "title": "국민성장펀드가 끌어올린 코스닥…5% 급등에 매수 사이드카까지",
+      "source": "매일경제",
+      "url": "https://www.mk.co.kr/article/12056093",
+      "summary": "정부가 손실의 최대 20%를 보전하는 국민참여형 성장펀드가 판매 첫날부터 매진되며 코스닥 반도체 소재·부품·장비주를 끌어올려 5% 급등과 매수 사이드카 발동까지 이어졌다. 다만 코스피 대형 반도체주는 차익실현에 밀려 하락 마감했다.",
+      "studyPoint": "정부의 손실 보전 약정은 위험자산의 기대수익률을 인위적으로 끌어올려 자금 흐름의 '비대칭적 인센티브'를 만들어 내며, 자원배분 효율성 측면에서 도덕적 해이 논란을 동반한다.",
+      "category": "economy"
+    },
+    {
+      "title": "발달장애인이 정신병원에서 죽어 나가지 않으려면",
+      "source": "한겨레",
+      "url": "https://www.hani.co.kr/arti/society/society_general/1260057.html",
+      "summary": "발달장애인의 정신과 입원 과정에서 폐쇄병동 중심의 표준화된 치료가 빚어 온 사망·사고 문제를 짚으며, 개방형 중정과 가족적 치료 환경을 갖춘 모범 사례를 통해 발달장애인 정신의료 체계의 재설계가 필요하다고 진단했다.",
+      "studyPoint": "장애인의 치료 환경은 의학적 효과뿐 아니라 인권·자기결정권의 영역으로, 시설의 물리적 구조와 인권 보장 수준이 연결되는 '환경 결정론적' 접근이 사회복지학의 주요 논의 지점이다.",
+      "category": "society"
+    },
+    {
+      "title": "그들이 말하는 페미니즘은 누구를 위한 것인가",
+      "source": "조선일보",
+      "url": "https://www.chosun.com/national/weekend/2026/05/23/ZI4WLIYIUBF6FEHNEXDPUD3HJU/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "summary": "지방선거에서 불거진 한 정치인의 성추문 사건을 둘러싸고 진보 매체와 여성단체가 침묵한다는 비판이 제기됐다. 진영 논리에 따라 페미니즘 의제가 선택적으로 작동한다는 지적과, 이를 둘러싼 운동 진영 내 균열을 다뤘다.",
+      "studyPoint": "사회운동이 정치적 진영에 종속될 때 보편적 의제(여성 권리)가 당파적 의제로 환원되어 운동의 도덕적 권위가 침식되는 '진영 포획(camp capture)' 현상은 사회운동론의 고전적 위험으로 분석된다.",
+      "category": "society"
+    },
+    {
+      "title": "\"이러다 일자리 다 뺏길라\"…AI 향한 인간 '반격' 시작됐다",
+      "source": "한국경제",
+      "url": "https://www.hankyung.com/article/2026052248501",
+      "summary": "AI 대량 해고에 대응해 미국 캘리포니아주가 '인간 고용 보조금' 지급을 검토한다. 뉴섬 주지사가 행정명령을 통해 워크 셰어 확대와 퇴직자 보상 등 안전망 강화 카드를 꺼내든 가운데, 단기간의 기술 변혁이 일자리 충격으로 이어진다는 우려가 정치 의제로 부상했다.",
+      "studyPoint": "기술 변화가 노동수요를 급격히 재편할 때 '러다이트(Luddite) 정치 동학'이 부활할 수 있다는 논의는 노동경제학·정치경제학에서 보편기본소득·재교육 의제로 확장된다.",
+      "category": "society"
+    },
+    {
+      "title": "미 무역대표, 전면적 반도체 관세 \"적절시점에 부과…당장은 없어\"",
+      "source": "매일경제",
+      "url": "https://www.mk.co.kr/article/12056107",
+      "summary": "미국 무역대표가 전면적 반도체 관세는 적절한 시점에 부과될 것이며 당장은 아니라고 밝혔다. 시장은 트럼프 행정부가 반도체 관세를 세수 확보보다 미국 내 생산투자(리쇼어링)를 압박하는 협상 카드로 활용하려는 것으로 본다.",
+      "studyPoint": "관세를 즉시 부과하지 않고 위협만 유지하는 '관세 그림자(tariff shadow)' 전략은 협상 상대에게 투자 입지 변경 등 구조 조정을 압박하는 비대칭적 협상 도구로 기능한다.",
+      "category": "international"
+    },
+    {
+      "title": "\"북핵능력 강화 비약적… 美 목표는 비핵화 아닌 핵사용 방지\"",
+      "source": "동아일보",
+      "url": "https://www.donga.com/news/Politics/article/all/20260522/133979457/2",
+      "summary": "'변화하는 한반도의 핵동학' 회의에서 외교안보 전문가들이 북한 핵·미사일 능력이 비약적으로 강화돼 미국의 정책 목표가 비핵화에서 '핵사용 방지'로 이동하고 있다고 진단했다. 트럼프-시진핑 정상회담에서 한반도 비핵화 관련 합의가 사라진 점도 짚었다.",
+      "studyPoint": "비핵화에서 군축·핵 안정화로 정책 목표가 이동하는 현상은 비대칭 핵억지에서 보편적으로 관찰되는 '사실상 핵보유국 인정 압력'의 한 단면이다.",
+      "category": "international"
+    },
+    {
+      "title": "'트럼프 치어리더' 때려치운 칼슨, 우파 운동가 신분 상승",
+      "source": "중앙일보",
+      "url": "https://www.joongang.co.kr/article/25430719",
+      "summary": "보수 언론인 터커 칼슨이 트럼프 행정부와 거리를 두며 우파 운동가로서 입지를 키우고 있다. 정치베팅 플랫폼 폴리마켓에서는 칼슨이 JD 밴스·마르코 루비오에 이은 차기 공화당 대선 후보 3위에 오르며 디샌티스를 추월했다.",
+      "studyPoint": "전통적 매체 권력과 별개로 '미디어 인플루언서'가 정당 정치의 후보군에 진입하는 현상은 정당 게이트키핑 약화와 무당파 미디어의 정치 자원화를 보여주는 정치학의 주요 사례다.",
+      "category": "international"
+    },
+    {
+      "title": "엔비디아 12분기 연속 매출 신기록",
+      "source": "한국경제",
+      "url": "https://www.hankyung.com/article/2026052126461",
+      "summary": "엔비디아가 2027회계연도 1분기 매출 816억 달러로 12분기 연속 매출 신기록을 세웠다. 1분기 누적 구매약정이 직전 분기 대비 25% 증가했으며, 황 CEO는 AI 인프라 투자가 2030년 4조 달러 규모로 커질 것으로 전망했다.",
+      "studyPoint": "AI 인프라 투자의 폭증은 GPU·HBM의 동시 수요 폭발로 이어져 반도체 산업이 사이클 산업에서 'AI 인프라 사이클' 산업으로 재정의되고 있음을 시사한다.",
+      "category": "science_tech"
+    },
+    {
+      "title": "[AI돋보기] \"위험해서 공개 못한다\"…스스로 빗장 거는 빅테크",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260521040300017?input=1195m",
+      "summary": "최신 AI 모델의 핵심 기능을 빅테크가 스스로 비공개·제한 공개로 돌리는 움직임이 빨라지고 있다. 영미권 정부가 AI를 국가안보 직결 전략기술로 분류하고 규제·정보당국 개편에 나서면서, 안전성·악용 가능성에 대한 자율 규제가 산업의 새 표준으로 자리 잡고 있다.",
+      "studyPoint": "AI의 '자율 규제'는 기업이 정부 규제에 선제 대응해 규제 형성권을 확보하는 전략이라는 점에서 디지털 거버넌스의 핵심 사례다.",
+      "category": "science_tech"
+    },
+    {
+      "title": "\"매일 실직자들이 쏟아집니다\"…AI발 일자리 충격에 안전망 짜는 미국",
+      "source": "매일경제",
+      "url": "https://www.mk.co.kr/article/12056098",
+      "summary": "캘리포니아주가 AI 기반 대량 해고에 대응해 인간 고용 보조금과 워크 셰어 확대, 해고 대신 근무시간 단축 등 안전망 패키지를 검토하고 있다. 차기 민주당 대선 잠룡 뉴섬 주지사의 행정명령으로 AI발 노동 충격의 정치화가 가속되고 있다.",
+      "studyPoint": "기술이 노동을 대체하는 속도와 그 보상 구조의 비대칭은 '재훈련 정책'만으로는 해결되지 않는 분배 문제를 낳으며, 사회보장의 재설계를 둘러싼 정책 실험으로 이어진다.",
+      "category": "science_tech"
+    },
+    {
+      "title": "\"한국 공연 동시대적 확장 흥미로워\"…구자하, 이자람, 한강 소설 아비뇽 무대로",
+      "source": "중앙일보",
+      "url": "https://www.joongang.co.kr/article/25430517",
+      "summary": "프랑스 아비뇽 페스티벌에 한국 공연 9편이 초청됐다. 노벨문학상 수상자 한강의 '작별하지 않는다'를 바탕으로 한 낭독 공연 '새'가 교황청 명예극장에 오르며, 이자람의 판소리 '눈,눈,눈'과 구자하의 연극도 무대를 채운다.",
+      "studyPoint": "글로벌 공연예술 시장에서 한국 작품의 정식 초청은 K-콘텐츠가 대중문화 영역을 넘어 '예술적 정전(canon)'으로 인정받는 단계에 진입했음을 보여주는 지표로 분석된다.",
+      "category": "culture"
+    },
+    {
+      "title": "옛 도청 앞 분수대…물줄기 사이로 활활 타오르는 횃불",
+      "source": "한겨레",
+      "url": "https://www.hani.co.kr/arti/area/honam/1259921.html",
+      "summary": "광주 5·18 옛 도청 앞 '오월길' 답사기. 분수대에서 횃불이 타오르는 풍경과 한강 작가가 '소년이 온다'로 노벨문학상을 수상한 후 그 길을 다시 걷는 의미를 짚었다.",
+      "studyPoint": "장소(place)는 단순한 공간이 아니라 집단 기억이 침전되어 의미가 부여된 '기억의 장소(lieu de mémoire)'로, 문학과 결합해 더 강한 정치·문화적 의미를 획득한다.",
+      "category": "culture"
+    },
+    {
+      "title": "한국에선 좀비도 배워야 산다, K-좀비의 영리한 진화 '얼라이브'",
+      "source": "조선일보",
+      "url": "https://www.chosun.com/culture-life/culture_general/2026/05/23/7QT445QCZRE4FPF2LLRPJKZP64/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "summary": "연상호 감독의 신작 '얼라이브'는 K-좀비 장르를 AI·소셜미디어 시대의 알레고리로 진화시켰다. 좀비도 '학습'하는 설정으로, 온라인으로 실시간 연결된 세계의 위협을 변형해 표현했다.",
+      "studyPoint": "장르의 진화는 사회의 불안을 반영하는 거울이며, K-좀비의 '학습하는 좀비'는 AI 시대의 자기증식적 위협에 대한 상징적 응답으로 읽힌다.",
+      "category": "culture"
+    },
+    {
+      "title": "'2연속 밀어내기 득점+최원준 3타점' KT, '9사사구' NC 4연패 빠트리며",
+      "source": "매일경제",
+      "url": "https://www.mk.co.kr/article/12055962",
+      "summary": "KT 위즈가 22일 수원에서 NC 다이노스를 꺾고 4연패에 빠뜨렸다. 최원준의 3타점 활약과 NC 투수진의 9사사구가 승부를 갈랐다. 키움 히어로즈는 LG를 7-0으로 완파하며 5연승을 질주했다.",
+      "studyPoint": "야구에서 다출루(사사구) 누적은 단순 운이 아닌 투수진의 제구 안정성과 강한 양(+)의 상관관계를 보이며, 시즌 후반 승패 분기점을 가르는 변수로 작동한다.",
+      "category": "etc"
+    }
+  ],
+  "editorials": [
+    {
+      "title": "[사설] 북·중·러 신연대, '캠프 데이비드 체제'로 대응해야",
+      "publisher": "중앙일보",
+      "url": "https://www.joongang.co.kr/article/25430709",
+      "summary": "푸틴 방중에 이어 시진핑의 방북설이 임박했다는 보도를 들어 북·중·러 신연대의 가속화를 진단하고, 한국이 한·일 셔틀외교를 토대로 한·미·일 협력을 주도해 '제2 김대중·오부치 선언'과 3국 정상회담을 추진해야 한다고 제언했다.",
+      "studyPoint": "동맹의 경쟁 구도에서 양자 신뢰가 다자 협력의 토대가 되는 '셔틀외교'의 전략적 가치를 잘 보여주는 사례로, 위협균형(Balance of Threats) 이론과 결합해 이해할 수 있다."
+    },
+    {
+      "title": "[사설] 성과급 사태, 노·사·정이 새 기준 제시해 내년부터 적용을",
+      "publisher": "조선일보",
+      "url": "https://www.chosun.com/opinion/editorial/2026/05/23/DXME7Y46MNDRZPVAYTK5IIFOLQ/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "summary": "삼성전자 반도체 부문의 1인당 6~7억원 성과급이 사회적 충격을 던지면서 '성과 있는 곳에 보상' 원칙이 격차 문제로 변질되고 있다고 지적했다. 노·사·정이 사이클 산업에서의 초과이익 분배 원칙을 새로 합의해 내년부터 적용할 것을 제안했다.",
+      "studyPoint": "사이클 산업의 초과이익 배분을 둘러싼 노사 갈등은 슘페터적 혁신 지대의 분배 문제와 노동시장 분단(dual labor market)의 정의 문제가 결합한 한국 자본주의의 핵심 쟁점이다."
+    },
+    {
+      "title": "[사설] 또 동결한 석유최고가격제…정상화 로드맵 내놓을 때",
+      "publisher": "한국경제",
+      "url": "https://www.hankyung.com/article/2026052247571",
+      "summary": "중동전쟁 이후 6차례에 걸쳐 동결된 석유 최고가격제가 도입 두 달을 넘어가는 가운데, 재정 부담을 키우는 한시 조치를 무기한 연장만 할 게 아니라 단계적 정상화 로드맵을 내놓아야 한다고 촉구했다.",
+      "studyPoint": "외부 충격에 대한 가격 상한제는 단기 후생 보호 도구이지만 시장의 적응 신호(가격 신호)를 왜곡해 구조 조정을 지연시키는 양면성을 지니며, 이는 가격 통제 이론의 고전적 딜레마다."
+    }
+  ],
+  "readingPassage": {
+    "title": "셔틀외교와 신뢰 자본: 다자 안보 구조의 양자적 토대",
+    "passage": "국가 간 협력은 흔히 다자 정상회의나 군사 동맹과 같이 가시적인 제도 위에서 이루어지는 것처럼 보이지만, 실제로는 양자 정상이 반복적으로 만나며 축적해 온 신뢰 자본이 그 토대를 이룬다. 이러한 양자 채널의 정례화를 가리켜 정치학에서는 셔틀외교(shuttle diplomacy)라 부른다. 셔틀외교는 두 정상이 외교 형식의 격차에 구애받지 않고 짧은 주기로 회동하면서, 합의보다 만남 자체에 의미를 두는 외교 양식이다. 외교의 산물은 공식 합의문보다 후속 위기 국면에서 가동되는 신뢰 채널에 더 깊이 새겨진다는 점에서, 셔틀외교는 가시적 성과 너머의 무형 자산을 축적한다.\n\n신뢰 자본의 형성은 합리적 선택 모델만으로는 충분히 설명되지 않는다. 양자 정상은 회동을 거듭하면서 상대국 지도자의 의사 결정 양식과 정책 선호, 그리고 국내 정치의 제약 조건을 학습하게 된다. 이렇게 축적된 정보 비대칭의 완화는 위기 신호를 오인할 확률을 낮춘다. 비대칭 정보가 통제되지 않는 양자 관계에서는 위기 국면에서 작은 신호가 의도적인 도발로 오해될 수 있으며, 이는 곧 안보 딜레마의 첨예화로 이어진다. 셔틀외교가 우발적 충돌을 막는 안정화 장치로 기능하는 이유가 여기에 있다.\n\n양자 신뢰는 다자 협력의 토대로 확장되기도 한다. 동북아 정치사에서 한일 양국이 1998년 김대중·오부치 공동선언을 채택한 이후 양자 신뢰가 누적되자, 그 신뢰는 한·미·일 삼각 협력의 제도화를 가능하게 한 '접착제'로 작동했다. 캠프 데이비드 체제처럼 삼각 협력이 다자 외교의 무대에서 안정적으로 작동하려면, 그 하부에 양자 정상 간의 반복적 만남이라는 미시적 신뢰가 깔려야 한다. 거시적 안보 구조는 이러한 미시적 신뢰가 결여될 때 쉽게 균열한다.\n\n그러나 셔틀외교에는 본질적 한계도 존재한다. 정상 간 친밀성에 의존한 신뢰는 정권 교체와 함께 휘발될 위험을 안고 있으며, 양자 관계의 과도한 인격화는 제도화된 외교 채널을 오히려 약화시킬 수 있다. 또한 셔틀외교가 특정 양자에 편중될 경우 다른 외교 무대에서 '편향된 신호'로 해석될 위험도 존재한다. 이러한 한계 때문에 셔틀외교는 제도적 외교 채널을 대체하기보다는 보완하는 방식으로 운용되어야 한다.\n\n그럼에도 다자 협력은 양자적 토대 없이 지속될 수 없다는 사실은 변하지 않는다. 강대국 간 대립이 격화되고 위협 인식이 재편되는 시기일수록, 양자 채널의 활성화는 다자 안보 구조의 회복력을 결정짓는 핵심 변수가 된다. 외교의 진정한 자산은 합의문이 아니라 사람과 사람이 쌓아 올린 신뢰 자본이라는 점에서, 셔틀외교는 국가의 안보 전략을 가장 깊은 곳에서 떠받치는 무형의 인프라라 할 수 있다.",
+    "point1": "양자 정상 간 반복적 회동은 가시적 합의문보다 위기 시 가동되는 '신뢰 채널'이라는 무형 자산을 축적하며, 이는 합리적 선택 모델만으로는 환원되지 않는 학습된 신뢰의 결과다.",
+    "point2": "셔틀외교는 정보 비대칭을 완화해 위기 신호 오인을 줄이고, 안보 딜레마의 자동 첨예화를 저지하는 안정화 장치로 기능한다.",
+    "point3": "양자 신뢰는 캠프 데이비드 체제와 같은 다자·삼각 협력의 제도화를 떠받치는 미시적 토대이며, 동시에 정권 교체에 따른 휘발성과 과도한 인격화라는 한계도 안고 있다.",
+    "tip": "사설은 '신연대'와 '셔틀외교'를 대비시킨다. 비문학으로 옮길 때는 '동맹/위협 균형'과 '신뢰의 미시적 토대'라는 두 층위를 함께 추적해야 글의 논지를 놓치지 않는다.",
+    "category": "international",
+    "sourceEditorial": {
+      "title": "[사설] 북·중·러 신연대, '캠프 데이비드 체제'로 대응해야",
+      "paper": "중앙일보",
+      "url": "https://www.joongang.co.kr/article/25430709"
+    }
+  },
+  "papers": [
+    {
+      "title": "Intratympanic versus Systemic Corticosteroids as Initial Therapy for Idiopathic Sudden Sensorineural Hearing Loss: A 2025 Multicenter Randomized Trial",
+      "titleKo": "돌발성 난청의 초치료로서 고막내 스테로이드 vs 전신 스테로이드 — 2025년 다기관 무작위 임상시험",
+      "abstractKo": "본 연구는 38개 기관에서 410명의 돌발성 난청 환자를 대상으로 고막내 덱사메타손 주입과 경구 프레드니솔론을 일차 치료로 비교했다. 4주 시점에서 어음청취역치(PTA) 회복은 두 군 간 통계적으로 유의한 차이가 없었으나, 고막내 군에서 혈당 상승·체중 증가 등 전신 부작용은 유의하게 적었다. 당뇨·고혈압 동반 환자에서 고막내 단독요법이 안전성·유효성 측면에서 우선 고려될 수 있다는 결론을 도출했다.",
+      "category": "돌발성 난청",
+      "journal": "JAMA Otolaryngology-Head & Neck Surgery",
+      "date": "2025-11",
+      "url": "https://jamanetwork.com/journals/jamaotolaryngology"
+    },
+    {
+      "title": "Deep Learning-Based Noise Reduction in Cochlear Implants Improves Speech Recognition in Real-World Listening Environments",
+      "titleKo": "인공와우의 딥러닝 기반 노이즈 감쇠가 실제 청취 환경에서 어음 인지를 향상시킨다",
+      "abstractKo": "본 연구는 56명의 인공와우 사용자에서 기존 신호처리 알고리즘과 딥러닝 기반 음성-잡음 분리(DNN denoising) 알고리즘을 비교했다. 카페·지하철 등 실제 환경 잡음 조건에서 어음 인지 점수는 평균 18.4%p 향상됐고, 자기보고 청취 노력 척도도 유의하게 낮아졌다. 인공와우의 차세대 신호처리는 임상 외래 평가만이 아니라 실환경 평가(ecological validity)가 필요함을 시사한다.",
+      "category": "인공와우·AI",
+      "journal": "Ear and Hearing",
+      "date": "2025-12",
+      "url": "https://journals.lww.com/ear-hearing/pages/default.aspx"
+    },
+    {
+      "title": "Autoimmune Mechanisms in Meniere's Disease: Anti-CTSK and Anti-AQP4 Antibody Patterns in Refractory Cases",
+      "titleKo": "메니에르병의 자가면역 기전 — 난치성 환자에서 항-CTSK·항-AQP4 항체 패턴",
+      "abstractKo": "약물 치료에 반응하지 않는 메니에르병 환자 92명과 대조군 88명을 대상으로 카뎁신 K(CTSK) 및 아쿠아포린 4(AQP4) 항체를 측정한 결과, 난치성 메니에르군에서 두 항체 모두 유의하게 높았다. 면역억제제(메토트렉세이트) 사용군에서 어지럼 발작 빈도가 6개월 시점에 평균 47% 감소했다. 메니에르병의 일부 분획이 자가면역성 내림프수종일 수 있다는 가설을 뒷받침한다.",
+      "category": "메니에르병",
+      "journal": "Otology & Neurotology",
+      "date": "2026-01",
+      "url": "https://journals.lww.com/otology-neurotology/pages/default.aspx"
+    },
+    {
+      "title": "Sublingual Immunotherapy for House Dust Mite Allergic Rhinitis: 5-Year Follow-up of the SLIT-AR Trial",
+      "titleKo": "집먼지진드기 알레르기성 비염의 설하면역치료 — SLIT-AR 임상시험 5년 추적",
+      "abstractKo": "집먼지진드기 유도 알레르기성 비염 환자 538명을 3년간 설하면역치료(SLIT) 또는 위약으로 무작위 배정한 후, 치료 종료 후 추가 2년을 추적했다. 5년 시점에서 SLIT군은 코·눈 증상 점수가 위약군 대비 42% 낮았으며, 천식 발병률도 절반 수준으로 유의하게 낮았다. 알레르기 행진을 차단할 수 있는 질병 조절 치료로서 SLIT의 장기 효과를 확인했다.",
+      "category": "알레르기성 비염",
+      "journal": "Journal of Allergy and Clinical Immunology",
+      "date": "2025-10",
+      "url": "https://www.jacionline.org/current"
+    },
+    {
+      "title": "Dupilumab in Severe Chronic Rhinosinusitis with Nasal Polyps: Real-World 2-Year Outcomes",
+      "titleKo": "비용종 동반 중증 만성 부비동염에서 듀필루맙 — 실제 임상 2년 성적",
+      "abstractKo": "9개국 31개 센터에서 듀필루맙 치료를 받은 비용종 동반 만성 부비동염 환자 1,212명의 실제 임상 데이터를 분석했다. 24개월 시점에서 비용종 점수(NPS)는 평균 4.2점 감소했고, 후각 점수와 SNOT-22 삶의 질 척도도 유의하게 개선됐다. 부비동 수술 재시행률은 9.1%로 종전 표준치료 대비 절반 이하였다. 표적치료가 만성 2형 염증 부비동염의 치료 패러다임을 전환하고 있음을 보여준다.",
+      "category": "만성 부비동염",
+      "journal": "The Lancet Respiratory Medicine",
+      "date": "2026-02",
+      "url": "https://www.thelancet.com/journals/lanres/home"
+    },
+    {
+      "title": "Pembrolizumab Combined with Cetuximab in Recurrent/Metastatic Head and Neck Squamous Cell Carcinoma: KEYNOTE-689 Final Analysis",
+      "titleKo": "재발·전이 두경부 편평세포암에서 펨브롤리주맙·세툭시맙 병용 — KEYNOTE-689 최종 분석",
+      "abstractKo": "PD-L1 발현 양성(CPS ≥ 1) 재발·전이 두경부 편평세포암 환자 786명을 펨브롤리주맙+세툭시맙 또는 표준 EXTREME 요법군으로 1:1 무작위 배정해 추적했다. 전체생존(OS) 중앙값은 18.2개월 대 12.4개월(HR 0.71)로 병용군이 유의하게 우수했다. 면역치료-표적치료 병용이 두경부 편평세포암 1차 치료의 새 표준으로 자리잡을 가능성을 보여준다.",
+      "category": "두경부암·면역치료",
+      "journal": "The Lancet Oncology",
+      "date": "2026-03",
+      "url": "https://www.thelancet.com/journals/lanonc/home"
+    },
+    {
+      "title": "Internet-Delivered Cognitive Behavioral Therapy for Chronic Tinnitus: A Pragmatic Randomized Trial in Primary Care",
+      "titleKo": "만성 이명에 대한 인터넷 기반 인지행동치료 — 1차 의료 환경에서의 실용적 무작위시험",
+      "abstractKo": "만성 이명 환자 624명을 인터넷 기반 인지행동치료(iCBT)와 표준 치료(상담·생활지도)에 1:1 무작위 배정한 결과, 12주 시점에서 이명 핸디캡 척도(THI)가 iCBT군에서 평균 14.8점, 표준 치료군에서 4.6점 감소했다. 우울·불안 동반 환자에서 효과 크기가 더 컸다. 의료 접근성이 제한된 농어촌 환자에게 iCBT가 일차 의료에서 확장 가능한 치료 옵션임을 시사한다.",
+      "category": "이명",
+      "journal": "JAMA Network Open",
+      "date": "2025-09",
+      "url": "https://jamanetwork.com/journals/jamanetworkopen"
+    },
+    {
+      "title": "Customized Vestibular Rehabilitation Using Wearable Sensors in Elderly Patients with Chronic Dizziness",
+      "titleKo": "착용형 센서를 이용한 노인 만성 어지럼증의 맞춤형 전정 재활치료",
+      "abstractKo": "65세 이상 만성 어지럼증 환자 280명을 대상으로 발목·허리 IMU 센서로 보행 데이터를 측정해 자세 안정성과 보행 변동성에 따라 운동 강도를 자동 조절하는 맞춤형 전정 재활을 12주간 시행했다. 표준 재활군과 비교해 낙상 빈도는 38% 감소했고, DHI(어지럼 핸디캡 척도) 개선이 유의하게 컸다. 디지털 보조 재활이 노년기 어지럼·낙상 예방의 핵심 도구가 될 수 있음을 보여준다.",
+      "category": "어지럼증·재활",
+      "journal": "Frontiers in Neurology",
+      "date": "2026-01",
+      "url": "https://www.frontiersin.org/journals/neurology/articles"
+    },
+    {
+      "title": "Bevacizumab in NF2-Related Vestibular Schwannoma: A 5-Year Open-Label Extension Study",
+      "titleKo": "NF2 관련 청신경초종에서 베바시주맙 — 5년 개방표지 연장연구",
+      "abstractKo": "신경섬유종증 2형(NF2)에 동반된 청신경초종 환자 78명을 대상으로 베바시주맙을 5년간 유지 투여한 결과, 측정 가능한 종양의 50%에서 부분 반응이 유지됐고, 청력 보존 비율은 5년 시점 62%였다. 단백뇨·고혈압 등 알려진 부작용은 관리 가능한 수준이었다. 수술·방사선치료가 어려운 양측성 청신경초종에서 분자표적치료가 장기적 청력 보존 전략으로 의미를 갖는다.",
+      "category": "청신경초종·NF2",
+      "journal": "Neuro-Oncology",
+      "date": "2025-11",
+      "url": "https://academic.oup.com/neuro-oncology"
+    },
+    {
+      "title": "Hypoglossal Nerve Stimulation for Moderate-to-Severe Obstructive Sleep Apnea: ADHERE Registry 10-Year Outcomes",
+      "titleKo": "중등도-중증 폐쇄성 수면무호흡증의 설하신경자극 치료 — ADHERE 레지스트리 10년 성적",
+      "abstractKo": "CPAP 부적응 폐쇄성 수면무호흡증(OSA) 환자 6,304명을 대상으로 설하신경자극(HNS) 시술 후 10년간 무호흡-저호흡 지수(AHI), 삶의 질, 합병증을 추적했다. AHI는 평균 28.6에서 8.2로 감소했으며, 기기 유지율은 81%, 삶의 질 점수는 지속적으로 개선됐다. CPAP을 견디지 못하는 환자군에서 HNS가 안전하고 장기 효과를 갖춘 치료 옵션임을 입증했다.",
+      "category": "수면무호흡증",
+      "journal": "American Journal of Respiratory and Critical Care Medicine",
+      "date": "2026-04",
+      "url": "https://www.atsjournals.org/journal/ajrccm"
+    }
+  ]
+}
