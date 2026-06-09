@@ -1,286 +1,286 @@
 {
-  "date": "2026-06-09",
+  "date": "2026년 6월 10일 수요일",
   "news": [
     {
-      "title": "강성당원 업은 정청래, 李 지원 받는 김민석… 8·17 전당대회 격돌",
-      "source": "조선일보",
-      "url": "https://www.chosun.com/politics/politics_general/2026/06/09/PVTVOJTVWBHURKZ27Z22CSKICQ/",
-      "summary": "6·3 지방선거 이후 더불어민주당이 8월 17일 전당대회를 통해 차기 당대표를 선출하기로 하면서 당권 경쟁이 본격화했다. 연임에 도전하는 정청래 대표를 향해 지선 책임론이 제기되는 가운데, 총리직 사의를 밝힌 김민석 국무총리가 대통령의 신임을 업고 유력 주자로 부상했고 송영길 전 대표까지 가세해 3파전 구도가 형성됐다.",
-      "studyPoint": "집권당의 당내 권력 경쟁은 선거 결과 책임론과 맞물려 계파 갈등으로 번지기 쉽다. 정당의 리더십 교체 과정은 민심·당심·대권 구도가 교차하는 정치적 동학을 보여준다.",
-      "category": "politics"
-    },
-    {
-      "title": "초격차 산업 강국 등 집권 2년차 4대 국정목표 제시",
-      "source": "동아일보",
-      "url": "https://www.donga.com/news/Politics/article/all/20260609/134073620/2",
-      "summary": "이재명 대통령이 취임 1주년 기자회견에서 집권 2년차 4대 국정목표를 제시했다. 초격차 산업 강국 도약, 주가조작·부동산·민생 범죄 엄단을 통한 ‘비정상의 정상화’, 금융·복지·노동·의료·치안·재해 전 분야에서 국민 생명·안전을 최우선하는 시스템 구축 등을 약속했다.",
-      "studyPoint": "대통령의 국정 기조 발표는 임기 중반 정책 우선순위와 방향을 가늠하는 지표다. 산업 경쟁력, 법질서, 사회 안전망이라는 축은 성장과 분배·안전의 균형 문제와 연결된다.",
-      "category": "politics"
-    },
-    {
-      "title": "[송호근의 세사필담] 진보, 10년은 더 간다",
-      "source": "중앙일보",
-      "url": "https://www.joongang.co.kr/article/25435016",
-      "summary": "사회학자 송호근 교수가 칼럼을 통해 이재명 정부 1년의 정책 성과를 진단했다. 그는 막스 베버의 정치 분석을 빌려, 집권 진보 세력이 분배·노동시장·복지 정책에서 진보다운 개혁을 임기 첫해에 충분히 선보이지 못했다는 점을 비판적으로 짚었다.",
-      "studyPoint": "정치 칼럼은 특정 정파의 노선을 사회과학 이론으로 해석한다. 이념 진영의 장기 집권 가능성은 정책 성과와 사회 구조 변화에 대한 분석을 통해 평가된다.",
-      "category": "politics"
-    },
-    {
-      "title": "“삼전닉스 끝난 거 아니냐” 공포…전문가 “비중 늘릴 기회”",
-      "source": "한국경제",
-      "url": "https://www.hankyung.com/article/2026060841141",
-      "summary": "미국 증시 급락과 금리·물가 우려로 삼성전자·SK하이닉스 등 반도체주가 급락하자 시장에 ‘AI 랠리 종료’ 공포가 번졌다. 다만 주요 증권사 리서치 수장 8명을 대상으로 한 긴급 설문에서 전문가들은 대세 하락이 아니라 비중을 늘릴 기회라는 견해를 내놨다.",
-      "studyPoint": "주가 급락 국면에서 전문가 전망은 엇갈리며, 단기 변동성과 중장기 펀더멘털을 구분하는 시각이 중요하다. 반도체 업황과 거시 변수(금리·물가)의 상호작용이 증시를 좌우한다.",
-      "category": "economy"
-    },
-    {
-      "title": "기술주 반등에 나스닥 0.9%↑…다우는 소폭 하락",
-      "source": "연합뉴스",
-      "url": "https://www.yna.co.kr/view/AKR20260609007451072",
-      "summary": "전날 급락했던 미국 뉴욕증시가 기술주 반등에 힘입어 나스닥지수는 0.9% 올랐으나 다우지수는 소폭 하락하며 혼조세를 보였다. 예상보다 강한 고용지표로 연내 기준금리 인하 기대가 후퇴한 가운데, 일부 투자은행은 견조한 경제 여건을 들어 강세장 지속 가능성을 제시했다.",
-      "studyPoint": "고용지표 호조는 경기 견조함을 의미하는 동시에 금리 인하 지연 요인이 되어 증시에 양면적으로 작용한다. 거시지표와 통화정책 기대의 상호작용을 이해하는 사례다.",
-      "category": "economy"
-    },
-    {
-      "title": "증시 시총 하루 600조 사라진 날… ‘30만전자·200만닉스’ 깨져",
-      "source": "동아일보",
-      "url": "https://www.donga.com/news/Economy/article/all/20260609/134073923/2",
-      "summary": "미국 반도체주 급락 여파로 국내 증시가 하루 만에 시가총액 약 600조원이 증발하며 삼성전자 30만원·SK하이닉스 200만원 선이 무너졌다. 강한 고용지표로 미국의 기준금리 인상 가능성이 부각되면서 미국채 10년물 금리도 상승했다.",
-      "studyPoint": "글로벌 증시는 미국 통화정책 전망에 동조화돼 움직인다. 시가총액 급감과 금리 상승의 연동은 자산시장과 거시정책의 긴밀한 연결을 보여준다.",
-      "category": "economy"
-    },
-    {
-      "title": "[단독] 근로복지공단 산재소송 5건 중 1건은 패소…보수적 산재 인정",
+      "title": "“이젠 반반이라 보면 되지예” 대구도 놀란 김부겸의 패배",
       "source": "한겨레",
-      "url": "https://www.hani.co.kr/arti/society/labor/1262552.html",
-      "summary": "근로복지공단이 산업재해 인정을 둘러싼 소송에서 5건 중 1건꼴로 패소하고, 패소 원인의 절반 이상이 ‘법령 해석 차이’인 것으로 나타났다. 법원이 산재보험의 사회보장적 성격을 고려해 규범적·종합적으로 판단하는 반면 공단은 보수적으로 인정해 산재 노동자·유가족의 고통이 가중된다는 지적이 나온다.",
-      "studyPoint": "산재보험은 사회보장 제도로서 법 해석의 폭이 노동자 권리에 직결된다. 행정기관의 보수적 판단과 사법부의 규범적 해석 사이 간극은 제도 운영의 핵심 쟁점이다.",
-      "category": "society"
+      "url": "https://www.hani.co.kr/arti/politics/politics_general/1262742.html",
+      "summary": "6·3 지방선거에서 민주당 외연 확장의 상징이던 김부겸 전 총리가 대구에서 패배하며, 지역 표심이 ‘조작기소 특검법’과 스타벅스 사태 등 여권의 권력 운용에 대한 거부감으로 균형·견제 심리를 드러냈다는 분석이 나온다.",
+      "studyPoint": "지역주의 완화와 회고적 투표가 교차하는 한국 정치의 이중성. 텃밭의 균열은 정당 일체감보다 정책·태도 평가가 표심을 움직이는 정렬 변화의 신호로 읽힌다.",
+      "category": "politics"
     },
     {
-      "title": "[삶] “내 결혼식서 율동하라…연습 중 동작 틀린 시설 아이 밥 금지”",
+      "title": "국힘, 오늘 신임 원내대표 선출…김도읍·정점식·성일종 3파전",
       "source": "연합뉴스",
-      "url": "https://www.yna.co.kr/view/AKR20260608101000546",
-      "summary": "한 사회복지시설에서 자란 피해자가 시설 내 강제 노동과 인권 침해 실태를 증언했다. 시설 운영과 지방자치단체 감독의 구조적 문제가 드러나면서, 보호가 필요한 아동에 대한 돌봄이 오히려 착취로 이어진 사례로 지적된다.",
-      "studyPoint": "아동복지시설은 공적 돌봄의 영역이지만 폐쇄적 운영과 감독 공백 속에서 인권 침해가 발생할 수 있다. 사회적 약자 보호 체계의 책임성과 투명성이 과제다.",
-      "category": "society"
+      "url": "https://www.yna.co.kr/view/AKR20260609163200001",
+      "summary": "국민의힘이 지방선거 후 첫 원내사령탑을 선출한다. 신임 원내대표는 선관위 투표용지 부족 사태 국정조사·특검, 형사소송법 개정의 검찰 보완수사권 존치 등 대여 협상을 곧바로 이끌게 된다.",
+      "studyPoint": "원내대표는 의회 내 교섭과 의사일정을 좌우하는 핵심 행위자. 소수 야당의 협상력은 의석수의 열세를 절차적 지렛대로 보완하는 데서 나온다.",
+      "category": "politics"
     },
     {
-      "title": "무료 요가·운동교실 확대… 생활체육, 더 촘촘해진다",
-      "source": "동아일보",
-      "url": "https://www.donga.com/news/Society/article/all/20260609/134072675/2",
-      "summary": "지방자치단체들이 무료 요가·운동교실과 초등학교 순회지도 등 생활체육 프로그램을 확대하고 있다. 생계·의료·주거·교육급여 수급가구와 차상위계층 아동·청소년, 장애인 등 취약계층을 대상으로 수강료를 지원해 체육 향유의 사각지대를 줄이려는 시도다.",
-      "studyPoint": "생활체육은 건강 형평성과 사회복지가 만나는 지점이다. 공공이 체육 접근성을 보장하는 정책은 여가의 공공재적 성격과 복지의 확장을 보여준다.",
-      "category": "society"
+      "title": "[단독] 사라진 ‘신 합수부 운영 계획’…방첩사, ‘계엄 지침서’ 증거인멸 의혹",
+      "source": "경향신문",
+      "url": "https://www.khan.co.kr/article/202606100600131",
+      "summary": "종합특검이 12·3 내란 대비용으로 의심해온 방첩사 매뉴얼이 삭제된 정황을 포착, 내란 이후 관련 증거를 조직적으로 은폐했을 가능성을 열어두고 수사 중이라고 보도했다.",
+      "studyPoint": "권력기관의 문서 관리와 증거인멸은 책임성(accountability)의 핵심 쟁점. 기록의 보존은 사후 통제와 법치의 전제 조건이다.",
+      "category": "politics"
     },
     {
-      "title": "시진핑, 北 비핵화 언급 없었다",
+      "title": "對美 투자, 원리금 회수할 수 있는 사업에 한정",
       "source": "조선일보",
-      "url": "https://www.chosun.com/international/international_general/2026/06/09/CHR2JXIOE5BOVBLITHKLEMTQTY/",
-      "summary": "7년 만에 북한을 국빈 방문한 시진핑 중국 국가주석이 김정은 국무위원장과의 정상회담에서 한반도 비핵화를 공개적으로 언급하지 않았다. 2019년 방북 때 ‘비핵화 건설적 역할’을 거론했던 것과 대비되며, 중국이 북한을 국제 정세 변화 속 전략적 파트너로 삼으려는 기류가 읽힌다.",
-      "studyPoint": "강대국의 외교적 발언에서 무엇을 말하고 무엇을 생략하는지는 정책 변화의 신호다. 비핵화 언급의 부재는 북·중 관계 재편과 한반도 안보 지형 변화를 시사한다.",
-      "category": "international"
+      "url": "https://www.chosun.com/economy/economy_general/2026/06/10/HEBEILSGWNEFDMOFHPJILTPPGE/",
+      "summary": "정부가 대규모 대미 투자 프로젝트를 투자위험 가산금리까지 감안해 원리금을 회수할 수 있는 사업으로 제한하기로 했다. 1450원대였던 환율이 더 오른 고환율 부담도 변수로 지적됐다.",
+      "studyPoint": "국가 간 투자는 수익성과 환위험을 함께 따져야 한다. 환율 상승은 외화표시 투자비용을 키워 재정 건전성에 부담을 준다.",
+      "category": "economy"
     },
     {
-      "title": "시진핑, 7년 만의 국빈 방북 마무리…우의탑 참배 후 귀국",
+      "title": "금감원 “은행, 달러예금 마케팅 자제를” 당부",
+      "source": "동아일보",
+      "url": "https://www.donga.com/news/Economy/article/all/20260609/134079935/2",
+      "summary": "원·달러 환율 급등 국면에서 금융감독원이 은행권에 달러예금 유치 마케팅 자제를 당부했다. 기업은행 등은 환변동으로 자금난을 겪는 수출입 중소기업 금리를 최대 1%포인트 인하한다.",
+      "studyPoint": "환율 급등기에 달러 수요가 쏠리면 원화 약세가 가속된다. 당국의 구두개입과 미시 규제는 시장의 기대 심리를 관리하는 정책 수단이다.",
+      "category": "economy"
+    },
+    {
+      "title": "명목성장 10% 착시…3고의 조용한 수탈 [더롱뷰]",
       "source": "중앙일보",
-      "url": "https://www.joongang.co.kr/article/25435056",
-      "summary": "1박 2일 일정으로 북한을 국빈 방문한 시진핑 주석이 우의탑 참배를 끝으로 귀국길에 올랐다. 그는 정상회담에서 국경 통상구 전면 재개통, 민항 항공편과 국제 여객열차 운행 재개를 제안하며 인적 교류 확대 등 전방위 북·중 협력 복원을 강조했다.",
-      "studyPoint": "정상 간 합의의 구체적 항목(교통·인적 교류 재개)은 양국 관계의 실질적 밀착 수준을 보여준다. 국빈 방문의 의례와 합의 내용을 함께 읽어야 외교의 방향을 가늠할 수 있다.",
-      "category": "international"
+      "url": "https://www.joongang.co.kr/article/25435422",
+      "summary": "반도체 실적이 끌어올린 명목성장률 이면에서 고물가·고금리·고환율의 ‘3고’가 가계 실질소득을 잠식한다는 진단. OECD 전망의 이례적 수치를 근거로 성장 착시를 경계했다.",
+      "studyPoint": "명목지표와 실질지표의 괴리. 인플레이션은 명시적 세금 없이 구매력을 이전시키는 ‘조용한 수탈’로 작동할 수 있다.",
+      "category": "economy"
     },
     {
-      "title": "시진핑, 두 번째 국빈 방북 마무리…“무역·농업 등 협력 확대”",
-      "source": "연합뉴스",
-      "url": "https://www.yna.co.kr/view/AKR20260608179300504",
-      "summary": "시진핑 주석은 이번 방북에서 무역·농업 등 분야의 협력 확대를 약속하며 김정은 위원장과 북·중 전략적 협력 강화에 합의했다. 외신들은 이번 방북이 우호 과시를 넘어 러시아와 밀착해 온 북한에 대한 중국의 영향력 재확립 시도라고 평가했다.",
-      "studyPoint": "같은 사건도 행위자의 의도에 대한 해석이 갈린다. 북·중·러 삼각 구도에서 중국의 행보를 영향력 경쟁의 관점으로 보는 외신 분석은 진영 정치의 복합성을 드러낸다.",
-      "category": "international"
+      "title": "국민 70% “대형병원 쏠림 줄여야”…이용 제한엔 찬반 ‘팽팽’",
+      "source": "경향신문",
+      "url": "https://www.khan.co.kr/article/202606092100005",
+      "summary": "국민 70%가 상급종합병원 쏠림을 줄여야 한다고 답했지만, 이용 제한 정책에는 찬반이 팽팽했다. 의원의 질 개선과 진료협력 강화가 정책 수용성의 전제로 제시됐다.",
+      "studyPoint": "의료전달체계는 한정된 자원의 배분 문제다. 규제의 수용성은 대체 선택지의 신뢰도가 뒷받침될 때 높아진다.",
+      "category": "society"
     },
     {
-      "title": "반도체-로봇-데이터센터까지 ‘엔비디아 동맹’",
-      "source": "동아일보",
-      "url": "https://www.donga.com/news/Economy/article/all/20260608/134072941/2",
-      "summary": "젠슨 황 엔비디아 CEO가 방한해 삼성전자·SK·현대차·LG 등과 반도체·로봇·데이터센터를 아우르는 협력을 논의했다. 전북 새만금에 ‘AI 밸리’ 조성과 데이터센터 건설 구상이 나오는 등 메모리 공급을 넘어 피지컬 AI·인프라로 협력 범위가 확장됐다.",
-      "studyPoint": "글로벌 AI 기업과의 협력은 한 국가의 산업 생태계 전반을 재편한다. 반도체·로봇·인프라를 잇는 가치사슬 통합은 기술 패권 시대의 산업 전략을 보여준다.",
-      "category": "science_tech"
+      "title": "“내신 5등급도 의사 된다” SKY보다 낫다는 ‘해외 의대’ 어디",
+      "source": "중앙일보",
+      "url": "https://www.joongang.co.kr/article/25435419",
+      "summary": "의대 증원 갈등과 휴학 여파로 국내 응시생이 급감한 가운데, 해외 의대 진학이 늘며 빅5 병원까지 진출한 사례가 주목받고 있다.",
+      "studyPoint": "자격 진입장벽과 우회 경로. 국내 정원·면허 제도의 경직성이 ‘해외 자격’이라는 대체 시장을 형성하는 메커니즘.",
+      "category": "society"
     },
     {
-      "title": "[젠슨황 방한] 젠슨황은 왜 한국을 찾았나…“AI 패권의 핵심 거점”",
-      "source": "연합뉴스",
-      "url": "https://www.yna.co.kr/view/AKR20260608174600003",
-      "summary": "젠슨 황 CEO의 잇단 방한 행보는 한국을 메모리 반도체 강국이자 피지컬 AI·AI 인프라의 핵심 거점으로 활용하려는 전략으로 분석된다. 총수·대학·게임사·스타트업을 두루 만나며 공급망 관리를 넘어선 생태계 차원의 협력을 모색했다.",
-      "studyPoint": "특정 기업 CEO의 행보가 국가 산업 전략과 맞물리는 현상은 AI 시대 글로벌 분업 구조를 보여준다. 한국의 강점(제조·반도체)이 AI 인프라 경쟁에서 갖는 위상을 가늠할 수 있다.",
-      "category": "science_tech"
-    },
-    {
-      "title": "[미국 주식 돋보기] ‘젠슨황 픽’ 마벨, S&P500지수 들어간다",
-      "source": "매일경제",
-      "url": "https://www.mk.co.kr/article/12068710",
-      "summary": "미국의 맞춤형 반도체(ASIC) 설계 강자 마벨테크놀로지가 S&P500 지수에 편입된다. 젠슨 황 CEO가 대만 컴퓨텍스 행사에서 ‘차세대 1조달러 기업’으로 지목한 종목으로, 맞춤형 반도체 수요 확대가 AI 인프라 투자의 새 축으로 부상하고 있음을 보여준다.",
-      "studyPoint": "주가지수 편입은 기업의 시장 지위 변화를 반영한다. 범용 GPU를 넘어 맞춤형 반도체로 확장되는 AI 칩 생태계는 기술 산업의 분화를 보여준다.",
-      "category": "science_tech"
-    },
-    {
-      "title": "[기고] K팝 다음은 순수예술 한류 열풍 불어야",
-      "source": "매일경제",
-      "url": "https://www.mk.co.kr/article/12067846",
-      "summary": "K팝과 드라마·영화 중심의 한류가 순수예술 영역으로 확장돼야 한다는 제언이 나왔다. 국제를 표방한 국내 공연·축제·비엔날레 등 전시 행사에 대한 외국인의 반응이 아직 미온적인 만큼, 예술 한류를 이끌 기획자 육성이 과제로 제시됐다.",
-      "studyPoint": "대중문화의 세계적 성공이 곧바로 순수예술의 확산으로 이어지지는 않는다. 문화 산업의 다변화에는 콘텐츠뿐 아니라 기획·매개 인력이라는 인프라가 필요하다.",
-      "category": "culture"
-    },
-    {
-      "title": "“개구리 점프 기억해줘 감사, 한국·멕시코 함께 32강 갈 것”",
+      "title": "줄어든 서울 학생… 80만명 선 깨져",
       "source": "조선일보",
-      "url": "https://www.chosun.com/international/international_general/2026/06/09/SUHASX6IHFBF7ADI2XJXGWPHOY/",
-      "summary": "멕시코 축구 영웅 블랑코가 2026 북중미 월드컵을 앞두고 한국 대표팀을 ‘손흥민 같은 파괴적 선수를 보유한 빠르고 지능적인 팀’이라 평가하며 한국과 멕시코의 동반 16강 진출을 기대했다. 그는 은퇴 후 정치에 입문한 자신의 이력도 언급했다.",
-      "studyPoint": "국제 스포츠 이벤트는 국가 이미지와 문화 교류의 장이 된다. 스타 선수와 상대국 영웅의 상호 평가는 스포츠가 지닌 문화 외교적 측면을 보여준다.",
-      "category": "culture"
+      "url": "https://www.chosun.com/national/education/2026/06/08/T6MTKB63U5D5LJOYZII3KTWKWI/",
+      "summary": "저출생으로 학령인구가 줄며 올해 서울 전체 학생 수가 사상 처음 80만명 아래(78만2104명)로 떨어졌다. 10년 만에 약 30만명이 감소했다.",
+      "studyPoint": "인구구조 변화가 교육 인프라·교원 수급에 미치는 시차 효과. 학령인구 감소는 통폐합과 자원 재배치의 구조적 압력을 만든다.",
+      "category": "society"
     },
     {
-      "title": "‘치맥 특수 끝났나’…월드컵 앞두고 웃는 곳 따로 있었다",
+      "title": "이란전쟁 출구 놓고 다시 갈등… 트럼프·네타냐후 ‘애증의 동맹’",
+      "source": "조선일보",
+      "url": "https://www.chosun.com/international/international_general/2026/06/10/6O5B7NLOGBGTBM5GDZQUEUA4HQ/",
+      "summary": "이스라엘이 확전을 강행하면 미국의 외교·군사 지원을 기대하기 어렵다는 경고가 나오며, 종전을 원하는 트럼프와 전쟁 지속을 노리는 네타냐후의 갈등이 부각됐다.",
+      "studyPoint": "비대칭 동맹에서 강대국의 ‘연루-방기’ 딜레마. 후견국의 지원 철회 위협은 동맹을 통제하는 지렛대로 작동한다.",
+      "category": "international"
+    },
+    {
+      "title": "美, 中기업 188곳 블랙리스트 지정…韓 반사이익 보나",
       "source": "한국경제",
-      "url": "https://www.hankyung.com/article/202606083548g",
-      "summary": "2026 북중미 월드컵을 앞두고 거리 응원·배달 치맥 중심이던 소비 풍경이 ‘집관(집에서 관람)’과 팝업스토어 중심으로 바뀌고 있다. 기업들은 손흥민 등을 앞세운 스포츠 마케팅을 이어가지만, 시차와 관람 문화 변화로 특수의 수혜처가 달라지고 있다.",
-      "studyPoint": "대형 스포츠 이벤트의 경제 효과는 소비 문화의 변화에 따라 이동한다. 관람 방식의 변화가 특정 업종의 명암을 가르는 현상은 문화와 소비의 상호작용을 보여준다.",
+      "url": "https://www.hankyung.com/article/2026060965901",
+      "summary": "미국이 중국 기업 188곳을 블랙리스트에 올리며 대중 견제를 강화했다. BYD 포함 여부 등을 두고 중국이 촉각을 세우는 가운데 한국의 반사이익 가능성이 거론된다.",
+      "studyPoint": "수출통제·제재는 경제적 상호의존을 안보 논리로 재편하는 ‘디리스킹’의 수단. 공급망 재편은 제3국에 기회와 위험을 동시에 안긴다.",
+      "category": "international"
+    },
+    {
+      "title": "美행정부, 트럼프 80세 생일 이벤트 앞두고 ‘UFC 띄우기’",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260609175600071",
+      "summary": "미 국무부가 트럼프 대통령의 절친인 UFC 회장과 ‘스포츠 외교’ 협약을 맺는다. 14일 백악관 남쪽 잔디밭에서는 생일·건국 250주년을 기념하는 UFC 대회도 열린다.",
+      "studyPoint": "스포츠를 통한 공공외교(소프트파워)와 국내 정치 동원의 결합. 메가 이벤트는 정통성과 국가 브랜드를 함께 연출하는 무대가 된다.",
+      "category": "international"
+    },
+    {
+      "title": "중국 공급망에 갇힌 AI 시대…‘팍스 실리카’로 탈출구 찾을까",
+      "source": "한겨레",
+      "url": "https://www.hani.co.kr/arti/international/international_general/1262750.html",
+      "summary": "미국과 필리핀이 루손에 ‘경제안보구역’을 조성해 핵심 광물·반도체 등 AI 필수 원자재·부품을 생산하기로 합의하는 등, 중국 의존 공급망에서 벗어나려는 ‘AI 지정학’이 본격화하고 있다.",
+      "studyPoint": "기술 패권은 원자재-부품-제조로 이어지는 공급망 통제력에서 결정된다. 핵심광물의 지리적 편재는 경제안보의 구조적 제약이다.",
+      "category": "science_tech"
+    },
+    {
+      "title": "“페인트칠 잘하면 에어컨 효과”…세계 최초 ‘수성’ 복사냉각 페인트",
+      "source": "매일경제",
+      "url": "https://www.mk.co.kr/article/12069745",
+      "summary": "국내 연구진이 세계 최초의 수성 복사냉각 페인트를 개발했다. 햇빛을 반사하고 열의 93% 이상을 대기창을 통해 우주로 방출해 표면 온도를 최대 9도까지 낮춘다.",
+      "studyPoint": "복사냉각은 대기의 ‘적외선 창’을 이용해 에너지 없이 열을 우주로 버리는 수동 냉각 원리. 기후위기 대응형 소재 과학의 사례다.",
+      "category": "science_tech"
+    },
+    {
+      "title": "“반도체 고점 시기상조…지금이 저가매수 기회”",
+      "source": "한국경제",
+      "url": "https://www.hankyung.com/article/2026060965541",
+      "summary": "브로드컴의 AI 칩 매출 전망 부진으로 반도체 고점론이 재부상했지만, 증권가 일각은 고점 우려가 시기상조이며 현재의 조정 국면이 오히려 매수 기회라는 진단을 내놨다.",
+      "studyPoint": "반도체는 수요·재고가 출렁이는 경기순환(사이클) 산업. 기대가 가격에 선반영되는 자산시장에서 ‘고점’ 판단은 본질적으로 불확실하다.",
+      "category": "science_tech"
+    },
+    {
+      "title": "“덕질 하러 한국 와서 카드 긁었어요”…외국인 한류소비 1.3조 신기록",
+      "source": "매일경제",
+      "url": "https://www.mk.co.kr/article/12069257",
+      "summary": "올해 4월 외국인 관광객의 글로벌 한류 소비액이 1조3287억원으로 역대 최대를 기록했다. BTS 복귀 효과 속에 공연 관람을 넘어 쇼핑·뷰티·음식 소비로 확산됐다.",
+      "studyPoint": "문화 콘텐츠의 경제적 파급(전후방 연관효과). 한류는 무형의 상징자본을 관광·소비라는 실물 수요로 전환시키는 통로가 된다.",
       "category": "culture"
     },
     {
-      "title": "나무호 피격에…“이란 의도 아닌 건 확실, 엄중 항의”",
+      "title": "화면 없이 입으로만 “골입니다”… 이번 월드컵도 ‘입중계’ 들을까",
+      "source": "조선일보",
+      "url": "https://www.chosun.com/national/weekend/2026/06/06/C5BX2RJ6NBG7JBQANZMISWLAQ4/",
+      "summary": "시각장애인 등을 위해 화면 없이 말로 경기를 생생히 전하는 ‘입중계’가 월드컵을 앞두고 다시 주목받는다. 스포츠 중계의 접근성과 보편적 시청권 논의를 환기한다.",
+      "studyPoint": "미디어 접근성은 정보 격차 해소의 문제. 보편적 서비스 관점에서 중계는 누구도 배제하지 않아야 할 공공재적 성격을 띤다.",
+      "category": "culture"
+    },
+    {
+      "title": "배용준, 22년 만에 싱가포르서 포착…‘겨울연가’ 한류 열풍 재조명",
+      "source": "한국경제",
+      "url": "https://www.hankyung.com/article/202606094903H",
+      "summary": "1세대 한류스타 배용준의 싱가포르 동반 여행이 화제가 되며, 2004년 1200여 명의 팬이 공항에 몰렸던 ‘겨울연가’ 한류 열풍이 외신을 통해 다시 조명됐다.",
+      "studyPoint": "한류의 ‘1세대–신한류’ 세대 계승. 스타 개인의 상징자본이 국가 이미지로 축적되는 문화적 할인 극복의 사례다.",
+      "category": "culture"
+    },
+    {
+      "title": "AI가 습도까지 맞춰 나사 조절…100명이 할 일, 60명이 한다 [AI 일자리]",
       "source": "중앙일보",
-      "url": "https://www.joongang.co.kr/article/25435027",
-      "summary": "중동 해역에서 한국 관련 선박 ‘나무호’가 피격되는 사건이 발생했다. 정부는 이란의 의도적 공격은 아닌 것으로 보면서도 엄중 항의 방침을 밝혔다. 대외 의존도가 높은 한국에서 해상 안전과 에너지 수송로 불안이 다시 부각됐다.",
-      "studyPoint": "해상 사고는 통상국가의 공급망 안보와 직결된다. 사건의 의도성 판단과 외교적 대응은 위기관리 외교의 사례로 살펴볼 수 있다.",
+      "url": "https://www.joongang.co.kr/article/25435423",
+      "summary": "제조 현장부터 사무실까지 AI 도입에 따른 일자리 변화가 현실화하고 있다. 생성AI 확산으로 문서·코딩·회계 등 지식노동이 자동화하며 기업의 신규 채용이 위축된다는 분석이다.",
+      "studyPoint": "기술혁신은 일자리를 대체하는 동시에 보완한다. 자동화의 충격은 직무 단위로 불균등하며, 노동시장의 재숙련 과제를 키운다.",
       "category": "etc"
     }
   ],
   "editorials": [
     {
-      "title": "코스피 7500 붕괴, 1600원 향하는 환율… 안전벨트 조일 때",
-      "publisher": "매일경제",
-      "url": "https://www.mk.co.kr/article/12068653",
-      "summary": "원·달러 환율이 1555원에 개장하며 2009년 금융위기 이후 최고치를 기록하고 코스피는 반도체주 급락으로 7500선이 무너졌다. 미 연준의 금리 인상 우려가 재점화되며 외국인 매도가 이어지는 가운데, 사설은 시장 변동성에 대비한 선제적 정책 대응을 주문했다.",
-      "studyPoint": "환율·주가·금리가 동시에 흔들리는 복합 위기에서는 단일 처방이 아니라 외환·통화·금융을 아우르는 종합 대응이 요구된다."
+      "title": "[사설] 지방선거 투표 의혹, 특검 않으면 민주주의 수호 의지 없다",
+      "publisher": "매일신문",
+      "url": "https://www.imaeil.com/page/view/2026060917541464990",
+      "summary": "지방선거 투표용지 부족 사태와 관련해 특검과 재투표를 요구하며, 선관위가 전체 유권자 110% 분량을 인쇄하겠다던 약속이 지켜지지 않은 경위를 철저히 규명해야 한다고 주장한다.",
+      "studyPoint": "선거 관리의 신뢰는 민주주의의 기반. 절차적 정당성 훼손 의혹은 결과에 대한 승복 가능성까지 흔든다."
     },
     {
-      "title": "[사설] 대통령의 부동산·금융시장 인식, 너무 낙관적 아닌가",
-      "publisher": "한국일보",
-      "url": "https://www.hankookilbo.com/news/article/A2026060816070003394",
-      "summary": "이재명 대통령이 8~9% 폭락한 증시와 고환율에 대해 ‘진폭이 크긴 하다’면서도 비교적 낙관적 인식을 내비친 데 대해, 사설은 중동 불안·강달러·미국 금리 인상 등 고환율 요인이 누적된 ‘뉴노멀’ 우려를 지적하며 신중한 대응을 촉구했다.",
-      "studyPoint": "경제 위기 국면에서 최고 정책 결정권자의 상황 인식은 정책 방향을 좌우한다. 낙관과 경계 사이의 균형 잡힌 진단이 위기관리의 출발점이다."
+      "title": "[김현아의 우연한 연결] ‘성냥팔이 소녀’…40여년 후 성냥소녀들의 파업",
+      "publisher": "한겨레",
+      "url": "https://www.hani.co.kr/arti/opinion/column/1262739.html",
+      "summary": "산업혁명기 도시로 몰려든 노동자들의 열악한 처지와, 병들면 해고되던 성냥공장 소녀들의 파업을 통해 노동권이 형성돼 온 역사를 되짚는 칼럼이다.",
+      "studyPoint": "오늘의 노동기준은 시장의 자생적 조정이 아니라 집단행동과 입법의 산물임을 환기한다."
     },
     {
-      "title": "[사설] 이재명 대통령 국정 2년 차, 균형발전 성과로 보여 줘야",
-      "publisher": "부산일보",
-      "url": "https://www.busan.com/view/busan/view.php?code=2026060818280575571",
-      "summary": "사설은 집권 2년차를 맞은 정부에 수도권 집중을 완화하는 균형발전의 실질적 성과를 주문했다. 고환율 장기화가 물가·금리·내수를 동시에 압박할 수 있고 북·중·러 연대가 강화되는 상황에서, 지방 경제 활력과 남북관계 개선이 과제로 제시됐다.",
-      "studyPoint": "균형발전은 성장의 지역 간 분배 문제다. 거시경제 불안과 안보 환경 변화 속에서 지역 격차 해소가 갖는 정책적 무게를 보여준다."
+      "title": "[김용하 칼럼] K자 성장을 넘어야, 지속성장 가능하다",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20260607191529378",
+      "summary": "반도체·AI가 끌어올린 성장률 이면에서 청년이 원하는 양질의 일자리가 부족하고 물가가 체감 경제를 짓누르는 ‘K자 양극화’를 진단하며, 노동시장 미스매치 해소를 주문한다.",
+      "studyPoint": "총량 성장지표와 분배·체감경기의 괴리. 성장의 ‘질’을 따지는 관점이 정책 평가의 핵심이다."
     }
   ],
   "readingPassage": {
-    "title": "진영 정치와 전략적 삼각관계: 강대국 경쟁 속 약소국의 선택",
-    "passage": "국제정치에서 둘 이상의 강대국이 패권을 두고 경쟁할 때, 그 사이에 놓인 국가들은 생존과 이익을 지키기 위해 전략적 선택을 강요받는다. 학자들은 그 선택을 크게 두 가지로 나눈다. 위협이 되는 강대국에 맞서 다른 세력과 힘을 합치는 ‘균형(balancing)’과, 더 강한 쪽에 올라타 보호와 이득을 얻으려는 ‘편승(bandwagoning)’이다. 어떤 전략이 합리적인지는 위협의 크기, 지리적 인접성, 그리고 동맹으로부터 기대할 수 있는 지원의 신뢰성에 따라 달라진다.\n\n세 행위자 이상이 얽히면 관계는 한층 복잡해진다. 국제정치학은 이를 ‘전략적 삼각관계(strategic triangle)’로 설명한다. 세 나라 가운데 두 나라가 가까워지면 나머지 한 나라는 상대적으로 고립되며, 따라서 각국은 자신을 둘러싼 두 관계를 동시에 관리하려 한다. 한 축의 밀착은 다른 축의 경계와 결속을 부르고, 이렇게 연쇄적으로 형성된 대립선이 굳어지면 세계는 ‘진영(bloc)’으로 갈라진다.\n\n진영화가 진행되면 강대국과 약소국 사이에는 흔히 후견-피후견 관계가 형성된다. 강대국은 경제적 지원과 안보 보장을 제공하는 대신 외교적 동조와 전략적 협력을 기대한다. 그러나 이 거래는 결코 대등하지 않다. 약소국은 보호를 얻는 만큼 자율성을 내주며, 두 가지 상반된 위험에 시달린다. 강대국의 분쟁에 원치 않게 휘말리는 ‘연루(entrapment)’와, 정작 필요할 때 버림받는 ‘방기(abandonment)’의 딜레마다.\n\n이 때문에 강대국 간 정상회담이나 고위급 교류는 단순한 의례를 넘어선 ‘신호’로 읽힌다. 누가 누구를 방문하고 어떤 표현으로 관계를 규정하는가는 결속의 수준과 제3자를 향한 메시지를 동시에 전달한다. 상징적 행위가 실제 군사·경제 협력보다 앞서 관계의 방향을 알리는 셈이며, 그래서 관찰자들은 발언의 내용뿐 아니라 의도적으로 생략된 부분까지 함께 분석한다.\n\n그러나 진영 논리에는 분명한 비용이 따른다. 한쪽에 깊이 편입될수록 외교적 선택지는 좁아지고, 상대 진영과의 교류에서 얻을 기회는 줄어든다. 따라서 다수의 중간국가는 어느 한 진영에 완전히 귀속되기보다, 사안에 따라 협력 상대를 달리하는 ‘전략적 헤징(hedging)’으로 자율성의 여지를 남겨두려 한다. 결국 진영의 시대에도 한 국가의 운명을 가르는 것은 구호가 아니라, 끊임없이 변화하는 세력 구도를 읽어내는 냉정한 계산이다.",
-    "point1": "위협에 맞서 힘을 합치는 ‘균형’과 강자에 올라타는 ‘편승’은 약소국이 택할 수 있는 두 가지 기본 전략이며, 위협의 크기·인접성·동맹 지원의 신뢰성에 따라 합리적 선택이 달라진다.",
-    "point2": "세 행위자가 얽힌 ‘전략적 삼각관계’에서 한 축의 밀착은 다른 축의 결속을 부르고, 이 연쇄가 굳어지면 세계가 ‘진영’으로 갈라진다.",
-    "point3": "후견-피후견 관계 속 약소국은 보호의 대가로 자율성을 내주며, 분쟁에 휘말리는 ‘연루’와 버림받는 ‘방기’의 딜레마 사이에서 헤징으로 선택지를 남기려 한다.",
-    "tip": "정상회담·고위급 교류는 결속 수준과 제3자를 향한 ‘신호’다. 발언의 내용만큼 ‘의도적으로 생략된 부분’이 정책 변화를 읽는 단서가 된다.",
-    "category": "international",
+    "title": "최저임금이라는 가격 하한선: 노동시장의 협상력 비대칭과 제도의 사회적 기능",
+    "passage": "시장에서 가격은 수요와 공급이 만나는 지점에서 정해진다고 배운다. 그러나 노동이라는 상품은 일반 재화와 다르다. 노동자는 자신의 노동력을 미래로 미뤄 비축할 수 없고, 당장의 생계가 걸려 있어 제시된 조건을 ‘받아들일 수밖에 없는’ 처지에 놓이기 쉽다. 이런 특성은 노동을 사고파는 두 당사자, 곧 사용자와 노동자 사이에 구조적인 협상력의 격차를 만든다.\n\n최저임금은 바로 이 격차를 제도로 보정하려는 ‘가격 하한선’이다. 표준적인 경제학 모형은 하한선이 시장 균형 임금보다 높으면 노동 수요가 줄어 고용이 감소한다고 본다. 그러나 한 사용자가 임금 결정에서 우월한 지위를 갖는 수요독점적 노동시장에서는, 적정한 수준의 최저임금이 오히려 고용과 임금을 동시에 끌어올릴 수 있다는 반론도 제기된다.\n\n그래서 최저임금의 효과는 ‘얼마나 높은가’만이 아니라 ‘어떤 시장에 적용되는가’에 달려 있다. 청년·여성·비정규직·영세사업장처럼 협상력이 약한 노동자가 겹치는 곳일수록 제도의 보호 필요성은 크지만, 동시에 일자리 감소의 위험도 함께 커진다. 제도 설계는 이 양면성을 정교하게 저울질하는 작업이다.\n\n적용 방식도 쟁점이다. 일한 시간이 아니라 만들어 낸 성과물의 양에 따라 보수를 매기는 도급제에서는 ‘시간당 얼마’라는 기준 자체가 흐려진다. 일한 양과 보상의 관계가 불투명해질수록, 노동자는 자신의 임금이 어떻게 정해지는지조차 알기 어렵다. 이런 정보의 불투명성은 협상력의 비대칭을 더욱 심화시킨다.\n\n역사적으로 노동조건의 개선은 시장의 자생적 조정이 아니라 집단행동과 입법을 통해 이뤄졌다. 19세기 말 열악한 환경에서 일하다 병들면 버려지던 노동자들의 파업이 근로기준의 출발점이 된 것처럼, 최저임금 역시 개인이 홀로 감당하기 어려운 위험을 사회가 함께 떠받치기로 한 약속이다.\n\n결국 최저임금 논쟁의 본질은 ‘시장에 맡길 것인가, 사회가 개입할 것인가’라는 단순한 이분법이 아니다. 노동시장에 내재한 힘의 불균형을 인정하고, 그 불균형을 어느 수준에서 어떻게 교정할 때 효율과 형평이 함께 높아지는지를 묻는, 균형 감각의 문제다.",
+    "point1": "노동은 비축·연기가 어려운 특수한 상품이어서, 노동자와 사용자 사이에 구조적인 협상력 비대칭이 존재한다.",
+    "point2": "최저임금의 고용 효과는 시장 구조에 따라 달라진다 — 수요독점 시장에서는 고용과 임금을 함께 높일 수도 있다.",
+    "point3": "도급제처럼 보상 기준이 불투명한 임금체계는 정보 비대칭을 키워 협상력 격차를 더욱 심화시킨다.",
+    "tip": "‘가격 하한제’(최저임금)를 다룬 지문은 단순 수요·공급 그래프를 넘어 수요독점·정보 비대칭 같은 시장 실패 개념과 연결해 읽으면 글의 논지를 정확히 잡을 수 있다.",
+    "category": "society",
     "sourceEditorial": {
-      "title": "시진핑, 北 비핵화 언급 없었다",
-      "paper": "조선일보",
-      "url": "https://www.chosun.com/international/international_general/2026/06/09/CHR2JXIOE5BOVBLITHKLEMTQTY/"
+      "title": "[김현아의 우연한 연결] ‘성냥팔이 소녀’…40여년 후 성냥소녀들의 파업",
+      "paper": "한겨레",
+      "url": "https://www.hani.co.kr/arti/opinion/column/1262739.html"
     }
   },
   "papers": [
     {
-      "title": "Short- Versus Long-Term Hearing Preservation and Speech Recognition Outcomes in Precurved and Straight Electrode Arrays.",
-      "titleKo": "인공와우 전극 형태에 따른 잔존청력 보존과 어음인지 결과 비교",
-      "abstractKo": "인공와우 이식에서 미리 굽은(precurved) 전극과 직선형(straight) 전극이 잔존청력 보존과 어음인지에 미치는 영향을 단기·장기로 나누어 비교한 연구다. 전극의 형태와 삽입 위치는 와우 내부 구조의 손상 정도와 직결되어 수술 후 청력 결과를 좌우한다. 연구는 두 전극군의 청력 보존율과 말소리 인지 점수가 시간에 따라 어떻게 변하는지 분석해 환자 맞춤형 전극 선택의 근거를 제시한다.",
-      "category": "인공와우",
-      "journal": "OTO Open",
-      "date": "2026",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42256722/"
+      "title": "Factors Associated With Dupilumab Efficacy in Patients With Chronic Rhinosinusitis With Nasal Polyps.",
+      "titleKo": "비용종 동반 만성 부비동염에서 두필루맙 효과를 좌우하는 인자",
+      "abstractKo": "비용종을 동반한 만성 부비동염 환자에서 생물학제제 두필루맙의 치료 반응을 결정하는 임상 인자를 분석한 연구다. 호산구 수치, 천식 동반 여부, 기저 증상 중증도 등이 반응 정도와 관련될 수 있음을 보고했다. 고가의 생물학제제를 누구에게 우선 투여할지 결정하는 데 참고가 된다.",
+      "category": "만성 부비동염·생물학제제",
+      "journal": "OTO open",
+      "date": "2026 Apr-Jun",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42256728/"
     },
     {
-      "title": "In Reference to Adjunctive Hyperbaric Oxygen Therapy or Intratympanic Steroids in Sudden Sensorineural Hearing Loss?",
-      "titleKo": "돌발성 난청의 보조 요법: 고압산소치료와 고실내 스테로이드 주입 논의",
-      "abstractKo": "돌발성 감각신경성 난청 치료에서 보조 요법으로 쓰이는 고압산소치료와 고실내 스테로이드 주입의 효과를 둘러싼 학술적 논의를 다룬 서신이다. 두 치료법은 전신 스테로이드에 반응이 불충분한 환자에게 추가로 시도되며, 각각 내이 산소 공급 개선과 국소 약물 농도 상승을 기전으로 한다. 글은 기존 연구의 방법론적 한계와 치료 선택 시 고려해야 할 점을 짚는다.",
-      "category": "돌발성 난청",
-      "journal": "The Laryngoscope",
-      "date": "2026",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42252517/"
-    },
-    {
-      "title": "Phase I trial of intravenous VCN-01 oncolytic adenovirus and durvalumab in head and neck metastatic squamous cell carcinoma refractory to immunotherapy.",
-      "titleKo": "면역치료 불응성 두경부 전이성 편평세포암: 종양용해 바이러스와 더발루맙 병용 1상",
-      "abstractKo": "면역항암제에 반응하지 않는 전이성 두경부 편평세포암 환자를 대상으로 종양용해 아데노바이러스 VCN-01을 정맥 투여하고 면역관문억제제 더발루맙을 병용한 1상 임상시험이다. 종양용해 바이러스는 암세포를 직접 파괴하는 동시에 종양 미세환경의 면역 반응을 자극해 면역치료의 효과를 높이려는 전략이다. 연구는 병용 요법의 안전성과 초기 치료 반응을 평가했다.",
+      "title": "Clinical efficacy and immunological aspects of neoadjuvant and perioperative therapy in resectable head and neck carcinoma.",
+      "titleKo": "절제 가능한 두경부암에서 수술 전·전후 면역치료의 효과와 면역학적 기전",
+      "abstractKo": "수술이 가능한 두경부암에서 수술 전(neoadjuvant) 및 수술 전후 면역항암 치료의 임상 효과와 면역학적 측면을 정리한 리뷰다. 면역관문억제제가 종양 미세환경을 변화시켜 수술 성적과 재발률에 영향을 줄 수 있음을 다룬다. 표준 수술·방사선 치료에 면역치료를 접목하려는 최신 흐름을 보여준다.",
       "category": "두경부암·면역치료",
-      "journal": "Clinical Cancer Research",
-      "date": "2026",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42257887/"
+      "journal": "Cancer treatment reviews",
+      "date": "2026 May 16",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42259189/"
     },
     {
-      "title": "Visual Motion Sensitivity in Vestibular Migraine.",
-      "titleKo": "전정편두통 환자의 시각 운동 민감성",
-      "abstractKo": "전정편두통 환자에서 움직이는 시각 자극에 대한 과민성, 즉 시각 운동 민감성을 분석한 연구다. 전정편두통은 어지럼과 편두통이 함께 나타나는 질환으로, 환자들은 복잡하게 움직이는 시각 환경에서 큰 불편을 호소한다. 연구는 시각 운동 자극에 대한 반응을 정량적으로 측정해 이 증상이 전정편두통의 진단과 중증도 평가에 어떤 의미를 갖는지 검토한다.",
-      "category": "전정편두통·어지럼",
-      "journal": "Otology & Neurotology",
-      "date": "2026",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42235082/"
+      "title": "Semicircular canal dysfunction in profound sudden sensorineural hearing loss and its prognostic value: implications for the proper indication of hyperbaric oxygen therapy.",
+      "titleKo": "고도 돌발성 난청에서 반고리관 기능장애와 예후 예측 가치",
+      "abstractKo": "고도 돌발성 난청 환자에서 반고리관(전정기관) 기능 손상 여부가 청력 회복 예후와 어떻게 연관되는지 분석한 연구다. 전정기능 저하가 동반된 경우 예후가 더 나쁠 수 있으며, 이는 고압산소치료의 적응증을 정하는 데 활용될 수 있다고 제안한다. 청각과 평형기관이 해부학적으로 인접해 함께 손상될 수 있음을 보여준다.",
+      "category": "돌발성 난청·예후",
+      "journal": "Scientific reports",
+      "date": "2026 Jun 2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42230800/"
     },
     {
-      "title": "Changes in Hypoxia-Related Metrics With Hypoglossal Nerve Stimulation: A Scoping Review.",
-      "titleKo": "설하신경 자극술 후 저산소 관련 지표 변화: 주제범위 문헌고찰",
-      "abstractKo": "폐쇄성 수면무호흡 치료법인 설하신경 자극술이 수면 중 저산소 관련 지표에 미치는 영향을 종합한 주제범위 문헌고찰이다. 설하신경 자극술은 양압기를 견디지 못하는 환자에게 혀 근육의 긴장을 유도해 기도 폐쇄를 줄이는 치료다. 연구는 산소포화도 저하 지표 등의 개선 정도를 정리해 이 치료가 갖는 생리적 효과를 평가한다.",
-      "category": "수면무호흡",
-      "journal": "The Laryngoscope",
+      "title": "Objective oculomotor, vestibular, reaction time, and cognitive signatures of vestibular migraine.",
+      "titleKo": "전정편두통의 객관적 안구운동·전정·반응시간·인지 지표",
+      "abstractKo": "어지럼을 동반하는 전정편두통을 객관적으로 진단하기 위해 안구운동, 전정기능, 반응시간, 인지 기능 지표를 분석한 연구다. 전정편두통 환자에서 특징적인 객관 지표 패턴을 확인해, 주관적 증상에 의존하던 진단을 보완할 가능성을 제시한다.",
+      "category": "전정편두통·진단",
+      "journal": "Frontiers in neurology",
       "date": "2026",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42210598/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42246042/"
     },
     {
-      "title": "Research progress on the mechanisms and animal models of Meniere's disease.",
-      "titleKo": "메니에르병의 발병 기전과 동물 모델 연구 동향",
-      "abstractKo": "반복적 어지럼·난청·이명·이충만감을 특징으로 하는 메니에르병의 발병 기전과 이를 재현하는 동물 모델 연구 동향을 정리한 종설이다. 메니에르병은 내림프 수종과 관련된 것으로 알려져 있으나 정확한 원인은 아직 분명치 않다. 연구는 면역·유전·체액 조절 등 다양한 기전 가설과 동물 모델의 한계를 검토해 향후 치료 표적 발굴의 방향을 제시한다.",
-      "category": "메니에르병",
-      "journal": "Genes & Diseases",
-      "date": "2026",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42253756/"
+      "title": "Vertigo-unsolved Mystery (Meniere's Disease) Care Redefined: Insights from a Tertiary Care Center.",
+      "titleKo": "풀리지 않는 어지럼, 메니에르병 진료의 재정립: 3차 의료기관의 경험",
+      "abstractKo": "반복적 어지럼과 변동성 난청을 특징으로 하는 메니에르병 환자들을 3차 의료기관에서 진료한 경험을 정리한 연구다. 진단 지연과 오진이 흔한 질환의 특성을 짚고, 체계적 평가와 단계적 치료의 중요성을 강조한다.",
+      "category": "메니에르병·진료",
+      "journal": "Annals of African medicine",
+      "date": "2026 Jun 8",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42260944/"
     },
     {
-      "title": "High-resolution CT of Temporal Bone for Early Diagnosis of Cholesteatoma and Prevention of Severe Complications.",
-      "titleKo": "진주종 조기 진단을 위한 측두골 고해상도 CT의 진단적 가치",
-      "abstractKo": "측두골 고해상도 전산화단층촬영(HRCT)이 진주종의 조기 진단과 중증 합병증 예방에 갖는 유용성을 평가한 연구다. 진주종은 중이에 각질이 쌓여 주변 골 구조를 파괴하는 질환으로, 방치하면 청력 손실과 두개 내 합병증을 일으킬 수 있다. 연구는 HRCT가 병변의 범위와 골 침식을 조기에 파악해 수술 계획 수립에 기여함을 보고한다.",
-      "category": "진주종",
-      "journal": "Annals of African Medicine",
-      "date": "2026",
+      "title": "Differences in Antibiotic Prescribing Patterns for Children with Acute Otitis Media Based on Patient, Clinician, and Clinic Characteristics.",
+      "titleKo": "소아 급성중이염 항생제 처방 양상의 차이: 환자·의사·의원 특성별 분석",
+      "abstractKo": "소아 급성중이염에서 환자, 의사, 진료기관의 특성에 따라 항생제 처방 양상이 어떻게 달라지는지 분석한 연구다. 동일 질환에도 처방의 편차가 크다는 점을 확인해, 불필요한 항생제 사용을 줄이는 표준 지침의 필요성을 부각한다.",
+      "category": "소아 중이염·항생제",
+      "journal": "Journal of the Pediatric Infectious Diseases Society",
+      "date": "2026 Jun 9",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42262416/"
+    },
+    {
+      "title": "'Meeting' the patient where they are: reflections on the changing patient-clinician dynamic in remote cochlear implant care.",
+      "titleKo": "원격 인공와우 관리에서 변화하는 환자–의료진 관계에 대한 성찰",
+      "abstractKo": "인공와우 이식 환자의 사후 관리가 원격의료로 전환되면서 달라지는 환자와 의료진의 관계를 고찰한 글이다. 원격 매핑·상담이 접근성을 높이지만, 대면 진료가 주던 신뢰와 세심한 조정을 어떻게 보완할지에 대한 과제를 제시한다.",
+      "category": "인공와우·원격의료",
+      "journal": "Cochlear implants international",
+      "date": "2026 Jun 9",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42261869/"
+    },
+    {
+      "title": "Facial nerve recovery trajectories and predictors after vestibular schwannoma surgery: a single-centre cohort study of 213 patients.",
+      "titleKo": "전정신경초종 수술 후 안면신경 회복 경과와 예측인자: 213명 코호트 연구",
+      "abstractKo": "전정신경초종(청신경 종양) 수술을 받은 213명을 분석해 안면신경 마비의 회복 경과와 이를 예측하는 인자를 규명한 연구다. 종양 크기와 수술 직후 신경 기능 등이 최종 회복 정도를 가늠하는 지표가 될 수 있음을 보고했다.",
+      "category": "전정신경초종·안면신경",
+      "journal": "Journal of plastic surgery and hand surgery",
+      "date": "2026 Jun 9",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42262007/"
+    },
+    {
+      "title": "High-resolution Computed Tomography of Temporal Bone as a Diagnostic Technique for Early Diagnosis of Cholesteatoma and Prevention of Its Severe Complications.",
+      "titleKo": "진주종 조기 진단을 위한 측두골 고해상도 CT의 역할",
+      "abstractKo": "중이의 진주종을 조기에 발견해 심각한 합병증을 예방하기 위한 측두골 고해상도 CT의 진단적 가치를 평가한 연구다. 영상에서 골 미란과 병변 범위를 확인함으로써 수술 계획 수립과 합병증 예방에 기여할 수 있음을 보여준다.",
+      "category": "진주종·영상진단",
+      "journal": "Annals of African medicine",
+      "date": "2026 Jun 5",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42252947/"
     },
     {
-      "title": "CBC-Derived Biomarkers Associated With Recurrence After Sinus Surgery in Chronic Rhinosinusitis.",
-      "titleKo": "만성 부비동염 수술 후 재발과 연관된 혈액검사 기반 바이오마커",
-      "abstractKo": "만성 부비동염 환자의 부비동 내시경 수술 후 재발을 예측할 수 있는, 일반 혈액검사(CBC) 기반 바이오마커를 분석한 연구다. 만성 부비동염은 수술 후에도 재발이 잦아 신뢰할 만한 예후 예측 지표가 필요하다. 연구는 호산구 등 혈액 세포 지표가 재발 위험과 어떤 연관을 보이는지 분석해 비용 효율적인 위험 분류 도구로서의 가능성을 제시한다.",
-      "category": "만성 부비동염",
-      "journal": "The Laryngoscope",
-      "date": "2026",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42212465/"
-    },
-    {
-      "title": "Effectiveness of tinnitus retraining therapy in alleviating tinnitus symptoms: a systematic review and meta-analysis.",
-      "titleKo": "이명 재훈련 치료의 이명 완화 효과: 체계적 문헌고찰과 메타분석",
-      "abstractKo": "이명 재훈련 치료(TRT)가 이명 증상 완화에 미치는 효과를 종합한 체계적 문헌고찰 및 메타분석이다. TRT는 소리 치료와 상담을 결합해 뇌가 이명에 익숙해지도록(습관화) 유도하는 치료법이다. 연구는 여러 임상연구를 통합 분석해 TRT가 이명으로 인한 불편과 삶의 질에 미치는 영향의 크기를 정량적으로 평가한다.",
-      "category": "이명",
-      "journal": "Acta Otorhinolaryngologica Italica",
-      "date": "2026",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42041064/"
-    },
-    {
-      "title": "Longitudinal SNOT-22 Symptom Changes With Sublingual Immunotherapy (SLIT).",
-      "titleKo": "설하 면역치료(SLIT)에 따른 SNOT-22 증상 점수의 장기 변화",
-      "abstractKo": "알레르기 비염 환자에서 설하 면역치료(SLIT)가 코·부비동 증상 설문지(SNOT-22) 점수에 미치는 장기 변화를 추적한 연구다. SLIT는 알레르겐을 혀 밑으로 소량씩 투여해 면역 내성을 유도하는 근본적 치료법이다. 연구는 치료 경과에 따른 증상 점수의 변화를 종단적으로 분석해 SLIT의 실제 임상적 효과를 평가한다.",
-      "category": "알레르기 비염",
-      "journal": "The Laryngoscope",
-      "date": "2026",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42174398/"
+      "title": "The impact of short-term ambient air pollution on CPAP therapy outcomes in obstructive sleep apnea.",
+      "titleKo": "단기 대기오염 노출이 폐쇄성 수면무호흡 CPAP 치료 성적에 미치는 영향",
+      "abstractKo": "폐쇄성 수면무호흡 환자의 양압기(CPAP) 치료 효과가 단기 대기오염 수준에 따라 어떻게 달라지는지 분석한 연구다. 미세먼지 등 대기질 악화가 상기도 염증과 치료 순응도에 영향을 줄 수 있음을 시사하며, 환경 요인을 고려한 관리의 필요성을 제기한다.",
+      "category": "수면무호흡·CPAP",
+      "journal": "Sleep & breathing",
+      "date": "2026 Jun 9",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42262660/"
     }
   ]
 }
