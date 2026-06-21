@@ -1,0 +1,294 @@
+{
+  "date": "2026년 6월 21일 일요일",
+  "news": [
+    {
+      "title": "'붙박이 선관위원이 기강 잡아야'…'위원장+α' 상근직화 가능성",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260620030800001",
+      "summary": "6·3 지방선거 투·개표 부실 사태를 계기로 선거관리위원회 개편 논의가 본격화하면서, 비상임인 선관위원 일부를 상근직으로 전환해 상시 기강 감독을 맡기는 방안이 거론된다. 사전투표제 폐지와 진상규명 특검 도입 등을 놓고는 여야 이견이 크다.",
+      "studyPoint": "독립 헌법기관의 책임성 확보 문제. 합의제 행정기관의 비상임 구조는 상시적 관리·감독의 공백을 낳을 수 있으며, 상근직화는 독립성과 책임성의 균형을 재설계하려는 제도적 시도다.",
+      "category": "politics"
+    },
+    {
+      "title": "'악연' 이준석·안철수 뭉쳤다…'딥페이크 선거캠프법' 뭐길래",
+      "source": "중앙일보",
+      "url": "https://www.joongang.co.kr/article/25438428",
+      "summary": "2023년 선거일 90일 전부터 딥페이크 선거운동 영상의 제작·유포를 금지하는 선거법(제82조의8)이 도입됐지만 이후에도 악용 사례가 이어지자, 이준석·안철수 의원이 규제를 보완하는 개정안 마련에 협력하기로 했다.",
+      "studyPoint": "신기술이 선거 공정성·표현의 자유와 충돌하는 지점. 입법은 기술의 오남용을 사후적으로 따라가며 규율하는 '규제 시차(regulatory lag)' 문제를 안고 있다.",
+      "category": "politics"
+    },
+    {
+      "title": "국힘 장동혁 주말 내내 병원 입원…분출하던 '사퇴론' 일단 숨고르기",
+      "source": "경향신문",
+      "url": "https://www.khan.co.kr/article/202606201535001",
+      "summary": "6·3 지방선거 패배 후 국민의힘 내부에서 장동혁 대표 사퇴론이 분출했으나, 장 대표가 건강 문제로 주말 내내 병원에 입원하면서 거취 논란이 일시 소강 상태에 들어갔다. 선출직 최고위원 동반 사퇴 여부가 비대위 전환의 관건이다.",
+      "studyPoint": "정당 지도부의 책임 정치와 당내 권력 구조. 선거 패배 후 리더십 교체를 둘러싼 갈등은 정당 내부 민주주의와 위기관리 역량의 시험대다.",
+      "category": "politics"
+    },
+    {
+      "title": "'동탄 이어 구리·기흥도 규제카드 만지작'…요건 충족에 '촉각'",
+      "source": "매일경제",
+      "url": "https://www.mk.co.kr/article/12079050",
+      "summary": "정부의 10·15 대책으로 서울 등 규제지역을 묶었지만 동탄 국민평형이 22억원을 돌파하는 등 인근 지역으로 집값이 번지자, 구리·기흥 등 추가 규제 가능성이 거론된다. 단일 시·도 토지거래허가구역 지정을 위한 법 개정은 아직 국회를 통과하지 못했다.",
+      "studyPoint": "부동산 규제의 '풍선효과'. 특정 지역 수요 억제가 규제 밖 인접 지역으로 수요를 이전시키는 현상으로, 국지적 개입의 한계와 시장의 동태적 반응을 보여준다.",
+      "category": "economy"
+    },
+    {
+      "title": "원-달러 환율, 야간거래서 추가 상승 1531원",
+      "source": "한겨레",
+      "url": "https://www.hani.co.kr/arti/economy/economy_general/1264465.html",
+      "summary": "미국과 이란의 종전 합의에도 원화 약세가 이어져 원-달러 환율이 야간거래에서 1531원까지 올랐다. 미 연준이 물가를 이유로 기준금리 인상을 강하게 시사하면서 달러 강세가 환율을 끌어올리고 있다.",
+      "studyPoint": "환율은 양국 간 금리차와 자본 이동에 민감하게 반응한다. 지정학 리스크가 완화돼도 통화정책 기대(금리차)가 환율의 주된 동인으로 작동할 수 있다.",
+      "category": "economy"
+    },
+    {
+      "title": "이재명 정부 1년 만에 4년차 전세난 엄습…전세수급지수 182.5",
+      "source": "조선일보",
+      "url": "https://realty.chosun.com/site/data/html_dir/2026/06/19/2026061902292.html",
+      "summary": "KB부동산 시계열 기준 서울 아파트 전세수급지수가 182.5까지 치솟는 등 전세난 조짐이 나타났다. 다주택자 규제와 실거주 의무 강화 등 수요 억제 중심 정책이 전세 매물 감소로 이어졌다는 분석이 나온다.",
+      "studyPoint": "임대차 시장에서 규제가 공급(전세 매물)에 미치는 의도치 않은 효과. 가격·거래 규제가 매물 잠김과 전세의 월세화를 유발할 수 있다.",
+      "category": "economy"
+    },
+    {
+      "title": "'교권보호국은 파시즘' 비판에…안민석 '정근식, 현장 몰라' 맞불",
+      "source": "한겨레",
+      "url": "https://www.hani.co.kr/arti/society/society_general/1264388.html",
+      "summary": "교육활동 침해에 대응하는 '교권보호국' 신설을 둘러싸고 교육감들 사이에서 '교실의 병영화'라는 비판과 '현장 보호가 우선'이라는 반론이 충돌했다. 학생 인권과 교권을 상충 관계로 볼지, 상호 보완 관계로 볼지가 쟁점이다.",
+      "studyPoint": "권리 간 충돌의 조정 문제. 학생 학습권과 교사 교육권은 제로섬이 아니라 상호 의존적이라는 시각과, 제도적 강제력의 적정 수준을 둘러싼 논쟁이 교차한다.",
+      "category": "society"
+    },
+    {
+      "title": "[동아광장/박용] '전세가 주거 사다리'라는 환상과 절연할 때",
+      "source": "동아일보",
+      "url": "https://www.donga.com/news/Opinion/article/all/20260618/134140568/2",
+      "summary": "전세를 서민의 '주거 사다리'로 보는 통념이 전세사기 대란 속에서도 근본 개혁을 가로막고 있다는 진단이다. 전세 제도의 역사적 형성과 한계를 짚으며 임대차 구조의 재설계를 제안한다.",
+      "studyPoint": "제도의 경로의존성(path dependence). 특정 시기에 형성된 관행(전세)이 환경 변화 후에도 관성적으로 유지되며 개혁을 지연시키는 메커니즘.",
+      "category": "society"
+    },
+    {
+      "title": "취업자 줄어드는데 실업급여도 감소…공식 깨진 고용시장, 왜?",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260619108500530",
+      "summary": "통상 취업자가 줄면 실업급여 지급이 늘어야 하지만, 최근에는 둘 다 감소하는 이례적 현상이 나타났다. 구직을 포기한 '비경제활동인구' 증가와 고용보험 사각지대가 원인으로 지목된다.",
+      "studyPoint": "실업 통계의 함정. 구직 단념자(비경활)는 실업자 집계에서 제외돼 지표를 왜곡하며, 사회안전망의 포괄 범위가 노동시장 실태 측정에 영향을 준다.",
+      "category": "society"
+    },
+    {
+      "title": "트럼프 '美, 이란과 합의 불발 시 호르무즈 통행료 부과할 수도'",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260621002700071",
+      "summary": "미·이란 종전 양해각서 발효 이틀 만에 이란이 호르무즈 해협 재봉쇄를 선언하자, 트럼프 대통령은 최종 합의가 불발되면 미국이 호르무즈 통행료를 부과할 수 있다며 '중동 수호천사' 비용 보전을 주장했다.",
+      "studyPoint": "공공재(해상교통로 안전)의 비용 부담 논리와 강압외교. 국제 공공재 제공의 대가를 통행료로 내부화하려는 시도는 패권국의 부담 분담 압박을 보여준다.",
+      "category": "international"
+    },
+    {
+      "title": "'미국 추천, 일본 동의'로 한국 G7 회원국 될까",
+      "source": "조선일보",
+      "url": "https://www.chosun.com/politics/diplomacy-defense/2026/06/21/QKFZF2SWORGS5E24XX47YUMMAY/",
+      "summary": "커진 중국에 민주주의 진영이 공동 대응해야 한다는 논리 속에서, 미국의 추천과 일본의 동의를 전제로 한국의 G7(또는 G9) 합류 가능성이 거론된다. 확장 과정에서 일본의 역할이 변수로 부각됐다.",
+      "studyPoint": "다자 협의체의 회원 확장 정치. 가입은 기존 강대국의 사실상 거부권과 진영 논리에 좌우되며, 경제 규모뿐 아니라 동맹 신뢰가 자격 요건으로 작동한다.",
+      "category": "international"
+    },
+    {
+      "title": "FIFA에 찍힌 북한, 월드컵 '해적중계' 또 걸렸다…뒷수습 어떻게?",
+      "source": "중앙일보",
+      "url": "https://www.joongang.co.kr/article/25438370",
+      "summary": "북한이 월드컵 중계권 없이 무단(해적) 중계를 반복해 FIFA의 제재 대상이 됐다. 과거 아시아태평양방송연맹의 무상 지원으로 녹화 중계하던 관행이 사라진 뒤 저작권 위반이 되풀이되고 있다.",
+      "studyPoint": "국제 지식재산권 거버넌스와 비순응 국가. 중계권은 배타적 재산권이며, 국제기구의 제재는 규범 비순응에 대한 비용을 부과하는 강제 메커니즘으로 작동한다.",
+      "category": "international"
+    },
+    {
+      "title": "[주간증시전망] 마이크론 실적 발표…반도체 랠리 지속 여부 '촉각'",
+      "source": "조선일보",
+      "url": "https://biz.chosun.com/stock/stock_general/2026/06/21/DNCFATFGT5CTTAEYXB3UE3REQQ/",
+      "summary": "글로벌 3위 메모리 기업 마이크론의 실적이 삼성전자·SK하이닉스의 HBM·D램 업황을 가늠할 선행지표로 주목된다. AI 메모리 슈퍼사이클의 지속 여부가 반도체 랠리의 분수령으로 꼽힌다.",
+      "studyPoint": "산업 내 선행지표와 동조화. 동일 업종 기업의 실적이 시장 전체의 기대를 갱신하는 정보 신호로 작동하며, 글로벌 공급망에서 가격·수급이 연동된다.",
+      "category": "science_tech"
+    },
+    {
+      "title": "칩 설계 넘어 AI 인프라 제국을 꿈꾸는 엔비디아의 야심 찬 비전",
+      "source": "한국경제",
+      "url": "https://magazine.hankyung.com/business/article/202606172409b",
+      "summary": "엔비디아는 칩 생산을 TSMC에, HBM을 삼성·SK하이닉스에 의존하면서도 2006년 개발한 소프트웨어 플랫폼 쿠다(CUDA)를 핵심 무기로 AI 인프라 생태계 전반을 장악하려 한다.",
+      "studyPoint": "플랫폼 생태계와 보완재 전략. 하드웨어가 아닌 소프트웨어 표준(CUDA)의 고착효과가 진입장벽을 형성하며, 가치사슬의 통제점을 누가 쥐느냐가 경쟁우위를 결정한다.",
+      "category": "science_tech"
+    },
+    {
+      "title": "숫자는 완벽한 '삼전닉스'…그런데 왜 불안한가",
+      "source": "한국경제",
+      "url": "https://magazine.hankyung.com/business/article/202606172861b",
+      "summary": "SK하이닉스가 엔비디아에 HBM3E를 사실상 독점 공급하고 삼성전자도 양산에 진입해 이익이 4~6배 급증했지만, 단일 수요처와 메모리 편중에 따른 구조적 취약성을 우려하는 목소리가 나온다.",
+      "studyPoint": "호황 속 집중 위험. 특정 고객·제품에 대한 의존은 단기 수익을 극대화하지만 수요 변동에 대한 회복력을 떨어뜨린다(포트폴리오 분산의 역설).",
+      "category": "science_tech"
+    },
+    {
+      "title": "어머니와 딸이 사랑한 '마성의 남자'…거장 가문의 비극 [성수영의 그때 그 사람들]",
+      "source": "한국경제",
+      "url": "https://www.hankyung.com/article/202606196681i",
+      "summary": "미술·문화재 담당 기자가 미술사 거장들의 삶과 작품을 심층 조명하는 연재다. 천재 예술가 가문의 비극을 통해 예술적 재능과 인간적 삶 사이의 긴장을 들여다본다.",
+      "studyPoint": "예술가 신화와 작품 해석. 작가의 생애 서사가 작품 수용과 가치 평가에 개입하는 방식을 다루는 예술사회학의 '천재' 담론.",
+      "category": "culture"
+    },
+    {
+      "title": "럭셔리 주얼리 '불가리'와 '미술계 올림픽'의 만남",
+      "source": "조선일보",
+      "url": "https://www.chosun.com/special/boutique/boutique-fashion/2026/06/19/YRK3MCSBJJG4BBCRTWDPADADJQ/",
+      "summary": "'미술계 올림픽'으로 불리는 베니스 비엔날레와 명품 브랜드 불가리의 협업으로, 로마 국립21세기미술관(MAXXI)과 함께 네온 설치작품 등을 선보였다. 예술과 상업 자본의 결합이 두드러진다.",
+      "studyPoint": "예술의 후원 구조와 상업화. 기업 메세나·럭셔리 자본이 현대미술의 제작·전시를 지원하면서 예술 장(場)의 자율성과 시장 논리가 교차한다.",
+      "category": "culture"
+    },
+    {
+      "title": "[월드컵] 홍명보호 다음 상대 남아공, 실내 훈련·치료로 한국전 대비",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260621002400007",
+      "summary": "2026 북중미 월드컵 조별리그 A조에서 1승 1패를 기록한 한국이 25일 남아공과 최종전을 앞뒀다. 남아공은 베이스캠프에서 실내 훈련·치료로 컨디션을 조율하며 한국전을 준비하고 있다.",
+      "studyPoint": "스포츠 메가이벤트의 사회적 결집 효과. 국가대표 경기는 집합적 정체성과 일시적 공동체 감정을 형성하는 사회문화적 의례로 기능한다.",
+      "category": "culture"
+    },
+    {
+      "title": "'올해가 수능 막차' 학점 던지고 학원행…반수생 10만명 몰린다",
+      "source": "중앙일보",
+      "url": "https://www.joongang.co.kr/article/25438099",
+      "summary": "2028학년도 대입 개편을 앞두고 현행 체제의 마지막 입시인 2027학년도 수능에 N수·반수생이 역대급으로 몰린다. 6월 모의평가 졸업생 접수자가 9만6931명에 달했다.",
+      "studyPoint": "제도 변경 직전의 '막차 효과'. 규칙 변화가 예고되면 기존 규칙 하의 마지막 기회를 노린 행위자가 일시적으로 집중되는 전략적 행동이 나타난다.",
+      "category": "etc"
+    },
+    {
+      "title": "수도권·강원·영남 일부 폭염주의보…주말 비 내리고 누그러져",
+      "source": "동아일보",
+      "url": "https://www.donga.com/news/Society/article/all/20260619/134142524/1",
+      "summary": "연일 무더위로 강원권에 올해 첫 폭염주의보가 발령되는 등 이른 더위가 이어졌다. 주말 비로 기온은 다소 내려가지만, 북태평양고기압이 자리잡지 않아 올해 장마는 예년보다 늦게 시작될 가능성이 크다.",
+      "studyPoint": "이상기후의 일상화. 평년보다 12일 빠른 폭염특보 등은 기후변화로 극한기상의 빈도·강도가 높아지는 추세를 시사한다.",
+      "category": "etc"
+    }
+  ],
+  "editorials": [
+    {
+      "title": "인텔의 하이닉스 CEO 영입, 해외서 탐내는 K반도체 인재들",
+      "publisher": "매일경제",
+      "url": "https://www.mk.co.kr/article/12078641",
+      "summary": "메모리 슈퍼사이클로 K반도체가 기록적 실적을 내는 가운데 해외 기업이 국내 핵심 인재를 잇따라 노린다. 돈과 설비로 따라잡을 수 없는 경쟁력은 결국 사람에게서 나오므로 인재 관리 전략을 근본적으로 재점검해야 한다는 주장이다.",
+      "studyPoint": "인적자본과 암묵지가 기업 경쟁력의 핵심 원천이라는 자원기반관점. 기술은 설비뿐 아니라 사람에 체화된 숙련에 깃든다."
+    },
+    {
+      "title": "[사설] 전 세계가 긴축 전환인데 한국만 '긴축 재정은 포퓰리즘'",
+      "publisher": "조선일보",
+      "url": "https://www.chosun.com/opinion/editorial/2026/06/19/FKZ3FIGNFNFIVKC74FYKYY44D4/",
+      "summary": "주요국 중앙은행이 인플레이션에 맞서 일제히 긴축으로 돌아섰는데, 한국은 고유가·고물가·고환율의 '3고' 속에서도 확장 재정을 고수한다는 비판이다. 통화·재정 정책의 엇박자를 경계한다.",
+      "studyPoint": "통화정책과 재정정책의 정합성(policy mix). 긴축 통화 환경에서 확장 재정은 물가·환율 안정 목표와 상충할 수 있다."
+    },
+    {
+      "title": "[사설] 부동산 '기대수익률 낮추기', 흔들림 없이 추진을",
+      "publisher": "한겨레",
+      "url": "https://www.hani.co.kr/arti/opinion/editorial/1262689.html",
+      "summary": "초고가 주택의 보유세를 강화하고 양도차익 감면을 축소해 부동산 '기대수익률'을 낮춰 투기 유인을 줄여야 한다는 주장이다. 선거 결과에 흔들리지 말고 세제 개편을 일관되게 추진하라고 촉구한다.",
+      "studyPoint": "자산시장의 기대수익률과 투기 유인. 보유세·양도세는 보유·처분 비용을 높여 기대수익률을 조정함으로써 자산 수요를 억제하는 정책 수단이다."
+    }
+  ],
+  "readingPassage": {
+    "title": "기술은 사람에 깃든다: 암묵지와 인적자본의 경제학",
+    "passage": "첨단 산업의 경쟁력은 흔히 거대한 생산설비나 막대한 자본으로 환원되곤 한다. 그러나 정작 모방하기 어려운 경쟁우위는 눈에 보이지 않는 곳, 곧 사람에게 체화된 지식에 깃들어 있다. 철학자 마이클 폴라니는 '우리는 말할 수 있는 것보다 더 많은 것을 안다'는 명제로 지식을 두 갈래로 나누었다. 하나는 문서와 도면, 매뉴얼로 옮길 수 있는 형식지(形式知)이고, 다른 하나는 오랜 경험과 시행착오를 통해 몸과 손끝, 직관에 스며든 암묵지(暗默知)다.\n\n암묵지의 핵심 성질은 분리와 이전이 어렵다는 데 있다. 설비는 돈으로 사고 도면은 복제할 수 있지만, 수율을 끌어올리는 미세한 공정 감각이나 위기 상황에서의 판단은 매뉴얼만으로 전달되지 않는다. 그것은 특정 조직 안에서 동료들과의 협업과 반복된 문제 해결을 거치며 천천히 축적된다. 경제학은 이렇게 사람에 쌓인 생산 역량을 인적자본(human capital)이라 부르며, 그중에서도 한 기업의 맥락에서만 온전히 발휘되는 부분을 기업특수적 숙련이라 일컫는다.\n\n이 관점은 왜 한 기업의 성취가 쉽게 복제되지 않는지를 설명한다. 경영전략의 자원기반관점은 가치 있고 희소하며 모방과 대체가 어려운 자원이 지속적 경쟁우위의 원천이라고 본다. 핵심 인력에 깃든 암묵지는 바로 이 조건을 충족한다. 경쟁자가 같은 장비를 들여오고 같은 설계를 입수하더라도, 그 지식을 다루는 사람과 조직의 학습 역량까지 가져갈 수는 없기 때문이다.\n\n그래서 인재의 이동은 단순한 고용 변동이 아니라 지식의 이동이다. 한 사람이 회사를 옮기면 형식지로 남지 않은 노하우가 함께 빠져나가고, 반대로 외부 인재의 영입은 조직이 갖지 못한 암묵지를 단번에 수혈하는 통로가 된다. 첨단 기술 기업들이 설비 투자 못지않게 핵심 인력의 확보와 이탈 방지에 사활을 거는 이유가 여기에 있다.\n\n결국 기술 경쟁은 자본과 설비의 경쟁인 동시에, 그것을 다루는 사람과 그들이 축적한 보이지 않는 지식의 경쟁이다. 도면과 기계는 따라 그릴 수 있어도, 오랜 시간 사람과 조직에 새겨진 역량은 쉽게 베낄 수 없다. 첨단 산업일수록 '무엇을 가졌는가'보다 '누가, 무엇을 아는가'가 우위를 가른다.",
+    "point1": "지식은 문서로 옮길 수 있는 형식지와, 경험을 통해 사람에 체화돼 이전이 어려운 암묵지로 나뉜다. 암묵지는 분리·복제가 어렵다는 점이 핵심이다.",
+    "point2": "사람에 축적된 생산 역량을 인적자본이라 하며, 특정 조직 맥락에서만 발휘되는 기업특수적 숙련은 외부에서 모방하기 어렵다.",
+    "point3": "자원기반관점에 따르면 가치·희소성·모방곤란성을 갖춘 자원이 지속적 경쟁우위의 원천이며, 핵심 인재의 이동은 곧 암묵지(지식)의 이동을 뜻한다.",
+    "tip": "'형식지↔암묵지', '인적자본', '자원기반관점' 같은 개념쌍은 지문에서 대조와 인과로 엮인다. '설비·자본은 모방 가능하지만 사람에 깃든 지식은 모방이 어렵다'는 핵심 논지를 거꾸로 뒤집은 선택지를 함정으로 의심하라.",
+    "category": "technology",
+    "sourceEditorial": {
+      "title": "인텔의 하이닉스 CEO 영입, 해외서 탐내는 K반도체 인재들",
+      "paper": "매일경제",
+      "url": "https://www.mk.co.kr/article/12078641"
+    }
+  },
+  "papers": [
+    {
+      "title": "Prevention in otology-the key to lifelong hearing health.",
+      "titleKo": "이과 질환의 예방: 평생 청력 건강의 열쇠",
+      "abstractKo": "소음 노출, 이독성 약물, 중이 감염 등 청력 손상의 주요 위험요인을 조기에 통제하는 예방적 접근이 평생에 걸친 청력 건강 유지의 핵심임을 강조한 종설이다. 치료 중심에서 예방 중심으로 이과 진료의 패러다임을 전환할 필요가 있다고 제언한다.",
+      "category": "청력 예방",
+      "journal": "HNO",
+      "date": "2026-06-19",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42319402/"
+    },
+    {
+      "title": "Audiogram Configuration Predicts Treatment Response in Sudden Sensorineural Hearing Loss.",
+      "titleKo": "청력도 형태로 돌발성 난청의 치료 반응을 예측하다",
+      "abstractKo": "돌발성 감각신경성 난청 환자에서 초기 청력도(audiogram)의 형태가 스테로이드 등 치료에 대한 반응과 예후를 예측하는 지표가 될 수 있음을 분석한 연구다. 저음역·고음역·전농형 등 청력 손실 패턴에 따라 회복 가능성이 다르게 나타났다.",
+      "category": "돌발성 난청",
+      "journal": "Otolaryngology–Head and Neck Surgery",
+      "date": "2026-06-17",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42307984/"
+    },
+    {
+      "title": "Efficacy and Safety of Dupilumab in Chinese Adult Patients With Chronic Rhinosinusitis With Nasal Polyps: A Randomized, Placebo-Controlled, Phase III Trial.",
+      "titleKo": "비용종 동반 만성 비부비동염에서 두필루맙의 효능과 안전성(3상)",
+      "abstractKo": "비용종을 동반한 만성 비부비동염 성인 환자를 대상으로 생물학적 제제 두필루맙(IL-4/IL-13 신호 차단)의 효과를 위약과 비교한 무작위 대조 3상 시험이다. 비용종 크기와 코막힘 증상을 유의하게 개선했으며 안전성 우려는 크지 않았다.",
+      "category": "만성 비부비동염",
+      "journal": "Allergy",
+      "date": "2026-06-16",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42299713/"
+    },
+    {
+      "title": "Aripiprazole as second-line pharmacotherapy for a heterogeneous cohort of refractory functional dizziness disorders: a pilot preliminary retrospective study.",
+      "titleKo": "난치성 기능성 어지럼에 대한 2차 약물로서 아리피프라졸",
+      "abstractKo": "기존 치료에 반응하지 않는 지속성 체위-지각 어지럼(PPPD) 등 기능성 어지럼 환자에서 아리피프라졸을 2차 약물로 사용한 후향적 예비 연구다. 일부 환자에서 증상 개선이 관찰돼 향후 전향적 연구의 근거를 제시했다.",
+      "category": "어지럼·전정",
+      "journal": "Frontiers in Neurology",
+      "date": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42318238/"
+    },
+    {
+      "title": "Therapeutic Hybrid Intelligence with Neural and Knowledge-based Expert Reasoning for SRS (THINKERS): a mixture-of-experts AI model for vestibular schwannoma.",
+      "titleKo": "청신경초종 방사선수술을 위한 전문가 혼합 인공지능 모델 'THINKERS'",
+      "abstractKo": "신경망과 지식기반 추론을 결합한 '하이브리드 지능' 인공지능 모델로, 청신경초종(전정신경초종)의 정위적 방사선수술(SRS) 의사결정을 지원한다. 여러 전문가 모델을 혼합해 예측 정확도와 임상적 해석 가능성을 함께 끌어올렸다.",
+      "category": "청신경초종·AI",
+      "journal": "Journal of Neuro-Oncology",
+      "date": "2026-06-18",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42313294/"
+    },
+    {
+      "title": "Cell and gene therapies in Menière's disease: perspectives for a slowly progressive inner ear disease.",
+      "titleKo": "메니에르병의 세포·유전자 치료 전망",
+      "abstractKo": "서서히 진행하는 내이 질환인 메니에르병에 대한 세포 및 유전자 치료의 가능성을 조망한 종설이다. 내림프 수종의 기전을 표적으로 하는 차세대 치료 전략과 임상 적용까지 남은 과제를 정리했다.",
+      "category": "메니에르병",
+      "journal": "HNO",
+      "date": "2026-06-17",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42307737/"
+    },
+    {
+      "title": "Autoinflation for the Treatment of Persistent Otitis Media With Effusion in Children.",
+      "titleKo": "소아 지속성 삼출성 중이염에 대한 자가팽창 치료",
+      "abstractKo": "약물에 반응하지 않는 소아 지속성 삼출성 중이염에서 코로 공기를 불어넣어 이관을 여는 자가팽창(autoinflation) 요법의 효과를 평가한 연구다. 수술적 환기관 삽입에 앞선 비침습적 대안으로서의 유용성을 검토했다.",
+      "category": "소아 중이염",
+      "journal": "Journal of Otolaryngology - Head & Neck Surgery",
+      "date": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42298742/"
+    },
+    {
+      "title": "Long-term efficacy beyond 10 years of subcutaneous immunotherapy for house-dust-mite-induced allergic rhinitis: A real-world evidence study.",
+      "titleKo": "집먼지진드기 알레르기 비염에 대한 피하면역치료의 10년 이상 장기 효과",
+      "abstractKo": "집먼지진드기로 유발된 알레르기 비염 환자에서 피하면역치료(SCIT)의 효과가 10년 이상 장기간 유지되는지를 실사용 데이터로 분석했다. 치료 종료 후에도 증상 및 약물 사용 감소 효과가 상당 기간 지속됨을 보였다.",
+      "category": "알레르기 비염",
+      "journal": "International Archives of Allergy and Immunology",
+      "date": "2026-06-18",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42313697/"
+    },
+    {
+      "title": "Utility of Preoperative Cardiac Workup for Children With Very Severe Obstructive Sleep Apnea.",
+      "titleKo": "매우 심한 소아 폐쇄성 수면무호흡에서 수술 전 심장 검사의 유용성",
+      "abstractKo": "매우 중증의 폐쇄성 수면무호흡을 가진 소아에서 편도·아데노이드 수술 전 심장 평가가 실제로 필요한지를 검토한 연구다. 만성 저산소증에 따른 폐고혈압 등 심혈관 위험을 선별하기 위한 검사의 적정 적응증을 제시했다.",
+      "category": "소아 수면무호흡",
+      "journal": "The Laryngoscope",
+      "date": "2026-06-15",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42298976/"
+    },
+    {
+      "title": "Efficacy and Safety of Topical Sucralfate for Post-Tonsillectomy Pain in Children: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+      "titleKo": "소아 편도절제술 후 통증에 대한 국소 수크랄페이트의 효능과 안전성",
+      "abstractKo": "소아 편도절제술 후 통증 관리에 국소 수크랄페이트를 적용한 무작위 대조시험들을 모은 체계적 문헌고찰·메타분석이다. 위약 대비 통증 감소 효과와 안전성을 평가해 보조적 통증 조절 수단으로서의 근거를 정리했다.",
+      "category": "편도절제술",
+      "journal": "Journal of Otolaryngology - Head & Neck Surgery",
+      "date": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42304671/"
+    }
+  ]
+}
