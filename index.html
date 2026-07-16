@@ -104,13 +104,20 @@ details[open] summary{margin-bottom:6px}
 .suneung-quiz .q-text{font-size:.85rem;line-height:1.6;color:#1a1a1a;display:flex;gap:8px;align-items:flex-start}
 .suneung-quiz .q-num{flex-shrink:0;background:var(--tag-blue);color:#fff;font-size:.68rem;font-weight:700;border-radius:4px;padding:2px 7px;margin-top:2px;white-space:nowrap}
 .suneung-quiz .q-type{display:inline-block;font-size:.66rem;color:var(--tag-blue);background:var(--tag-blue-bg);border-radius:8px;padding:1px 7px;margin-left:6px;font-weight:600;vertical-align:1px;white-space:nowrap}
-.suneung-quiz details{margin-top:8px}
-.suneung-quiz summary{cursor:pointer;font-size:.76rem;color:var(--tag-blue);font-weight:600;list-style:none}
-.suneung-quiz summary::-webkit-details-marker{display:none}
-.suneung-quiz summary::before{content:'▸ 모범답안 보기'}
-.suneung-quiz details[open] summary::before{content:'▾ 모범답안 접기'}
-.suneung-quiz summary span{display:none}
-.suneung-quiz .q-ans-body{margin-top:6px;font-size:.8rem;line-height:1.65;color:#444;background:#f7fafd;border-left:3px solid var(--tag-blue);padding:8px 10px;border-radius:4px}
+.suneung-quiz .q-input{display:block;width:100%;margin-top:8px;min-height:62px;resize:vertical;font-family:'Noto Sans KR',sans-serif;font-size:.83rem;line-height:1.6;color:#1a1a1a;border:1px solid #cfe0f0;border-radius:6px;padding:8px 10px;background:#fbfdff;box-sizing:border-box}
+.suneung-quiz .q-input:focus{outline:none;border-color:var(--tag-blue);background:#fff}
+.suneung-quiz .q-ans{margin-top:8px}
+.suneung-quiz .q-ans-body{font-size:.8rem;line-height:1.65;color:#444;background:#f7fafd;border-left:3px solid var(--tag-blue);padding:8px 10px;border-radius:4px}
+.suneung-quiz .q-ans-body::before{content:'모범답안 · ';font-weight:700;color:var(--tag-blue)}
+.quiz-actions{margin-top:14px;display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.quiz-progress{font-size:.76rem;color:var(--text-sub);font-weight:700;margin-right:auto}
+.quiz-progress.done{color:var(--tag-green)}
+.quiz-btn{font-family:'Noto Sans KR',sans-serif;font-size:.8rem;font-weight:700;border:none;border-radius:8px;padding:8px 14px;cursor:pointer;transition:opacity .15s,filter .15s}
+.quiz-btn.reveal{background:var(--tag-blue-bg);color:var(--tag-blue)}
+.quiz-btn.send{background:#fee500;color:#3c1e1e}
+.quiz-btn.send:hover{filter:brightness(.96)}
+.quiz-btn:disabled{opacity:.45;cursor:not-allowed}
+.quiz-lock-note{flex-basis:100%;font-size:.73rem;color:var(--text-sub);margin-top:-2px}
 .suneung-src{margin-top:12px;font-size:.76rem;color:var(--text-sub);line-height:1.5;padding-top:10px;border-top:1px dashed var(--border)}
 .suneung-src strong{color:var(--accent)}
 .suneung-src a{color:var(--tag-blue);text-decoration:none}
@@ -433,17 +440,104 @@ function buildQuestions(rp){
   if(rp.point3) qs.push({type:'적용·추론', q:'윗글의 논지를 근거로, 관련 사례나 현상이 나타나는 이유를 서술하시오.', answer:rp.point3});
   return qs.slice(0,3);
 }
-function genQuizHTML(rp){
+function genQuizHTML(rp, dateStr){
   var qs = buildQuestions(rp);
   if(!qs || !qs.length) return '';
+  // 전송/자동저장용으로 현재 문제 세트를 저장 (학생 답안은 DOM textarea에서 읽음)
+  window._quizData = { title: (rp && rp.title) || '', date: dateStr || '', questions: qs };
   var items = qs.map(function(q,i){
     var typeTag = q.type ? '<span class="q-type">'+esc(q.type)+'</span>' : '';
-    var ans = q.answer ? '<details><summary><span>모범답안</span></summary><div class="q-ans-body">'+esc(q.answer)+'</div></details>' : '';
-    return '<li><div class="q-text"><span class="q-num">문 '+(i+1)+'</span><span>'+esc(q.q)+typeTag+'</span></div>'+ans+'</li>';
+    // 모범답안은 DOM에 있되 hidden — '다 썼어요'로 잠금해제 전까지 감춤
+    var ans = q.answer ? '<div class="q-ans" id="qans-'+i+'" hidden><div class="q-ans-body">'+esc(q.answer)+'</div></div>' : '';
+    return '<li>'+
+      '<div class="q-text"><span class="q-num">문 '+(i+1)+'</span><span>'+esc(q.q)+typeTag+'</span></div>'+
+      '<textarea class="q-input" data-qi="'+i+'" rows="3" placeholder="여기에 답을 작성하세요…" oninput="briefingQuizProgress()"></textarea>'+
+      ans+
+      '</li>';
   }).join('');
-  return '<div class="suneung-quiz"><h4>✍️ 예상 문제 (주관식 서술형)</h4>'+
-    '<p class="quiz-desc">다음 수능에 나올 수 있는 유형입니다. 스스로 답을 써 본 뒤 모범답안과 비교해 보세요.</p>'+
-    '<ol>'+items+'</ol></div>';
+  return '<div class="suneung-quiz">'+
+    '<h4>✍️ 예상 문제 (주관식 서술형)</h4>'+
+    '<p class="quiz-desc">답을 직접 써 본 뒤 모범답안과 비교하고, 카톡으로 보내 기록해 보세요. (답안은 이 기기에 자동 저장됩니다)</p>'+
+    '<ol>'+items+'</ol>'+
+    '<div class="quiz-actions">'+
+      '<span class="quiz-progress" id="quizProgress">0/'+qs.length+' 작성</span>'+
+      '<button type="button" class="quiz-btn reveal" id="quizReveal" disabled onclick="briefingRevealAnswers()">🔒 모범답안 보기</button>'+
+      '<button type="button" class="quiz-btn send" id="quizSend" onclick="briefingSendKakao()">💬 카톡으로 보내기</button>'+
+      '<span class="quiz-lock-note" id="quizLockNote">'+qs.length+'문제를 모두 작성하면 모범답안이 열립니다.</span>'+
+    '</div>'+
+  '</div>';
+}
+
+// ── 주관식: 답안 입력 진행상태 / 잠금해제 / 카톡 전송 / 자동저장 ──
+function briefingQuizInputs(){ return Array.prototype.slice.call(document.querySelectorAll('.suneung-quiz .q-input')); }
+function briefingAllFilled(){
+  var ins = briefingQuizInputs();
+  return ins.length>0 && ins.every(function(t){ return t.value.trim().length>0; });
+}
+function briefingQuizProgress(){
+  var ins = briefingQuizInputs();
+  if(!ins.length) return;
+  var filled = ins.filter(function(t){ return t.value.trim().length>0; }).length;
+  var all = filled===ins.length;
+  var prog = document.getElementById('quizProgress');
+  var reveal = document.getElementById('quizReveal');
+  var note = document.getElementById('quizLockNote');
+  if(prog){ prog.textContent = filled+'/'+ins.length+' 작성'; prog.classList.toggle('done', all); }
+  if(reveal && !reveal.classList.contains('opened')){
+    reveal.disabled = !all;
+    reveal.textContent = (all ? '🔓' : '🔒') + ' 모범답안 보기';
+  }
+  if(note) note.style.display = all ? 'none' : '';
+  briefingQuizSave();
+}
+function briefingRevealAnswers(){
+  if(!briefingAllFilled()) return;   // 잠금: 다 써야만 열림
+  document.querySelectorAll('.suneung-quiz .q-ans').forEach(function(el){ el.hidden = false; });
+  var reveal = document.getElementById('quizReveal');
+  if(reveal){ reveal.classList.add('opened'); reveal.disabled = true; reveal.textContent = '✅ 모범답안 (아래 표시됨)'; }
+}
+function briefingComposeText(){
+  var d = window._quizData || {};
+  var ins = briefingQuizInputs();
+  var lines = ['[오공의 데일리 브리핑] 비문학 예상문제 답안'];
+  if(d.date) lines.push('📅 '+d.date);
+  if(d.title) lines.push('📖 '+d.title);
+  lines.push('');
+  (d.questions||[]).forEach(function(q,i){
+    lines.push('문'+(i+1)+'. '+(q.q||''));
+    var a = ins[i] ? ins[i].value.trim() : '';
+    lines.push('▶ '+(a||'(미작성)'));
+    lines.push('');
+  });
+  lines.push('— https://anveer2-cyber.github.io');
+  return lines.join('\n');
+}
+async function briefingSendKakao(){
+  var text = briefingComposeText();
+  // 1순위: Web Share(모바일) → 공유시트에서 카카오톡 선택
+  if(navigator.share){
+    try{ await navigator.share({ title:'비문학 예상문제 답안', text:text }); return; }
+    catch(e){ if(e && e.name==='AbortError') return; }   // 사용자가 취소하면 종료
+  }
+  // 폴백: 클립보드 복사 후 안내(데스크톱 등 공유 미지원 환경)
+  try{
+    await navigator.clipboard.writeText(text);
+    alert('답안이 클립보드에 복사되었어요.\n카카오톡을 열고 붙여넣기(Ctrl/Cmd+V) 하면 됩니다.');
+  }catch(e){
+    window.prompt('아래 내용을 복사해 카카오톡에 붙여넣기 하세요.', text);
+  }
+}
+function briefingQuizKey(){ var d = window._quizData || {}; return 'bq:' + (d.title || d.date || 'x'); }
+function briefingQuizSave(){
+  try{ localStorage.setItem(briefingQuizKey(), JSON.stringify(briefingQuizInputs().map(function(t){ return t.value; }))); }catch(e){}
+}
+function briefingQuizRestore(){
+  try{
+    var raw = localStorage.getItem(briefingQuizKey());
+    if(raw){ var vals = JSON.parse(raw); var ins = briefingQuizInputs();
+      ins.forEach(function(t,i){ if(vals[i]!=null) t.value = vals[i]; }); }
+  }catch(e){}
+  briefingQuizProgress();
 }
 
 function renderAll(d, isArchive, archiveLabel){
@@ -570,10 +664,11 @@ function renderAll(d, isArchive, archiveLabel){
             '</ol>'+
           '</div>'+
           (rp.tip?'<div class="suneung-tip"><strong>💡 오늘의 학습 팁:</strong> '+esc(rp.tip)+'</div>':'')+
-          genQuizHTML(rp)+
+          genQuizHTML(rp, d.date)+
           srcHTML+
         '</div>'+
       '</div>';
+    briefingQuizRestore();   // 저장된 답안 복원 + 진행상태/버튼 갱신
   }
 
   // 논문
