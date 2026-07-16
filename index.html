@@ -519,13 +519,20 @@ async function briefingSendKakao(){
     try{ await navigator.share({ title:'비문학 예상문제 답안', text:text }); return; }
     catch(e){ if(e && e.name==='AbortError') return; }   // 사용자가 취소하면 종료
   }
-  // 폴백: 클립보드 복사 후 안내(데스크톱 등 공유 미지원 환경)
-  try{
-    await navigator.clipboard.writeText(text);
-    alert('답안이 클립보드에 복사되었어요.\n카카오톡을 열고 붙여넣기(Ctrl/Cmd+V) 하면 됩니다.');
-  }catch(e){
-    window.prompt('아래 내용을 복사해 카카오톡에 붙여넣기 하세요.', text);
+  // 폴백: 클립보드 복사 후 안내(데스크톱 등 공유 미지원 환경). 어떤 경우에도 예외로 끝나지 않게 단계적 처리.
+  var copied=false;
+  try{ await navigator.clipboard.writeText(text); copied=true; }catch(e){}
+  if(!copied){
+    try{
+      var ta=document.createElement('textarea');
+      ta.value=text; ta.style.position='fixed'; ta.style.opacity='0'; ta.style.left='-9999px';
+      document.body.appendChild(ta); ta.select();
+      copied=document.execCommand('copy'); document.body.removeChild(ta);
+    }catch(e){}
   }
+  if(copied){ alert('답안이 클립보드에 복사되었어요.\n카카오톡을 열고 붙여넣기(Ctrl/Cmd+V) 하면 됩니다.'); return; }
+  try{ window.prompt('아래 내용을 복사해 카카오톡에 붙여넣기 하세요.', text); }
+  catch(e){ alert('이 환경에서는 자동 복사가 지원되지 않아요. 답안을 길게 눌러 직접 복사해 주세요.'); }
 }
 function briefingQuizKey(){ var d = window._quizData || {}; return 'bq:' + (d.title || d.date || 'x'); }
 function briefingQuizSave(){
