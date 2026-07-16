@@ -111,6 +111,10 @@ details[open] summary{margin-bottom:6px}
 .suneung-quiz details[open] summary::before{content:'▾ 모범답안 접기'}
 .suneung-quiz summary span{display:none}
 .suneung-quiz .q-ans-body{margin-top:6px;font-size:.8rem;line-height:1.65;color:#444;background:#f7fafd;border-left:3px solid var(--tag-blue);padding:8px 10px;border-radius:4px}
+.suneung-src{margin-top:12px;font-size:.76rem;color:var(--text-sub);line-height:1.5;padding-top:10px;border-top:1px dashed var(--border)}
+.suneung-src strong{color:var(--accent)}
+.suneung-src a{color:var(--tag-blue);text-decoration:none}
+.suneung-src a:hover{text-decoration:underline}
 /* ── 아카이브 스타일 ── */
 .archive-item{display:block;padding:10px 16px;background:var(--surface);border-radius:var(--r);margin-bottom:6px;text-decoration:none;color:var(--text);font-size:.84rem;box-shadow:var(--shadow);transition:background .15s;cursor:pointer;border:none;width:100%;text-align:left;font-family:'Noto Sans KR',sans-serif}
 .archive-item:hover{background:var(--accent-light)}
@@ -353,6 +357,14 @@ function formatDateKo(dateStr){
   return y+'년 '+mo+'월 '+da+'일 '+wd+'요일';
 }
 
+// 데이터(뉴스 제목·요약·지문 등)를 innerHTML에 넣기 전 HTML 이스케이프.
+// 네이버 뉴스 등 외부 소스 텍스트에 <b> 같은 태그/특수문자가 섞여도 안전하게 표시.
+function esc(s){
+  return String(s==null?'':s)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+
 // 비문학 예상 주관식 문제 생성
 // 1순위: JSON의 readingPassage.questions(집필 시 예측·작성). 없으면 point로 자동 생성(구 아카이브 호환).
 function coreTopic(title){
@@ -375,9 +387,9 @@ function genQuizHTML(rp){
   var qs = buildQuestions(rp);
   if(!qs || !qs.length) return '';
   var items = qs.map(function(q,i){
-    var typeTag = q.type ? '<span class="q-type">'+q.type+'</span>' : '';
-    var ans = q.answer ? '<details><summary><span>모범답안</span></summary><div class="q-ans-body">'+q.answer+'</div></details>' : '';
-    return '<li><div class="q-text"><span class="q-num">문 '+(i+1)+'</span><span>'+q.q+typeTag+'</span></div>'+ans+'</li>';
+    var typeTag = q.type ? '<span class="q-type">'+esc(q.type)+'</span>' : '';
+    var ans = q.answer ? '<details><summary><span>모범답안</span></summary><div class="q-ans-body">'+esc(q.answer)+'</div></details>' : '';
+    return '<li><div class="q-text"><span class="q-num">문 '+(i+1)+'</span><span>'+esc(q.q)+typeTag+'</span></div>'+ans+'</li>';
   }).join('');
   return '<div class="suneung-quiz"><h4>✍️ 예상 문제 (주관식 서술형)</h4>'+
     '<p class="quiz-desc">다음 수능에 나올 수 있는 유형입니다. 스스로 답을 써 본 뒤 모범답안과 비교해 보세요.</p>'+
@@ -393,7 +405,7 @@ function renderAll(d, isArchive, archiveLabel){
   if(isArchive){
     banner.style.display='flex';
     banner.innerHTML='<div class="archive-banner" style="width:100%">'+
-      '<span>📅 <strong>'+(archiveLabel||d.date)+'</strong> 브리핑을 보는 중입니다</span>'+
+      '<span>📅 <strong>'+esc(archiveLabel||d.date)+'</strong> 브리핑을 보는 중입니다</span>'+
       '<button onclick="backToToday()">오늘 브리핑으로 돌아가기</button></div>';
   } else {
     banner.style.display='none';
@@ -417,11 +429,11 @@ function renderAll(d, isArchive, archiveLabel){
       var visible = catOrder.filter(function(c){ return grouped[c] && grouped[c].length; });
       document.getElementById('news-list').innerHTML = visible.map(function(c, idx){
         var items = grouped[c].map(function(n){
-          var sp = n.studyPoint ? '<div class="study"><strong>학습 포인트:</strong> '+n.studyPoint+'</div>' : '';
+          var sp = n.studyPoint ? '<div class="study"><strong>학습 포인트:</strong> '+esc(n.studyPoint)+'</div>' : '';
           return '<div class="news-card">'+
-            '<h3><a href="'+(n.url||'#')+'" target="_blank">'+n.title+'</a></h3>'+
-            '<p>'+(n.summary||'')+'</p>'+
-            '<div class="source">'+(n.source||'')+'</div>'+
+            '<h3><a href="'+esc(n.url||'#')+'" target="_blank" rel="noopener noreferrer">'+esc(n.title)+'</a></h3>'+
+            '<p>'+esc(n.summary||'')+'</p>'+
+            '<div class="source">'+esc(n.source||'')+'</div>'+
             sp+
             '</div>';
         }).join('');
@@ -437,9 +449,9 @@ function renderAll(d, isArchive, archiveLabel){
     } else {
       // 구포맷 (category 필드 없음): 기존 평면 렌더 유지
       document.getElementById('news-list').innerHTML=d.news.map(function(n,i){
-        return '<div class="news-card"><div class="tags">'+(n.tags||[]).map(function(t){return '<span class="tag '+tagClass(t)+'">'+t+'</span>';}).join('')+
-          '</div><h3><a href="'+(n.url||'#')+'" target="_blank">'+(i+1)+'. '+n.title+'</a></h3>'+
-          '<p>'+n.summary+'</p><div class="source">'+(n.source||'')+'</div></div>';
+        return '<div class="news-card"><div class="tags">'+(n.tags||[]).map(function(t){return '<span class="tag '+tagClass(t)+'">'+esc(t)+'</span>';}).join('')+
+          '</div><h3><a href="'+esc(n.url||'#')+'" target="_blank" rel="noopener noreferrer">'+(i+1)+'. '+esc(n.title)+'</a></h3>'+
+          '<p>'+esc(n.summary||'')+'</p><div class="source">'+esc(n.source||'')+'</div></div>';
       }).join('');
     }
   }
@@ -448,9 +460,9 @@ function renderAll(d, isArchive, archiveLabel){
   if(d.editorials&&d.editorials.length>0){
     document.getElementById('editorial-list').innerHTML=d.editorials.map((e,i)=>
       '<div class="news-card editorial"><div class="tags"><span class="tag t-purple">사설 '+(i+1)+'</span></div>'+
-      '<h3><a href="'+(e.url||'#')+'" target="_blank">'+e.title+'</a></h3>'+
-      '<p><strong>'+(e.publisher||'')+'</strong></p><p>'+e.summary+'</p>'+
-      '<div style="margin-top:8px;font-size:.82rem"><strong style="color:var(--tag-purple)">학습 포인트:</strong> '+(e.studyPoint||'')+'</div></div>'
+      '<h3><a href="'+esc(e.url||'#')+'" target="_blank" rel="noopener noreferrer">'+esc(e.title)+'</a></h3>'+
+      '<p><strong>'+esc(e.publisher||'')+'</strong></p><p>'+esc(e.summary||'')+'</p>'+
+      '<div style="margin-top:8px;font-size:.82rem"><strong style="color:var(--tag-purple)">학습 포인트:</strong> '+esc(e.studyPoint||'')+'</div></div>'
     ).join('');
   }
 
@@ -464,8 +476,16 @@ function renderAll(d, isArchive, archiveLabel){
     if(paras.length<=1) paras = rawPassage.split(/\n/).filter(p=>p.trim().length>0);
     var passageHTML = paras.map((p,i)=>
       '<div class="para"><span class="para-num">'+(circleNums[i]||'●')+'</span>'+
-      '<span class="para-text">'+p.trim()+'</span></div>'
+      '<span class="para-text">'+esc(p.trim())+'</span></div>'
     ).join('');
+
+    // 지문 출처(연동 사설/칼럼) 표시
+    var se = rp.sourceEditorial || {};
+    var srcHTML = (se.title||se.paper) ?
+      '<div class="suneung-src">📄 지문 출처: '+
+        (se.paper?'<strong>'+esc(se.paper)+'</strong>':'')+
+        (se.title?(se.paper?' · ':'')+(se.url?'<a href="'+esc(se.url)+'" target="_blank" rel="noopener noreferrer">':'')+'「'+esc(se.title)+'」'+(se.url?'</a>':''):'')+
+      '</div>' : '';
 
     document.getElementById('reading-section').innerHTML=
       '<div class="suneung-card">'+
@@ -482,13 +502,14 @@ function renderAll(d, isArchive, archiveLabel){
           '<div class="suneung-points">'+
             '<h4>핵심 독해 포인트</h4>'+
             '<ol>'+
-              '<li><span class="point-num">1</span><span><strong>문단별 중심 내용:</strong> '+(rp.point1||'')+'</span></li>'+
-              '<li><span class="point-num">2</span><span><strong>글의 전개 방식:</strong> '+(rp.point2||'')+'</span></li>'+
-              '<li><span class="point-num">3</span><span><strong>핵심 개념 간 관계:</strong> '+(rp.point3||'')+'</span></li>'+
+              '<li><span class="point-num">1</span><span><strong>문단별 중심 내용:</strong> '+esc(rp.point1||'')+'</span></li>'+
+              '<li><span class="point-num">2</span><span><strong>글의 전개 방식:</strong> '+esc(rp.point2||'')+'</span></li>'+
+              '<li><span class="point-num">3</span><span><strong>핵심 개념 간 관계:</strong> '+esc(rp.point3||'')+'</span></li>'+
             '</ol>'+
           '</div>'+
-          (rp.tip?'<div class="suneung-tip"><strong>💡 오늘의 학습 팁:</strong> '+rp.tip+'</div>':'')+
+          (rp.tip?'<div class="suneung-tip"><strong>💡 오늘의 학습 팁:</strong> '+esc(rp.tip)+'</div>':'')+
           genQuizHTML(rp)+
+          srcHTML+
         '</div>'+
       '</div>';
   }
@@ -496,11 +517,11 @@ function renderAll(d, isArchive, archiveLabel){
   // 논문
   if(d.papers&&d.papers.length>0){
     document.getElementById('ent-list').innerHTML=d.papers.map(p=>
-      '<div class="paper-card"><div class="tags"><span class="tag t-orange">'+(p.category||'ENT')+'</span></div>'+
-      '<h3><a href="'+(p.url||'#')+'" target="_blank">'+p.title+'</a></h3>'+
-      (p.titleKo?'<p style="font-size:.85rem;color:#555;margin:-2px 0 6px;font-style:italic;">'+p.titleKo+'</p>':'')+
-      '<details><summary>초록 보기 (한글 번역)</summary><div class="abstract">'+(p.abstractKo||'')+'</div></details>'+
-      '<div class="meta"><span class="journal">'+(p.journal||'')+'</span><span>'+(p.date||'')+'</span></div></div>'
+      '<div class="paper-card"><div class="tags"><span class="tag t-orange">'+esc(p.category||'ENT')+'</span></div>'+
+      '<h3><a href="'+esc(p.url||'#')+'" target="_blank" rel="noopener noreferrer">'+esc(p.title)+'</a></h3>'+
+      (p.titleKo?'<p style="font-size:.85rem;color:#555;margin:-2px 0 6px;font-style:italic;">'+esc(p.titleKo)+'</p>':'')+
+      '<details><summary>초록 보기 (한글 번역)</summary><div class="abstract">'+esc(p.abstractKo||'')+'</div></details>'+
+      '<div class="meta"><span class="journal">'+esc(p.journal||'')+'</span><span>'+esc(p.date||'')+'</span></div></div>'
     ).join('');
   }
 }
@@ -514,12 +535,21 @@ async function loadArchive(){
       document.getElementById('archive-list').innerHTML='<p style="color:#999;font-size:.85rem;padding:10px">아직 아카이브 데이터가 없습니다. 내일부터 자동으로 쌓입니다.</p>';
       return;
     }
-    document.getElementById('archive-list').innerHTML=d.map(x=>
-      '<button class="archive-item" onclick="loadArchiveData(\'data/'+x.file+'\',\''+x.label+'\')">'+
-        '<div>📄 '+x.label+'</div>'+
-        '<div class="date">'+x.date+'</div>'+
+    var listEl=document.getElementById('archive-list');
+    listEl.innerHTML=d.map(x=>
+      '<button class="archive-item" data-file="data/'+esc(x.file)+'" data-label="'+esc(x.label)+'">'+
+        '<div>📄 '+esc(x.label)+'</div>'+
+        '<div class="date">'+esc(x.date)+'</div>'+
       '</button>'
     ).join('');
+    // 인라인 onclick 문자열 조립(라벨에 따옴표 있으면 깨짐) 대신 이벤트 위임 사용
+    if(!listEl.dataset.bound){
+      listEl.dataset.bound='1';
+      listEl.addEventListener('click',function(ev){
+        var btn=ev.target.closest('.archive-item');
+        if(btn) loadArchiveData(btn.dataset.file, btn.dataset.label);
+      });
+    }
   }catch(e){
     document.getElementById('archive-list').innerHTML='<p style="color:#999;font-size:.85rem;padding:10px">아직 아카이브 데이터가 없습니다. 내일부터 자동으로 쌓입니다.</p>';
   }
