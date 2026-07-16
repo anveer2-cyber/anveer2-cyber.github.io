@@ -2,9 +2,9 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>오공의 데일리 브리핑 | 수능 시사 · 이비인후과 논문 매일 업데이트</title>
-<meta name="description" content="매일 업데이트되는 수능 시사 브리핑(주요 뉴스 10선, 사설 분석, 비문학 독해 지문)과 이비인후과 최신 논문 10편을 한눈에. 수험생·임상의를 위한 큐레이션 브리핑.">
+<meta name="description" content="매일 업데이트되는 수능 시사 브리핑(7개 카테고리 주요 뉴스, 사설 분석, 비문학 독해 지문·예상문제)과 이비인후과 최신 논문 10편을 한눈에. 수험생·임상의를 위한 큐레이션 브리핑.">
 <meta name="keywords" content="수능 시사, 수능 비문학, 사설 분석, 대입, 이비인후과 논문, BPPV, 이명, 돌발성난청, 어지럼증, 보청기, 데일리 브리핑, 오공">
 <meta name="author" content="오공">
 <meta name="robots" content="index, follow">
@@ -174,13 +174,13 @@ details[open] summary{margin-bottom:6px}
 <p class="sub">수능 시사 브리핑 · 이비인후과 논문 리뷰</p>
 <div class="date-badge" id="todayDate">로딩 중...</div>
 </div>
-<div class="tab-nav">
-<button class="active" onclick="switchTab('suneung')">수능 브리핑</button>
-<button onclick="switchTab('editorial')">사설 독해</button>
-<button onclick="switchTab('ent')">이비인후과</button>
-<button onclick="switchTab('archive')">지난 브리핑</button>
+<div class="tab-nav" role="tablist" aria-label="브리핑 카테고리">
+<button class="active" role="tab" id="tabbtn-suneung" aria-controls="tab-suneung" aria-selected="true" onclick="switchTab('suneung')">수능 브리핑</button>
+<button role="tab" id="tabbtn-editorial" aria-controls="tab-editorial" aria-selected="false" tabindex="-1" onclick="switchTab('editorial')">사설 독해</button>
+<button role="tab" id="tabbtn-ent" aria-controls="tab-ent" aria-selected="false" tabindex="-1" onclick="switchTab('ent')">이비인후과</button>
+<button role="tab" id="tabbtn-archive" aria-controls="tab-archive" aria-selected="false" tabindex="-1" onclick="switchTab('archive')">지난 브리핑</button>
 </div>
-<div class="tab-content active" id="tab-suneung">
+<div class="tab-content active" id="tab-suneung" role="tabpanel" aria-labelledby="tabbtn-suneung">
 <div class="container">
 <div id="archive-view-banner" style="display:none"></div>
 <div class="dday-card" id="ddayCard"></div>
@@ -194,7 +194,7 @@ details[open] summary{margin-bottom:6px}
 <div id="news-list"><div class="loading">콘텐츠를 불러오는 중입니다...</div></div>
 </div>
 </div>
-<div class="tab-content" id="tab-editorial">
+<div class="tab-content" id="tab-editorial" role="tabpanel" aria-labelledby="tabbtn-editorial">
 <div class="container">
 <div class="sec-header">오늘의 사설 3선</div>
 <p class="sec-desc">수능 국어(비문학/논술) 대비 - 주요 일간지 사설 분석</p>
@@ -204,14 +204,14 @@ details[open] summary{margin-bottom:6px}
 <div id="reading-section"><div class="loading">콘텐츠를 불러오는 중입니다...</div></div>
 </div>
 </div>
-<div class="tab-content" id="tab-ent">
+<div class="tab-content" id="tab-ent" role="tabpanel" aria-labelledby="tabbtn-ent">
 <div class="container">
 <div class="sec-header ent">이비인후과 최신 논문 브리핑</div>
 <p class="sec-desc">최신 논문 - 초록 한글 번역 포함</p>
 <div id="ent-list"><div class="loading">콘텐츠를 불러오는 중입니다...</div></div>
 </div>
 </div>
-<div class="tab-content" id="tab-archive">
+<div class="tab-content" id="tab-archive" role="tabpanel" aria-labelledby="tabbtn-archive">
 <div class="container">
 <div class="sec-header">지난 브리핑 아카이브</div>
 <p class="sec-desc">이전 날짜의 브리핑을 클릭하면 해당 날짜 브리핑을 볼 수 있습니다</p>
@@ -224,20 +224,23 @@ details[open] summary{margin-bottom:6px}
 </div>
 <script>
 var _todayData = null;
+var _viewing = 'today';   // 'today' | 'archive' — 아카이브 열람 중 늦게 온 loadData가 덮어쓰지 않게
 
 // ── D-day 설정 (날짜 바뀌면 여기만 수정) ──
-var SUNEUNG_DATE = '2026-11-19';     // 2027학년도 수능 (확정)
+var SUNEUNG_DATE = '2026-11-19';     // 2027학년도 수능 (확정, 목)
 var DDAY_EVENTS = [
-  {name:'6월 모의평가', date:'2026-06-04'},    // 평가원 확정
-  {name:'9월 모의평가', date:'2026-09-03'},    // 잠정 (첫째 목요일 관례) — 확정 발표 시 수정
+  {name:'6월 모의평가', date:'2026-06-04'},    // 평가원 확정 (목)
+  {name:'9월 모의평가', date:'2026-09-02'},    // 평가원 확정 (수) — KICE 2026-06-17 발표
   {name:'수능',        date:SUNEUNG_DATE}
 ];
 
 function diffDays(isoTarget){
-  var t = new Date(isoTarget + 'T00:00:00');
-  var n = new Date();
-  n.setHours(0,0,0,0);
-  return Math.round((t - n) / 86400000);
+  // 한국 입시 일정이므로 접속자 현지 시간이 아닌 KST(UTC+9) 자정 기준으로 계산한다.
+  var p = String(isoTarget).split('-');
+  var targetUTC = Date.UTC(+p[0], (+p[1])-1, +p[2]);
+  var kstNow = new Date(Date.now() + 9*3600000);   // 현재 시각을 KST로 이동
+  var todayKstUTC = Date.UTC(kstNow.getUTCFullYear(), kstNow.getUTCMonth(), kstNow.getUTCDate());
+  return Math.round((targetUTC - todayKstUTC) / 86400000);
 }
 
 function renderDday(){
@@ -296,41 +299,72 @@ function renderDday(){
 // 자정에 맞춰 카운트다운 자동 갱신. 탭을 켜 둔 채로 날짜가 바뀌어도
 // D-day가 안 밀리게 하고, 백그라운드로 밀렸다 돌아와도 즉시 재계산.
 function scheduleDdayRefresh(){
-  var now = new Date();
-  var nextMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate()+1, 0, 0, 5);
-  var ms = nextMidnight - now;
-  setTimeout(function tick(){
-    renderDday();
-    setTimeout(tick, 24*60*60*1000);
-  }, ms);
+  // 매 틱마다 '다음 자정'을 다시 계산해 예약한다. 고정 24h 재예약은 절전/지연 시
+  // 자정 기준이 점점 밀리는 문제가 있어, 항상 실제 다음 0시에 정렬한다.
+  function schedule(){
+    var now = new Date();
+    var nextMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate()+1, 0, 0, 5);
+    setTimeout(function(){ renderDday(); schedule(); }, nextMidnight - now);
+  }
+  schedule();
 }
 document.addEventListener('visibilitychange', function(){
   if(document.visibilityState === 'visible') renderDday();
 });
 
+var TAB_ORDER=['suneung','editorial','ent','archive'];
 function switchTab(n){
   document.querySelectorAll('.tab-content').forEach(t=>t.classList.remove('active'));
-  document.querySelectorAll('.tab-nav button').forEach(b=>b.classList.remove('active'));
   document.getElementById('tab-'+n).classList.add('active');
-  var tabs=['suneung','editorial','ent','archive'];
-  document.querySelectorAll('.tab-nav button')[tabs.indexOf(n)].classList.add('active');
+  document.querySelectorAll('.tab-nav button').forEach(function(b){
+    b.classList.remove('active');
+    b.setAttribute('aria-selected','false');
+    b.setAttribute('tabindex','-1');
+  });
+  var btn=document.getElementById('tabbtn-'+n);
+  if(btn){ btn.classList.add('active'); btn.setAttribute('aria-selected','true'); btn.setAttribute('tabindex','0'); }
 }
+// 탭 목록 방향키 이동 (WAI-ARIA Tabs 패턴)
+(function(){
+  var nav=document.querySelector('.tab-nav');
+  if(!nav) return;
+  nav.addEventListener('keydown', function(e){
+    if(e.key!=='ArrowRight' && e.key!=='ArrowLeft') return;
+    var cur=document.querySelector('.tab-nav button.active');
+    var i=cur ? TAB_ORDER.indexOf(cur.id.replace('tabbtn-','')) : 0;
+    if(i<0) return;
+    var ni = e.key==='ArrowRight' ? (i+1)%TAB_ORDER.length : (i-1+TAB_ORDER.length)%TAB_ORDER.length;
+    e.preventDefault();
+    switchTab(TAB_ORDER[ni]);
+    var nb=document.getElementById('tabbtn-'+TAB_ORDER[ni]);
+    if(nb) nb.focus();
+  });
+})();
 
 async function loadData(){
   try{
-    var r=await fetch('data/latest.json');
-    if(!r.ok)throw 0;
+    // 매일 갱신되는 mutable 파일이므로 캐시버스팅 (어제 데이터 잔존 방지)
+    var r=await fetch('data/latest.json?ts='+Date.now(), {cache:'no-store'});
+    if(!r.ok)throw new Error('HTTP '+r.status);
     var d=await r.json();
     _todayData=d;
-    renderAll(d, false);
-  }catch(e){console.log('No data yet')}
+    if(_viewing==='today') renderAll(d, false);   // 아카이브 열람 중이면 화면을 덮지 않음
+  }catch(e){
+    console.log('latest.json load failed', e);
+    document.getElementById('todayDate').textContent='데이터를 불러오지 못했습니다';
+    ['news-list','editorial-list','reading-section','ent-list'].forEach(function(id){
+      var el=document.getElementById(id);
+      if(el) el.innerHTML='<div class="loading">콘텐츠를 불러오지 못했습니다. 잠시 후 새로고침 해 주세요.</div>';
+    });
+  }
 }
 
 async function loadArchiveData(file, label){
   try{
-    var r=await fetch(file);
-    if(!r.ok)throw 0;
+    var r=await fetch(file, {cache:'no-store'});
+    if(!r.ok)throw new Error('HTTP '+r.status);
     var d=await r.json();
+    _viewing='archive';
     renderAll(d, true, label);
     switchTab('suneung');
     window.scrollTo(0,0);
@@ -340,8 +374,14 @@ async function loadArchiveData(file, label){
 }
 
 function backToToday(){
-  if(_todayData) renderAll(_todayData, false);
-  document.getElementById('archive-view-banner').style.display='none';
+  _viewing='today';
+  if(_todayData){
+    renderAll(_todayData, false);
+    document.getElementById('archive-view-banner').style.display='none';
+  } else {
+    // 오늘 데이터가 아직/실패로 없으면 배너를 유지한 채 재로딩 (아카이브가 '오늘'로 오인되지 않게)
+    loadData();
+  }
 }
 
 // 날짜 문자열에서 연·월·일을 뽑아 요일을 '계산'해 항상 붙여준다.
@@ -364,6 +404,14 @@ function esc(s){
     .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
     .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
 }
+// href에 넣을 URL 검증. esc()는 따옴표만 막을 뿐 javascript:/data: 스킴 실행은 못 막으므로
+// http(s)/mailto 또는 내부 앵커·상대경로만 허용하고 나머지는 '#'로 무력화한다.
+function safeUrl(u){
+  var s=String(u==null?'':u).trim();
+  if(/^(https?:|mailto:)/i.test(s)) return s;
+  if(/^[#/]/.test(s) || /^[\w.-]+(\/|$)/.test(s)) return s;  // 앵커/절대경로/상대경로 허용
+  return '#';
+}
 
 // 비문학 예상 주관식 문제 생성
 // 1순위: JSON의 readingPassage.questions(집필 시 예측·작성). 없으면 point로 자동 생성(구 아카이브 호환).
@@ -376,7 +424,9 @@ function coreTopic(title){
   return t || '윗글의 중심 화제';
 }
 function buildQuestions(rp){
-  if(rp.questions && rp.questions.length) return rp.questions.slice(0,3);
+  // 형식이 온전한(q 필드 있는) 문항만 인정. 깨진 questions면 point 기반 폴백으로 넘어감.
+  var valid=(rp.questions||[]).filter(function(x){ return x && x.q; });
+  if(valid.length) return valid.slice(0,3);
   var qs=[];
   if(rp.point1) qs.push({type:'내용 이해', q:'윗글을 바탕으로 '+coreTopic(rp.title)+'의 핵심 원리를 두 문장 이내로 서술하시오.', answer:rp.point1});
   if(rp.point2) qs.push({type:'관계 파악', q:'윗글에 제시된 핵심 개념들이 서로 어떻게 관련되며 작동하는지 서술하시오.', answer:rp.point2});
@@ -411,18 +461,26 @@ function renderAll(d, isArchive, archiveLabel){
     banner.style.display='none';
   }
 
+  // 콘텐츠 4개 영역 선(先)초기화 — 날짜/아카이브 전환 시 이전 콘텐츠·로딩스피너 잔존 방지
+  document.getElementById('news-list').innerHTML='<div class="loading">등록된 뉴스가 없습니다.</div>';
+  document.getElementById('editorial-list').innerHTML='<div class="loading">등록된 사설이 없습니다.</div>';
+  document.getElementById('reading-section').innerHTML='<div class="loading">등록된 지문이 없습니다.</div>';
+  document.getElementById('ent-list').innerHTML='<div class="loading">등록된 논문이 없습니다.</div>';
+
   // 뉴스 — category 필드가 있으면 카테고리 아코디언, 없으면 평면 리스트(구버전 호환)
-  if(d.news&&d.news.length>0){
-    var hasCategories = d.news.some(function(n){ return n && n.category; });
+  var newsItems = (d.news||[]).filter(Boolean);   // null/비정상 항목 제거(렌더 크래시 방지)
+  if(newsItems.length>0){
+    var hasCategories = newsItems.some(function(n){ return n && n.category; });
     if(hasCategories){
       var catOrder = ['politics','economy','society','international','science_tech','culture','etc'];
       var catLabel = {
         'politics':'정치','economy':'경제','society':'사회','international':'국제',
         'science_tech':'과학·기술','culture':'문화','etc':'기타'
       };
-      var grouped = {};
-      d.news.forEach(function(n){
-        var c = (n.category && catLabel[n.category]) ? n.category : 'etc';
+      var hasCat = function(k){ return Object.prototype.hasOwnProperty.call(catLabel, k); };
+      var grouped = Object.create(null);   // 프로토타입 오염(category='constructor' 등) 크래시 방지
+      newsItems.forEach(function(n){
+        var c = (n.category && hasCat(n.category)) ? n.category : 'etc';
         if(!grouped[c]) grouped[c] = [];
         grouped[c].push(n);
       });
@@ -431,7 +489,7 @@ function renderAll(d, isArchive, archiveLabel){
         var items = grouped[c].map(function(n){
           var sp = n.studyPoint ? '<div class="study"><strong>학습 포인트:</strong> '+esc(n.studyPoint)+'</div>' : '';
           return '<div class="news-card">'+
-            '<h3><a href="'+esc(n.url||'#')+'" target="_blank" rel="noopener noreferrer">'+esc(n.title)+'</a></h3>'+
+            '<h3><a href="'+esc(safeUrl(n.url))+'" target="_blank" rel="noopener noreferrer">'+esc(n.title)+'</a></h3>'+
             '<p>'+esc(n.summary||'')+'</p>'+
             '<div class="source">'+esc(n.source||'')+'</div>'+
             sp+
@@ -448,9 +506,9 @@ function renderAll(d, isArchive, archiveLabel){
       }).join('');
     } else {
       // 구포맷 (category 필드 없음): 기존 평면 렌더 유지
-      document.getElementById('news-list').innerHTML=d.news.map(function(n,i){
+      document.getElementById('news-list').innerHTML=newsItems.map(function(n,i){
         return '<div class="news-card"><div class="tags">'+(n.tags||[]).map(function(t){return '<span class="tag '+tagClass(t)+'">'+esc(t)+'</span>';}).join('')+
-          '</div><h3><a href="'+esc(n.url||'#')+'" target="_blank" rel="noopener noreferrer">'+(i+1)+'. '+esc(n.title)+'</a></h3>'+
+          '</div><h3><a href="'+esc(safeUrl(n.url))+'" target="_blank" rel="noopener noreferrer">'+(i+1)+'. '+esc(n.title)+'</a></h3>'+
           '<p>'+esc(n.summary||'')+'</p><div class="source">'+esc(n.source||'')+'</div></div>';
       }).join('');
     }
@@ -458,9 +516,9 @@ function renderAll(d, isArchive, archiveLabel){
 
   // 사설
   if(d.editorials&&d.editorials.length>0){
-    document.getElementById('editorial-list').innerHTML=d.editorials.map((e,i)=>
+    document.getElementById('editorial-list').innerHTML=d.editorials.filter(Boolean).map((e,i)=>
       '<div class="news-card editorial"><div class="tags"><span class="tag t-purple">사설 '+(i+1)+'</span></div>'+
-      '<h3><a href="'+esc(e.url||'#')+'" target="_blank" rel="noopener noreferrer">'+esc(e.title)+'</a></h3>'+
+      '<h3><a href="'+esc(safeUrl(e.url))+'" target="_blank" rel="noopener noreferrer">'+esc(e.title)+'</a></h3>'+
       '<p><strong>'+esc(e.publisher||'')+'</strong></p><p>'+esc(e.summary||'')+'</p>'+
       '<div style="margin-top:8px;font-size:.82rem"><strong style="color:var(--tag-purple)">학습 포인트:</strong> '+esc(e.studyPoint||'')+'</div></div>'
     ).join('');
@@ -473,9 +531,13 @@ function renderAll(d, isArchive, archiveLabel){
     // 문단 분리: \n\n 또는 \n 기준
     var rawPassage = (rp.passage||'').replace(/\\n/g,'\n');
     var paras = rawPassage.split(/\n\n+/).filter(p=>p.trim().length>0);
-    if(paras.length<=1) paras = rawPassage.split(/\n/).filter(p=>p.trim().length>0);
+    if(paras.length<=1){
+      // 단일 개행 폴백은 과분할(문장마다 문단화) 방지를 위해 적정 개수일 때만 적용
+      var single = rawPassage.split(/\n/).filter(p=>p.trim().length>0);
+      if(single.length>1 && single.length<=8) paras = single;
+    }
     var passageHTML = paras.map((p,i)=>
-      '<div class="para"><span class="para-num">'+(circleNums[i]||'●')+'</span>'+
+      '<div class="para"><span class="para-num">'+(circleNums[i]||('('+(i+1)+')'))+'</span>'+
       '<span class="para-text">'+esc(p.trim())+'</span></div>'
     ).join('');
 
@@ -484,7 +546,7 @@ function renderAll(d, isArchive, archiveLabel){
     var srcHTML = (se.title||se.paper) ?
       '<div class="suneung-src">📄 지문 출처: '+
         (se.paper?'<strong>'+esc(se.paper)+'</strong>':'')+
-        (se.title?(se.paper?' · ':'')+(se.url?'<a href="'+esc(se.url)+'" target="_blank" rel="noopener noreferrer">':'')+'「'+esc(se.title)+'」'+(se.url?'</a>':''):'')+
+        (se.title?(se.paper?' · ':'')+(se.url?'<a href="'+esc(safeUrl(se.url))+'" target="_blank" rel="noopener noreferrer">':'')+'「'+esc(se.title)+'」'+(se.url?'</a>':''):'')+
       '</div>' : '';
 
     document.getElementById('reading-section').innerHTML=
@@ -516,9 +578,9 @@ function renderAll(d, isArchive, archiveLabel){
 
   // 논문
   if(d.papers&&d.papers.length>0){
-    document.getElementById('ent-list').innerHTML=d.papers.map(p=>
+    document.getElementById('ent-list').innerHTML=d.papers.filter(Boolean).map(p=>
       '<div class="paper-card"><div class="tags"><span class="tag t-orange">'+esc(p.category||'ENT')+'</span></div>'+
-      '<h3><a href="'+esc(p.url||'#')+'" target="_blank" rel="noopener noreferrer">'+esc(p.title)+'</a></h3>'+
+      '<h3><a href="'+esc(safeUrl(p.url))+'" target="_blank" rel="noopener noreferrer">'+esc(p.title)+'</a></h3>'+
       (p.titleKo?'<p style="font-size:.85rem;color:#555;margin:-2px 0 6px;font-style:italic;">'+esc(p.titleKo)+'</p>':'')+
       '<details><summary>초록 보기 (한글 번역)</summary><div class="abstract">'+esc(p.abstractKo||'')+'</div></details>'+
       '<div class="meta"><span class="journal">'+esc(p.journal||'')+'</span><span>'+esc(p.date||'')+'</span></div></div>'
@@ -528,8 +590,8 @@ function renderAll(d, isArchive, archiveLabel){
 
 async function loadArchive(){
   try{
-    var r=await fetch('data/archive-index.json');
-    if(!r.ok)throw 0;
+    var r=await fetch('data/archive-index.json?ts='+Date.now(), {cache:'no-store'});
+    if(!r.ok)throw new Error('HTTP '+r.status);
     var d=await r.json();
     if(!d||d.length===0){
       document.getElementById('archive-list').innerHTML='<p style="color:#999;font-size:.85rem;padding:10px">아직 아카이브 데이터가 없습니다. 내일부터 자동으로 쌓입니다.</p>';
@@ -551,7 +613,8 @@ async function loadArchive(){
       });
     }
   }catch(e){
-    document.getElementById('archive-list').innerHTML='<p style="color:#999;font-size:.85rem;padding:10px">아직 아카이브 데이터가 없습니다. 내일부터 자동으로 쌓입니다.</p>';
+    console.log('archive-index load failed', e);
+    document.getElementById('archive-list').innerHTML='<p style="color:#999;font-size:.85rem;padding:10px">아카이브 목록을 불러오지 못했습니다. 잠시 후 새로고침 해 주세요.</p>';
   }
 }
 
