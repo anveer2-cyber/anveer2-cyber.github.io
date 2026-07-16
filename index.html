@@ -95,6 +95,22 @@ details[open] summary{margin-bottom:6px}
 .suneung-points ol li .point-num{flex-shrink:0;background:var(--accent);color:#fff;border-radius:50%;width:18px;height:18px;display:flex;align-items:center;justify-content:center;font-size:.65rem;font-weight:700;margin-top:2px}
 .suneung-tip{background:linear-gradient(135deg,#fff9f0,#fff3e0);border:1px solid #f5cba7;border-radius:8px;padding:12px 14px;font-size:.81rem;color:var(--text-sub);line-height:1.65}
 .suneung-tip strong{color:var(--accent2)}
+/* ── 예상 주관식 문제 ── */
+.suneung-quiz{margin-top:12px;background:#eef4fb;border:1px solid #cfe0f0;border-radius:8px;padding:14px 16px}
+.suneung-quiz h4{font-size:.85rem;font-weight:700;color:var(--tag-blue);margin-bottom:4px}
+.suneung-quiz .quiz-desc{font-size:.75rem;color:var(--text-sub);margin-bottom:10px;line-height:1.5}
+.suneung-quiz ol{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px}
+.suneung-quiz li{background:#fff;border:1px solid #dbe7f2;border-radius:6px;padding:10px 12px}
+.suneung-quiz .q-text{font-size:.85rem;line-height:1.6;color:#1a1a1a;display:flex;gap:8px;align-items:flex-start}
+.suneung-quiz .q-num{flex-shrink:0;background:var(--tag-blue);color:#fff;font-size:.68rem;font-weight:700;border-radius:4px;padding:2px 7px;margin-top:2px;white-space:nowrap}
+.suneung-quiz .q-type{display:inline-block;font-size:.66rem;color:var(--tag-blue);background:var(--tag-blue-bg);border-radius:8px;padding:1px 7px;margin-left:6px;font-weight:600;vertical-align:1px;white-space:nowrap}
+.suneung-quiz details{margin-top:8px}
+.suneung-quiz summary{cursor:pointer;font-size:.76rem;color:var(--tag-blue);font-weight:600;list-style:none}
+.suneung-quiz summary::-webkit-details-marker{display:none}
+.suneung-quiz summary::before{content:'▸ 모범답안 보기'}
+.suneung-quiz details[open] summary::before{content:'▾ 모범답안 접기'}
+.suneung-quiz summary span{display:none}
+.suneung-quiz .q-ans-body{margin-top:6px;font-size:.8rem;line-height:1.65;color:#444;background:#f7fafd;border-left:3px solid var(--tag-blue);padding:8px 10px;border-radius:4px}
 /* ── 아카이브 스타일 ── */
 .archive-item{display:block;padding:10px 16px;background:var(--surface);border-radius:var(--r);margin-bottom:6px;text-decoration:none;color:var(--text);font-size:.84rem;box-shadow:var(--shadow);transition:background .15s;cursor:pointer;border:none;width:100%;text-align:left;font-family:'Noto Sans KR',sans-serif}
 .archive-item:hover{background:var(--accent-light)}
@@ -324,9 +340,53 @@ function backToToday(){
   document.getElementById('archive-view-banner').style.display='none';
 }
 
+// 날짜 문자열에서 연·월·일을 뽑아 요일을 '계산'해 항상 붙여준다.
+// (JSON date에 '요일'이 빠져 있어도 화면엔 늘 요일이 표시된다.)
+function formatDateKo(dateStr){
+  if(!dateStr) return '';
+  var m = String(dateStr).match(/(\d{4})\D+(\d{1,2})\D+(\d{1,2})/);
+  if(!m) return dateStr;                       // 예상 밖 형식이면 원문 그대로
+  var y=+m[1], mo=+m[2], da=+m[3];
+  var dt = new Date(y, mo-1, da);
+  if(isNaN(dt.getTime())) return dateStr;
+  var wd = ['일','월','화','수','목','금','토'][dt.getDay()];
+  return y+'년 '+mo+'월 '+da+'일 '+wd+'요일';
+}
+
+// 비문학 예상 주관식 문제 생성
+// 1순위: JSON의 readingPassage.questions(집필 시 예측·작성). 없으면 point로 자동 생성(구 아카이브 호환).
+function coreTopic(title){
+  if(!title) return '윗글의 중심 화제';
+  var t = String(title);
+  var idx = t.indexOf('―'); if(idx<0) idx = t.indexOf('—'); if(idx<0) idx = t.indexOf('-');
+  if(idx>=0) t = t.slice(idx+1);
+  t = t.trim();
+  return t || '윗글의 중심 화제';
+}
+function buildQuestions(rp){
+  if(rp.questions && rp.questions.length) return rp.questions.slice(0,3);
+  var qs=[];
+  if(rp.point1) qs.push({type:'내용 이해', q:'윗글을 바탕으로 '+coreTopic(rp.title)+'의 핵심 원리를 두 문장 이내로 서술하시오.', answer:rp.point1});
+  if(rp.point2) qs.push({type:'관계 파악', q:'윗글에 제시된 핵심 개념들이 서로 어떻게 관련되며 작동하는지 서술하시오.', answer:rp.point2});
+  if(rp.point3) qs.push({type:'적용·추론', q:'윗글의 논지를 근거로, 관련 사례나 현상이 나타나는 이유를 서술하시오.', answer:rp.point3});
+  return qs.slice(0,3);
+}
+function genQuizHTML(rp){
+  var qs = buildQuestions(rp);
+  if(!qs || !qs.length) return '';
+  var items = qs.map(function(q,i){
+    var typeTag = q.type ? '<span class="q-type">'+q.type+'</span>' : '';
+    var ans = q.answer ? '<details><summary><span>모범답안</span></summary><div class="q-ans-body">'+q.answer+'</div></details>' : '';
+    return '<li><div class="q-text"><span class="q-num">문 '+(i+1)+'</span><span>'+q.q+typeTag+'</span></div>'+ans+'</li>';
+  }).join('');
+  return '<div class="suneung-quiz"><h4>✍️ 예상 문제 (주관식 서술형)</h4>'+
+    '<p class="quiz-desc">다음 수능에 나올 수 있는 유형입니다. 스스로 답을 써 본 뒤 모범답안과 비교해 보세요.</p>'+
+    '<ol>'+items+'</ol></div>';
+}
+
 function renderAll(d, isArchive, archiveLabel){
-  // 날짜 배지
-  document.getElementById('todayDate').textContent = d.date||'';
+  // 날짜 배지 (요일은 항상 계산해서 붙인다)
+  document.getElementById('todayDate').textContent = formatDateKo(d.date);
 
   // 아카이브 배너
   var banner = document.getElementById('archive-view-banner');
@@ -428,6 +488,7 @@ function renderAll(d, isArchive, archiveLabel){
             '</ol>'+
           '</div>'+
           (rp.tip?'<div class="suneung-tip"><strong>💡 오늘의 학습 팁:</strong> '+rp.tip+'</div>':'')+
+          genQuizHTML(rp)+
         '</div>'+
       '</div>';
   }
