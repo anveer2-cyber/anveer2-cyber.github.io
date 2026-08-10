@@ -30,10 +30,10 @@
 </script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Noto+Serif+KR:wght@400;600;700&display=swap');
-:root{--bg:#f5f5f0;--surface:#fff;--text:#1a1a1a;--text-sub:#666;--accent:#2d5016;--accent-light:#e8f0e2;--accent2:#b7410e;--accent2-light:#fdebd0;--border:#e0ddd6;--tag-blue:#1a5276;--tag-blue-bg:#d6eaf8;--tag-purple:#6c3483;--tag-purple-bg:#ebdef0;--tag-green:#1e8449;--tag-green-bg:#d5f5e3;--tag-red:#c0392b;--tag-red-bg:#fce4ec;--shadow:0 2px 8px rgba(0,0,0,0.06);--r:10px}
+:root{--bg:#f3f6f7;--surface:#fff;--text:#1a1a1a;--text-sub:#666;--accent:#46687c;--accent-light:#e4edf1;--accent2:#c9924f;--accent2-light:#f9efdd;--border:#dde3e5;--tag-blue:#1a5276;--tag-blue-bg:#d6eaf8;--tag-purple:#6c3483;--tag-purple-bg:#ebdef0;--tag-green:#1e8449;--tag-green-bg:#d5f5e3;--tag-red:#c0392b;--tag-red-bg:#fce4ec;--shadow:0 2px 8px rgba(0,0,0,0.06);--r:10px}
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;-webkit-font-smoothing:antialiased}
-.header{background:linear-gradient(135deg,#1a3a0a,#2d5016,#3d6b1e);color:#fff;padding:32px 16px 28px;text-align:center}
+.header{background:linear-gradient(135deg,#2e4756,#46687c,#5f8398);color:#fff;padding:32px 16px 28px;text-align:center}
 .header h1{font-family:'Noto Serif KR',serif;font-size:1.5rem;font-weight:700;margin-bottom:4px}
 .header .motto{font-family:'Noto Serif KR',serif;font-size:.88rem;opacity:.9;font-weight:400;margin-bottom:6px;letter-spacing:.05em}
 .header .sub{font-size:.82rem;opacity:.8;font-weight:300}
@@ -74,20 +74,20 @@ details[open] summary{margin-bottom:6px}
 
 /* ── 수능 시험지 스타일 ── */
 .suneung-card{background:var(--surface);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);margin-bottom:12px}
-.suneung-card-header{background:#1a3a0a;color:#fff;padding:8px 16px;display:flex;justify-content:space-between;align-items:center}
+.suneung-card-header{background:#2e4756;color:#fff;padding:8px 16px;display:flex;justify-content:space-between;align-items:center}
 .suneung-card-header .exam-label{font-size:.72rem;opacity:.8;font-weight:400}
 .suneung-card-header .exam-title{font-size:.88rem;font-weight:700;font-family:'Noto Serif KR',serif}
 .suneung-card-header .subject{font-size:.72rem;background:rgba(255,255,255,.2);padding:2px 10px;border-radius:10px}
 .suneung-card-body{padding:16px}
 .suneung-instruction{font-size:.85rem;font-weight:700;color:#1a1a1a;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid #ccc}
-.suneung-passage-wrap{border:2px solid #222;border-radius:4px;padding:18px 20px;margin-bottom:14px;background:#fdfdf8;position:relative}
-.suneung-passage-wrap::before{content:'지 문';position:absolute;top:-12px;left:16px;background:#1a3a0a;color:#fff;font-size:.65rem;font-weight:700;padding:2px 10px;border-radius:3px;letter-spacing:3px}
+.suneung-passage-wrap{border:2px solid #222;border-radius:4px;padding:18px 20px;margin-bottom:14px;background:#fbfcfd;position:relative}
+.suneung-passage-wrap::before{content:'지 문';position:absolute;top:-12px;left:16px;background:#2e4756;color:#fff;font-size:.65rem;font-weight:700;padding:2px 10px;border-radius:3px;letter-spacing:3px}
 .suneung-passage{font-family:'Noto Serif KR',serif;font-size:.88rem;line-height:2.1;color:#111}
 .suneung-passage .para{margin-bottom:.8em;display:flex;gap:6px;align-items:flex-start}
 .suneung-passage .para:last-child{margin-bottom:0}
-.suneung-passage .para-num{flex-shrink:0;font-weight:700;color:#1a3a0a;font-size:.85rem;margin-top:2px;min-width:1.4em}
+.suneung-passage .para-num{flex-shrink:0;font-weight:700;color:#2e4756;font-size:.85rem;margin-top:2px;min-width:1.4em}
 .suneung-passage .para-text{flex:1}
-.suneung-points{background:#f0f5ec;border-radius:8px;padding:14px 16px;margin-bottom:10px}
+.suneung-points{background:#eaf1f4;border-radius:8px;padding:14px 16px;margin-bottom:10px}
 .suneung-points h4{font-size:.85rem;font-weight:700;color:var(--accent);margin-bottom:10px;display:flex;align-items:center;gap:6px}
 .suneung-points h4::before{content:'📝'}
 .suneung-points ol{padding-left:0;list-style:none;display:flex;flex-direction:column;gap:7px}
@@ -126,7 +126,7 @@ details[open] summary{margin-bottom:6px}
 .archive-item{display:block;padding:10px 16px;background:var(--surface);border-radius:var(--r);margin-bottom:6px;text-decoration:none;color:var(--text);font-size:.84rem;box-shadow:var(--shadow);transition:background .15s;cursor:pointer;border:none;width:100%;text-align:left;font-family:'Noto Sans KR',sans-serif}
 .archive-item:hover{background:var(--accent-light)}
 .archive-item .date{color:var(--text-sub);font-size:.75rem}
-.archive-banner{background:linear-gradient(135deg,#e8f0e2,#d5e8c8);border:1px solid var(--accent);border-radius:var(--r);padding:10px 14px;margin-bottom:14px;font-size:.82rem;display:flex;justify-content:space-between;align-items:center}
+.archive-banner{background:linear-gradient(135deg,#e4edf1,#d3e2ea);border:1px solid var(--accent);border-radius:var(--r);padding:10px 14px;margin-bottom:14px;font-size:.82rem;display:flex;justify-content:space-between;align-items:center}
 .archive-banner button{background:var(--accent);color:#fff;border:none;border-radius:6px;padding:4px 12px;font-size:.76rem;cursor:pointer;font-family:'Noto Sans KR',sans-serif}
 /* ── 카테고리 그룹 (뉴스) ── */
 .cat-group{background:var(--surface);border-radius:var(--r);margin-bottom:10px;box-shadow:var(--shadow);overflow:hidden;border-left:3px solid var(--accent)}
@@ -136,21 +136,21 @@ details[open] summary{margin-bottom:6px}
 .cat-group[open] .cat-summary::after{transform:rotate(180deg)}
 .cat-name{flex:0 0 auto}
 .cat-count{background:var(--accent-light);color:var(--accent);padding:2px 9px;border-radius:10px;font-size:.7rem;font-weight:600}
-.cat-body{padding:6px 12px 12px;background:#fafaf7;border-top:1px solid var(--border)}
+.cat-body{padding:6px 12px 12px;background:#f7fafb;border-top:1px solid var(--border)}
 .cat-body .news-card{margin-bottom:8px;box-shadow:none;border:1px solid var(--border);border-left:3px solid var(--accent)}
 .cat-body .news-card:last-child{margin-bottom:0}
-.cat-body .news-card .study{margin-top:8px;font-size:.78rem;color:#555;background:#f0f5ec;padding:6px 9px;border-radius:6px;line-height:1.55}
+.cat-body .news-card .study{margin-top:8px;font-size:.78rem;color:#555;background:#eaf1f4;padding:6px 9px;border-radius:6px;line-height:1.55}
 .cat-body .news-card .study strong{color:var(--accent)}
 /* ── 말씀 카드 ── */
-.verse-card{background:linear-gradient(135deg,#fdfcf5 0%,#f7f2e0 100%);border:1px solid #e0d8b8;border-radius:var(--r);padding:22px 22px 18px;margin-bottom:20px;box-shadow:0 3px 14px rgba(45,80,22,0.08);position:relative;overflow:hidden;text-align:center}
-.verse-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#2d5016 0%,#b7410e 50%,#2d5016 100%)}
+.verse-card{background:linear-gradient(135deg,#fdfcf5 0%,#f7f2e0 100%);border:1px solid #e0d8b8;border-radius:var(--r);padding:22px 22px 18px;margin-bottom:20px;box-shadow:0 3px 14px rgba(46,71,86,0.08);position:relative;overflow:hidden;text-align:center}
+.verse-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#46687c 0%,#c9924f 50%,#46687c 100%)}
 .verse-label{font-family:'Noto Serif KR',serif;font-size:.72rem;letter-spacing:.3em;color:var(--accent);font-weight:600;margin-bottom:14px;display:flex;align-items:center;justify-content:center;gap:12px}
 .verse-label::before,.verse-label::after{content:'';flex:0 0 28px;height:1px;background:linear-gradient(90deg,transparent,var(--accent),transparent)}
 .verse-body{font-family:'Noto Serif KR',serif;font-size:1rem;line-height:2;color:#2a2a2a;font-weight:500;padding:0 4px;margin-bottom:14px;word-break:keep-all}
-.verse-ref{font-family:'Noto Serif KR',serif;font-size:.82rem;color:var(--accent2);font-weight:600;letter-spacing:.08em;padding-top:10px;border-top:1px dashed rgba(45,80,22,.2);display:inline-block;padding-left:16px;padding-right:16px}
+.verse-ref{font-family:'Noto Serif KR',serif;font-size:.82rem;color:var(--accent2);font-weight:600;letter-spacing:.08em;padding-top:10px;border-top:1px dashed rgba(46,71,86,.2);display:inline-block;padding-left:16px;padding-right:16px}
 @media(max-width:480px){.verse-card{padding:18px 16px 16px}.verse-body{font-size:.92rem;line-height:1.9}}
 /* ── D-day 카드 ── */
-.dday-card{background:linear-gradient(135deg,#1a3a0a 0%,#2d5016 55%,#3d6b1e 100%);color:#fff;border-radius:var(--r);padding:20px 22px 18px;margin-bottom:20px;box-shadow:0 4px 18px rgba(45,80,22,0.25);position:relative;overflow:hidden}
+.dday-card{background:linear-gradient(135deg,#2e4756 0%,#46687c 55%,#5f8398 100%);color:#fff;border-radius:var(--r);padding:20px 22px 18px;margin-bottom:20px;box-shadow:0 4px 18px rgba(46,71,86,0.25);position:relative;overflow:hidden}
 .dday-card::after{content:'';position:absolute;top:-40px;right:-40px;width:140px;height:140px;background:radial-gradient(circle,rgba(255,255,255,.08) 0%,transparent 70%);pointer-events:none}
 .dday-label{font-family:'Noto Serif KR',serif;font-size:.72rem;letter-spacing:.28em;opacity:.75;margin-bottom:8px;text-align:center;font-weight:500}
 .dday-main{text-align:center;margin-bottom:10px}
@@ -193,8 +193,8 @@ details[open] summary{margin-bottom:6px}
 <div class="dday-card" id="ddayCard"></div>
 <div class="verse-card">
 <div class="verse-label">오늘의 말씀</div>
-<p class="verse-body">여호와께서 그들 앞에서 가시며 낮에는 구름기둥으로 그들의 길을 인도하시고 밤에는 불기둥을 그들에게 비추사 낮이나 밤이나 진행하게 하시니</p>
-<p class="verse-ref">출애굽기 13:21</p>
+<p class="verse-body">내가 네게 명령한 것이 아니냐 강하고 담대하라 두려워하지 말며 놀라지 말라 네가 어디로 가든지 네 하나님 여호와가 너와 함께 하느니라</p>
+<p class="verse-ref">여호수아 1:9</p>
 </div>
 <div class="sec-header">오늘의 수능 시사 뉴스</div>
 <p class="sec-desc">7개 카테고리(정치·경제·사회·국제·과학기술·문화·기타)로 매일 엄선합니다</p>
