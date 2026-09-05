@@ -1,0 +1,311 @@
+{
+  "date": "2026-09-05",
+  "news": [
+    {
+      "title": "李 지지율 40%로 취임 후 최저…민주 38%·국힘 30%로 격차 축소",
+      "source": "동아일보",
+      "url": "https://www.donga.com/news/Politics/article/all/20260904/134609694/2",
+      "summary": "한국갤럽 9월 첫째 주 조사에서 이재명 대통령 국정 지지율이 취임 후 최저인 40%로 하락했다. 8·30 개각(김승원·용혜인 후보자)과 부동산 세제 논란이 겹치며 20·30대와 중도층 이탈이 두드러졌고, 정당 지지도는 민주 38%·국힘 30%로 격차가 좁혀졌다.",
+      "studyPoint": "지지율은 국정 동력을 가늠하는 핵심 지표다. 개각·정책 논란이 여론에 미치는 영향과 지지 연합의 세대·이념 구성 변화를 함께 읽어야 한다.",
+      "category": "politics"
+    },
+    {
+      "title": "세제 손질·중폭 개각에도 李 지지율 40%로 또 하락",
+      "source": "매일경제",
+      "url": "https://www.mk.co.kr/article/12144811",
+      "summary": "부동산 세제 개편과 6개 부처 중폭 개각이라는 쇄신 카드에도 지지율이 반등하지 못하고 최저치를 기록했다. 갤럽은 '6개 부처 장관 교체 인선 여파'로 분석했다. 이 대통령은 6~9일 프랑스를 국빈방문한다.",
+      "studyPoint": "쇄신용 개각이 오히려 인사 검증 논란으로 역풍을 낳는 구조를 보여준다. 정책 신호와 인사가 상충하는 사례로 이해할 만하다.",
+      "category": "politics"
+    },
+    {
+      "title": "靑, 호르무즈 파병 논의 공식화…與 일부 '반대'",
+      "source": "한국경제",
+      "url": "https://www.hankyung.com/article/2026090451891",
+      "summary": "청와대가 호르무즈 해협 파병 검토를 공식화했다. 미국의 반도체 관세·외교 압박이 배경이라는 분석이 나오는 가운데 여당 일부는 헌법·경제 논리로 반대했다. 러트닉 미 상무장관은 미국 내 생산 반도체에 관세를 감면하겠다고 언급했다.",
+      "studyPoint": "동맹의 압박과 국내법 절차·국민 안전 사이의 정책 딜레마다. 파병 결정의 헌법적·통상적 함의를 종합적으로 파악해 보자.",
+      "category": "politics"
+    },
+    {
+      "title": "9월 코스피, 美 중간선거가 살릴까…장기금리·유가·환율이 변수",
+      "source": "경향신문",
+      "url": "https://www.khan.co.kr/article/202609050600051",
+      "summary": "9월 증시는 계절적 약세 우려 속에 미국 중간선거·장기금리·유가·환율 흐름에 따른 외국인 수급이 관건이라는 분석이다. 민주당의 하원 우세 시나리오 등 정치 변화가 거시경제에 미칠 영향이 주목된다.",
+      "studyPoint": "국내 증시가 대외 금리·정치 이벤트에 연동되는 메커니즘을 보여준다. 외국인 자금 흐름과 매크로 변수의 연결 고리를 이해하자.",
+      "category": "economy"
+    },
+    {
+      "title": "엔화 강세·9월 증시 경계…금리·지정학 변수 주시",
+      "source": "한국경제",
+      "url": "https://www.hankyung.com/article/202609055462i",
+      "summary": "달러·엔 환율이 160엔대에서 157엔까지 내려오는 등 엔 강세가 나타났다. 에버코어 ISI는 금리·지정학·미 중간선거를 9월 증시의 주요 변수로 지목했다. 엔비디아의 챗GPT 대항마 투자 등 빅테크 동향도 관심을 끈다.",
+      "studyPoint": "환율·금리·빅테크 실적이 얽히는 글로벌 자산시장의 상호작용을 보여준다. 엔 캐리와 위험자산 흐름의 관계에 유의하자.",
+      "category": "economy"
+    },
+    {
+      "title": "美, 카자흐 텅스텐 이어 타지크 안티몬에도 관심…핵심광물 공급망 경쟁",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260904104500009",
+      "summary": "미국이 중앙아시아 핵심광물 확보에 나서며 배터리·반도체·방염재 원료인 안티몬 개발에 관심을 보였다. 안티몬은 중국·러시아가 주요 생산국이며 일본과 EU도 경쟁적으로 접근하고 있다.",
+      "studyPoint": "핵심광물은 산업과 안보가 겹치는 전략 자원이다. 공급망 다변화와 자원 지정학이 무역·산업정책을 어떻게 규정하는지 파악하자.",
+      "category": "economy"
+    },
+    {
+      "title": "시진핑 '전쟁'·부통령은 '아니다'…미·중 정상회담 앞 신경전",
+      "source": "중앙일보",
+      "url": "https://www.joongang.co.kr/article/25459125",
+      "summary": "미·중 정상회담을 앞두고 시진핑 주석이 비서방권 결속을 과시하며 트럼프의 일방 관세와 이란 전쟁을 겨냥했다. NYT는 시 주석이 비서방 핵심 지도자로서의 위상을 부각하려는 의도로 해석했다.",
+      "studyPoint": "강대국 경쟁에서 정상외교와 진영 결속이 갖는 전략적 신호를 보여준다. 다자 질서 재편의 동학을 사례로 이해하자.",
+      "category": "international"
+    },
+    {
+      "title": "[사설] 미국 압박 부담돼도 국민 생명 걸린 파병은 신중해야",
+      "source": "한겨레",
+      "url": "https://www.hani.co.kr/arti/opinion/editorial/1276332.html",
+      "summary": "미국의 비용 분담·군사 기여 요구가 관세 압박과 '한국 패싱' 위협으로 현실화하는 가운데, 호르무즈 파병은 국민 생명이 걸린 사안인 만큼 신중해야 한다는 주장이다.",
+      "studyPoint": "동맹의 요구와 자국 안전·주권 사이의 균형 문제다. 파병의 정치·안보적 비용과 편익을 비판적으로 검토해 보자.",
+      "category": "international"
+    },
+    {
+      "title": "[사설] '반도체·호르무즈' 美 양면 압박, 정교한 수읽기로 대처를",
+      "source": "매일경제",
+      "url": "https://www.mk.co.kr/article/12144705",
+      "summary": "미국이 반도체 표적 관세와 호르무즈 파병 요구를 동시에 꺼내 든 양면 압박에 대해, 미국이 진짜 원하는 바를 파악하는 외교 역량과 실용적 선택지 구성이 필요하다는 지적이다.",
+      "studyPoint": "통상과 안보가 얽힌 협상에서 상대 의도 파악과 카드 설계의 중요성을 보여준다. 연계 협상(issue linkage)의 논리를 이해하자.",
+      "category": "international"
+    },
+    {
+      "title": "저궤도 붐비자 우주 쓰레기 급증…궤도 '교통체증'",
+      "source": "조선일보",
+      "url": "https://www.chosun.com/economy/tech_it/2026/09/03/P75B75JQ6RGGJFUYQ7FOD7VYTU",
+      "summary": "저궤도 군집위성이 급증하면서 추적 가능한 우주 물체가 4만6천여 개(ESA)에 이르렀다. 위성 충돌과 파편 증가로 궤도 혼잡과 충돌 위험이 커지며 우주 교통관리가 새로운 과제로 떠올랐다.",
+      "studyPoint": "뉴스페이스 시대의 외부효과를 보여준다. 공유자원인 궤도의 혼잡·오염 문제를 '공유지의 비극' 틀로 이해해 보자.",
+      "category": "science_tech"
+    },
+    {
+      "title": "과기정통부 내년 예산 29.6조 역대 최대…AI 예산 1년 새 84%↑",
+      "source": "조선일보",
+      "url": "https://www.chosun.com/economy/science/2026/09/01/CT5Q3OWQSJCC5KAFIQE26TQ3QE",
+      "summary": "정부가 향후 5년간 R&D에 200조원 이상을 투입하기로 했다. 내년 과기정통부 예산은 29.6조원으로 AI 예산을 84% 늘린 9.4조원을 편성해 GPU·학습데이터·AI 데이터센터에 집중하며 2030년 'AI 3강'을 목표로 삼았다.",
+      "studyPoint": "국가 기술 전략과 재정 배분의 관계를 보여준다. AI·반도체 자립을 위한 R&D 투자의 우선순위와 파급효과를 파악하자.",
+      "category": "science_tech"
+    },
+    {
+      "title": "美 '팍스 실리카' 맞불…中, 제3세계로 AI 인프라 확장",
+      "source": "한국경제",
+      "url": "https://www.hankyung.com/article/2026090203721",
+      "summary": "미국의 AI·반도체 주도('팍스 실리카')에 맞서 중국이 러시아·브라질 등 제3세계로 AI 인프라를 확장하고 있다. AI 패권 경쟁이 정상외교 각축전으로 번지는 양상이다.",
+      "studyPoint": "기술 표준과 인프라를 둘러싼 미·중 경쟁을 보여준다. 범용기술의 지정학과 기술 블록화 흐름을 이해하자.",
+      "category": "science_tech"
+    },
+    {
+      "title": "'쉬었음'·'안심주택'…용어에 가려진 청년 고용 위기",
+      "source": "한국경제",
+      "url": "https://magazine.hankyung.com/business/article/202609031845b",
+      "summary": "전체 취업자는 늘어도 청년 고용은 역행하고 있다. 20대 이하 신규 임금 일자리가 통계 작성 이후 가장 낮은 수준으로 위축됐는데, 완곡한 정책 용어가 청년 위기의 실상을 가린다는 지적이 나온다.",
+      "studyPoint": "고용 지표의 총량과 세대별 격차를 구분해 읽어야 한다. 청년 고용 위축의 구조적 원인(노동시장 이중구조)을 비판적으로 살펴보자.",
+      "category": "society"
+    },
+    {
+      "title": "경기 이주민 포털, AI 안내 넘어 상담·서비스 연결까지",
+      "source": "한겨레",
+      "url": "https://www.hani.co.kr/arti/area/capital/1276256.html",
+      "summary": "경기도가 13개 언어 이주민 포털을 개편해 AI가 기본 안내를 맡고 상담 인력은 체류 불안·노동권 침해·가족 위기 등 복합 사례에 집중하도록 했다. 저출생·고령화 속 이주민 정착 지원을 강화하려는 시도다.",
+      "studyPoint": "이주민 통합과 공공 서비스 설계의 문제다. 인구구조 변화에 대응하는 사회통합 정책의 방향을 이해하자.",
+      "category": "society"
+    },
+    {
+      "title": "[한·중앙아를 잇다] 160년 유랑 넘어 공존으로…함께할 '다음 이웃'",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260903038500371",
+      "summary": "1937년 강제이주로 흩어진 고려인의 160년 유랑사를 되짚으며 한·중앙아 협력과 공존을 조명한 기획이다. 러시아 연해주에서 사할린·일본·유럽까지 이어진 디아스포라의 현재를 취재했다.",
+      "studyPoint": "디아스포라와 사회통합의 문제다. 이주·정착의 역사가 오늘의 다문화·외교 관계에 남긴 유산을 이해하자.",
+      "category": "society"
+    },
+    {
+      "title": "한국 아시안게임 선수단 결단식…금메달 40~45개 목표",
+      "source": "한겨레",
+      "url": "https://www.hani.co.kr/arti/sports/sports_general/1276089.html",
+      "summary": "9월 19일부터 10월 4일까지 일본 아이치·나고야에서 열리는 아시안게임을 앞두고 대표팀이 진천선수촌에서 결단식을 열었다. 43개 종목 금메달 469개를 두고 경쟁하며 한국은 금 40~45개를 목표로 잡았다. 32년 만의 일본 개최다.",
+      "studyPoint": "국제 스포츠 메가이벤트의 사회적 기능을 보여준다. 국가대표와 집합적 정체성, 개최지 정치의 함의를 파악하자.",
+      "category": "culture"
+    },
+    {
+      "title": "피·땀·눈물이 모여 금빛으로…아시안게임 메달 레이스 임박",
+      "source": "경향신문",
+      "url": "https://sports.khan.co.kr/article/202609040500016",
+      "summary": "개막 다음 날 테크볼을 시작으로 메달 레이스가 열린다. e스포츠·골프 등 새로운 '금맥'과 양궁·수영 등 전통 강세 종목을 중심으로 한 한국 대표팀의 메달 전략이 조명된다.",
+      "studyPoint": "스포츠 종목 다변화와 성취의 관계를 보여준다. 신설 종목의 제도화와 국가 경기력 전략의 변화를 이해하자.",
+      "category": "culture"
+    },
+    {
+      "title": "'2026 아이치·나고야 AG' 중계 채비…9월 10일부터 개막 준비",
+      "source": "경향신문",
+      "url": "https://sports.khan.co.kr/article/202609031253013",
+      "summary": "방송사들이 461개 메달을 두고 벌어지는 아시안게임 중계 진용을 갖추며 9월 10일 남자농구 예선부터 개막식·폐막식까지 대대적으로 편성한다. 스포츠 콘텐츠의 미디어 소비 확대를 보여준다.",
+      "studyPoint": "스포츠와 미디어 산업의 결합을 보여준다. 메가이벤트가 방송·콘텐츠 소비에 미치는 파급을 이해하자.",
+      "category": "culture"
+    },
+    {
+      "title": "9월 모평, 대체로 작년 수능보다 쉬워…N수생·'사탐런' 변수",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260902148100530",
+      "summary": "한국교육과정평가원 9월 모의평가가 대체로 지난해 수능보다 평이하게 출제됐다. 졸업생 비율 22.4%로 역대 최고 등 N수생 급증과 '사탐런'이 2027학년도 입시의 최대 변수로 지목된다. 현행 수능 체제의 마지막 해다.",
+      "studyPoint": "2028 개편 전 마지막 현행 수능의 입시 지형을 보여준다. 모평 난이도·N수생·지역의사제가 대입 전략에 미치는 영향을 파악하자.",
+      "category": "etc"
+    },
+    {
+      "title": "코스트코 울산점서 관계자 합동 소방훈련…초기 진화·인명구조 점검",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260904152300057",
+      "summary": "울산 북부소방서가 대형 판매시설 코스트코 울산점에서 관계자 합동 훈련을 실시해 소화기·옥내소화전을 이용한 초기 진화와 소방대 도착 후 화재 진압·인명구조 절차를 점검했다.",
+      "studyPoint": "다중이용시설의 화재 대응 체계를 보여준다. 예방·초기대응·구조로 이어지는 소방 활동의 단계별 원리를 이해하자(소방공무원 준비생 참고).",
+      "category": "etc"
+    }
+  ],
+  "editorials": [
+    {
+      "title": "[사설] 호르무즈 참여, 국익과 동맹 지키는 선택 돼야",
+      "publisher": "중앙일보",
+      "url": "https://www.joongang.co.kr/article/25459245",
+      "summary": "신중론을 펴온 정부가 호르무즈 파병을 적극 검토하기로 한 것은 늦었지만 옳은 방향이라는 주장이다. 국익과 한미동맹을 함께 지키는 선택이 돼야 하며 국민 안전 확보가 전제라고 강조했다.",
+      "studyPoint": "파병 찬성 논거(항행의 자유·동맹·에너지 안보)와 반대 논거를 대비해 균형 있게 이해해 보자."
+    },
+    {
+      "title": "[사설] '인사' 비판에 지지율 최저…문제 후보자 거취 검토해야",
+      "publisher": "경향신문",
+      "url": "https://www.khan.co.kr/article/202609041826001",
+      "summary": "개각이 지지율 반등은커녕 정권의 발목을 잡는 형국이라며, 인사 검증 논란이 큰 후보자의 거취를 대통령이 직접 검토해야 국정 쇄신이 가능하다는 주문이다.",
+      "studyPoint": "인사청문과 임명권의 정치를 보여준다. 여론·검증·책임정치의 상호작용을 사례로 이해하자."
+    },
+    {
+      "title": "[사설] 기준금리 3%대로…가계부채·자산시장 충격 대비할 때",
+      "publisher": "매일경제",
+      "url": "https://www.mk.co.kr/article/12137947",
+      "summary": "한은의 두 달 연속 금리 인상으로 3% 시대에 진입했다. 2000조 가계부채와 부동산·증시 쏠림의 조정 충격에 대비해 통화·재정 정책 조율과 금융 리스크 관리가 필요하다는 지적이다.",
+      "studyPoint": "통화정책의 파급경로와 금융안정을 보여준다. 금리 인상이 가계·자산시장에 미치는 시차와 부작용을 이해하자."
+    }
+  ],
+  "readingPassage": {
+    "title": "성장의 온기는 왜 청년에게 닿지 않는가 — 노동시장 이중구조와 내부자·외부자",
+    "passage": "한 나라의 경제가 성장하고 전체 취업자 수가 늘어도, 청년층의 고용은 오히려 뒷걸음질하는 역설이 나타나곤 한다. 이런 현상을 이해하려면 노동시장을 하나의 균질한 시장이 아니라, 성격이 다른 두 부문으로 나뉜 '이중구조'로 바라볼 필요가 있다.\n\n노동시장 이중구조론은 노동시장을 1차 부문과 2차 부문으로 구분한다. 1차 부문은 높은 임금과 고용 안정, 승진 기회와 각종 보호 장치를 갖춘 '좋은 일자리'로 이루어져 있으며 대기업 정규직이 대표적이다. 반면 2차 부문은 낮은 임금과 불안정한 고용, 빈약한 복지로 특징지어지며 영세 사업장과 비정규직이 여기에 속한다. 두 부문 사이의 이동은 자유롭지 않아, 한번 어느 쪽에 자리 잡느냐가 이후의 노동 생애를 크게 좌우한다.\n\n이 구조가 굳어지는 핵심 원리가 '내부자-외부자 이론'이다. 이미 좋은 일자리를 차지한 내부자는 해고를 어렵게 만드는 제도와 강한 협상력으로 자신의 지위를 지킨다. 기업이 내부자를 교체하는 데 드는 채용·훈련·해고 비용이 크기 때문에, 사용자는 이미 고용한 이들의 임금을 낮추기보다 신규 채용을 줄이는 방식으로 경기 변동에 대응한다. 그 결과 조정의 부담은 아직 시장에 진입하지 못한 외부자, 특히 사회에 처음 나오는 청년에게 집중된다.\n\n경기가 회복되어도 이 부담은 쉽게 사라지지 않는다. 첫 일자리 진입이 늦어진 청년은 경력 공백과 낙인 효과로 이후에도 불리한 조건에 놓이기 쉬운데, 이를 이력현상(履歷現象)이라 부른다. 일시적 충격이 장기적 불이익으로 굳어지는 것이다. 여기에 기술 변화가 신입에게 요구되는 숙련의 문턱을 높이고 기업이 곧바로 성과를 내는 경력직을 선호하면, 청년의 진입은 한층 더 어려워진다.\n\n따라서 '전체 고용은 늘었다'는 총량 지표만으로는 청년이 겪는 현실을 설명할 수 없다. 문제의 뿌리가 두 부문의 격차와 진입 장벽에 있다면, 해법도 총량을 늘리는 데 그쳐서는 안 된다. 부문 간 임금·보호의 격차를 줄이고 이동성을 높이며, 내부자와 외부자가 조정의 부담을 함께 나누도록 제도를 설계하는 일이 청년 고용 문제의 핵심 과제로 남는다.",
+    "point1": "노동시장 이중구조론은 노동시장을 좋은 일자리(1차 부문)와 불안정한 일자리(2차 부문)로 나누며, 두 부문 사이의 이동은 자유롭지 않다.",
+    "point2": "내부자-외부자 이론에 따르면, 교체 비용이 큰 탓에 기업은 임금 삭감 대신 신규 채용을 줄여 조정 부담이 청년(외부자)에게 집중된다.",
+    "point3": "이력현상 때문에 첫 진입 지연이 장기적 불이익으로 굳어지므로, 총량 고용지표만으로는 청년 고용 위기를 설명할 수 없다.",
+    "tip": "'전체 취업자 증가'와 '청년 고용 악화'가 함께 나타나는 기사를 만나면, 총량이 아니라 부문 간 격차·진입 장벽·이력현상의 틀로 원인을 분석해 보라.",
+    "questions": [
+      {
+        "type": "내용 이해",
+        "q": "지문에 제시된 노동시장 '이중구조'의 두 부문이 각각 어떤 특징을 지니는지, 그리고 두 부문 사이의 이동이 왜 제한되는지 서술하시오.",
+        "answer": "1차 부문은 높은 임금과 고용 안정, 승진 기회와 보호 장치를 갖춘 좋은 일자리로 이루어지고, 2차 부문은 낮은 임금과 불안정한 고용, 빈약한 복지로 특징지어진다. 두 부문 사이의 이동이 자유롭지 않기 때문에, 처음 어느 부문에 자리 잡느냐가 이후의 노동 생애를 크게 좌우한다."
+      },
+      {
+        "type": "원리 설명",
+        "q": "내부자-외부자 이론을 근거로, 경기가 회복되어도 기업이 임금을 낮추기보다 신규 채용을 줄이는 이유와 그 부담이 청년에게 집중되는 과정을 설명하시오.",
+        "answer": "내부자는 해고를 어렵게 만드는 제도와 강한 협상력으로 자신의 지위를 지키고, 기업이 이들을 교체하는 데 드는 채용·훈련·해고 비용이 크다. 그래서 사용자는 내부자의 임금을 낮추기보다 신규 채용을 줄이는 방식으로 조정하며, 그 부담은 아직 진입하지 못한 외부자, 특히 청년에게 집중된다."
+      },
+      {
+        "type": "적용·추론",
+        "q": "어느 해에 '전체 취업자는 늘었으나 청년 고용은 감소했다'는 통계가 나왔다면, 지문의 관점에서 이 현상의 원인과 바람직한 정책 방향을 추론하여 서술하시오.",
+        "answer": "총량 증가와 청년 감소가 함께 나타나는 것은 문제의 뿌리가 두 부문의 격차와 진입 장벽, 그리고 이력현상에 있음을 시사한다. 따라서 일자리 총량을 늘리는 데 그치지 말고, 부문 간 격차를 줄이고 이동성을 높이며 내부자와 외부자가 조정 부담을 함께 나누도록 제도를 설계하는 방향이 바람직하다."
+      }
+    ],
+    "category": "society",
+    "sourceEditorial": {
+      "title": "'쉬었음'에서 '안심주택'까지…용어에 가려진 청년 위기",
+      "paper": "한국경제",
+      "url": "https://magazine.hankyung.com/business/article/202609031845b"
+    }
+  },
+  "papers": [
+    {
+      "title": "Twelve-Month Outcomes After Hearing Rehabilitation With an Active Middle Ear Implant and Latest Generation Vibroplasty Couplers in Adults and Children: A Prospective Multicenter Study",
+      "titleKo": "능동형 중이 임플란트와 최신 진동성형 커플러의 12개월 청각재활 성과: 다기관 전향연구",
+      "abstractKo": "감각신경성·전음성·혼합성 난청 환자에서 능동형 중이 임플란트와 최신 세대 진동성형(vibroplasty) 커플러를 이용한 청각재활의 12개월 성과를 성인과 소아를 대상으로 다기관 전향적으로 평가했다. 순음청력과 어음인지 지표가 유의하게 개선되었고, 커플러 종류에 따른 결과 차이와 안전성을 함께 분석했다. 보청기나 인공와우가 적합하지 않은 환자에게 중이 임플란트가 유효한 대안임을 시사한다.",
+      "category": "중이 임플란트·청각재활",
+      "journal": "Otology & Neurotology",
+      "date": "2026-09-02",
+      "url": "https://doi.org/10.1097/MAO.0000000000005034"
+    },
+    {
+      "title": "Serum ENA-78, CXCL1, and caspase-3 are associated with disease severity and early hearing recovery in idiopathic sudden sensorineural hearing loss",
+      "titleKo": "특발성 돌발성 감각신경성 난청에서 혈청 ENA-78·CXCL1·caspase-3와 중증도·조기 청력회복의 연관성",
+      "abstractKo": "특발성 돌발성 감각신경성 난청 환자의 혈청에서 염증 매개인자 ENA-78(CXCL5)·CXCL1과 세포자멸사 지표 caspase-3 농도를 측정해 질병 중증도 및 조기 청력회복과의 연관성을 분석했다. 이들 지표가 높을수록 초기 청력손실이 심하고 회복 예후와 관련되는 경향을 보였다. 돌발성 난청의 병태생리에 염증·세포자멸사 경로가 관여함을 시사하며, 예후 예측 바이오마커로서의 가능성을 제시한다.",
+      "category": "돌발성 난청",
+      "journal": "Frontiers in Neuroscience",
+      "date": "2026",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13538873/"
+    },
+    {
+      "title": "Auditory Perceptions Associated With Hypoglossal Nerve Stimulation for Obstructive Sleep Apnea",
+      "titleKo": "폐쇄성 수면무호흡 설하신경 자극 치료와 관련된 청각 지각 현상",
+      "abstractKo": "폐쇄성 수면무호흡 치료를 위해 설하신경 자극기(hypoglossal nerve stimulation)를 이식한 환자에서 자극과 연관된 청각 지각(소리 인지) 현상을 조사했다. 일부 환자가 자극 시 소리 지각을 보고했으며, 그 빈도·특성과 전극·자극 변수의 관계를 분석했다. 기기 이식·프로그래밍 시 이러한 감각 부작용을 고려해 환자 상담과 설정을 최적화할 필요가 있음을 제시한다.",
+      "category": "수면무호흡·설하신경 자극",
+      "journal": "Laryngoscope Investigative Otolaryngology",
+      "date": "2026-10",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13539899/"
+    },
+    {
+      "title": "Observation of MRI-Based Endolymphatic Hydrops and Clinical Symptoms in Patients With Definite Meniere's Disease Over Time: A Case Series",
+      "titleKo": "확진 메니에르병 환자의 MRI 내림프수종과 임상증상의 시간적 변화 관찰: 증례군 연구",
+      "abstractKo": "확진된 메니에르병 환자에서 조영 MRI로 관찰한 내림프수종(endolymphatic hydrops)의 정도와 어지럼·청력 등 임상증상이 시간에 따라 어떻게 변하는지 추적한 증례군 연구다. 영상에서의 수종 변화와 증상 경과가 반드시 일치하지는 않는 사례를 제시하며, 내림프수종의 영상 소견과 임상상 사이의 관계를 재검토한다. 메니에르병의 진단·경과 평가에서 영상 지표의 의미와 한계를 이해하는 데 도움을 준다.",
+      "category": "메니에르병·내림프수종",
+      "journal": "BioMed Research International",
+      "date": "2026",
+      "url": "https://doi.org/10.1155/bmri/9060023"
+    },
+    {
+      "title": "Dose tapering and treatment de-escalation of biologic therapies in chronic rhinosinusitis with nasal polyps: a narrative review",
+      "titleKo": "비용종 동반 만성 부비동염에서 생물학적 제제의 용량 감량·치료 단계축소: 서술적 고찰",
+      "abstractKo": "두필루맙 등 생물학적 제제가 비용종 동반 만성 부비동염 치료를 크게 바꾸었으나, 장기 사용에 따른 비용·부작용 부담으로 용량 감량과 치료 단계축소(de-escalation) 전략이 논의되고 있다. 이 고찰은 반응이 좋은 환자에서 투여 간격 연장·감량의 근거와 재발 위험, 중단 기준을 정리한다. 효과를 유지하면서 과잉치료를 줄이는 개별화 전략의 필요성을 강조한다.",
+      "category": "만성 부비동염·생물학적 제제",
+      "journal": "Frontiers in Surgery",
+      "date": "2026",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13531281/"
+    },
+    {
+      "title": "Effect of Xiaoqinglong decoction on gut-lung axis microbiota in allergic rhinitis mice",
+      "titleKo": "알레르기 비염 생쥐 모델에서 장-폐 축 미생물군에 대한 소청룡탕의 효과",
+      "abstractKo": "알레르기 비염 동물 모델에서 전통 처방 소청룡탕이 장-폐 축(gut-lung axis) 미생물 구성과 알레르기 염증에 미치는 영향을 분석했다. 처방 투여가 장내 미생물군의 조성을 변화시키고 코 증상·염증 지표를 완화하는 경향을 보였다. 알레르기 비염에서 미생물군-면역 상호작용이 치료 표적이 될 수 있음을 시사하는 기초 연구다.",
+      "category": "알레르기 비염·미생물군",
+      "journal": "Frontiers in Microbiology",
+      "date": "2026",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13534138/"
+    },
+    {
+      "title": "Cancer-associated fibroblasts and immune remodeling in laryngeal squamous cell carcinoma: evidence and translational perspectives",
+      "titleKo": "후두 편평세포암의 암연관섬유아세포와 면역 재구성: 근거와 중개연구 관점",
+      "abstractKo": "후두 편평세포암의 종양미세환경에서 암연관섬유아세포(CAF)가 면역세포의 구성과 기능을 어떻게 재편해 종양 진행과 면역회피를 촉진하는지 정리한 고찰이다. CAF가 면역억제 환경을 조성하는 기전과, 이를 표적으로 한 치료·면역요법 병용의 가능성을 논의한다. 후두암 치료에서 종양미세환경을 겨냥한 중개연구의 방향을 제시한다.",
+      "category": "후두암·종양미세환경",
+      "journal": "Frontiers in Immunology",
+      "date": "2026",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13539421/"
+    },
+    {
+      "title": "Preventing otitis media and respiratory tract infections with the oral probiotic Streptococcus salivarius K12",
+      "titleKo": "경구 프로바이오틱스 Streptococcus salivarius K12를 이용한 중이염·호흡기 감염 예방",
+      "abstractKo": "소아에서 경구 프로바이오틱스 Streptococcus salivarius K12 투여가 중이염과 상기도 감염 발생을 줄일 수 있는지 검토했다. K12가 상기도 상재균총을 조절하고 병원균 집락을 억제하는 기전을 통해 재발성 중이염 예방에 기여할 가능성을 제시한다. 항생제 사용을 줄이는 보완적 예방 전략으로서의 근거와 한계를 논의한다.",
+      "category": "소아 중이염·프로바이오틱스",
+      "journal": "European Journal of Pediatrics",
+      "date": "2026-09-03",
+      "url": "https://doi.org/10.1007/s00431-026-07379-3"
+    },
+    {
+      "title": "Clinical red flags and referral strategies for odontogenic deep neck space infections: The primary care dentist's role as the first line of defense",
+      "titleKo": "치성 심경부 감염의 임상 경고신호와 의뢰 전략: 일차진료 치과의사의 최전선 역할",
+      "abstractKo": "치아 감염에서 비롯된 심경부 공간 감염(deep neck space infection)은 기도폐쇄·종격동염 등 치명적 합병증으로 진행할 수 있다. 이 고찰은 발열·연하곤란·개구장애·경부 종창 등 위험 경고신호(red flag)와 즉각적 상급 의뢰가 필요한 상황을 정리하고, 일차진료 치과의사가 조기 인지·의뢰의 최전선 역할을 해야 함을 강조한다.",
+      "category": "심경부 감염·이비인후과 응급",
+      "journal": "Journal of Dental Sciences",
+      "date": "2026",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13536365/"
+    },
+    {
+      "title": "Assessment of Postoperative Facial Nerve Outcomes Following Parotidectomy for Benign and Malignant Parotid Gland Lesions: A Prospective Observational Study",
+      "titleKo": "이하선 종양 이하선절제술 후 안면신경 기능 결과: 전향적 관찰연구",
+      "abstractKo": "양성·악성 이하선 종양으로 이하선절제술을 받은 환자에서 수술 후 안면신경 기능 결과를 전향적으로 관찰했다. 종양의 양·악성, 절제 범위, 신경 조작 정도에 따른 일시적·영구적 안면마비 발생률과 회복 경과를 분석했다. 이하선 수술에서 안면신경 보존의 중요성과 예후 예측 인자, 수술 전 상담에 활용할 근거를 제시한다.",
+      "category": "이하선 수술·안면신경",
+      "journal": "Cureus",
+      "date": "2026-08",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13541083/"
+    }
+  ]
+}
