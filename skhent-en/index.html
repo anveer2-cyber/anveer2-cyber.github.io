@@ -115,6 +115,36 @@ header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.96);backdr
 .slider .prev{left:14px}.slider .next{right:14px}
 @media(max-width:640px){.slider{height:260px}.slider .cap b{font-size:.95rem}}
 
+/* effects */
+@keyframes fadeUp{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
+.hero .logo{animation:fadeUp .8s .05s both}
+.hero .eyebrow{animation:fadeUp .8s .2s both}
+.hero h1{animation:fadeUp .8s .35s both}
+.hero p{animation:fadeUp .8s .5s both}
+.hero .cta{animation:fadeUp .8s .65s both}
+.hero .quick{animation:fadeUp .8s .8s both}
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+header{transition:box-shadow .3s}
+header.scrolled{box-shadow:0 4px 18px rgba(0,0,0,.08)}
+.card,.mint-card,.info-card,.equip-card,.doc{transition:transform .3s ease,box-shadow .3s ease,border-color .3s ease,opacity .7s ease}
+.card:hover,.equip-card:hover{transform:translateY(-6px);box-shadow:0 14px 30px rgba(0,140,135,.13);border-color:var(--accent)}
+.mint-card:hover{transform:translateY(-6px);box-shadow:0 16px 32px rgba(0,140,135,.28)}
+.info-card:hover{box-shadow:0 12px 26px rgba(0,140,135,.1)}
+.btn{transition:transform .25s,background .25s,box-shadow .25s}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary:hover{box-shadow:0 10px 22px rgba(69,193,190,.45)}
+.tour-grid img{transition:transform .45s ease,box-shadow .45s ease}
+.tour-grid img:hover{transform:scale(1.035);box-shadow:0 14px 30px rgba(20,60,58,.22);z-index:2;position:relative}
+#toTop{position:fixed;right:22px;bottom:22px;width:46px;height:46px;border-radius:50%;background:var(--teal);color:#fff;border:none;font-size:1.25rem;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .3s,transform .3s;z-index:90;box-shadow:0 6px 18px rgba(0,140,135,.35)}
+#toTop.show{opacity:1;pointer-events:auto}
+#toTop:hover{transform:translateY(-3px)}
+@media (prefers-reduced-motion: reduce){
+  .hero .logo,.hero .eyebrow,.hero h1,.hero p,.hero .cta,.hero .quick{animation:none}
+  .reveal{opacity:1;transform:none;transition:none}
+  .equip-row{animation:none!important}
+}
+
 /* sections */
 section{padding:64px 0}
 section.soft{background:var(--bg-soft)}
@@ -165,8 +195,14 @@ section.soft{background:var(--bg-soft)}
 .feature-row img{border-radius:12px;width:100%}
 .feature-row h3{font-size:1.2rem;font-weight:800;color:var(--navy);margin-bottom:12px}
 .feature-row p{font-size:.92rem;color:var(--gray);margin-bottom:10px}
-.equip-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
-.equip-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-align:center}
+.equip-track{overflow:hidden;position:relative;padding:6px 0}
+.equip-track::before,.equip-track::after{content:"";position:absolute;top:0;bottom:0;width:60px;z-index:3;pointer-events:none}
+.equip-track::before{left:0;background:linear-gradient(90deg,var(--bg-soft),transparent)}
+.equip-track::after{right:0;background:linear-gradient(270deg,var(--bg-soft),transparent)}
+.equip-row{display:flex;gap:16px;width:max-content;animation:marq 45s linear infinite}
+.equip-track:hover .equip-row{animation-play-state:paused}
+@keyframes marq{to{transform:translateX(-50%)}}
+.equip-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-align:center;width:196px;flex-shrink:0}
 .equip-card img{width:100%;max-width:150px;aspect-ratio:1;object-fit:contain;margin-bottom:10px}
 .equip-card b{display:block;font-size:.8rem;font-weight:700;color:var(--navy);line-height:1.35}
 .equip-card.newcard{border:1.5px solid var(--accent);background:#eafaf9;display:flex;flex-direction:column;justify-content:center;align-items:center}
@@ -209,7 +245,6 @@ footer .fine{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;line-he
 
 @media(max-width:860px){
   .grid.c3{grid-template-columns:repeat(2,1fr)}
-  .equip-grid{grid-template-columns:repeat(2,1fr)}
   .feature-row{grid-template-columns:1fr;padding:24px}
   .tour-grid{grid-template-columns:repeat(2,1fr)}
   .tour-grid img.wide{grid-column:span 1}
@@ -474,7 +509,7 @@ footer .fine{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;line-he
         <p>Fast, accurate diagnosis is where dizziness treatment begins. This system records eye movements with high-resolution cameras and analyzes them to detect abnormalities of the vestibular (balance) organ, precisely identifying the cause of your dizziness.</p>
       </div>
     </div>
-    <div class="equip-grid">
+    <div class="equip-track"><div class="equip-row" id="equipRow">
       <div class="equip-card newcard"><img src="img/ct-papaya.png" alt="Genoray Papaya cone beam CT" style="max-width:150px"><b>Head &amp; Neck Cone Beam CT<br>Genoray Papaya</b><span class="badge-new" style="margin-top:8px">NEW</span></div>
       <div class="equip-card"><img src="img/eq-vng.png" alt="Video nystagmography VNG"><b>Video nystagmography (VNG)</b></div>
       <div class="equip-card"><img src="img/eq-vhit.png" alt="Video head impulse test"><b>Video head impulse test (vHIT)</b></div>
@@ -488,7 +523,7 @@ footer .fine{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;line-he
       <div class="equip-card"><img src="img/eq-laryngo.png" alt="Flexible laryngoscope"><b>Flexible laryngoscope</b></div>
       <div class="equip-card"><img src="img/eq-pcr.png" alt="Molecular PCR diagnostics"><b>Molecular (PCR) diagnostics</b></div>
       <div class="equip-card"><img src="img/eq-derma.png" alt="Dermashine Pro"><b>Dermashine Pro</b></div>
-    </div>
+    </div></div>
   </div>
 </section>
 
@@ -612,6 +647,41 @@ footer .fine{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;line-he
   box.addEventListener('mouseenter',function(){clearInterval(timer)});
   box.addEventListener('mouseleave',reset);
   reset();
+})();
+
+/* equipment marquee: duplicate cards for a seamless loop */
+(function(){
+  var row=document.getElementById('equipRow');
+  if(row) row.innerHTML+=row.innerHTML;
+})();
+
+/* scroll-reveal with stagger */
+(function(){
+  var els=document.querySelectorAll('.sec-head,.grid>*,.feature-row,.ct-band,.tour-grid img,.info-grid>*,#faq details');
+  els.forEach(function(el){el.classList.add('reveal')});
+  if(!('IntersectionObserver' in window)){els.forEach(function(el){el.classList.add('in')});return}
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(en.isIntersecting){
+        var el=en.target,sibs=Array.prototype.filter.call(el.parentElement.children,function(c){return c.classList.contains('reveal')});
+        el.style.transitionDelay=Math.min(sibs.indexOf(el)*90,540)+'ms';
+        el.classList.add('in');io.unobserve(el);
+      }
+    });
+  },{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+  els.forEach(function(el){io.observe(el)});
+})();
+
+/* header shadow + back-to-top */
+(function(){
+  var h=document.querySelector('header');
+  var b=document.createElement('button');b.id='toTop';b.innerHTML='&#8593;';b.setAttribute('aria-label','Back to top');
+  b.onclick=function(){window.scrollTo({top:0,behavior:'smooth'})};
+  document.body.appendChild(b);
+  addEventListener('scroll',function(){
+    h.classList.toggle('scrolled',scrollY>10);
+    b.classList.toggle('show',scrollY>700);
+  },{passive:true});
 })();
 </script>
 </body>
