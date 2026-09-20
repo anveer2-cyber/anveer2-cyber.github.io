@@ -58,7 +58,8 @@ a{color:var(--teal);text-decoration:none}
 /* header */
 header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
-.brand{font-weight:800;font-size:1.02rem;color:var(--navy);letter-spacing:.2px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.02rem;color:var(--navy);letter-spacing:.2px}
+.brand img{height:40px;width:auto}
 .brand small{display:block;font-weight:500;font-size:.68rem;color:var(--gray);letter-spacing:.4px}
 .nav-links{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
 .nav-links a{font-size:.86rem;font-weight:600;color:var(--ink)}
@@ -67,7 +68,8 @@ header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.96);backdr
 .menu-btn{display:none;background:none;border:none;font-size:1.5rem;color:var(--navy);cursor:pointer}
 
 /* hero */
-.hero{background:linear-gradient(160deg,var(--navy) 0%,#154a56 55%,var(--teal) 100%);color:#fff;padding:84px 0 72px;text-align:center}
+.hero{background:linear-gradient(160deg,rgba(11,32,40,.88) 0%,rgba(16,58,68,.86) 55%,rgba(14,125,138,.82) 100%),url('img/tour01.jpg') center/cover no-repeat;color:#fff;padding:84px 0 72px;text-align:center}
+.hero .logo{height:86px;width:auto;margin-bottom:22px;filter:drop-shadow(0 2px 8px rgba(0,0,0,.35)) brightness(0) invert(1);opacity:.95}
 .hero .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:3px;color:#9fd4dc;text-transform:uppercase;margin-bottom:14px}
 .hero h1{font-size:clamp(1.7rem,4.5vw,2.7rem);font-weight:800;line-height:1.25;margin-bottom:18px}
 .hero p{max-width:640px;margin:0 auto 30px;color:#d7e9ec;font-size:1.02rem}
@@ -110,8 +112,10 @@ section.soft{background:var(--bg-soft)}
 .ct-band li::before{content:"✓";position:absolute;left:0;color:var(--accent);font-weight:800}
 
 /* doctors */
-.doc{display:grid;grid-template-columns:auto 1fr;gap:22px;align-items:start}
-.doc .avatar{width:74px;height:74px;border-radius:50%;background:var(--teal-light);display:flex;align-items:center;justify-content:center;font-size:2rem}
+.doc{padding:0;overflow:hidden}
+.doc .photo{background:linear-gradient(160deg,var(--navy) 0%,#154a56 60%,var(--teal) 100%);padding:26px 26px 0;text-align:center}
+.doc .photo img{max-height:300px;width:auto;max-width:100%;display:block;margin:0 auto}
+.doc .body{padding:22px 26px 26px}
 .doc h3{font-size:1.1rem;color:var(--navy);font-weight:800}
 .doc .role{font-size:.82rem;color:var(--teal);font-weight:700;margin-bottom:10px}
 .doc ul{list-style:none;font-size:.85rem;color:var(--gray)}
@@ -119,9 +123,21 @@ section.soft{background:var(--bg-soft)}
 .doc li::before{content:"·";position:absolute;left:2px;color:var(--teal);font-weight:800}
 
 /* equipment */
-.equip{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
-.equip span{background:#fff;border:1px solid var(--line);border-radius:22px;padding:9px 18px;font-size:.84rem;font-weight:600;color:var(--ink)}
-.equip span.new{border-color:var(--accent);color:var(--accent);font-weight:700}
+.feature-row{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:20px;padding:32px;margin-bottom:40px}
+.feature-row img{border-radius:12px;width:100%}
+.feature-row h3{font-size:1.2rem;font-weight:800;color:var(--navy);margin-bottom:12px}
+.feature-row p{font-size:.92rem;color:var(--gray);margin-bottom:10px}
+.equip-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.equip-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-align:center}
+.equip-card img{width:100%;max-width:150px;aspect-ratio:1;object-fit:contain;margin-bottom:10px}
+.equip-card b{display:block;font-size:.8rem;font-weight:700;color:var(--navy);line-height:1.35}
+.equip-card.newcard{border:1.5px solid var(--accent);background:#fdf6ea;display:flex;flex-direction:column;justify-content:center;align-items:center}
+.equip-card.newcard .big{font-size:2rem;margin-bottom:8px}
+
+/* tour gallery */
+.tour-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.tour-grid img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:12px;display:block}
+.tour-grid img.wide{grid-column:span 2}
 
 /* hours & location */
 .info-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
@@ -155,6 +171,10 @@ footer .fine{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;line-he
 
 @media(max-width:860px){
   .grid.c3{grid-template-columns:repeat(2,1fr)}
+  .equip-grid{grid-template-columns:repeat(2,1fr)}
+  .feature-row{grid-template-columns:1fr;padding:24px}
+  .tour-grid{grid-template-columns:repeat(2,1fr)}
+  .tour-grid img.wide{grid-column:span 1}
   .ct-band{grid-template-columns:1fr;padding:34px 26px}
   .info-grid{grid-template-columns:1fr}
   .nav-links{display:none;position:absolute;top:64px;left:0;right:0;background:#fff;flex-direction:column;padding:18px 20px;border-bottom:1px solid var(--line);gap:14px;align-items:flex-start}
@@ -172,13 +192,14 @@ footer .fine{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;line-he
 
 <header>
   <div class="container nav">
-    <div class="brand">SANGKWAEHAN ENT CLINIC<small>Jinhae · Changwon, South Korea</small></div>
+    <div class="brand"><img src="img/logo.png" alt="Sangkwaehan ENT Clinic logo"><span>SANGKWAEHAN ENT CLINIC<small>Jinhae · Changwon, South Korea</small></span></div>
     <button class="menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">☰</button>
     <nav class="nav-links">
       <a href="#clinics">Clinics</a>
       <a href="#ct">Cone Beam CT</a>
       <a href="#doctors">Doctors</a>
       <a href="#equipment">Equipment</a>
+      <a href="#tour">Tour</a>
       <a href="#visit">Hours &amp; Location</a>
       <a href="#faq">FAQ</a>
       <a class="ko" href="https://www.skhentml.com/" title="Korean website">한국어 ↗</a>
@@ -188,6 +209,7 @@ footer .fine{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;line-he
 
 <section class="hero">
   <div class="container">
+    <img class="logo" src="img/logo.png" alt="Sangkwaehan ENT Clinic">
     <div class="eyebrow">Ear · Nose · Throat Specialist Clinic</div>
     <h1>Sangkwaehan ENT Clinic<br>Expert ENT Care in Jinhae, Changwon</h1>
     <p>Special expertise in hearing and balance disorders, backed by extensive clinical experience and university-hospital-grade diagnostic equipment. Accurate diagnosis, personalized treatment — and a warm welcome to international patients.</p>
@@ -353,8 +375,8 @@ footer .fine{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;line-he
     </div>
     <div class="grid c2">
       <div class="card doc">
-        <div class="avatar">👨‍⚕️</div>
-        <div>
+        <div class="photo"><img src="img/doc-oh.png" alt="Dr. Oh Jung-ho, ENT specialist"></div>
+        <div class="body">
           <h3>Dr. Oh Jung-ho</h3>
           <div class="role">Director · Otolaryngology (ENT) Specialist</div>
           <ul>
@@ -368,8 +390,8 @@ footer .fine{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;line-he
         </div>
       </div>
       <div class="card doc">
-        <div class="avatar">👩‍⚕️</div>
-        <div>
+        <div class="photo"><img src="img/doc-lee.png" alt="Dr. Lee Young-jin, pediatrics specialist"></div>
+        <div class="body">
           <h3>Dr. Lee Young-jin</h3>
           <div class="role">Director · Pediatrics &amp; Internal Medicine</div>
           <ul>
@@ -391,25 +413,55 @@ footer .fine{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;line-he
       <h2>University-hospital-grade diagnostics</h2>
       <p>Skilled hands and deep clinical experience, supported by an advanced equipment system — precision in diagnosis brings treatment forward.</p>
     </div>
-    <div class="equip">
-      <span class="new">Cone Beam CT — Genoray Papaya (NEW)</span>
-      <span>Video nystagmography (VNG)</span>
-      <span>Video head impulse test (vHIT)</span>
-      <span>Pure-tone audiometry booth</span>
-      <span>Auditory brainstem response (ABR)</span>
-      <span>VEMP (vestibular evoked myogenic potential)</span>
-      <span>Otoacoustic emissions (DPOAE)</span>
-      <span>Interacoustics Eclipse platform</span>
-      <span>X-CUBE 90 high-resolution ultrasound</span>
-      <span>Full HD ENT endoscopy</span>
-      <span>Flexible laryngoscope</span>
-      <span>Molecular (PCR) diagnostics</span>
-      <span>Dermashine Pro</span>
+    <div class="feature-row">
+      <img src="img/dizzy-eq.png" alt="Visual Eye 525 video nystagmography system for dizziness diagnosis">
+      <div>
+        <div class="tag" style="font-size:.72rem;font-weight:700;letter-spacing:2.5px;color:var(--teal);text-transform:uppercase">Dizziness Clinic</div>
+        <h3>Visual Eye 525 — pinpointing the cause of vertigo</h3>
+        <p>Fast, accurate diagnosis is where dizziness treatment begins. This system records eye movements with high-resolution cameras and analyzes them to detect abnormalities of the vestibular (balance) organ, precisely identifying the cause of your dizziness.</p>
+      </div>
+    </div>
+    <div class="equip-grid">
+      <div class="equip-card newcard"><span class="big">🩻</span><b>Head &amp; Neck Cone Beam CT<br>Genoray Papaya</b><span class="badge-new" style="margin-top:8px">NEW</span></div>
+      <div class="equip-card"><img src="img/eq-vng.png" alt="Video nystagmography VNG"><b>Video nystagmography (VNG)</b></div>
+      <div class="equip-card"><img src="img/eq-vhit.png" alt="Video head impulse test"><b>Video head impulse test (vHIT)</b></div>
+      <div class="equip-card"><img src="img/eq-audio.png" alt="Audiometry"><b>Pure-tone audiometry</b></div>
+      <div class="equip-card"><img src="img/eq-abr.png" alt="Auditory brainstem response ABR"><b>Auditory brainstem response (ABR)</b></div>
+      <div class="equip-card"><img src="img/eq-vemp.png" alt="VEMP testing"><b>VEMP (vestibular evoked myogenic potential)</b></div>
+      <div class="equip-card"><img src="img/eq-oae.png" alt="Otoacoustic emissions"><b>Otoacoustic emissions (DPOAE)</b></div>
+      <div class="equip-card"><img src="img/eq-us.png" alt="High-resolution ultrasound"><b>X-CUBE 90 ultrasound</b></div>
+      <div class="equip-card"><img src="img/eq-endo-hd.png" alt="High-resolution endoscopy system"><b>High-resolution endoscopy system</b></div>
+      <div class="equip-card"><img src="img/eq-endo-fhd.png" alt="Full HD endoscope"><b>Full HD ENT endoscope</b></div>
+      <div class="equip-card"><img src="img/eq-laryngo.png" alt="Flexible laryngoscope"><b>Flexible laryngoscope</b></div>
+      <div class="equip-card"><img src="img/eq-pcr.png" alt="Molecular PCR diagnostics"><b>Molecular (PCR) diagnostics</b></div>
+      <div class="equip-card"><img src="img/eq-derma.png" alt="Dermashine Pro"><b>Dermashine Pro</b></div>
     </div>
   </div>
 </section>
 
-<section id="visit">
+<section id="tour">
+  <div class="container">
+    <div class="sec-head">
+      <div class="tag">Clinic Tour</div>
+      <h2>A space designed for healing</h2>
+      <p>So that even the time you spend here feels like part of the treatment — a clean, comfortable clinic with relaxing waiting areas and 12 premium private IV-therapy beds.</p>
+    </div>
+    <div class="tour-grid">
+      <img class="wide" src="img/tour01.jpg" alt="Reception desk of Sangkwaehan ENT Clinic">
+      <img src="img/tour02.jpg" alt="Clinic interior">
+      <img src="img/tour03.jpg" alt="Clinic interior">
+      <img src="img/tour04.jpg" alt="Clinic interior">
+      <img src="img/tour05.jpg" alt="Clinic interior">
+      <img src="img/tour08.jpg" alt="Clinic interior">
+      <img src="img/tour09.jpg" alt="Clinic interior">
+      <img src="img/tour10.jpg" alt="Clinic interior">
+      <img src="img/tour11.jpg" alt="Premium IV therapy room">
+      <img src="img/tour12.jpg" alt="Clinic interior">
+    </div>
+  </div>
+</section>
+
+<section id="visit" class="soft">
   <div class="container">
     <div class="sec-head">
       <div class="tag">Visit Us</div>
@@ -440,7 +492,7 @@ footer .fine{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;line-he
   </div>
 </section>
 
-<section class="soft" id="faq">
+<section id="faq">
   <div class="container" style="max-width:800px">
     <div class="sec-head">
       <div class="tag">For International Patients</div>
