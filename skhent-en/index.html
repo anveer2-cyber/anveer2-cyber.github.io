@@ -134,8 +134,6 @@ header.scrolled{box-shadow:0 4px 18px rgba(0,0,0,.08)}
 .btn{transition:transform .25s,background .25s,box-shadow .25s}
 .btn:hover{transform:translateY(-2px)}
 .btn-primary:hover{box-shadow:0 10px 22px rgba(69,193,190,.45)}
-.tour-grid img{transition:transform .45s ease,box-shadow .45s ease}
-.tour-grid img:hover{transform:scale(1.035);box-shadow:0 14px 30px rgba(20,60,58,.22);z-index:2;position:relative}
 #toTop{position:fixed;right:22px;bottom:22px;width:46px;height:46px;border-radius:50%;background:var(--teal);color:#fff;border:none;font-size:1.25rem;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .3s,transform .3s;z-index:90;box-shadow:0 6px 18px rgba(0,140,135,.35)}
 #toTop.show{opacity:1;pointer-events:auto}
 #toTop:hover{transform:translateY(-3px)}
@@ -208,10 +206,41 @@ section.soft{background:var(--bg-soft)}
 .equip-card.newcard{border:1.5px solid var(--accent);background:#eafaf9;display:flex;flex-direction:column;justify-content:center;align-items:center}
 .equip-card.newcard .big{font-size:2rem;margin-bottom:8px}
 
+/* clinic tiles */
+.clinic-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.clinic-tile{background:#fff;border:1px solid var(--line);border-radius:14px;padding:26px 18px 20px;text-align:center;cursor:pointer;transition:transform .3s,box-shadow .3s,border-color .3s}
+.clinic-tile:hover{transform:translateY(-6px);box-shadow:0 14px 30px rgba(0,140,135,.13);border-color:var(--accent)}
+.clinic-tile .cico{width:54px;height:54px;object-fit:contain;margin:0 auto 12px;display:block}
+.clinic-tile h3{font-size:.95rem;font-weight:800;color:var(--navy);margin-bottom:6px;line-height:1.35}
+.clinic-tile .short{font-size:.79rem;color:var(--gray);line-height:1.5;min-height:3em}
+.clinic-tile .hint{display:inline-block;margin-top:10px;font-size:.72rem;font-weight:700;color:var(--teal);letter-spacing:.5px}
+.clinic-tile .more{display:none;text-align:left;margin-top:12px;border-top:1px solid var(--line);padding-top:12px}
+.clinic-tile .more ul{margin:0 0 0 16px;font-size:.8rem;color:var(--gray)}
+.clinic-tile .more li{margin-bottom:4px}
+.clinic-tile .more .mp{font-size:.8rem;color:var(--gray)}
+.clinic-tile.open .more{display:block;animation:fadeUp .35s both}
+.clinic-tile.open{border-color:var(--accent)}
+
 /* tour gallery */
-.tour-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-.tour-grid img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:12px;display:block}
-.tour-grid img.wide{grid-column:span 2}
+.gallery{max-width:900px;margin:0 auto}
+.g-main{position:relative;border-radius:16px;overflow:hidden;cursor:zoom-in}
+.g-main img{width:100%;height:480px;object-fit:cover;display:block;transition:opacity .35s}
+.g-main img.fading{opacity:0}
+.g-zoom{position:absolute;right:14px;bottom:14px;background:rgba(20,40,40,.6);color:#fff;font-size:.75rem;font-weight:600;padding:6px 12px;border-radius:16px;pointer-events:none}
+.g-thumbs{display:grid;grid-template-columns:repeat(10,1fr);gap:8px;margin-top:10px}
+.g-thumb{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;cursor:pointer;opacity:.55;border:2px solid transparent;transition:opacity .25s,border-color .25s,transform .25s}
+.g-thumb:hover{opacity:.85;transform:translateY(-2px)}
+.g-thumb.on{opacity:1;border-color:var(--teal)}
+
+/* lightbox */
+.lb{position:fixed;inset:0;background:rgba(10,20,20,.92);display:none;align-items:center;justify-content:center;z-index:200}
+.lb.open{display:flex}
+.lb img{max-width:92vw;max-height:88vh;border-radius:10px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.lb button{position:absolute;background:rgba(255,255,255,.12);border:none;color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;border-radius:50%;transition:background .25s}
+.lb button:hover{background:rgba(255,255,255,.28)}
+.lb-x{top:18px;right:18px;width:44px;height:44px;font-size:1.6rem}
+.lb-p{left:16px;top:50%;transform:translateY(-50%);width:48px;height:48px;font-size:1.8rem}
+.lb-n{right:16px;top:50%;transform:translateY(-50%);width:48px;height:48px;font-size:1.8rem}
 
 /* hours & location */
 .info-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
@@ -246,8 +275,9 @@ footer .fine{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;line-he
 @media(max-width:860px){
   .grid.c3{grid-template-columns:repeat(2,1fr)}
   .feature-row{grid-template-columns:1fr;padding:24px}
-  .tour-grid{grid-template-columns:repeat(2,1fr)}
-  .tour-grid img.wide{grid-column:span 1}
+  .clinic-grid{grid-template-columns:repeat(3,1fr)}
+  .g-thumbs{grid-template-columns:repeat(5,1fr)}
+  .g-main img{height:340px}
   .ct-band{grid-template-columns:1fr;padding:34px 26px}
   .info-grid{grid-template-columns:1fr}
   .nav-links{display:none;position:absolute;top:64px;left:0;right:0;background:#fff;flex-direction:column;padding:18px 20px;border-bottom:1px solid var(--line);gap:14px;align-items:flex-start}
@@ -256,6 +286,8 @@ footer .fine{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;line-he
 }
 @media(max-width:560px){
   .grid.c3,.grid.c2{grid-template-columns:1fr}
+  .clinic-grid{grid-template-columns:repeat(2,1fr)}
+  .g-main img{height:240px}
   .doc{grid-template-columns:1fr}
   section{padding:48px 0}
 }
@@ -331,99 +363,90 @@ footer .fine{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;line-he
       <h2>Comprehensive ENT care, department by department</h2>
       <p>From tinnitus, hearing loss and dizziness to pain, hearing aids and allergy treatment — meticulous, specialized and integrated care covering the ears, nose and throat.</p>
     </div>
-    <div class="grid c3">
-      <div class="card">
-        <h3><img class="ico" src="img/ic-dizzy.png" alt="">Dizziness &amp; Pain Clinic</h3>
-        <p>Precise diagnosis and cause-specific treatment of vertigo and related pain.</p>
-        <ul>
-          <li>BPPV (benign positional vertigo) — canalith repositioning</li>
-          <li>Ménière's disease, vestibular neuritis</li>
-          <li>Migraine-associated &amp; cervicogenic dizziness</li>
-          <li>Video nystagmography (VNG), video head impulse test (vHIT)</li>
-          <li>Ultrasound-guided nerve block &amp; autonomic injection therapy</li>
-        </ul>
+    <div class="clinic-grid">
+      <div class="clinic-tile">
+        <img class="cico" src="img/ic-dizzy.png" alt="">
+        <h3>Dizziness & Pain Clinic</h3>
+        <p class="short">Advanced vestibular testing & accurate diagnosis of vertigo</p>
+        <div class="more"><ul><li>BPPV (benign positional vertigo) — canalith repositioning</li><li>M&eacute;ni&egrave;re's disease, vestibular neuritis</li><li>Migraine-associated &amp; cervicogenic dizziness</li><li>VNG &amp; video head impulse test (vHIT)</li><li>Ultrasound-guided nerve block &amp; autonomic injection therapy</li></ul></div>
+        <span class="hint">+ details</span>
       </div>
-      <div class="card">
-        <h3><img class="ico" src="img/ic-hearing.png" alt="">Hearing Loss &amp; Tinnitus Clinic</h3>
-        <p>Systematic evaluation of hearing loss and tinnitus with a premium diagnostic platform (Interacoustics Eclipse).</p>
-        <ul>
-          <li>Pure-tone &amp; speech audiometry in a dedicated booth</li>
-          <li>ABR (auditory brainstem response), DPOAE</li>
-          <li>Sudden hearing loss — intratympanic steroid injection</li>
-          <li>Middle-ear effusion — ventilation tube insertion</li>
-        </ul>
+      <div class="clinic-tile">
+        <img class="cico" src="img/ic-hearing.png" alt="">
+        <h3>Hearing Loss & Tinnitus</h3>
+        <p class="short">Brainwave-based testing & medical certificates</p>
+        <div class="more"><ul><li>Pure-tone &amp; speech audiometry in a dedicated booth</li><li>ABR, DPOAE (Interacoustics Eclipse)</li><li>Sudden hearing loss — intratympanic steroid injection</li><li>Middle-ear effusion — ventilation tube insertion</li></ul></div>
+        <span class="hint">+ details</span>
       </div>
-      <div class="card">
-        <h3><img class="ico" src="img/ic-hearingaid.png" alt="">Hearing Aid &amp; Auditory Rehab</h3>
-        <p>One-stop system from diagnosis to hearing-aid prescription, fitting and aftercare.</p>
-        <ul>
-          <li>Hearing-disability evaluation &amp; medical certificates</li>
-          <li>Personalized hearing-aid prescription &amp; fine-tuning</li>
-          <li>Guidance on the Korean NHIS hearing-aid subsidy<br>(up to ₩1,310,000, once every 5 years)</li>
-        </ul>
+      <div class="clinic-tile">
+        <img class="cico" src="img/ic-hearingaid.png" alt="">
+        <h3>Hearing Aid & Rehab</h3>
+        <p class="short">Prescription, fitting & hearing-disability certification</p>
+        <div class="more"><ul><li>Hearing-disability evaluation &amp; certificates</li><li>Personalized prescription &amp; fine-tuning</li><li>NHIS hearing-aid subsidy guidance (up to &#8361;1,310,000 / 5 yrs)</li></ul></div>
+        <span class="hint">+ details</span>
       </div>
-      <div class="card">
-        <h3><img class="ico" src="img/ic-allergy.png" alt="">Rhinitis &amp; Allergy Clinic</h3>
-        <p>Finding the exact cause of your allergy before treating it.</p>
-        <ul>
-          <li>MAST blood panel — 108 allergens in one draw</li>
-          <li>ImmunoCAP precision IgE testing</li>
-          <li>Skin prick test</li>
-          <li>Sublingual immunotherapy (LAIS) for lasting relief</li>
-        </ul>
+      <div class="clinic-tile">
+        <img class="cico" src="img/ic-allergy.png" alt="">
+        <h3>Rhinitis & Allergy Clinic</h3>
+        <p class="short">Cause testing & sublingual immunotherapy (LAIS)</p>
+        <div class="more"><ul><li>MAST blood panel — 108 allergens in one draw</li><li>ImmunoCAP precision IgE testing</li><li>Skin prick test</li><li>Sublingual immunotherapy for lasting relief</li></ul></div>
+        <span class="hint">+ details</span>
       </div>
-      <div class="card">
-        <h3><img class="ico" src="img/ic-sleep.svg" alt="">Snoring &amp; Sleep Clinic</h3>
-        <p>Evaluation and management of snoring and sleep-related breathing problems, from nasal airway assessment to treatment planning.</p>
+      <div class="clinic-tile">
+        <img class="cico" src="img/ic-sleep.svg" alt="">
+        <h3>Snoring & Sleep Clinic</h3>
+        <p class="short">Snoring & sleep-breathing evaluation</p>
+        <div class="more"><p class="mp">Evaluation and management of snoring and sleep-related breathing problems, from nasal airway assessment to treatment planning.</p></div>
+        <span class="hint">+ details</span>
       </div>
-      <div class="card">
-        <h3><img class="ico" src="img/ic-vaccine.png" alt="">Vaccination Clinic</h3>
-        <p>National immunization program vaccines and a full range of adult and situational vaccinations, planned around your health status.</p>
+      <div class="clinic-tile">
+        <img class="cico" src="img/ic-vaccine.png" alt="">
+        <h3>Vaccination Clinic</h3>
+        <p class="short">Vaccines for every age & situation</p>
+        <div class="more"><p class="mp">National immunization program vaccines and a full range of adult and situational vaccinations, planned around your health status.</p></div>
+        <span class="hint">+ details</span>
       </div>
-      <div class="card">
-        <h3><img class="ico" src="img/ic-iv.png" alt="">IV Nutrition &amp; Wellness Clinic</h3>
-        <p>Personalized IV therapy in 12 private premium rooms.</p>
-        <ul>
-          <li>Myers' cocktail, amino acid &amp; mineral infusions</li>
-          <li>Glutathione (skin brightening), thioctic acid</li>
-          <li>Vitamin D, placenta extract, immune support</li>
-        </ul>
+      <div class="clinic-tile">
+        <img class="cico" src="img/ic-iv.png" alt="">
+        <h3>IV Nutrition & Wellness</h3>
+        <p class="short">Premium personalized infusion care</p>
+        <div class="more"><ul><li>12 private premium IV rooms</li><li>Myers' cocktail, amino acid &amp; mineral infusions</li><li>Glutathione, thioctic acid, vitamin D, placenta, immune support</li></ul></div>
+        <span class="hint">+ details</span>
       </div>
-      <div class="card">
-        <h3><img class="ico" src="img/ic-us.png" alt="">Ultrasound &amp; CT Clinic</h3>
-        <p>Head &amp; neck ultrasound with a premium X-CUBE 90 system.</p>
-        <ul>
-          <li>Thyroid, cervical lymph node &amp; salivary gland scanning</li>
-          <li>Ultrasound-guided fine-needle aspiration (FNA) biopsy</li>
-        </ul>
+      <div class="clinic-tile">
+        <img class="cico" src="img/ic-us.png" alt="">
+        <h3>Ultrasound & CT Clinic</h3>
+        <p class="short">University-grade ultrasound & cone beam CT</p>
+        <div class="more"><ul><li>Thyroid, cervical lymph node &amp; salivary gland scanning (X-CUBE 90)</li><li>Head &amp; neck cone beam CT (Genoray Papaya)</li><li>Ultrasound-guided fine-needle aspiration (FNA) biopsy</li></ul></div>
+        <span class="hint">+ details</span>
       </div>
-      <div class="card">
-        <h3><img class="ico" src="img/ic-endo.png" alt="">Endoscopy Clinic</h3>
-        <p>Full HD endoscopy of the ear, nose and throat — detecting even subtle early lesions, from rhinitis to suspected tumors.</p>
+      <div class="clinic-tile">
+        <img class="cico" src="img/ic-endo.png" alt="">
+        <h3>Endoscopy Clinic</h3>
+        <p class="short">Full HD ear, nose & throat examination</p>
+        <div class="more"><p class="mp">Full HD endoscopy of the ear, nose and throat — detecting even subtle early lesions, from rhinitis to suspected tumors.</p></div>
+        <span class="hint">+ details</span>
       </div>
-      <div class="card">
-        <h3><img class="ico" src="img/ic-surgery.png" alt="">Surgery &amp; Procedure Center</h3>
-        <p>ENT-specialized outpatient procedures under precise guidance.</p>
-        <ul>
-          <li>US-guided FNA for thyroid nodules &amp; neck lumps</li>
-          <li>Headache/migraine nerve block, headache Botox</li>
-          <li>Eardrum patch, ventilation tube, foreign-body removal</li>
-          <li>Radiofrequency turbinate reduction, rhinitis Botox</li>
-          <li>Benign oral/neck mass excision, tongue-tie release</li>
-        </ul>
+      <div class="clinic-tile">
+        <img class="cico" src="img/ic-surgery.png" alt="">
+        <h3>Surgery & Procedures</h3>
+        <p class="short">ENT-specialized outpatient procedures</p>
+        <div class="more"><ul><li>US-guided FNA for thyroid nodules &amp; neck lumps</li><li>Headache/migraine nerve block, headache Botox</li><li>Eardrum patch, ventilation tube, foreign-body removal</li><li>Radiofrequency turbinate reduction, rhinitis Botox</li><li>Benign oral/neck mass excision, tongue-tie release</li></ul></div>
+        <span class="hint">+ details</span>
       </div>
-      <div class="card">
-        <h3><img class="ico" src="img/ic-cosmetic.png" alt="">Skin &amp; Aesthetic Procedures</h3>
-        <p>Authentic products, exact dosing, anatomical precision.</p>
-        <ul>
-          <li>Botox — facial wrinkles, skin, trapezius, calf, salivary gland</li>
-          <li>Skin boosters — hyaluronic acid, glutathione, Rejuran</li>
-          <li>Dermashine Pro automated injection system</li>
-        </ul>
+      <div class="clinic-tile">
+        <img class="cico" src="img/ic-cosmetic.png" alt="">
+        <h3>Skin & Aesthetics</h3>
+        <p class="short">Botox, skin boosters & Dermashine Pro</p>
+        <div class="more"><ul><li>Botox — face, skin, trapezius, calf, salivary gland</li><li>Hyaluronic acid, glutathione, Rejuran boosters</li><li>Dermashine Pro automated injection system</li></ul></div>
+        <span class="hint">+ details</span>
       </div>
-      <div class="card">
-        <h3><img class="ico" src="img/ic-lab.svg" alt="">Precision Diagnostics</h3>
-        <p>Molecular (PCR) testing and integrated lab diagnostics for rapid, accurate identification of infections and other conditions.</p>
+      <div class="clinic-tile">
+        <img class="cico" src="img/ic-lab.svg" alt="">
+        <h3>Precision Diagnostics</h3>
+        <p class="short">Molecular (PCR) & integrated lab testing</p>
+        <div class="more"><p class="mp">Molecular (PCR) testing and integrated lab diagnostics for rapid, accurate identification of infections and other conditions.</p></div>
+        <span class="hint">+ details</span>
       </div>
     </div>
   </div>
@@ -532,18 +555,22 @@ footer .fine{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;line-he
       <h2>A space designed for healing</h2>
       <p>So that even the time you spend here feels like part of the treatment — a clean, comfortable clinic with relaxing waiting areas and 12 premium private IV-therapy beds.</p>
     </div>
-    <div class="tour-grid">
-      <img class="wide" src="img/tour01.jpg" alt="Reception desk of Sangkwaehan ENT Clinic">
-      <img src="img/tour02.jpg" alt="Clinic interior">
-      <img src="img/tour03.jpg" alt="Clinic interior">
-      <img src="img/tour04.jpg" alt="Clinic interior">
-      <img src="img/tour05.jpg" alt="Clinic interior">
-      <img src="img/tour08.jpg" alt="Clinic interior">
-      <img src="img/tour09.jpg" alt="Clinic interior">
-      <img src="img/tour10.jpg" alt="Clinic interior">
-      <img src="img/tour11.jpg" alt="Premium IV therapy room">
-      <img src="img/tour12.jpg" alt="Clinic interior">
-    </div>
+    <div class="gallery">
+  <div class="g-main"><img id="gMain" src="img/tour01.jpg" alt="Reception desk of Sangkwaehan ENT Clinic"><span class="g-zoom">&#x1F50D; Click to enlarge</span></div>
+  <div class="g-thumbs">
+    <img class="g-thumb on" src="img/tour01.jpg" alt="Reception desk" data-full="img/tour01.jpg">
+    <img class="g-thumb" src="img/tour02.jpg" alt="Waiting area" data-full="img/tour02.jpg">
+    <img class="g-thumb" src="img/tour03.jpg" alt="Clinic corridor" data-full="img/tour03.jpg">
+    <img class="g-thumb" src="img/tour04.jpg" alt="Treatment room" data-full="img/tour04.jpg">
+    <img class="g-thumb" src="img/tour05.jpg" alt="Consultation room" data-full="img/tour05.jpg">
+    <img class="g-thumb" src="img/tour08.jpg" alt="Testing rooms" data-full="img/tour08.jpg">
+    <img class="g-thumb" src="img/tour09.jpg" alt="Hearing test booth" data-full="img/tour09.jpg">
+    <img class="g-thumb" src="img/tour10.jpg" alt="VNG testing room" data-full="img/tour10.jpg">
+    <img class="g-thumb" src="img/tour11.jpg" alt="Premium IV therapy room" data-full="img/tour11.jpg">
+    <img class="g-thumb" src="img/tour12.jpg" alt="Clinic interior" data-full="img/tour12.jpg">
+  </div>
+</div>
+<div class="lb" id="lb"><button class="lb-x" aria-label="Close">&times;</button><button class="lb-p" aria-label="Previous">&#8249;</button><img id="lbImg" alt=""><button class="lb-n" aria-label="Next">&#8250;</button></div>
   </div>
 </section>
 
@@ -655,7 +682,7 @@ footer .fine{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;line-he
 
 /* scroll-reveal with stagger */
 (function(){
-  var els=document.querySelectorAll('.sec-head,.grid>*,.feature-row,.ct-band,.tour-grid img,.info-grid>*,#faq details');
+  var els=document.querySelectorAll('.sec-head,.grid>*,.clinic-grid>*,.feature-row,.ct-band,.gallery,.info-grid>*,#faq details');
   els.forEach(function(el){el.classList.add('reveal')});
   if(!('IntersectionObserver' in window)){els.forEach(function(el){el.classList.add('in')});return}
   var io=new IntersectionObserver(function(entries){
@@ -670,7 +697,44 @@ footer .fine{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;line-he
   els.forEach(function(el){io.observe(el)});
 })();
 
+/* clinic tiles expand */
+(function(){
+  document.querySelectorAll('.clinic-tile').forEach(function(t){
+    t.addEventListener('click',function(){
+      var open=t.classList.toggle('open');
+      t.querySelector('.hint').textContent=open?'\u2212 close':'+ details';
+    });
+  });
+})();
+
+/* tour gallery + lightbox */
+(function(){
+  var main=document.getElementById('gMain');if(!main)return;
+  var thumbs=Array.prototype.slice.call(document.querySelectorAll('.g-thumb'));
+  var lb=document.getElementById('lb'),lbImg=document.getElementById('lbImg'),cur=0;
+  function setMain(i){
+    cur=i;
+    main.classList.add('fading');
+    setTimeout(function(){main.src=thumbs[i].dataset.full;main.alt=thumbs[i].alt;main.classList.remove('fading')},200);
+    thumbs.forEach(function(t,j){t.classList.toggle('on',j===i)});
+  }
+  thumbs.forEach(function(t,i){t.addEventListener('click',function(){setMain(i)})});
+  function lbShow(i){cur=(i+thumbs.length)%thumbs.length;lbImg.src=thumbs[cur].dataset.full;lbImg.alt=thumbs[cur].alt;lb.classList.add('open');thumbs.forEach(function(t,j){t.classList.toggle('on',j===cur)})}
+  main.parentElement.addEventListener('click',function(){lbShow(cur)});
+  lb.querySelector('.lb-x').onclick=function(e){e.stopPropagation();lb.classList.remove('open')};
+  lb.querySelector('.lb-p').onclick=function(e){e.stopPropagation();lbShow(cur-1)};
+  lb.querySelector('.lb-n').onclick=function(e){e.stopPropagation();lbShow(cur+1)};
+  lb.addEventListener('click',function(e){if(e.target===lb)lb.classList.remove('open')});
+  document.addEventListener('keydown',function(e){
+    if(!lb.classList.contains('open'))return;
+    if(e.key==='Escape')lb.classList.remove('open');
+    if(e.key==='ArrowLeft')lbShow(cur-1);
+    if(e.key==='ArrowRight')lbShow(cur+1);
+  });
+})();
+
 /* header shadow + back-to-top */
+
 (function(){
   var h=document.querySelector('header');
   var b=document.createElement('button');b.id='toTop';b.innerHTML='&#8593;';b.setAttribute('aria-label','Back to top');
