@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://anveer2-cyber.github.io/sitemap.xml
+Sitemap: https://anveer2-cyber.github.io/skhent-en/sitemap.xml
