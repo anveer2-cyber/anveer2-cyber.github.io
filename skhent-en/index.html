@@ -68,19 +68,20 @@ header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.96);backdr
 .menu-btn{display:none;background:none;border:none;font-size:1.5rem;color:var(--navy);cursor:pointer}
 
 /* hero */
-.hero{background:linear-gradient(160deg,rgba(28,40,40,.88) 0%,rgba(24,62,61,.85) 55%,rgba(0,171,167,.78) 100%),url('img/tour01.jpg') center/cover no-repeat;color:#fff;padding:84px 0 72px;text-align:center}
-.hero .logo{height:86px;width:auto;margin-bottom:22px;filter:drop-shadow(0 2px 8px rgba(0,0,0,.35)) brightness(0) invert(1);opacity:.95}
-.hero .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:3px;color:#9fe4e1;text-transform:uppercase;margin-bottom:14px}
-.hero h1{font-size:clamp(1.7rem,4.5vw,2.7rem);font-weight:800;line-height:1.25;margin-bottom:18px}
-.hero p{max-width:640px;margin:0 auto 30px;color:#d7e9ec;font-size:1.02rem}
+.hero{background:url('img/hero-bg.jpg') center/cover no-repeat,#f4fbfa;color:var(--ink);padding:80px 0 64px;text-align:center}
+.hero .logo{height:92px;width:auto;margin-bottom:24px}
+.hero .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:3px;color:var(--teal);text-transform:uppercase;margin-bottom:14px}
+.hero h1{font-size:clamp(1.7rem,4.5vw,2.7rem);font-weight:800;line-height:1.25;margin-bottom:18px;color:#242424}
+.hero h1 .mint{color:var(--teal)}
+.hero p{max-width:640px;margin:0 auto 30px;color:var(--gray);font-size:1.02rem}
 .hero .cta{display:inline-flex;gap:12px;flex-wrap:wrap;justify-content:center}
 .btn{display:inline-block;padding:13px 26px;border-radius:30px;font-weight:700;font-size:.92rem}
 .btn-primary{background:var(--accent);color:#fff}
 .btn-primary:hover{background:#2fb0ac}
-.btn-ghost{border:1.5px solid rgba(255,255,255,.55);color:#fff}
-.btn-ghost:hover{background:rgba(255,255,255,.12)}
-.hero .quick{margin-top:38px;display:flex;justify-content:center;gap:28px;flex-wrap:wrap;font-size:.86rem;color:#cfe6ea}
-.hero .quick b{color:#fff}
+.btn-ghost{border:1.5px solid var(--teal);color:var(--teal)}
+.btn-ghost:hover{background:var(--teal-light)}
+.hero .quick{margin-top:36px;display:flex;justify-content:center;gap:28px;flex-wrap:wrap;font-size:.86rem;color:var(--gray)}
+.hero .quick b{color:var(--teal)}
 
 /* sections */
 section{padding:64px 0}
@@ -102,6 +103,10 @@ section.soft{background:var(--bg-soft)}
 .card ul{margin:10px 0 0 18px;font-size:.88rem;color:var(--gray)}
 .card li{margin-bottom:4px}
 .badge-new{display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;font-weight:800;letter-spacing:1px;padding:2.5px 8px;border-radius:10px;vertical-align:middle}
+.mint-card{background:rgba(69,193,190,.88);border-radius:16px;padding:30px 26px;text-align:center;color:#fff}
+.mint-card small{display:block;font-size:.78rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#eafffe;margin-bottom:6px}
+.mint-card h3{font-size:1.15rem;font-weight:800;margin-bottom:12px;color:#fff}
+.mint-card p{font-size:.88rem;color:#f2fffe;line-height:1.6}
 
 /* highlight CT */
 .ct-band{background:linear-gradient(135deg,#233c3b,#00aba7);border-radius:20px;color:#fff;padding:44px 40px;display:grid;grid-template-columns:1.25fr 1fr;gap:36px;align-items:center}
@@ -212,7 +217,7 @@ footer .fine{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;line-he
   <div class="container">
     <img class="logo" src="img/logo.png" alt="Sangkwaehan ENT Clinic">
     <div class="eyebrow">Ear · Nose · Throat Specialist Clinic</div>
-    <h1>Sangkwaehan ENT Clinic<br>Expert ENT Care in Jinhae, Changwon</h1>
+    <h1><span class="mint">Sangkwaehan</span> ENT Clinic<br>Expert <span class="mint">ENT Care</span> in Jinhae, Changwon</h1>
     <p>Special expertise in hearing and balance disorders, backed by extensive clinical experience and university-hospital-grade diagnostic equipment. Accurate diagnosis, personalized treatment — and a warm welcome to international patients.</p>
     <div class="cta">
       <a class="btn btn-primary" href="tel:+82555473550">☎ +82-55-547-3550</a>
@@ -236,9 +241,9 @@ footer .fine{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;line-he
       <p>From dizziness, hearing loss and tinnitus to headache and hearing-aid prescription — an ENT specialist and a pediatric specialist work together to look wider and treat deeper, covering treatment and prevention for the whole family.</p>
     </div>
     <div class="grid c3">
-      <div class="card"><h3><span class="ico">🎯</span>Accurate diagnosis</h3><p>University-hospital-grade equipment — VNG, vHIT, ABR, brainwave-based hearing tests, high-resolution ultrasound, Full HD endoscopy and cone beam CT — for precise identification of the cause.</p></div>
-      <div class="card"><h3><span class="ico">👂</span>Hearing &amp; balance focus</h3><p>Special interest and deep clinical experience in hearing disorders: hearing-disability certification, hearing-aid prescription and long-term auditory rehabilitation in one place.</p></div>
-      <div class="card"><h3><span class="ico">🛋️</span>Comfortable environment</h3><p>A calm, clean clinic designed so even waiting feels like part of the treatment — including 12 private premium IV-therapy beds.</p></div>
+      <div class="mint-card"><small>Accuracy</small><h3>Accurate Diagnosis</h3><p>Rich clinical experience and meticulous cause analysis, backed by university-hospital-grade equipment — VNG, vHIT, ABR, ultrasound, Full HD endoscopy and cone beam CT.</p></div>
+      <div class="mint-card"><small>Care</small><h3>Personalized Care</h3><p>Doctors with a special interest in hearing and balance disorders provide treatment tailored to each patient's symptoms — from diagnosis to hearing aids and rehabilitation.</p></div>
+      <div class="mint-card"><small>Premium</small><h3>Premium Environment</h3><p>A calm, clean clinic designed so even waiting feels like part of the treatment — including 12 private premium IV-therapy beds.</p></div>
     </div>
   </div>
 </section>
@@ -487,7 +492,7 @@ footer .fine{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;line-he
         <p>Korean address: 경상남도 창원시 진해구 진해대로 999, 202호 (자은동, 하이존빌딩)</p>
         <p>Phone: <a href="tel:+82555473550"><b>+82-55-547-3550</b></a></p>
         <div class="map-links">
-          <a href="https://www.google.com/maps/search/?api=1&amp;query=999+Jinhae-daero+Jinhae-gu+Changwon" target="_blank" rel="noopener">Google Maps</a>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=%EC%83%81%EC%BE%8C%ED%95%9C%EC%9D%B4%EB%B9%84%EC%9D%B8%ED%9B%84%EA%B3%BC%EC%9D%98%EC%9B%90+999+Jinhae-daero+Jinhae-gu+Changwon" target="_blank" rel="noopener">Google Maps</a>
           <a href="https://map.naver.com/p/search/%EC%83%81%EC%BE%8C%ED%95%9C%EC%9D%B4%EB%B9%84%EC%9D%B8%ED%9B%84%EA%B3%BC" target="_blank" rel="noopener">Naver Map</a>
           <a href="https://map.kakao.com/?q=%EC%83%81%EC%BE%8C%ED%95%9C%EC%9D%B4%EB%B9%84%EC%9D%B8%ED%9B%84%EA%B3%BC" target="_blank" rel="noopener">Kakao Map</a>
         </div>
