@@ -99,6 +99,22 @@ header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.96);backdr
 .hero .quick{margin-top:36px;display:flex;justify-content:center;gap:28px;flex-wrap:wrap;font-size:.86rem;color:var(--gray)}
 .hero .quick b{color:var(--teal)}
 
+/* hero slider */
+.slider{position:relative;width:100%;height:440px;overflow:hidden;background:#dfeeed}
+.slider .slide{position:absolute;inset:0;opacity:0;transition:opacity 1.2s ease}
+.slider .slide.on{opacity:1}
+.slider .slide img{width:100%;height:100%;object-fit:cover;display:block}
+.slider .cap{position:absolute;left:0;right:0;bottom:0;padding:70px 24px 26px;background:linear-gradient(transparent,rgba(20,40,40,.62));color:#fff;text-align:center}
+.slider .cap b{display:block;font-size:1.15rem;font-weight:800;letter-spacing:.3px}
+.slider .cap span{font-size:.85rem;color:#dff3f2}
+.slider .dots{position:absolute;bottom:12px;left:0;right:0;display:flex;gap:8px;justify-content:center;z-index:5}
+.slider .dots button{width:9px;height:9px;border-radius:50%;border:none;background:rgba(255,255,255,.5);cursor:pointer;padding:0}
+.slider .dots button.on{background:#fff;width:22px;border-radius:5px}
+.slider .arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:5;background:rgba(255,255,255,.85);border:none;width:40px;height:40px;border-radius:50%;font-size:1.1rem;color:var(--teal-dark);cursor:pointer;display:flex;align-items:center;justify-content:center}
+.slider .arrow:hover{background:#fff}
+.slider .prev{left:14px}.slider .next{right:14px}
+@media(max-width:640px){.slider{height:260px}.slider .cap b{font-size:.95rem}}
+
 /* sections */
 section{padding:64px 0}
 section.soft{background:var(--bg-soft)}
@@ -248,6 +264,17 @@ footer .fine{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;line-he
     </div>
   </div>
 </section>
+
+<div class="slider" id="slider">
+  <div class="slide on"><img src="img/tour01.jpg" alt="Reception of Sangkwaehan ENT Clinic"><div class="cap"><b>Welcome to Sangkwaehan ENT Clinic</b><span>Reception · 2F Hi-Zone Building, Jinhae</span></div></div>
+  <div class="slide"><img src="img/tour02.jpg" alt="Waiting area"><div class="cap"><b>A calm, comfortable waiting area</b><span>Designed so waiting feels like part of the treatment</span></div></div>
+  <div class="slide"><img src="img/tour08.jpg" alt="Hearing test and examination rooms"><div class="cap"><b>University-hospital-grade testing rooms</b><span>Hearing, balance, ultrasound &amp; endoscopy on site</span></div></div>
+  <div class="slide"><img src="img/tour11.jpg" alt="Premium private IV therapy room"><div class="cap"><b>12 private premium IV-therapy rooms</b><span>Personalized infusion care in a quiet space</span></div></div>
+  <div class="slide"><img src="img/tour12.jpg" alt="Clinic interior"><div class="cap"><b>Clean, modern clinic environment</b><span>Every space designed with care</span></div></div>
+  <button class="arrow prev" aria-label="Previous">‹</button>
+  <button class="arrow next" aria-label="Next">›</button>
+  <div class="dots"></div>
+</div>
 
 <section class="soft" id="about">
   <div class="container">
@@ -572,5 +599,20 @@ footer .fine{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;line-he
   </div>
 </footer>
 
+<script>
+(function(){
+  var box=document.getElementById('slider');if(!box)return;
+  var slides=box.querySelectorAll('.slide'),dotsBox=box.querySelector('.dots'),cur=0,timer;
+  slides.forEach(function(_,i){var b=document.createElement('button');b.setAttribute('aria-label','Slide '+(i+1));if(i===0)b.classList.add('on');b.onclick=function(){go(i);reset()};dotsBox.appendChild(b)});
+  var dots=dotsBox.querySelectorAll('button');
+  function go(n){slides[cur].classList.remove('on');dots[cur].classList.remove('on');cur=(n+slides.length)%slides.length;slides[cur].classList.add('on');dots[cur].classList.add('on')}
+  function reset(){clearInterval(timer);timer=setInterval(function(){go(cur+1)},4000)}
+  box.querySelector('.prev').onclick=function(){go(cur-1);reset()};
+  box.querySelector('.next').onclick=function(){go(cur+1);reset()};
+  box.addEventListener('mouseenter',function(){clearInterval(timer)});
+  box.addEventListener('mouseleave',reset);
+  reset();
+})();
+</script>
 </body>
 </html>
