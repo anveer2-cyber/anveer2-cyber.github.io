@@ -1,6 +1,6 @@
 # Sangkwaehan ENT Clinic (상쾌한이비인후과의원)
 
-> ENT (ear, nose & throat) specialist clinic in Jinhae, Changwon, South Korea.
+> English-speaking ENT (ear, nose & throat) specialist clinic in Jinhae, Changwon, South Korea.
 > English information page: https://anveer2-cyber.github.io/skhent-en/
 > Korean website: https://www.skhentml.com/
 
@@ -14,7 +14,7 @@
 
 ## Doctors
 
-- Dr. Oh Jung-ho: Director, otolaryngology (ENT) specialist; visiting professor, Kosin University College of Medicine
+- Dr. Oh Jung-ho: Director, otolaryngology (ENT) specialist; consults in English; visiting professor, Kosin University College of Medicine
 - Dr. Lee Young-jin: Director, board-certified pediatrician with pediatric emergency subspecialty
 
 ## Specialties
